@@ -196,3 +196,76 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.S
 
 [22:39:13] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
 
+[22:39:56] [Craft Scheduler Thread #72/WARN]: Exception in thread "Craft Scheduler Thread #72" 
+[22:39:56] [Craft Scheduler Thread #72/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 647
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357)
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64)
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+
+[22:40:26] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:40:34] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:40:38] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:40:51] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:41:41] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:41:44] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:42:05] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:42:47] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
+[22:42:51] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
+[22:42:51] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
+[22:42:51] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1434666039207720526)
+[22:42:51] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse
+[22:42:51] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
+[22:44:26] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:45:02] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:45:08] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:45:35] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:46:04] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:46:58] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:47:00] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:47:24] [Server thread/WARN]: Gabo91B moved wrongly!
+[22:47:48] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:47:50] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:48:59] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:49:53] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:49:56] [Craft Scheduler Thread #130/WARN]: Exception in thread "Craft Scheduler Thread #130" 
+[22:49:56] [Craft Scheduler Thread #130/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 647
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357)
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64)
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+
