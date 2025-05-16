@@ -475,3 +475,50 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.S
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
+[23:40:53] [Server thread/INFO]: millones277 issued server command: /bw reload
+[23:42:10] [Server thread/INFO]: millones277 lost connection: Disconnected
+[23:42:12] [User Authenticator #3/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+[23:42:12] [Server thread/INFO]: millones277[/127.141.104.90:43833] logged in with entity id 38664 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
+[23:43:38] [Server thread/INFO]: millones277 issued server command: /bw help
+[23:43:41] [Server thread/INFO]: millones277 issued server command: /bw
+[23:43:48] [Server thread/INFO]: millones277 issued server command: /bw compass
+[23:45:59] [Server thread/INFO]: millones277 issued server command: /bw cloneArena lighthouse lighthouse2
+[23:46:10] [Server thread/INFO]: millones277 issued server command: /bw disableArena lighthouse
+[23:46:10] [Server thread/WARN]: [BedWars1058] Disabling arena: lighthouse
+[23:46:10] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
+[23:46:28] [Server thread/INFO]: millones277 issued server command: /bw cloneArena lighthouse lighthouse2
+[23:46:36] [Server thread/INFO]: millones277 issued server command: /bw setupArena lighthouse2
+[23:46:40] [Server thread/INFO]: Preparing start region for level 3 (Seed: 8146476654175179989)
+[23:47:08] [Server thread/INFO]: millones277 issued server command: /bw setType
+[23:47:10] [Server thread/INFO]: millones277 issued server command: /bw setType Doubles
+[23:47:17] [Server thread/INFO]: millones277 issued server command: /bw save
+[23:47:17] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[23:47:17] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[23:47:17] [Server thread/WARN]: [Multiverse-Core] /mv import lighthouse2 NORMAL
+[23:47:21] [Server thread/INFO]: millones277 issued server command: /bw enableArena lighthouse2
+[23:47:21] [Server thread/INFO]: [BedWars1058] Arena lighthouse2 was added to the enable queue.
+[23:47:21] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse2
+[23:47:21] [Server thread/INFO]: Preparing start region for level 3 (Seed: 9207412260258419988)
+[23:47:22] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse2
+[23:47:22] [Server thread/INFO]: [BedWars1058] Load done: lighthouse2
+[23:47:35] [Server thread/INFO]: millones277 issued server command: /bw enableArena lighthouse
+[23:47:35] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
+[23:47:35] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
+[23:47:35] [Server thread/INFO]: Preparing start region for level 4 (Seed: 2210259711630558124)
+[23:47:35] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse
+[23:47:35] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
+[23:49:56] [Craft Scheduler Thread #433/WARN]: Exception in thread "Craft Scheduler Thread #433" 
+[23:49:56] [Craft Scheduler Thread #433/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 647
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357)
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64)
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+

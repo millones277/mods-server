@@ -242,5 +242,6 @@ spectator-items:
 lobbyLoc: 0.5032892291638869,72.0,0.4874608722488437,-267.6001281738281,89.8499984741211,lobby
 arenaGroups:
 - Solo
+- Doubles
 arenaGui:
   settings: {}
