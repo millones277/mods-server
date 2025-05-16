@@ -1,198 +1,185 @@
-[03:47:39] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[03:47:39] [Server thread/INFO]: Loading properties
-[03:47:39] [Server thread/INFO]: Default game type: SURVIVAL
-[03:47:39] [Server thread/INFO]: This server is running Titanium version git-Titanium-JENKINS-main-8 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[03:47:39] [Server thread/INFO]: Loading Titanium server config from titanium.yml
-[03:47:39] [Server thread/INFO]: Debug logging is disabled
-[03:47:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:47:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:47:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:47:39] [Server thread/INFO]: Mob Spawn Range: 4
-[03:47:39] [Server thread/INFO]: Hopper:
-[03:47:39] [Server thread/INFO]:  > Transfer: 8
-[03:47:39] [Server thread/INFO]:  > Check: 8
-[03:47:39] [Server thread/INFO]:  > Amount: 1
-[03:47:39] [Server thread/INFO]: Random Lighting Updates: false
-[03:47:39] [Server thread/INFO]: Structure Info Saving: true
-[03:47:39] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:47:39] [Server thread/INFO]: Max Entity Collisions: 8
-[03:47:39] [Server thread/INFO]: Custom Map Seeds: 
-[03:47:39] [Server thread/INFO]:  > Village: 10387312
-[03:47:39] [Server thread/INFO]:  > Feature: 14357617
-[03:47:39] [Server thread/INFO]: Max TNT Explosions: 100
-[03:47:39] [Server thread/INFO]: Max Tick Time: 
-[03:47:39] [Server thread/INFO]:  > Tile Entities: 50ms
-[03:47:39] [Server thread/INFO]:  > Entities: 50ms
-[03:47:39] [Server thread/INFO]: Despawn rate: 
-[03:47:39] [Server thread/INFO]:  > Items: 6000
-[03:47:39] [Server thread/INFO]:  > Arrows: 1200
-[03:47:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:47:39] [Server thread/INFO]: View Distance: 10
-[03:47:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:47:39] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:47:39] [Server thread/INFO]: Clear tick list: false
-[03:47:39] [Server thread/INFO]: AntiXray: 
-[03:47:39] [Server thread/INFO]:  > Enabled: true
-[03:47:39] [Server thread/INFO]:  > Engine Mode: 1
-[03:47:39] [Server thread/INFO]:  > Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:47:39] [Server thread/INFO]:  > Replace Blocks: [1, 5]
-[03:47:39] [Server thread/INFO]: Growth modifiers:
-[03:47:39] [Server thread/INFO]:  > Cactus: 100%
-[03:47:39] [Server thread/INFO]:  > Cane: 100%
-[03:47:39] [Server thread/INFO]:  > Melon: 100%
-[03:47:39] [Server thread/INFO]:  > Pumpkin: 100%
-[03:47:39] [Server thread/INFO]:  > Wheat: 100%
-[03:47:39] [Server thread/INFO]:  > Mushroom: 100%
-[03:47:39] [Server thread/INFO]:  > Sapling: 100%
-[03:47:39] [Server thread/INFO]:  > Nether Wart: 100%
-[03:47:39] [Server thread/INFO]: Entity activation ranges:
-[03:47:39] [Server thread/INFO]:  > Animals: 32 blocks
-[03:47:39] [Server thread/INFO]:  > Monsters: 32 blocks
-[03:47:39] [Server thread/INFO]:  > Ambient: 16 blocks
-[03:47:39] [Server thread/INFO]: Entity tracking ranges:
-[03:47:39] [Server thread/INFO]:  > Players: 48 blocks
-[03:47:39] [Server thread/INFO]:  > Animals: 48 blocks
-[03:47:39] [Server thread/INFO]:  > Monsters: 48 blocks
-[03:47:39] [Server thread/INFO]:  > Misc: 32 blocks
-[03:47:39] [Server thread/INFO]:  > Other: 64 blocks
-[03:47:39] [Server thread/INFO]: Merge radius:
-[03:47:39] [Server thread/INFO]:  > Items: 2.5
-[03:47:39] [Server thread/INFO]:  > Experience: 3.0
-[03:47:39] [Server thread/INFO]: Data value allowed items: 
-[03:47:39] [Server thread/INFO]: Grass Spread Tick Rate: 1
-[03:47:39] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:47:39] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:47:39] [Server thread/INFO]: Squids will spawn between Y: 45.0 & Y: 63.0
-[03:47:39] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:47:39] [Server thread/INFO]: Water over lava flow speed: 5
-[03:47:39] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:47:39] [Server thread/INFO]: World async lighting: false
-[03:47:39] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:47:39] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:47:39] [Server thread/INFO]: Max growth height:
-[03:47:39] [Server thread/INFO]:  > Cactus: 3
-[03:47:39] [Server thread/INFO]:  > Reeds: 3
-[03:47:39] [Server thread/INFO]: Despawn ranges:
-[03:47:39] [Server thread/INFO]:  > Soft: 32
-[03:47:39] [Server thread/INFO]:  > Hard: 128
-[03:47:39] [Server thread/INFO]: Migrating old config files
-[03:47:39] [Server thread/WARN]: We couldn't migrate bukkit.yml. File does not exist.
-[03:47:39] [Server thread/WARN]: We couldn't migrate spigot.yml. File does not exist.
-[03:47:39] [Server thread/WARN]: We couldn't migrate paper.yml. File does not exist.
-[03:47:39] [Server thread/WARN]: We couldn't migrate taco.yml. File does not exist.
-[03:47:39] [Server thread/WARN]: We couldn't migrate ion.yml. File does not exist.
-[03:47:39] [Server thread/WARN]: We couldn't migrate commands.yml. File does not exist.
-[03:47:39] [Server thread/INFO]: Loading Titanium knockback config from knockback.yml
-[03:47:39] [Server thread/WARN]: No vanilla knockback profile found, created new one
-[03:47:39] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
-[03:47:39] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
-[03:47:39] [Server thread/INFO]: Unable to find file ops.json, creating it.
-[03:47:39] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
-[03:47:39] [Server thread/INFO]: Generating keypair
-[03:47:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:47:39] [Server thread/INFO]: Using epoll channel type
-[03:47:39] [Server thread/INFO]: Titanium: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:47:39] [Server thread/INFO]: Titanium: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:47:40] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[03:47:40] [Server thread/INFO]: [spark] Loading spark v1.10.136
-[03:47:40] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[03:47:40] [Server thread/INFO]: Preparing level "world"
-[03:47:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1335459960712330609)
-[03:47:42] [Server thread/INFO]: Preparing spawn area: 11%
-[03:47:43] [Server thread/INFO]: Preparing spawn area: 28%
-[03:47:44] [Server thread/INFO]: Preparing spawn area: 44%
-[03:47:45] [Server thread/INFO]: Preparing spawn area: 68%
-[03:47:46] [Server thread/INFO]: Preparing spawn area: 87%
-[03:47:46] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1335459960712330609)
-[03:47:47] [Server thread/INFO]: Preparing spawn area: 39%
-[03:47:48] [Server thread/INFO]: Preparing spawn area: 85%
-[03:47:49] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1335459960712330609)
-[03:47:50] [Server thread/INFO]: [spark] Enabling spark v1.10.136
-[03:47:50] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[03:47:50] [Server thread/INFO]: [spark] Starting background profiler...
-[03:47:50] [Server thread/INFO]: Done (9.425s)! For help, type "help" or "?"
-[03:47:50] [Server thread/INFO]: Unknown command. Type /help for help.
-[03:49:03] [Server thread/INFO]: --------- Help: Index ---------------------------
-[03:49:03] [Server thread/INFO]: Use /help [n] to get page n of help.
-[03:49:03] [Server thread/INFO]: Aliases: Lists command aliases
-[03:49:03] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[03:49:03] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[03:49:03] [Server thread/INFO]: spark: All commands for spark
-[03:49:03] [Server thread/INFO]: /achievement: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /ban: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /banlist: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /blockdata: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /clear: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /clone: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /deop: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /effect: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /enchant: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /entitydata: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /execute: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /fill: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /give: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /help: Shows the help menu
-[03:49:03] [Server thread/INFO]: /kick: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /kill: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /list: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /me: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /op: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /pardon: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /particle: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /ping: Shows ping of player
-[03:49:03] [Server thread/INFO]: /playsound: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[03:49:03] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[03:49:03] [Server thread/INFO]: /replaceitem: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /restart: Restarts the server
-[03:49:03] [Server thread/INFO]: /save-all: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /save-off: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /save-on: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /say: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /seed: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /setblock: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /setslots: Sets the number of slots for a player
-[03:49:03] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /spark: Main plugin command
-[03:49:03] [Server thread/INFO]: /spark:tps: 
-[03:49:03] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /stats: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /stop: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /summon: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /tell: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /testfor: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /testforblock: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /testforblocks: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /time: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[03:49:03] [Server thread/INFO]: /title: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /toggledownfall: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /tp: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[03:49:03] [Server thread/INFO]: /trigger: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[03:49:03] [Server thread/INFO]: /weather: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[03:49:03] [Server thread/INFO]: /xp: A Mojang provided command.
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡] TPS from last 5s, 10s, 1m, 5m, 15m:
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡]  20.0, 20.0, *20.0, *20.0, *20.0
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡] 
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡] Tick durations (min/med/95%ile/max ms) from last 10s, 1m:
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡]  0.4/0.7/2.1/19.2;  0.4/0.6/1.5/19.2
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡] 
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡] CPU usage from last 10s, 1m, 15m:
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡]  6%, 6%, 7%  (system)
-[03:49:04] [Craft Scheduler Thread #4/INFO]: [⚡]  3%, 3%, 3%  (process)
+[20:12:06] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:12:06] [Server thread/INFO]: Loading properties
+[20:12:06] [Server thread/INFO]: Default game type: SURVIVAL
+[20:12:06] [Server thread/INFO]: This server is running Titanium version git-Titanium-JENKINS-main-8 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:12:06] [Server thread/INFO]: Loading Titanium server config from titanium.yml
+[20:12:06] [Server thread/INFO]: Debug logging is disabled
+[20:12:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:12:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:12:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:12:06] [Server thread/INFO]: Mob Spawn Range: 4
+[20:12:06] [Server thread/INFO]: Hopper:
+[20:12:06] [Server thread/INFO]:  > Transfer: 8
+[20:12:06] [Server thread/INFO]:  > Check: 8
+[20:12:06] [Server thread/INFO]:  > Amount: 1
+[20:12:06] [Server thread/INFO]: Random Lighting Updates: false
+[20:12:06] [Server thread/INFO]: Structure Info Saving: true
+[20:12:06] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:12:06] [Server thread/INFO]: Max Entity Collisions: 8
+[20:12:06] [Server thread/INFO]: Custom Map Seeds: 
+[20:12:06] [Server thread/INFO]:  > Village: 10387312
+[20:12:06] [Server thread/INFO]:  > Feature: 14357617
+[20:12:06] [Server thread/INFO]: Max TNT Explosions: 100
+[20:12:06] [Server thread/INFO]: Max Tick Time: 
+[20:12:06] [Server thread/INFO]:  > Tile Entities: 50ms
+[20:12:06] [Server thread/INFO]:  > Entities: 50ms
+[20:12:06] [Server thread/INFO]: Despawn rate: 
+[20:12:06] [Server thread/INFO]:  > Items: 6000
+[20:12:06] [Server thread/INFO]:  > Arrows: 1200
+[20:12:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:12:06] [Server thread/INFO]: View Distance: 10
+[20:12:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:12:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:12:06] [Server thread/INFO]: Clear tick list: false
+[20:12:06] [Server thread/INFO]: AntiXray: 
+[20:12:06] [Server thread/INFO]:  > Enabled: true
+[20:12:06] [Server thread/INFO]:  > Engine Mode: 1
+[20:12:06] [Server thread/INFO]:  > Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:12:06] [Server thread/INFO]:  > Replace Blocks: [1, 5]
+[20:12:06] [Server thread/INFO]: Growth modifiers:
+[20:12:06] [Server thread/INFO]:  > Cactus: 100%
+[20:12:06] [Server thread/INFO]:  > Cane: 100%
+[20:12:06] [Server thread/INFO]:  > Melon: 100%
+[20:12:06] [Server thread/INFO]:  > Pumpkin: 100%
+[20:12:06] [Server thread/INFO]:  > Wheat: 100%
+[20:12:06] [Server thread/INFO]:  > Mushroom: 100%
+[20:12:06] [Server thread/INFO]:  > Sapling: 100%
+[20:12:06] [Server thread/INFO]:  > Nether Wart: 100%
+[20:12:06] [Server thread/INFO]: Entity activation ranges:
+[20:12:06] [Server thread/INFO]:  > Animals: 32 blocks
+[20:12:06] [Server thread/INFO]:  > Monsters: 32 blocks
+[20:12:06] [Server thread/INFO]:  > Ambient: 16 blocks
+[20:12:06] [Server thread/INFO]: Entity tracking ranges:
+[20:12:06] [Server thread/INFO]:  > Players: 48 blocks
+[20:12:06] [Server thread/INFO]:  > Animals: 48 blocks
+[20:12:06] [Server thread/INFO]:  > Monsters: 48 blocks
+[20:12:06] [Server thread/INFO]:  > Misc: 32 blocks
+[20:12:06] [Server thread/INFO]:  > Other: 64 blocks
+[20:12:06] [Server thread/INFO]: Merge radius:
+[20:12:06] [Server thread/INFO]:  > Items: 2.5
+[20:12:06] [Server thread/INFO]:  > Experience: 3.0
+[20:12:06] [Server thread/INFO]: Data value allowed items: 
+[20:12:06] [Server thread/INFO]: Grass Spread Tick Rate: 1
+[20:12:06] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:12:06] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:12:06] [Server thread/INFO]: Squids will spawn between Y: 45.0 & Y: 63.0
+[20:12:06] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:12:06] [Server thread/INFO]: Water over lava flow speed: 5
+[20:12:06] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:12:06] [Server thread/INFO]: World async lighting: false
+[20:12:06] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:12:06] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:12:06] [Server thread/INFO]: Max growth height:
+[20:12:06] [Server thread/INFO]:  > Cactus: 3
+[20:12:06] [Server thread/INFO]:  > Reeds: 3
+[20:12:06] [Server thread/INFO]: Despawn ranges:
+[20:12:06] [Server thread/INFO]:  > Soft: 32
+[20:12:06] [Server thread/INFO]:  > Hard: 128
+[20:12:06] [Server thread/INFO]: Loading Titanium knockback config from knockback.yml
+[20:12:06] [Server thread/INFO]: Generating keypair
+[20:12:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:12:06] [Server thread/INFO]: Using epoll channel type
+[20:12:06] [Server thread/INFO]: Titanium: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:12:06] [Server thread/INFO]: Titanium: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:12:08] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:12:08] [Server thread/INFO]: [spark] Loading spark v1.10.136
+[20:12:08] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.3.2
+[20:12:08] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[20:12:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:12:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:12:09] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 v25.2
+[20:12:09] [Server thread/INFO]: [BedWars1058] Loading support for paper/spigot: v1_8_R3
+[20:12:10] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
+[20:12:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:12:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:12:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:12:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:12:10] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:12:10] [Server thread/INFO]: Preparing level "lobby"
+[20:12:10] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7694419806478554043)
+[20:12:11] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6565125655165076740)
+[20:12:11] [Server thread/INFO]: [spark] Enabling spark v1.10.136
+[20:12:11] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[20:12:11] [Server thread/INFO]: [spark] Starting background profiler...
+[20:12:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[20:12:12] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.2
+[20:12:12] [Server thread/INFO]: [BedWars1058] Using internal world restore system.
+[20:12:12] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
+[20:12:12] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
+[20:12:13] [Server thread/WARN]: Scoreboard tab header-footer refresh interval is set to: 10
+[20:12:13] [Server thread/WARN]: It is not recommended to use a value under 20 ticks.
+[20:12:13] [Server thread/WARN]: If you expect performance issues please increase its timer.
+[20:12:13] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
+[20:12:13] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b699
+[20:12:13] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4029767887359721344)
+[20:12:13] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
+[20:12:13] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[20:12:14] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b699 (API v19) Enabled - By Rigby, fernferret, lithium3141 and main--
+[20:12:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:12:14] [Server thread/INFO]: Done (3.589s)! For help, type "help" or "?"
+[20:12:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[20:12:14] [Craft Scheduler Thread #2/WARN]: Exception in thread "Craft Scheduler Thread #2" 
+[20:12:14] [Craft Scheduler Thread #2/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 653
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357)
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64)
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+
+[20:12:14] [Craft Scheduler Thread #10/WARN]: [BedWars1058] Support for v1_8_R3 is scheduled for removal. Please consider upgrading your server software to a newer Minecraft version.
+[20:12:14] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[20:12:14] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.15).
+[20:12:14] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[20:12:14] [Craft Scheduler Thread #0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:12:14] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
+[20:12:14] [Server thread/INFO]: Registering /party command..
+[20:12:14] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false
+[20:12:43] [User Authenticator #1/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+[20:12:43] [Server thread/INFO]: millones277[/127.141.104.90:55815] logged in with entity id 54 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
+[20:12:53] [User Authenticator #1/INFO]: UUID of player Gabo9108 is eff1a9ba-5fd9-3ec9-a85c-9016c8bd1a2a
+[20:12:53] [Server thread/INFO]: Gabo9108[/127.0.0.1:54614] logged in with entity id 55 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
+[20:14:56] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[20:17:13] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[20:17:20] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[20:17:25] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[20:18:13] [Server thread/INFO]: millones277 issued server command: /lobby
+[20:18:34] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
+[20:18:38] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
+[20:18:38] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
+[20:18:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3013231727340558151)
+[20:18:38] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
+[20:19:02] [Server thread/INFO]: millones277 lost connection: Disconnected
+[20:19:03] [User Authenticator #2/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+[20:19:04] [Server thread/INFO]: millones277[/127.141.104.90:37359] logged in with entity id 7764 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
+[20:19:53] [Server thread/INFO]: millones277 issued server command: /bw reload
+[20:20:26] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
+[20:20:31] [Server thread/INFO]: millones277 issued server command: /mv delete lighthouse
+[20:20:35] [Server thread/INFO]: millones277 issued server command: /mvconfirm
+[20:20:35] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
+[20:20:35] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
+[20:20:35] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was removed from config.yml
+[20:20:35] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was DELETED.
+[20:20:40] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
+[20:20:50] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
+[20:20:52] [Server thread/INFO]: millones277 issued server command: /mv reload
+[20:20:52] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[20:21:03] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
+[20:21:35] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
+[20:21:35] [Server thread/INFO]: millones277: Starting import of world 'lighthouse'...
+[20:21:35] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'lighthouse' - Env: NORMAL - Type: null
+[20:21:35] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4029767887359721344)
+[20:21:35] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[20:21:35] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 1,443 Y: 4 Z: -898 P: 0 Y: 0 
+[20:21:35] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'lighthouse' is located at: lighthouse:0.00,118.00,0.00:0.00:0.00
+[20:21:35] [Server thread/INFO]: millones277: Complete!

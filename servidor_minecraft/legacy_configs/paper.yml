@@ -1,0 +1,98 @@
+world-settings:
+  default:
+    player-exhaustion:
+      swimming: 0.015
+      block-break: 0.025
+    max-growth-height:
+      reeds: 3
+      cactus: 3
+    disable-mood-sounds: false
+    nether-ceiling-void-damage: false
+    tnt-entity-height-nerf: 0
+    disable-ice-and-snow: false
+    falling-blocks-collide-with-signs: false
+    grass-spread-tick-rate: 1
+    disable-thunder: false
+    squid-spawn-height:
+      minimum: 45.0
+      maximum: 63.0
+    all-chunks-are-slime-chunks: false
+    game-mechanics:
+      disable-end-credits: false
+      disable-player-crits: false
+      disable-chest-cat-detections: false
+      boats-drop-boats: false
+    mob-spawner-tick-rate: 1
+    optimize-explosions: false
+    generator-settings:
+      stronghold: true
+      monument: true
+      temple: true
+      canyon: true
+      fortress: true
+      caves: true
+      mineshaft: true
+      dungeon: true
+      flat-bedrock: false
+      village: true
+    lava-flow-speed:
+      nether: 10
+      normal: 30
+    load-chunks:
+      enderpearls: false
+      tnt-entities: false
+      falling-blocks: false
+    tick-next-tick-list-cap: 10000
+    keep-spawn-loaded: true
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    falling-block-height-nerf: 0
+    disable-teleportation-suffocation-check: false
+    use-async-lightning: false
+    player-blocking-damage-multiplier: 0.5
+    cache-chunk-maps: false
+    use-hopper-check: false
+    verbose: true
+    despawn-ranges:
+      hard: 128
+      soft: 32
+    tnt-explosion-volume: 4.0
+    remove-invalid-mob-spawner-tile-entities: true
+    fast-drain:
+      water: false
+      lava: false
+    container-update-tick-rate: 1
+    water-over-lava-flow-speed: 5
+    auto-save-interval: -1
+    portal-search-radius: 128
+    tick-next-tick-list-cap-ignores-redstone: false
+    max-auto-save-chunks-per-tick: 24
+    allow-undead-horse-leashing: false
+    fix-cannons: false
+    allow-block-location-tab-completion: true
+    disable-explosion-knockback: false
+settings:
+  limit-player-interactions: true
+  player-auto-save-rate: -1
+  include-randomness-in-arrow-trajectory: true
+  save-player-data: true
+  baby-zombie-movement-speed: 0.5
+  max-players-auto-save-per-tick: -1
+  spam-limiter:
+    tab-spam-limit: 500
+    tab-spam-increment: 10
+warn-when-setting-excessive-velocity: true
+stackable-buckets:
+  milk: false
+  water: false
+  lava: false
+data-value-allowed-items: []
+effect-modifiers:
+  strength: 1.3
+  weakness: -0.3
+config-version: 9

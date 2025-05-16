@@ -1,0 +1,12 @@
+redstone:
+  panda-wire:
+    enabled: false
+    optimised: false
+world-settings:
+  default:
+    tnt:
+      use-faster-tracker: false
+    explosions:
+      constant-radius: false
+      reduced-density-rays: false
+config-version: 1

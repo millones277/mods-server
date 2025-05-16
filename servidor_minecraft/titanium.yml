@@ -693,7 +693,7 @@ migrate-old-files: false
 # When this option is enabled, the server will create a directory `legacy_configs` with files like bukkit.yml, spigot.yml etc.
 # Changing option there will not affect the server, it's only mirror of this file.
 # Enable this option only if some of your plugins are not compatible with the new configs.
-enable-legacy-config-files: false
+enable-legacy-config-files: true
 world-settings:
   disabled-gamerules:
     # Whether gamerule randomTickSpeed should be enabled or not.

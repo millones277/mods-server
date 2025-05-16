@@ -1,0 +1,15 @@
+world-settings:
+  default:
+    armor-stand:
+      optimize-movement: false
+    hopper:
+      fire-InventoryMoveItemEvent: true
+      push-based: false
+    fix-east-west-cannoning: false
+    redstone-fire-BlockPhysicsEvent: true
+    tnt:
+      optimize-movement: false
+      optimize-liquid-explosions: false
+    allow-non-player-entities-on-scoreboard: true
+    grass-ignores-light: false
+config-version: 1
