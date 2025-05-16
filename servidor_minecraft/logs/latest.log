@@ -269,3 +269,80 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.S
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
+[22:50:50] [Server thread/INFO]: millones277 issued server command: /tps
+[22:50:51] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:51:24] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:51:27] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:51:40] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:51:48] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:51:51] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:51:54] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:51:57] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:51:57] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:52:03] [Server thread/INFO]: millones277 issued server command: /tps
+[22:52:37] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:52:37] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:52:43] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:53:35] [Server thread/ERROR]: Could not pass event GameEndEvent to BedWars1058 v25.2
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:532) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at com.andrei1058.bedwars.arena.Arena.checkWinner(Arena.java:1985) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:412) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:1036) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:438) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:948) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:759) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:148) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1013) ~[?:?]
+	at java.util.ArrayList$Itr.next(ArrayList.java:967) ~[?:?]
+	at com.andrei1058.bedwars.arena.upgrades.HealPoolTask.removeForArena(HealPoolTask.java:90) ~[?:?]
+	at com.andrei1058.bedwars.arena.upgrades.HealPoolListner.onEnd(HealPoolListner.java:34) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-Titanium-JENKINS-main-8]
+	... 13 more
+[22:53:49] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
+[22:53:49] [Server thread/INFO]: millones277 issued server command: /tps
+[22:53:53] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
+[22:53:53] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
+[22:53:53] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6158704059349817395)
+[22:53:53] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse
+[22:53:53] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
+[22:54:25] [Server thread/INFO]: Gabo91B lost connection: Disconnected
+[22:54:37] [Server thread/INFO]: loquitopremium2 lost connection: Disconnected
+[22:59:56] [Craft Scheduler Thread #179/WARN]: Exception in thread "Craft Scheduler Thread #179" 
+[22:59:56] [Craft Scheduler Thread #179/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 647
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357)
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64)
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+
