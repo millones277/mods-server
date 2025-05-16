@@ -1516,6 +1516,213 @@ upgrades-base-trap-msg-3: '&c&lAlarm trap set off by &7&l{player} &c&lfrom {colo
   &c&lteam!'
 upgrades-base-trap-title-3: '&c&lALARM!!!'
 upgrades-base-trap-subtitle-3: '&fAlarm trap set off by {color}{team} &fteam!'
+addons:
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cNot all enemy beds are destroyed yet!'
+      purchase-message: '&cYou will lose the ability to track this team when you die!'
+      not-enough-resource: '&cYou don''t have enough resources!'
+      already-tracking: '&cYou are already tracking this team!'
+    tracker-status:
+      not-enough: '&cYou don''t have enough resource!'
+      locked: '&cUnlocks when all enemy beds are destroyed!'
+      unlocked: '&eClick to purchase!'
+    action-bar:
+      tracking-format: '&fTracking: {teamColor}&l{target} &f- Distance: &a&l{distance}m'
+    team-message-format: '&a&lTEAM > &7{player}: {message}'
+    compass-item:
+      display-name: '&aCompass &7(Right Click)'
+      lore: []
+    tracker-shop:
+      display-name: '&aTracker Shop'
+      lore:
+      - '&7Purchase tracking update for'
+      - '&7your compass which will track'
+      - '&7each player on a specific team'
+      - '&7until you die.'
+    menus:
+      main-menu:
+        title: '&8Tracker & Communications'
+        tracker:
+          display-name: '&aTracker Shop'
+          lore:
+          - '&7Purchase tracking upgrade'
+          - '&7for your compass which will'
+          - '&7track each player on a'
+          - '&7specific team until you'
+          - '&7die.'
+          - ''
+          - '&eClick to open!'
+        tracker-team:
+          display-name: '&aTracker Shop'
+          lore:
+          - '&7Purchase tracking upgrade'
+          - '&7for your compass which will'
+          - '&7track each player on a'
+          - '&7specific team until you'
+          - '&7die.'
+          - ''
+          - '&eClick to open!'
+        communications:
+          display-name: '&aQuick Communications'
+          lore:
+          - '&7Send highlighted chat'
+          - '&7messages to your teammates!'
+          - ''
+          - '&eClick to open!'
+      tracker-menu:
+        title: '&8Purchase Enemy Tracker'
+        team-item:
+          display-name: '&cTrack Team {team}'
+          lore:
+          - '&7Purchase tracking upgrade'
+          - '&7for your compass which will'
+          - '&7track each player on a'
+          - '&7specific team until you'
+          - '&7die.'
+          - ''
+          - '&7Cost: &22 Emeralds'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aGo Back'
+          lore:
+          - '&7To Tracker & Communication'
+      communications:
+        title: '&8Quick Communications'
+        back-item:
+          display-name: '&aGo Back'
+          lore:
+          - '&7To Tracker & Communication'
+        items:
+          '1':
+            message: '&aHello ( ﾟ◡ﾟ)/!'
+            display-name: '&aHello ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '2':
+            message: '&aI''m coming back to base!'
+            display-name: '&aI''m coming back to base!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '3':
+            message: '&aI''m defending!'
+            display-name: '&aI''m defending!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '4':
+            message: '&aI''''m attacking {team}'
+            display-name: '&aI''m attacking!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Team'
+            - ''
+            - '&eClick to send!'
+          '5':
+            message: '&aI''m collecting {resource}'
+            display-name: '&aI''m collecting resources!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Resource'
+            - ''
+            - '&eClick to send!'
+          '6':
+            message: '&aI have {resource}'
+            display-name: '&aI have resources!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Resource'
+            - ''
+            - '&eClick to send!'
+          '7':
+            message: '&aThank You'
+            display-name: '&aThank You!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '8':
+            message: '&aGet back to base'
+            display-name: '&aGet back to base!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '9':
+            message: '&aPlease defend!'
+            display-name: '&aPlease defend!'
+            lore:
+            - ''
+            - '&eClick to send!'
+          '10':
+            message: '&aLet''s attack {team}'
+            display-name: '&aLet''s attack!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Team'
+            - ''
+            - '&eClick to send!'
+          '11':
+            message: '&aWe need {resource}'
+            display-name: '&aWe need resources!'
+            lore:
+            - '&7You will be able to select'
+            - '&7the Resource'
+            - ''
+            - '&eClick to send!'
+          '12':
+            message: '&aPlayer incoming!'
+            display-name: '&aPlayer incoming!!'
+            lore:
+            - ''
+            - '&eClick to send!'
+    communication-menus:
+      lore:
+      - '&7Click to send message: ''{message}&7'''
+      - '&7to your teammates!'
+      - ''
+      - '&eClick to send!'
+      teams:
+        title: '&8Select an option:'
+        back-item:
+          display-name: '&aGo Back'
+          lore:
+          - '&7To Quick Communications'
+      resources:
+        title: '&8Select an option:'
+        back-item:
+          display-name: '&aGo Back'
+          lore:
+          - '&7To Quick Communications'
+        iron:
+          resource-name: '&f&lIRON'
+        gold:
+          resource-name: '&6&lGOLD'
+        diamond:
+          resource-name: '&b&lDIAMOND'
+        emerald:
+          resource-name: '&2&lEMERALD'
+  team-selector:
+    inventory-name: '&8Team Selector'
+    selector-name: '&9Team Selector'
+    selector-lore:
+    - '&7Right-Click to to open!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eClick to join!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cYou cannot change your team!'
+    team-join: '{prefix}&eYou joined the {color}{team} &eteam!'
+    team-full: '{prefix}{color}{team} &c Team is full!'
+    teams-not-balanced: '{prefix}&cTeams are not balanced! Try joining another team!'
+    party-deny: '{prefix}&cYou can''t choose your team because you''re in a party!'
+    cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
+      The game is starting!'
+    already-in-team: '{prefix}&cYou are already in this team!'
 upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 display-group-solo: Solo
 team-name-lighthouse-Gray: Gray

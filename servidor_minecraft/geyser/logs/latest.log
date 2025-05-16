@@ -1,12 +1,10 @@
-[20:12:31.565 main/INFO] Loading extensions...
-[20:12:31.571 main/INFO] Loaded 0 extension(s)
-[20:12:31.677 main/INFO] ******************************************
-[20:12:31.677 main/INFO] 
-[20:12:31.677 main/INFO] Loading Geyser version 2.7.1-b831 (git-master-b705a71)
-[20:12:31.677 main/INFO] 
-[20:12:31.678 main/INFO] ******************************************
-[20:12:35.229 main/INFO] Started Geyser on UDP port 3282
-[20:12:35.233 main/INFO] Done (3.556s)! Run /geyser help for help!
-[20:12:35.234 main/WARN] Geyser doesn't translate Bedrock movements perfectly! Using Geyser in servers that have an anticheat could get you banned.
-[20:12:53.576 epollEventLoopGroup-4-1/INFO] Player connected with username Gabo9108
-[20:12:53.594 clientNetworkSession-6-1/INFO] Gabo9108 (logged in as: Gabo9108) has connected to remote java server on address 127.0.0.1
+[22:30:18.564 main/INFO] Loading extensions...
+[22:30:18.569 main/INFO] Loaded 0 extension(s)
+[22:30:18.659 main/INFO] ******************************************
+[22:30:18.660 main/INFO] 
+[22:30:18.660 main/INFO] Loading Geyser version 2.7.1-b831 (git-master-b705a71)
+[22:30:18.660 main/INFO] 
+[22:30:18.660 main/INFO] ******************************************
+[22:30:22.481 epollEventLoopGroup-3-1/INFO] Started Geyser on UDP port 3282
+[22:30:22.488 main/INFO] Done (3.828s)! Run /geyser help for help!
+[22:30:22.488 main/WARN] Geyser doesn't translate Bedrock movements perfectly! Using Geyser in servers that have an anticheat could get you banned.

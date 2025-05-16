@@ -1,125 +1,137 @@
-[20:12:06] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[20:12:06] [Server thread/INFO]: Loading properties
-[20:12:06] [Server thread/INFO]: Default game type: SURVIVAL
-[20:12:06] [Server thread/INFO]: This server is running Titanium version git-Titanium-JENKINS-main-8 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[20:12:06] [Server thread/INFO]: Loading Titanium server config from titanium.yml
-[20:12:06] [Server thread/INFO]: Debug logging is disabled
-[20:12:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:12:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:12:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:12:06] [Server thread/INFO]: Mob Spawn Range: 4
-[20:12:06] [Server thread/INFO]: Hopper:
-[20:12:06] [Server thread/INFO]:  > Transfer: 8
-[20:12:06] [Server thread/INFO]:  > Check: 8
-[20:12:06] [Server thread/INFO]:  > Amount: 1
-[20:12:06] [Server thread/INFO]: Random Lighting Updates: false
-[20:12:06] [Server thread/INFO]: Structure Info Saving: true
-[20:12:06] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:12:06] [Server thread/INFO]: Max Entity Collisions: 8
-[20:12:06] [Server thread/INFO]: Custom Map Seeds: 
-[20:12:06] [Server thread/INFO]:  > Village: 10387312
-[20:12:06] [Server thread/INFO]:  > Feature: 14357617
-[20:12:06] [Server thread/INFO]: Max TNT Explosions: 100
-[20:12:06] [Server thread/INFO]: Max Tick Time: 
-[20:12:06] [Server thread/INFO]:  > Tile Entities: 50ms
-[20:12:06] [Server thread/INFO]:  > Entities: 50ms
-[20:12:06] [Server thread/INFO]: Despawn rate: 
-[20:12:06] [Server thread/INFO]:  > Items: 6000
-[20:12:06] [Server thread/INFO]:  > Arrows: 1200
-[20:12:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:12:06] [Server thread/INFO]: View Distance: 10
-[20:12:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:12:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:12:06] [Server thread/INFO]: Clear tick list: false
-[20:12:06] [Server thread/INFO]: AntiXray: 
-[20:12:06] [Server thread/INFO]:  > Enabled: true
-[20:12:06] [Server thread/INFO]:  > Engine Mode: 1
-[20:12:06] [Server thread/INFO]:  > Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:12:06] [Server thread/INFO]:  > Replace Blocks: [1, 5]
-[20:12:06] [Server thread/INFO]: Growth modifiers:
-[20:12:06] [Server thread/INFO]:  > Cactus: 100%
-[20:12:06] [Server thread/INFO]:  > Cane: 100%
-[20:12:06] [Server thread/INFO]:  > Melon: 100%
-[20:12:06] [Server thread/INFO]:  > Pumpkin: 100%
-[20:12:06] [Server thread/INFO]:  > Wheat: 100%
-[20:12:06] [Server thread/INFO]:  > Mushroom: 100%
-[20:12:06] [Server thread/INFO]:  > Sapling: 100%
-[20:12:06] [Server thread/INFO]:  > Nether Wart: 100%
-[20:12:06] [Server thread/INFO]: Entity activation ranges:
-[20:12:06] [Server thread/INFO]:  > Animals: 32 blocks
-[20:12:06] [Server thread/INFO]:  > Monsters: 32 blocks
-[20:12:06] [Server thread/INFO]:  > Ambient: 16 blocks
-[20:12:06] [Server thread/INFO]: Entity tracking ranges:
-[20:12:06] [Server thread/INFO]:  > Players: 48 blocks
-[20:12:06] [Server thread/INFO]:  > Animals: 48 blocks
-[20:12:06] [Server thread/INFO]:  > Monsters: 48 blocks
-[20:12:06] [Server thread/INFO]:  > Misc: 32 blocks
-[20:12:06] [Server thread/INFO]:  > Other: 64 blocks
-[20:12:06] [Server thread/INFO]: Merge radius:
-[20:12:06] [Server thread/INFO]:  > Items: 2.5
-[20:12:06] [Server thread/INFO]:  > Experience: 3.0
-[20:12:06] [Server thread/INFO]: Data value allowed items: 
-[20:12:06] [Server thread/INFO]: Grass Spread Tick Rate: 1
-[20:12:06] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:12:06] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:12:06] [Server thread/INFO]: Squids will spawn between Y: 45.0 & Y: 63.0
-[20:12:06] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:12:06] [Server thread/INFO]: Water over lava flow speed: 5
-[20:12:06] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:12:06] [Server thread/INFO]: World async lighting: false
-[20:12:06] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:12:06] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:12:06] [Server thread/INFO]: Max growth height:
-[20:12:06] [Server thread/INFO]:  > Cactus: 3
-[20:12:06] [Server thread/INFO]:  > Reeds: 3
-[20:12:06] [Server thread/INFO]: Despawn ranges:
-[20:12:06] [Server thread/INFO]:  > Soft: 32
-[20:12:06] [Server thread/INFO]:  > Hard: 128
-[20:12:06] [Server thread/INFO]: Loading Titanium knockback config from knockback.yml
-[20:12:06] [Server thread/INFO]: Generating keypair
-[20:12:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:12:06] [Server thread/INFO]: Using epoll channel type
-[20:12:06] [Server thread/INFO]: Titanium: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:12:06] [Server thread/INFO]: Titanium: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:12:08] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[20:12:08] [Server thread/INFO]: [spark] Loading spark v1.10.136
-[20:12:08] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.3.2
-[20:12:08] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[20:12:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:12:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:12:09] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 v25.2
-[20:12:09] [Server thread/INFO]: [BedWars1058] Loading support for paper/spigot: v1_8_R3
-[20:12:10] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
-[20:12:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:12:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:12:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:12:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:12:10] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[20:12:10] [Server thread/INFO]: Preparing level "lobby"
-[20:12:10] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7694419806478554043)
-[20:12:11] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6565125655165076740)
-[20:12:11] [Server thread/INFO]: [spark] Enabling spark v1.10.136
-[20:12:11] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[20:12:11] [Server thread/INFO]: [spark] Starting background profiler...
-[20:12:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[20:12:12] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.2
-[20:12:12] [Server thread/INFO]: [BedWars1058] Using internal world restore system.
-[20:12:12] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
-[20:12:12] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
-[20:12:13] [Server thread/WARN]: Scoreboard tab header-footer refresh interval is set to: 10
-[20:12:13] [Server thread/WARN]: It is not recommended to use a value under 20 ticks.
-[20:12:13] [Server thread/WARN]: If you expect performance issues please increase its timer.
-[20:12:13] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
-[20:12:13] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b699
-[20:12:13] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4029767887359721344)
-[20:12:13] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
-[20:12:13] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[20:12:14] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b699 (API v19) Enabled - By Rigby, fernferret, lithium3141 and main--
-[20:12:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:12:14] [Server thread/INFO]: Done (3.589s)! For help, type "help" or "?"
-[20:12:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
-[20:12:14] [Craft Scheduler Thread #2/WARN]: Exception in thread "Craft Scheduler Thread #2" 
-[20:12:14] [Craft Scheduler Thread #2/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 653
+[22:29:56] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[22:29:56] [Server thread/INFO]: Loading properties
+[22:29:56] [Server thread/INFO]: Default game type: SURVIVAL
+[22:29:56] [Server thread/INFO]: This server is running Titanium version git-Titanium-JENKINS-main-8 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[22:29:56] [Server thread/INFO]: Loading Titanium server config from titanium.yml
+[22:29:56] [Server thread/INFO]: Debug logging is disabled
+[22:29:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:29:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:29:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:29:56] [Server thread/INFO]: Mob Spawn Range: 4
+[22:29:56] [Server thread/INFO]: Hopper:
+[22:29:56] [Server thread/INFO]:  > Transfer: 8
+[22:29:56] [Server thread/INFO]:  > Check: 8
+[22:29:56] [Server thread/INFO]:  > Amount: 1
+[22:29:56] [Server thread/INFO]: Random Lighting Updates: false
+[22:29:56] [Server thread/INFO]: Structure Info Saving: true
+[22:29:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:29:56] [Server thread/INFO]: Max Entity Collisions: 8
+[22:29:56] [Server thread/INFO]: Custom Map Seeds: 
+[22:29:56] [Server thread/INFO]:  > Village: 10387312
+[22:29:56] [Server thread/INFO]:  > Feature: 14357617
+[22:29:56] [Server thread/INFO]: Max TNT Explosions: 100
+[22:29:56] [Server thread/INFO]: Max Tick Time: 
+[22:29:56] [Server thread/INFO]:  > Tile Entities: 50ms
+[22:29:56] [Server thread/INFO]:  > Entities: 50ms
+[22:29:56] [Server thread/INFO]: Despawn rate: 
+[22:29:56] [Server thread/INFO]:  > Items: 6000
+[22:29:56] [Server thread/INFO]:  > Arrows: 1200
+[22:29:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:29:56] [Server thread/INFO]: View Distance: 10
+[22:29:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:29:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:29:56] [Server thread/INFO]: Clear tick list: false
+[22:29:56] [Server thread/INFO]: AntiXray: 
+[22:29:56] [Server thread/INFO]:  > Enabled: true
+[22:29:56] [Server thread/INFO]:  > Engine Mode: 1
+[22:29:56] [Server thread/INFO]:  > Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:29:56] [Server thread/INFO]:  > Replace Blocks: [1, 5]
+[22:29:56] [Server thread/INFO]: Growth modifiers:
+[22:29:56] [Server thread/INFO]:  > Cactus: 100%
+[22:29:56] [Server thread/INFO]:  > Cane: 100%
+[22:29:56] [Server thread/INFO]:  > Melon: 100%
+[22:29:56] [Server thread/INFO]:  > Pumpkin: 100%
+[22:29:56] [Server thread/INFO]:  > Wheat: 100%
+[22:29:56] [Server thread/INFO]:  > Mushroom: 100%
+[22:29:56] [Server thread/INFO]:  > Sapling: 100%
+[22:29:56] [Server thread/INFO]:  > Nether Wart: 100%
+[22:29:56] [Server thread/INFO]: Entity activation ranges:
+[22:29:56] [Server thread/INFO]:  > Animals: 32 blocks
+[22:29:56] [Server thread/INFO]:  > Monsters: 32 blocks
+[22:29:56] [Server thread/INFO]:  > Ambient: 16 blocks
+[22:29:56] [Server thread/INFO]: Entity tracking ranges:
+[22:29:56] [Server thread/INFO]:  > Players: 48 blocks
+[22:29:56] [Server thread/INFO]:  > Animals: 48 blocks
+[22:29:56] [Server thread/INFO]:  > Monsters: 48 blocks
+[22:29:56] [Server thread/INFO]:  > Misc: 32 blocks
+[22:29:56] [Server thread/INFO]:  > Other: 64 blocks
+[22:29:56] [Server thread/INFO]: Merge radius:
+[22:29:56] [Server thread/INFO]:  > Items: 2.5
+[22:29:56] [Server thread/INFO]:  > Experience: 3.0
+[22:29:56] [Server thread/INFO]: Data value allowed items: 
+[22:29:56] [Server thread/INFO]: Grass Spread Tick Rate: 1
+[22:29:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:29:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:29:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 & Y: 63.0
+[22:29:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:29:56] [Server thread/INFO]: Water over lava flow speed: 5
+[22:29:56] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:29:56] [Server thread/INFO]: World async lighting: false
+[22:29:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:29:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:29:56] [Server thread/INFO]: Max growth height:
+[22:29:56] [Server thread/INFO]:  > Cactus: 3
+[22:29:56] [Server thread/INFO]:  > Reeds: 3
+[22:29:56] [Server thread/INFO]: Despawn ranges:
+[22:29:56] [Server thread/INFO]:  > Soft: 32
+[22:29:56] [Server thread/INFO]:  > Hard: 128
+[22:29:57] [Server thread/INFO]: Loading Titanium knockback config from knockback.yml
+[22:29:57] [Server thread/INFO]: Generating keypair
+[22:29:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:29:57] [Server thread/INFO]: Using epoll channel type
+[22:29:57] [Server thread/INFO]: Titanium: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:29:57] [Server thread/INFO]: Titanium: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:29:57] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[22:29:58] [Server thread/INFO]: [spark] Loading spark v1.10.136
+[22:29:58] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.3.2
+[22:29:58] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[22:29:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:29:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:29:58] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 v25.2
+[22:29:58] [Server thread/INFO]: [BedWars1058] Loading support for paper/spigot: v1_8_R3
+[22:29:59] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
+[22:29:59] [Server thread/INFO]: [BedWars1058-TeamSelector] Loading BedWars1058-TeamSelector v0.7
+[22:29:59] [Server thread/INFO]: [BedWars1058-Compass] Loading BedWars1058-Compass v1.4.3
+[22:29:59] [Server thread/INFO]: [BedWars1058-AntiDrop] Loading BedWars1058-AntiDrop v1.2.1
+[22:29:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:29:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:29:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:29:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:29:59] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[22:29:59] [Server thread/INFO]: Preparing level "lobby"
+[22:29:59] [Server thread/INFO]: Preparing start region for level 0 (Seed: -7694419806478554043)
+[22:29:59] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6565125655165076740)
+[22:30:00] [Server thread/INFO]: [spark] Enabling spark v1.10.136
+[22:30:00] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[22:30:00] [Server thread/INFO]: [spark] Starting background profiler...
+[22:30:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[22:30:00] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.2
+[22:30:00] [Server thread/INFO]: [BedWars1058] Using internal world restore system.
+[22:30:00] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
+[22:30:00] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
+[22:30:01] [Server thread/WARN]: Scoreboard tab header-footer refresh interval is set to: 10
+[22:30:01] [Server thread/WARN]: It is not recommended to use a value under 20 ticks.
+[22:30:01] [Server thread/WARN]: If you expect performance issues please increase its timer.
+[22:30:01] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
+[22:30:01] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b699
+[22:30:01] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8933901409935476301)
+[22:30:01] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
+[22:30:01] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[22:30:02] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b699 (API v19) Enabled - By Rigby, fernferret, lithium3141 and main--
+[22:30:02] [Server thread/INFO]: [BedWars1058-TeamSelector] Enabling BedWars1058-TeamSelector v0.7
+[22:30:02] [Server thread/INFO]: [BedWars1058-TeamSelector] Hook into BedWars1058!
+[22:30:02] [Server thread/INFO]: [BedWars1058-Compass] Enabling BedWars1058-Compass v1.4.3
+[22:30:02] [Server thread/INFO]: [BedWars1058-Compass] Successfully loaded in 182ms
+[22:30:02] [Server thread/INFO]: [BedWars1058-AntiDrop] Enabling BedWars1058-AntiDrop v1.2.1
+[22:30:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:30:02] [Server thread/INFO]: Done (2.819s)! For help, type "help" or "?"
+[22:30:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[22:30:02] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[22:30:02] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.15).
+[22:30:02] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[22:30:02] [Craft Scheduler Thread #2/WARN]: [BedWars1058] Support for v1_8_R3 is scheduled for removal. Please consider upgrading your server software to a newer Minecraft version.
+[22:30:02] [Craft Scheduler Thread #0/WARN]: Exception in thread "Craft Scheduler Thread #0" 
+[22:30:02] [Craft Scheduler Thread #0/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 647
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
 	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
@@ -133,53 +145,54 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.S
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
-[20:12:14] [Craft Scheduler Thread #10/WARN]: [BedWars1058] Support for v1_8_R3 is scheduled for removal. Please consider upgrading your server software to a newer Minecraft version.
-[20:12:14] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[20:12:14] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.15).
-[20:12:14] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[20:12:14] [Craft Scheduler Thread #0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:12:14] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
-[20:12:14] [Server thread/INFO]: Registering /party command..
-[20:12:14] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false
-[20:12:43] [User Authenticator #1/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
-[20:12:43] [Server thread/INFO]: millones277[/127.141.104.90:55815] logged in with entity id 54 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
-[20:12:53] [User Authenticator #1/INFO]: UUID of player Gabo9108 is eff1a9ba-5fd9-3ec9-a85c-9016c8bd1a2a
-[20:12:53] [Server thread/INFO]: Gabo9108[/127.0.0.1:54614] logged in with entity id 55 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
-[20:14:56] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+[22:30:02] [Craft Scheduler Thread #18/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:30:02] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
+[22:30:02] [Server thread/INFO]: Registering /party command..
+[22:30:02] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false
+[22:31:16] [User Authenticator #1/INFO]: UUID of player Gabo91B is b7d859a3-dd57-3357-a718-a1d32d701e58
+[22:31:16] [Server thread/INFO]: Gabo91B[/127.152.243.219:41747] logged in with entity id 50 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
+[22:34:08] [User Authenticator #2/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+[22:34:08] [Server thread/INFO]: millones277[/127.141.104.90:33649] logged in with entity id 4402 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
+[22:34:33] [User Authenticator #2/INFO]: UUID of player loquitopremium2 is 3f405e0c-922f-362d-a2a2-efd0008bb9ce
+[22:34:33] [Server thread/INFO]: loquitopremium2[/127.142.8.15:41941] logged in with entity id 5272 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
+[22:34:33] [Server thread/INFO]: millones277 issued server command: /ping
+[22:36:19] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
 
-[20:17:13] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+[22:36:22] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
 
-[20:17:20] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+[22:36:41] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
 
-[20:17:25] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+[22:36:42] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
 
-[20:18:13] [Server thread/INFO]: millones277 issued server command: /lobby
-[20:18:34] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
-[20:18:38] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
-[20:18:38] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
-[20:18:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3013231727340558151)
-[20:18:38] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
-[20:19:02] [Server thread/INFO]: millones277 lost connection: Disconnected
-[20:19:03] [User Authenticator #2/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
-[20:19:04] [Server thread/INFO]: millones277[/127.141.104.90:37359] logged in with entity id 7764 at ([lobby]0.5032892291638869, 72.0, 0.4874608722488437)
-[20:19:53] [Server thread/INFO]: millones277 issued server command: /bw reload
-[20:20:26] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
-[20:20:31] [Server thread/INFO]: millones277 issued server command: /mv delete lighthouse
-[20:20:35] [Server thread/INFO]: millones277 issued server command: /mvconfirm
-[20:20:35] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
-[20:20:35] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was unloaded from memory.
-[20:20:35] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was removed from config.yml
-[20:20:35] [Server thread/INFO]: [Multiverse-Core] World 'lighthouse' was DELETED.
-[20:20:40] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
-[20:20:50] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
-[20:20:52] [Server thread/INFO]: millones277 issued server command: /mv reload
-[20:20:52] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
-[20:21:03] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
-[20:21:35] [Server thread/INFO]: millones277 issued server command: /mv import lighthouse normal
-[20:21:35] [Server thread/INFO]: millones277: Starting import of world 'lighthouse'...
-[20:21:35] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'lighthouse' - Env: NORMAL - Type: null
-[20:21:35] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4029767887359721344)
-[20:21:35] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[20:21:35] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 1,443 Y: 4 Z: -898 P: 0 Y: 0 
-[20:21:35] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'lighthouse' is located at: lighthouse:0.00,118.00,0.00:0.00:0.00
-[20:21:35] [Server thread/INFO]: millones277: Complete!
+[22:37:08] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:37:19] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:37:22] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:37:26] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:37:41] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:38:03] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:38:07] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:38:12] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:38:15] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:38:17] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:38:20] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:38:37] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:38:54] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:39:07] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:39:10] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+
+[22:39:13] [Server thread/WARN]: Missing message key shop-lore-status-armor in language es
+

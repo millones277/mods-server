@@ -1528,6 +1528,213 @@ upgrades-base-trap-msg-3: '&c&lAllarme attivata da &7&l{player} &c&ldel team {co
   &c&l!'
 upgrades-base-trap-title-3: '&c&lALLARME!!!'
 upgrades-base-trap-subtitle-3: '&fAllarme attivata dal team {color}{team}&f!'
+addons:
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cNon sono distrutti tutti i letti!'
+      purchase-message: '&cPerderai l''abilità di rintracciare i giocatori alla morte!'
+      not-enough-resource: '&cNon hai abbastanza risorse!'
+      already-tracking: '&cStai già rintracciando un team!'
+    tracker-status:
+      not-enough: '&cNon ha abbastanza risorse!'
+      locked: '&cSi sbloccherà quando tutti i letti sono distrutti!'
+      unlocked: '&eClicca per acquistare!'
+    action-bar:
+      tracking-format: '&fTracking: {teamColor}&l{target} &f- Distanza: &a&l{distance}m'
+    team-message-format: '&a&lTEAM > &7{player}: {message}'
+    compass-item:
+      display-name: '&aBussola &7(Click destro)'
+      lore: []
+    tracker-shop:
+      display-name: '&aTracker Shop'
+      lore:
+      - '&7Purchase tracking update for'
+      - '&7your compass which will track'
+      - '&7each player on a specific team'
+      - '&7until you die.'
+    menus:
+      main-menu:
+        title: '&8Tracker & Comunicazioni'
+        tracker:
+          display-name: '&aAcquista il tracker'
+          lore:
+          - '&7Compra l''aggiornamento Tracker'
+          - '&7che ci penserà la tua bussola a farlo'
+          - '&7Rintraccia ogni giocatore in una'
+          - '&7squadra specifica fino alla'
+          - '&7tua morte!.'
+          - ''
+          - '&eClicca per aprire!'
+        tracker-team:
+          display-name: '&aAcquista il tracker'
+          lore:
+          - '&7Compra l''aggiornamento Tracker'
+          - '&7che ci penserà la tua bussola a farlo'
+          - '&7Rintraccia ogni giocatore in una'
+          - '&7squadra specifica fino alla'
+          - '&7tua morte!.'
+          - ''
+          - '&eClicca per aprire!'
+        communications:
+          display-name: '&aComunicazioni veloci'
+          lore:
+          - '&7Invia una chat evidenziata'
+          - '&7messaggi ai tuoi compagni di squadra!'
+          - ''
+          - '&eClicca per aprire!'
+      tracker-menu:
+        title: '&8Compra il player Tracker'
+        team-item:
+          display-name: '&cRintraccia la squadra {team}'
+          lore:
+          - '&7Compra l''aggiornamento Tracker'
+          - '&7che ci penserà la tua bussola a farlo'
+          - '&7Rintraccia ogni giocatore in una'
+          - '&7squadra specifica fino alla'
+          - '&7tua morte!.'
+          - ''
+          - '&7Costo: &22 Smeraldi'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aTorna indietro'
+          lore:
+          - '&7To Tracker & Comunicazioni'
+      communications:
+        title: '&8Comunicazioni veloci'
+        back-item:
+          display-name: '&aTorna indietro'
+          lore:
+          - '&7To Tracker & Comunicazioni'
+        items:
+          '1':
+            message: '&aCiao ( ﾟ◡ﾟ)/!'
+            display-name: '&aCiao ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eClicca per inviare!'
+          '2':
+            message: '&aSto tornando alla base!'
+            display-name: '&aSto tornando alla base!'
+            lore:
+            - ''
+            - '&eClicca per inviare!'
+          '3':
+            message: '&aSto difendendo'
+            display-name: '&aSto difendendo!'
+            lore:
+            - ''
+            - '&eClicca per inviare!'
+          '4':
+            message: '&aSto attaccando la squadra {team}'
+            display-name: '&aSto attaccando!'
+            lore:
+            - '&7potrai selezionare'
+            - '&7la squadra'
+            - ''
+            - '&eClicca per inviare!'
+          '5':
+            message: '&aSto raccogliendo {resource}'
+            display-name: '&aSto raccogliendo risorse!'
+            lore:
+            - '&7potrai selezionare'
+            - '&7la risorsa'
+            - ''
+            - '&eClicca per inviare!'
+          '6':
+            message: '&aHo {resource}'
+            display-name: '&aHo risorse!'
+            lore:
+            - '&7potrai selezionare'
+            - '&7la risorsa'
+            - ''
+            - '&eClicca per inviare!'
+          '7':
+            message: '&aGrazie'
+            display-name: '&aGrazie!'
+            lore:
+            - ''
+            - '&eClicca per inviare!'
+          '8':
+            message: '&aTorniamo in base'
+            display-name: '&aTorniamo in base!'
+            lore:
+            - ''
+            - '&eClicca per inviare!'
+          '9':
+            message: '&aDifendete per favore'
+            display-name: '&aPer favore difendete!'
+            lore:
+            - ''
+            - '&eClicca per inviare!'
+          '10':
+            message: '&aAttacchiamo la squadra {team}'
+            display-name: '&aAttacchiamo!'
+            lore:
+            - '&7potrai selezionare'
+            - '&7la squadra'
+            - ''
+            - '&eClicca per inviare!'
+          '11':
+            message: '&aCi serve {resource}'
+            display-name: '&aCi servono risorse!'
+            lore:
+            - '&7potrai selezionare'
+            - '&7la risorsa'
+            - ''
+            - '&eClicca per inviare!'
+          '12':
+            message: '&aSta arrivando un giocatore!'
+            display-name: '&aSta arrivando un giocatore!'
+            lore:
+            - ''
+            - '&eClicca per inviare!'
+    communication-menus:
+      lore:
+      - '&7Clicca per inviare un messaggio: ''{message}&7'''
+      - '&7ai tuoi compagni di squadra!'
+      - ''
+      - '&eClicca per inviare!'
+      teams:
+        title: '&8Scegli un''opzione:'
+        back-item:
+          display-name: '&aIndietro!'
+          lore:
+          - '&7Comunicazioni rapide'
+      resources:
+        title: '&8Scegli un''opzione:'
+        back-item:
+          display-name: '&aTorna indietro!'
+          lore:
+          - '&7Comunicazioni rapide'
+        iron:
+          resource-name: '&f&lFERRO'
+        gold:
+          resource-name: '&6&lORO'
+        diamond:
+          resource-name: '&b&lDIAMANTE'
+        emerald:
+          resource-name: '&2&lSMERALDO'
+  team-selector:
+    inventory-name: '&8Team Selector'
+    selector-name: '&9Team Selector'
+    selector-lore:
+    - '&7Right-Click to to open!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eClick to join!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cYou cannot change your team!'
+    team-join: '{prefix}&eYou joined the {color}{team} &eteam!'
+    team-full: '{prefix}{color}{team} &c Team is full!'
+    teams-not-balanced: '{prefix}&cTeams are not balanced! Try joining another team!'
+    party-deny: '{prefix}&cYou can''t choose your team because you''re in a party!'
+    cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
+      The game is starting!'
+    already-in-team: '{prefix}&cYou are already in this team!'
 upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 display-group-solo: Solo
 team-name-lighthouse-Gray: Gray

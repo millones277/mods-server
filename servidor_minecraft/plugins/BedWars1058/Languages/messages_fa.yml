@@ -1545,6 +1545,214 @@ upgrades-base-trap-msg-3: '&c&lHoshdar Tale Tavasote &7&l{player} &c&laz team {c
 upgrades-base-trap-title-3: '&c&lHOSHDAR!!!'
 upgrades-base-trap-subtitle-3: '&fAlarm Tale Tavasote Team {color}{team} &fGheyre
   Faal Shod!'
+addons:
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cNo todos los enemigos tienen la cama destruida!'
+      purchase-message: '&cPerderás la habilidad de rastrear a este equipo cuando
+        mueras!'
+      not-enough-resource: '&cNo tienes suficientes recursos!'
+      already-tracking: '&cYa estas rastreando a este equipo!'
+    tracker-status:
+      not-enough: '&cNo tienes suficientes recursos!'
+      locked: '&cSe desbloqueara cuando todas las camas enemigas esten destruidas!'
+      unlocked: '&eClick para comprar!'
+    action-bar:
+      tracking-format: '&fRastreando a: {teamColor}&l{target} &f- Distancia: &a&l{distance}m'
+    team-message-format: '&a&lTEAM > &7{player}: {message}'
+    compass-item:
+      display-name: '&aBrujula &7(Click Derecho)'
+      lore: []
+    tracker-shop:
+      display-name: '&aTracker Shop'
+      lore:
+      - '&7Purchase tracking update for'
+      - '&7your compass which will track'
+      - '&7each player on a specific team'
+      - '&7until you die.'
+    menus:
+      main-menu:
+        title: '&7Comunicación rápida y rastreador'
+        tracker:
+          display-name: '&aTienda de rastreadores'
+          lore:
+          - '&7Compra la habilidad de rastrear'
+          - '&7para tu brújula'
+          - '&7rastreando a cada jugador en un'
+          - '&7equipo específico hasta'
+          - '&7que mueras.'
+          - ''
+          - '&eClick para abrir!'
+        tracker-team:
+          display-name: '&aTienda de rastreadores'
+          lore:
+          - '&7Compra la habilidad de rastrear'
+          - '&7para tu brújula'
+          - '&7rastreando a cada jugador en un'
+          - '&7equipo específico hasta'
+          - '&7que mueras.'
+          - ''
+          - '&eClick para abrir!'
+        communications:
+          display-name: '&aComunicación rápida'
+          lore:
+          - '&7Envía un chat rápido a'
+          - '&7tu equipo!'
+          - ''
+          - '&eClick para abrir!'
+      tracker-menu:
+        title: '&8Comprar rastreador de enemigos'
+        team-item:
+          display-name: '&cRastrear equipo {team}'
+          lore:
+          - '&7Compra la habilidad de rastrear'
+          - '&7para tu brújula'
+          - '&7rastreando a cada jugador en un'
+          - '&7equipo específico hasta'
+          - '&7que mueras.'
+          - ''
+          - '&7Precio: &22 Emeralds'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aAtrás'
+          lore:
+          - '&7A Comunicación rápida y rastreador'
+      communications:
+        title: '&8Comunicación rapída'
+        back-item:
+          display-name: '&aAtrás'
+          lore:
+          - '&7A Comunicación rápida y rastreador'
+        items:
+          '1':
+            message: '&aSalam ( ﾟ◡ﾟ)/!'
+            display-name: '&aSalam ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '2':
+            message: '&aDaram Be Base Barmigardam'
+            display-name: '&aDaram Be Base Barmigardam'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '3':
+            message: '&aDaram Defa Mikonam!'
+            display-name: '&aDaram Defa Mikonam!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '4':
+            message: '&aDaram Rush Midam Be Teame {team}'
+            display-name: '&aDaram Rush Midam!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Yek Team Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '5':
+            message: '&aDaram {resource} &aJam Mikonam'
+            display-name: '&aDaram Resource Jam Mikonam!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Resource Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '6':
+            message: '&7{resource} &aGereftam'
+            display-name: '&aResource Gereftam!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Resource Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '7':
+            message: '&aMamnoon'
+            display-name: '&aMamnoon!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '8':
+            message: '&aBargard Be Base'
+            display-name: '&aBargard Be Base!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '9':
+            message: '&aLotfan Defa Kon!'
+            display-name: '&aLotfan Defa Kon!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '10':
+            message: '&aBerim Be {team} &aHamle Konim'
+            display-name: '&aBerim Rush Bedim!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Yek Team Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '11':
+            message: '&aMa Be {resource} &aNiaz Darim.'
+            display-name: '&aBe Resource Niaz Darim!'
+            lore:
+            - '&7Shoma In Ghabeliat Ro Darid Ke'
+            - '&7Resource Ro Entekhab Konid'
+            - ''
+            - '&eClick Kon Ta Befresty!'
+          '12':
+            message: '&aYe Player Dare Miad!'
+            display-name: '&aPlayer Dare Miad!!'
+            lore:
+            - ''
+            - '&eClick Kon Ta Befresty!'
+    communication-menus:
+      lore:
+      - '&7Click para enviar: ''{message}&7'''
+      - '&7a tu equipo!'
+      - ''
+      - '&eClick para enviar!'
+      teams:
+        title: '&8Select an option:'
+        back-item:
+          display-name: '&aVolver'
+          lore:
+          - '&7A comunicacion rápida'
+      resources:
+        title: '&8Selecciona una accion:'
+        back-item:
+          display-name: '&aVolver'
+          lore:
+          - '&7A comunicacion rápida'
+        iron:
+          resource-name: '&f&lHIERRO'
+        gold:
+          resource-name: '&6&lORO'
+        diamond:
+          resource-name: '&b&lDIAMANTES'
+        emerald:
+          resource-name: '&2&lESMERALDAS'
+  team-selector:
+    inventory-name: '&8Team Selector'
+    selector-name: '&9Team Selector'
+    selector-lore:
+    - '&7Right-Click to to open!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eClick to join!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cYou cannot change your team!'
+    team-join: '{prefix}&eYou joined the {color}{team} &eteam!'
+    team-full: '{prefix}{color}{team} &c Team is full!'
+    teams-not-balanced: '{prefix}&cTeams are not balanced! Try joining another team!'
+    party-deny: '{prefix}&cYou can''t choose your team because you''re in a party!'
+    cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
+      The game is starting!'
+    already-in-team: '{prefix}&cYou are already in this team!'
 upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 display-group-solo: Solo
 team-name-lighthouse-Gray: Gray

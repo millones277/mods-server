@@ -51,7 +51,7 @@ countdowns:
   game-start-regular: 40
   game-start-half-arena: 25
   game-start-shortened: 5
-  game-restart: 45
+  game-restart: 10
   player-re-spawn: 5
   next-event-beds-destroy: 360
   next-event-dragon-spawn: 600

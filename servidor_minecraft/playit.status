@@ -1,166 +1,2326 @@
-8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 2 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1747375684621 tunnel running, 2 tunnels registered
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 2 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1747431300009 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375687709 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431303075 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375690770 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431307116 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375693877 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431310456 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375696939 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431314325 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375700091 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431318276 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375703159 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431322126 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375706272 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431325320 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375709431 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431328504 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375712492 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431331705 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375715596 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431334887 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375718663 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431338114 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375721773 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431341232 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375724838 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431344494 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375727994 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431347594 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375732096 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431350849 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375736312 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431354091 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375739384 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431357285 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375742810 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431360363 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375745892 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431363454 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375749097 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431366522 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375752188 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431369724 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375755248 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431372922 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375758317 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431376126 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375761442 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431379371 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375764611 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431382468 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375767688 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431385553 tunnel running, 2 tunnels registered
 
 
 TUNNELS
 journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
-[2J8[0mplayit (v0.15.26): 1747375770795 tunnel running, 2 tunnels registered
+[2J8[0mplayit (v0.15.26): 1747431388627 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431392618 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431395692 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431398942 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431402323 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431405725 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431408946 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431412072 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431415272 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431418658 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431421739 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431425209 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431428306 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431431602 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431434805 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431438172 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431441303 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431444648 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431447856 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431451072 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431454135 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431457275 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431460360 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431463551 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431466618 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431469699 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431472842 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431475925 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431479052 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431482277 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431485491 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431488623 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431491692 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431494929 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431498125 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431501334 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431504419 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431507556 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431510768 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431513948 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431517878 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431521052 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431524371 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431527775 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431531345 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431534487 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431537622 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431540906 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431544623 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431547758 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431550953 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431554154 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431557363 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431560445 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431563517 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431566581 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431570678 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431573839 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431577070 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431580439 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431583652 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431586719 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431589958 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431593712 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431596808 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431599879 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431602949 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431606070 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431609189 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431612432 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431615531 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431619376 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431623206 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431626292 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431629431 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431633256 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431636527 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431639607 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431642920 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431646100 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431649473 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431652635 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431655708 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431658774 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431661845 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431664960 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431668037 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431671382 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431674562 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431677646 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431680715 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431683841 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431686921 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431690029 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431693291 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431696411 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431699626 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431702899 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431706028 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431709305 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431712455 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431715526 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431718600 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431722230 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431725996 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431729158 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431733290 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431736506 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431739592 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431742696 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431745793 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431748860 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431752050 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431755134 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431758219 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431761310 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431764454 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431767771 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431770852 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431773919 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431776989 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431780120 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431783333 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431786403 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431789464 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431792627 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431795701 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431799080 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431802185 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431805314 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431808391 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431812576 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431815658 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431818755 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431822005 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431825256 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431828731 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431831804 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431834974 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431838286 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431841351 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431844428 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431847586 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431852385 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431855599 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431858816 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431862109 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431865357 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431868861 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431871934 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431875174 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431878330 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431881412 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431884585 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431887792 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431890984 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431894260 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431897382 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431900757 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431903957 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431907047 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431910229 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431913541 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431916780 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431920262 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431923461 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431926529 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431929613 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431932690 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431935780 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431938855 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431942051 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431945130 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431948374 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431951446 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431954548 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431957737 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431961057 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431964125 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431967189 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431970530 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431973695 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431977520 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431980583 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431983787 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431987022 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431990097 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431993168 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431996402 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747431999483 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432002616 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432005679 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432008746 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432011848 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432014946 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432018235 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432021314 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432024394 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432027468 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432030547 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432033620 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432036820 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432039929 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432043008 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432046084 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432049164 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432052245 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432055376 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432058534 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432061853 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432064918 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432068378 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432071459 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432074540 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432077801 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432080864 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432084168 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432087255 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432091401 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432095286 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432098358 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432101561 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432104725 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432107802 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432111189 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432114547 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432117613 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432120799 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432123860 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432127067 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432130173 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432133319 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432136537 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432139617 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432143145 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432146386 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432149468 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432152628 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432155708 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432158791 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432162009 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432165162 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432168390 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432171628 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432174859 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432178000 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432181325 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432184407 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432187558 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432190639 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432193715 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432196872 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432200023 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432203604 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432206669 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432210186 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432213263 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432216332 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432219466 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432222624 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432225701 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432228900 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432232918 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432236051 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432239146 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432242311 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432245414 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432248730 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432252088 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432255249 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432258324 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432261503 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432264912 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432268085 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432271500 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432274650 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432278048 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432281220 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432284292 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432287533 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432290606 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432294034 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432297207 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432300283 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432303355 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432306433 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432309554 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432312849 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432316189 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432319683 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432322994 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432326102 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432329287 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432332683 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432335765 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432339142 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432342586 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432345670 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432349031 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432352423 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432355628 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432359713 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432362810 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432366275 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432369424 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432372792 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432375892 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432378973 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432382183 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432385464 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432388731 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432391811 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432395469 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432399078 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432402291 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432405412 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432408475 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432411836 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432414945 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432418079 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432421168 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432424387 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432427753 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432430919 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432434181 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432437486 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432440559 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432443639 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432446744 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432449942 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432453306 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432456777 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432460534 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432463611 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432466788 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432469996 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432473367 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432476509 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432479623 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432482942 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432486237 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432490313 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432493386 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432496463 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432499582 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432502659 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432505766 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432508926 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432512342 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432515841 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432519035 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432522224 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432525454 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432528589 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432531992 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432535117 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432538192 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432542210 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432545290 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432549660 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+journal-invite.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+directory-hunger.gl.at.ply.gg:3282 => 127.0.0.1:3282 (minecraft-bedrock)
+[2J8[0mplayit (v0.15.26): 1747432552828 tunnel running, 2 tunnels registered
 
 
 TUNNELS

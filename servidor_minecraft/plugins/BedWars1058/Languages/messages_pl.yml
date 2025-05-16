@@ -1615,6 +1615,213 @@ upgrades-base-trap-msg-3: '&c&lAlarm trap set off by &7&l{player} &c&lfrom {colo
   &c&lteam!'
 upgrades-base-trap-title-3: '&c&lALARM!!!'
 upgrades-base-trap-subtitle-3: '&fAlarm trap set off by {color}{team} &fteam!'
+addons:
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cWszystkie łóżka nie zostały zniszczone!'
+      purchase-message: '&cJeśli umrzesz stracisz namierzanie!'
+      not-enough-resource: '&cMasz za malo surowców!'
+      already-tracking: '&cNamierzasz już tą drużynę!'
+    tracker-status:
+      not-enough: '&cNie stać ciebie!'
+      locked: '&cBędzięsz mógł tego użyć, jeśli wszystkie łóżka zostaną zniszczone!'
+      unlocked: '&eKliknij, aby kupić!'
+    action-bar:
+      tracking-format: '&fNamierzanie: {teamColor}&l{target} &f- Dystans: &a&l{distance}m'
+    team-message-format: '&a&lDRUŻYNA > &7{player}: {message}'
+    compass-item:
+      display-name: '&aKompas &7(PRM)'
+      lore: []
+    tracker-shop:
+      display-name: '&aTracker Shop'
+      lore:
+      - '&7Purchase tracking update for'
+      - '&7your compass which will track'
+      - '&7each player on a specific team'
+      - '&7until you die.'
+    menus:
+      main-menu:
+        title: '&8Namierzanie i komunikacja'
+        tracker:
+          display-name: '&aNamierzanie'
+          lore:
+          - '&7Kupując namierzanie drużyny'
+          - '&7jesteś przekonany, że'
+          - '&7dojdziesz do wroga'
+          - '&7Stracisz namierzanie'
+          - '&7jeśli umrzesz.'
+          - ''
+          - '&eKliknij, aby otworzyc!'
+        tracker-team:
+          display-name: '&aNamierzanie'
+          lore:
+          - '&7Kupując namierzanie drużyny'
+          - '&7jesteś przekonany, że'
+          - '&7dojdziesz do wroga'
+          - '&7Stracisz namierzanie'
+          - '&7jeśli umrzesz.'
+          - ''
+          - '&eKliknij, aby otworzyc!'
+        communications:
+          display-name: '&aSzybka komunikacja'
+          lore:
+          - '&7Kontaktuj się ze'
+          - '&7swoją drużymą!'
+          - ''
+          - '&eKliknik, aby otworzyć!'
+      tracker-menu:
+        title: '&8Kup namierzanie'
+        team-item:
+          display-name: '&cNamierzaj drużynę {team}'
+          lore:
+          - '&7Kupując namierzanie drużyny'
+          - '&7jesteś przekonany, że'
+          - '&7dojdziesz do wroga.'
+          - '&7Wszystkie łóżka muszą zostać'
+          - '&7zniszczone, aby użyc namierzania.'
+          - ''
+          - '&7Cena: &22 Emeraldy'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aPowrot'
+          lore:
+          - '&7Powraca ciebie do głównej strony'
+      communications:
+        title: '&aSzybka komunikacja'
+        back-item:
+          display-name: '&aPowrot'
+          lore:
+          - '&7Powraca ciebie do głównej strony'
+        items:
+          '1':
+            message: '&aCześć ( ﾟ◡ﾟ)/!'
+            display-name: '&aCześć ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '2':
+            message: '&aWracam do bazy!'
+            display-name: '&aWracam do bazy!'
+            lore:
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '3':
+            message: '&aBronię!'
+            display-name: '&aBronię!'
+            lore:
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '4':
+            message: '&aAtakuję drużynę {team}'
+            display-name: '&aAtakuję!'
+            lore:
+            - '&7Będziesz mógł wybrać'
+            - '&7drużynę.'
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '5':
+            message: '&aZbieram {resource}'
+            display-name: '&aZbieram surowce!'
+            lore:
+            - '&7Będziesz mógł wybrać'
+            - '&7zasób'
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '6':
+            message: '&aPosiadam {resource}'
+            display-name: '&aMam surowce!'
+            lore:
+            - '&7Będziesz mógł wybrać'
+            - '&7zasób'
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '7':
+            message: '&aDziękuję'
+            display-name: '&aDziękuję'
+            lore:
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '8':
+            message: '&aWracaj do bazy'
+            display-name: '&aWracaj do bazy!'
+            lore:
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '9':
+            message: '&aProszę, broń bazę'
+            display-name: '&aProszę, broń bazę!'
+            lore:
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '10':
+            message: '&aZaatakujmy {team}'
+            display-name: '&aZaatakujmy!'
+            lore:
+            - '&7Będziesz mógł wybrać'
+            - '&7drużynę.'
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '11':
+            message: '&aPotrzebujemy {resource}'
+            display-name: '&aPotrzebne nam są!'
+            lore:
+            - '&7Będziesz mógł wybrać'
+            - '&7zasób'
+            - ''
+            - '&eKliknij, aby wyslac!'
+          '12':
+            message: '&aWrog sie zbliza!'
+            display-name: '&aWrog sie zbliza!!'
+            lore:
+            - ''
+            - '&eKliknij, aby wyslac!'
+    communication-menus:
+      lore:
+      - '&7Kliknij, aby wyslac wiadomosc: ''{message}&7'''
+      - '&7do twojej druzyny!'
+      - ''
+      - '&eKliknij, aby wyslac!'
+      teams:
+        title: '&8Wybierz opcję:'
+        back-item:
+          display-name: '&aPowrot'
+          lore:
+          - '&7Powraca ciebie do szybkiej komunimacji'
+      resources:
+        title: '&8Wybierz opcję:'
+        back-item:
+          display-name: '&aPowrot'
+          lore:
+          - '&7Powraca ciebie do szybkiej komunimacji'
+        iron:
+          resource-name: '&f&lZELAZO'
+        gold:
+          resource-name: '&6&lZLOTO'
+        diamond:
+          resource-name: '&b&lDIAMENT'
+        emerald:
+          resource-name: '&2&lSZMARAGD'
+  team-selector:
+    inventory-name: '&8Team Selector'
+    selector-name: '&9Team Selector'
+    selector-lore:
+    - '&7Right-Click to to open!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eClick to join!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cYou cannot change your team!'
+    team-join: '{prefix}&eYou joined the {color}{team} &eteam!'
+    team-full: '{prefix}{color}{team} &c Team is full!'
+    teams-not-balanced: '{prefix}&cTeams are not balanced! Try joining another team!'
+    party-deny: '{prefix}&cYou can''t choose your team because you''re in a party!'
+    cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
+      The game is starting!'
+    already-in-team: '{prefix}&cYou are already in this team!'
 upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 display-group-solo: Solo
 team-name-lighthouse-Gray: Gray

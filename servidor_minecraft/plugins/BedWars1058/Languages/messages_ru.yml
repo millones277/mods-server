@@ -1603,6 +1603,216 @@ upgrades-base-trap-msg-3: '&c&lЛовушка была активирована 
 upgrades-base-trap-title-3: '&c&lВНИМАНИЕ!!!'
 upgrades-base-trap-subtitle-3: '&fЛовушка была активирована командой {color}{team}
   &f!'
+addons:
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cЕще не все вражеские кровати уничтожены!'
+      purchase-message: '&cВы потеряете возможность отслеживать эту команду, когда
+        умрете!'
+      not-enough-resource: '&cУ вас недостаточно ресурсов!'
+      already-tracking: '&cВы уже отслеживаете эту команду!'
+    tracker-status:
+      not-enough: '&cУ вас недостаточно ресурсов!'
+      locked: '&cОткрывается, когда все вражеские кровати уничтожены!'
+      unlocked: '&eНажмите, чтобы купить!'
+    action-bar:
+      tracking-format: '&fОтслеживание: {teamColor}&l{target} &f- дистанция: &a&l{distance}m'
+    team-message-format: '&a&lКОМАНДА > &7{player}: {message}'
+    compass-item:
+      display-name: '&aКомпас &7(ПКМ)'
+      lore: []
+    tracker-shop:
+      display-name: '&aTracker Shop'
+      lore:
+      - '&7Purchase tracking update for'
+      - '&7your compass which will track'
+      - '&7each player on a specific team'
+      - '&7until you die.'
+    menus:
+      main-menu:
+        title: '&8Трекер и коммуникации'
+        tracker:
+          display-name: '&aМагазин трекеров'
+          lore:
+          - '&7Обновление отслеживания покупок'
+          - '&7для вашего компаса, который будет'
+          - '&7отслеживать каждого игрока на'
+          - '&7конкретная команда, пока вы'
+          - '&7умри.'
+          - ''
+          - '&eНажмите, чтобы открыть!'
+        tracker-team:
+          display-name: '&aМагазин трекеров'
+          lore:
+          - '&7Обновление отслеживания покупок'
+          - '&7для вашего компаса, который будет'
+          - '&7отслеживать каждого игрока на'
+          - '&7конкретная команда, пока вы'
+          - '&7умри.'
+          - ''
+          - '&eНажмите, чтобы открыть!'
+        communications:
+          display-name: '&aБыстрое общение'
+          lore:
+          - '&7Отправить выделенный чат'
+          - '&7сообщения своим товарищам'
+          - '&7по команде!'
+          - ''
+          - '&eНажмите, чтобы открыть!'
+      tracker-menu:
+        title: '&8Покупка Враг Трекер'
+        team-item:
+          display-name: '&cКоманда трека {team}'
+          lore:
+          - '&7Обновление отслеживания покупок'
+          - '&7для вашего компаса, который будет'
+          - '&7отслеживать каждого игрока на'
+          - '&7конкретная команда, пока вы'
+          - '&7умри.'
+          - ''
+          - '&7Расходы: &22 Изумруды'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aВернитесь назад'
+          lore:
+          - '&7К трекеру и связи'
+      communications:
+        title: '&8Быстрое общение'
+        back-item:
+          display-name: '&aВернитесь назад'
+          lore:
+          - '&7К трекеру и связи'
+        items:
+          '1':
+            message: '&aПривет ( ﾟ◡ﾟ)/!'
+            display-name: '&aПривет ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '2':
+            message: '&aЯ возвращаюсь на базу!'
+            display-name: '&aЯ возвращаюсь на базу!'
+            lore:
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '3':
+            message: '&aЯ защищаюсь!'
+            display-name: '&aЯ защищаюсь!'
+            lore:
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '4':
+            message: '&aЯ атакую {team}'
+            display-name: '&aЯ атакую!'
+            lore:
+            - '&7Вы сможете выбрать'
+            - '&7команда'
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '5':
+            message: '&aЯ собираю {resource}'
+            display-name: '&aСобираю ресурсы!'
+            lore:
+            - '&7Вы сможете выбрать'
+            - '&7ресурс'
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '6':
+            message: '&aУ меня есть {resource}'
+            display-name: '&aУ меня есть ресурсы!'
+            lore:
+            - '&7Вы сможете выбрать'
+            - '&7ресурс'
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '7':
+            message: '&aСпасибо'
+            display-name: '&aСпасибо'
+            lore:
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '8':
+            message: '&aВозвращайся на базу!'
+            display-name: '&aВозвращайся на базу!'
+            lore:
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '9':
+            message: '&aПожалуйста, защищайтесь!'
+            display-name: '&aПожалуйста, защищайтесь!'
+            lore:
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '10':
+            message: '&aАтакуем {team}'
+            display-name: '&aАтакуем!'
+            lore:
+            - '&7Вы сможете выбрать'
+            - '&7команда'
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '11':
+            message: '&aНам нужно {resource}'
+            display-name: '&aНам нужны ресурсы!'
+            lore:
+            - '&7Вы сможете выбрать'
+            - '&7ресурс'
+            - ''
+            - '&eНажмите, чтобы отправить!'
+          '12':
+            message: '&aВходящий игрок!'
+            display-name: '&aВходящий игрок!!'
+            lore:
+            - ''
+            - '&eНажмите, чтобы отправить!'
+    communication-menus:
+      lore:
+      - '&7Нажмите, чтобы отправить'
+      - '&7сообщение: ''{message}&7'''
+      - '&7своим товарищам по команде!'
+      - ''
+      - '&eНажмите, чтобы отправить!'
+      teams:
+        title: '&8Выберите вариант:'
+        back-item:
+          display-name: '&aВернитесь назад'
+          lore:
+          - '&7К быстрой связи!'
+      resources:
+        title: '&8Выберите вариант:'
+        back-item:
+          display-name: '&aВернитесь назад'
+          lore:
+          - '&7К быстрой связи!'
+        iron:
+          resource-name: '&f&lУТЮГ'
+        gold:
+          resource-name: '&6&lЗОЛОТО'
+        diamond:
+          resource-name: '&b&lАЛМАЗ'
+        emerald:
+          resource-name: '&2&lИЗУМРУД'
+  team-selector:
+    inventory-name: '&8Team Selector'
+    selector-name: '&9Team Selector'
+    selector-lore:
+    - '&7Right-Click to to open!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eClick to join!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cYou cannot change your team!'
+    team-join: '{prefix}&eYou joined the {color}{team} &eteam!'
+    team-full: '{prefix}{color}{team} &c Team is full!'
+    teams-not-balanced: '{prefix}&cTeams are not balanced! Try joining another team!'
+    party-deny: '{prefix}&cYou can''t choose your team because you''re in a party!'
+    cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
+      The game is starting!'
+    already-in-team: '{prefix}&cYou are already in this team!'
 upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 display-group-solo: Solo
 team-name-lighthouse-Gray: Gray

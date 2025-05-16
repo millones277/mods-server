@@ -1629,6 +1629,214 @@ upgrades-base-trap-msg-3: '&c&lAlarm trap set off by &7&l{player} &c&lfrom {colo
   &c&lteam!'
 upgrades-base-trap-title-3: '&c&lALARM!!!'
 upgrades-base-trap-subtitle-3: '&fAlarm trap set off by {color}{team} &fteam!'
+addons:
+  compass:
+    messages:
+      not-all-beds-destroyed: '&cNu toate paturile au fost distruse inca!'
+      purchase-message: '&cO sa pierzi abilitatea de a urmarii aceasta echipa cand
+        vei murii!'
+      not-enough-resource: '&cNu ai destule resurse!'
+      already-tracking: '&cDeja urmaresti aceasta echipa!'
+    tracker-status:
+      not-enough: '&cNu ai destule resurse!'
+      locked: '&cSe va debloca cand toate paturile inamicilor vor fi distruse!'
+      unlocked: '&eClick pentru a cumpara!'
+    action-bar:
+      tracking-format: '&fUrmaresti: {teamColor}&l{target} &f- Distanta: &a&l{distance}m'
+    team-message-format: '&a&lEchipa > &7{player}: {message}'
+    compass-item:
+      display-name: '&aCompas &7(Click Dreapta)'
+      lore: []
+    tracker-shop:
+      display-name: '&aTracker Shop'
+      lore:
+      - '&7Purchase tracking update for'
+      - '&7your compass which will track'
+      - '&7each player on a specific team'
+      - '&7until you die.'
+    menus:
+      main-menu:
+        title: '&8Tracker & Communications'
+        tracker:
+          display-name: '&aMagazin de Trackere'
+          lore:
+          - '&7Cumpara tracker upgrades'
+          - '&7pentru compasul care va'
+          - '&7urmarii jucatorii dintr-o'
+          - '&7echipa specifica pana cand tu vei'
+          - '&7murii.'
+          - ''
+          - '&eClick sa deschizi!'
+        tracker-team:
+          display-name: '&aMagazin de Trackere'
+          lore:
+          - '&7Cumpara tracker upgrades'
+          - '&7pentru compasul care va'
+          - '&7urmarii jucatorii dintr-o'
+          - '&7echipa specifica pana cand tu vei'
+          - '&7murii.'
+          - ''
+          - '&eClick sa deschizi!'
+        communications:
+          display-name: '&aComunicare rapida'
+          lore:
+          - '&7Trimite mesaje evidentiate'
+          - '&7catre echipa ta!'
+          - ''
+          - '&eClick sa deschizi!'
+      tracker-menu:
+        title: '&8Cumpara tracker inamic'
+        team-item:
+          display-name: '&cUrmareste echipa {team}'
+          lore:
+          - '&7Cumpara tracker upgrades'
+          - '&7pentru compasul care va'
+          - '&7urmarii jucatorii dintr-o'
+          - '&7echipa specifica pana cand tu vei'
+          - '&7murii.'
+          - ''
+          - '&7Cost: &22 Emeralde'
+          - ''
+          - '{status}'
+        back-item:
+          display-name: '&aDu-te inapoi'
+          lore:
+          - '&7To Tracker & Communication'
+      communications:
+        title: '&8Comunicare Rapida'
+        back-item:
+          display-name: '&aDu-te inapoi'
+          lore:
+          - '&7To Tracker & Communication'
+        items:
+          '1':
+            message: '&aSalut ( ﾟ◡ﾟ)/!'
+            display-name: '&aSalut ( ﾟ◡ﾟ)/!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '2':
+            message: '&aRevin catre baza'
+            display-name: '&aRevin catre baza!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '3':
+            message: '&aSunt in aparare'
+            display-name: '&aSunt in aparare!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '4':
+            message: '&aAtac echipa {team}'
+            display-name: '&aSunt in atac!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta echipa'
+            - ''
+            - '&eClick sa trimiti!'
+          '5':
+            message: '&aColectez {resource}'
+            display-name: '&aColectez resurse!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta resursa'
+            - ''
+            - '&eClick sa trimiti!'
+          '6':
+            message: '&aAm {resource}'
+            display-name: '&aAm resursa!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta resursa'
+            - ''
+            - '&eClick sa trimiti!'
+          '7':
+            message: '&aMultumesc'
+            display-name: '&aMultumesc!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '8':
+            message: '&aDu-te inapoi in baza'
+            display-name: '&aDu-te inapoi in baza'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '9':
+            message: '&aTe rog apara!'
+            display-name: '&aTe rog apara!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+          '10':
+            message: '&aSa atacam echipa {team}'
+            display-name: '&aSa atacam!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta echipa'
+            - ''
+            - '&eClick sa trimiti!'
+          '11':
+            message: '&aAvem nevoie de {resource}'
+            display-name: '&aAvem nevoie de resurse!'
+            lore:
+            - '&7Vei avea posibilitatea de a'
+            - '&7selecta resursa'
+            - ''
+            - '&eClick sa trimiti!'
+          '12':
+            message: '&aVine un player!'
+            display-name: '&aVine un player!!'
+            lore:
+            - ''
+            - '&eClick sa trimiti!'
+    communication-menus:
+      lore:
+      - '&7Click sa trimiti mesajul: ''{message}&7'''
+      - '&7catre echipa ta'
+      - ''
+      - '&eClick sa trimiti!'
+      teams:
+        title: '&8Selecteaza o optiunea:'
+        back-item:
+          display-name: '&aDu-te inapoi'
+          lore:
+          - '&7Catre comunicare rapida'
+      resources:
+        title: '&8Selecteaza o optiune:'
+        back-item:
+          display-name: '&aDu-te inapoi'
+          lore:
+          - '&7Catre comunicare rapida'
+        iron:
+          resource-name: '&f&lFIER'
+        gold:
+          resource-name: '&6&lAUR'
+        diamond:
+          resource-name: '&b&lDIAMANT'
+        emerald:
+          resource-name: '&2&lEMERALD'
+  team-selector:
+    inventory-name: '&8Alege o Echipa'
+    selector-name: '&9Alege o Echipa'
+    selector-lore:
+    - '&7Deschide cu click-dreapta!'
+    choice:
+      lore:
+      - ''
+      - '&7&o{members}'
+      - ''
+      - '&eIntra cu Click!'
+      name: '{color}{team} &f({selected}&7/&f{total})'
+    switch-disabled: '{prefix}&cPoti alege echipa o singura data!'
+    team-join: '{prefix}&eTe-ai alaturat echipei {color}{team}&e!'
+    team-full: '{prefix}&cEchipa {color}{team} &c este plina!'
+    teams-not-balanced: '{prefix}&cEchipele nu sunt echilibrate! Incearca alta!'
+    party-deny: '{prefix}&cNu poti alege o echipa pentru că te afli intr-un party!'
+    cant-join-while-starting: '{prefix}&cNu poti intra in aceasta echipa chiar acum.
+      Incepe jocul!'
+    already-in-team: '{prefix}&cSunteți deja în această echipă'
 upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 display-group-solo: Solo
 team-name-lighthouse-Gray: Gray
