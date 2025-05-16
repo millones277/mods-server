@@ -346,3 +346,27 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.S
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
+[23:05:05] [Server thread/INFO]: millones277 issued server command: /bw help
+[23:05:07] [Server thread/INFO]: millones277 issued server command: /bw
+[23:05:13] [Server thread/INFO]: millones277 issued server command: /bw setupArena rooftop
+[23:05:15] [Server thread/INFO]: [BedWars1058] Creating plugins/BedWars1058/Arenas/rooftop.yml
+[23:05:15] [Server thread/INFO]: Preparing start region for level 3 (Seed: -469596389958428213)
+[23:06:04] [Server thread/INFO]: millones277 issued server command: /bw setWaitingSpawn
+[23:06:07] [Server thread/INFO]: millones277 issued server command: /bw autoCreateTeams
+[23:06:20] [Server thread/INFO]: millones277 issued server command: /bw waitingPos 1
+[23:06:38] [Server thread/INFO]: millones277 issued server command: /bw waitingPos 2
+[23:09:56] [Craft Scheduler Thread #225/WARN]: Exception in thread "Craft Scheduler Thread #225" 
+[23:09:56] [Craft Scheduler Thread #225/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 647
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357)
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64)
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+

@@ -1,0 +1,48 @@
+# BedWars1058 arena configuration file.
+# Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
+group: Default
+display-name: ''
+minPlayers: 2
+maxInTeam: 1
+allowSpectate: true
+spawn-protection: 5
+shop-protection: 1
+upgrades-protection: 1
+generator-protection: 1
+island-radius: 17
+worldBorder: 300
+y-kill-height: -1
+max-build-y: 180
+disable-generator-for-empty-teams: false
+disable-npcs-for-empty-teams: true
+vanilla-death-drops: false
+use-bed-hologram: true
+allow-map-break: false
+game-rules:
+- doDaylightCycle:false
+- announceAdvancements:false
+- doInsomnia:false
+- doImmediateRespawn:true
+- doWeatherCycle:false
+- doFireTick:false
+waiting:
+  Loc: 0.5542736071579955,118.0,0.5418188282289063,90.59986877441406,86.6999740600586
+  Pos1: -17.069825882720075,110.4271977597852,17.117094491452647,-132.3001708984375,4.650012493133545
+  Pos2: 16.595853961377728,131.04317919787894,-14.196463142412025,-312.6000061035156,19.650014877319336
+Team:
+  White:
+    Color: WHITE
+  Gray:
+    Color: GRAY
+  Pink:
+    Color: PINK
+  Red:
+    Color: RED
+  Blue:
+    Color: BLUE
+  Aqua:
+    Color: AQUA
+  Green:
+    Color: GREEN
+  Yellow:
+    Color: YELLOW
