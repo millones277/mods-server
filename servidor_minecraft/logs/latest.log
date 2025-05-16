@@ -420,3 +420,58 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.S
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
+[23:30:23] [Server thread/INFO]: millones277 issued server command: /bw setSpawn Aqua
+[23:30:40] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:30:57] [Server thread/INFO]: millones277 issued server command: /bw setUpgrade
+[23:31:06] [Server thread/INFO]: millones277 issued server command: /bw setShop
+[23:31:38] [Server thread/INFO]: millones277 issued server command: /bw setSpawn White
+[23:31:44] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:31:52] [Server thread/INFO]: millones277 issued server command: /bw setUpgrade
+[23:32:02] [Server thread/INFO]: millones277 issued server command: /bw setShop
+[23:33:55] [Server thread/INFO]: millones277 issued server command: /bw setSpawn Pink
+[23:34:00] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:34:06] [Server thread/INFO]: millones277 issued server command: /bw setUpgrade
+[23:34:12] [Server thread/INFO]: millones277 issued server command: /bw setShop
+[23:34:38] [Server thread/INFO]: millones277 issued server command: /bw setSpawn Gray
+[23:34:47] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:34:54] [Server thread/INFO]: millones277 issued server command: /bw setUpgrade
+[23:35:02] [Server thread/INFO]: millones277 issued server command: /bw setShop
+[23:35:50] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:36:00] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:36:06] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:36:14] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:36:25] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:36:33] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:36:52] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:36:59] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:37:04] [Server thread/INFO]: millones277 issued server command: /bw setType
+[23:37:06] [Server thread/INFO]: millones277 issued server command: /bw setType Solo
+[23:37:26] [Server thread/INFO]: millones277 issued server command: /bw save
+[23:37:26] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[23:37:26] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[23:37:26] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[23:37:26] [Server thread/WARN]: [Multiverse-Core] /mv import rooftop NORMAL
+[23:37:30] [Server thread/INFO]: millones277 issued server command: /bw enableArena rooftop
+[23:37:30] [Server thread/INFO]: [BedWars1058] Arena rooftop was added to the enable queue.
+[23:37:30] [Server thread/INFO]: [BedWars1058] Loading arena: rooftop
+[23:37:30] [Server thread/INFO]: Preparing start region for level 3 (Seed: -2632186920954168265)
+[23:37:31] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: rooftop
+[23:37:31] [Server thread/INFO]: [BedWars1058] Load done: rooftop
+[23:37:39] [Server thread/INFO]: millones277 issued server command: /gamemode spectator
+[23:37:39] [Server thread/INFO]: [millones277: Set own game mode to Spectator Mode]
+[23:38:05] [Server thread/INFO]: millones277 issued server command: /bw leave
+[23:39:56] [Craft Scheduler Thread #373/WARN]: Exception in thread "Craft Scheduler Thread #373" 
+[23:39:56] [Craft Scheduler Thread #373/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 647
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357)
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64)
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+
