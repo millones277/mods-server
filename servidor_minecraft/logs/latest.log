@@ -398,3 +398,25 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.S
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
+[23:20:27] [Server thread/INFO]: millones277 issued server command: /bw setUpgrade
+[23:20:35] [Server thread/INFO]: millones277 issued server command: /bw setShop
+[23:21:25] [Server thread/INFO]: millones277 issued server command: /bw setSpawn Yellow
+[23:21:36] [Server thread/INFO]: millones277 issued server command: /bw addGenerator
+[23:21:44] [Server thread/INFO]: millones277 issued server command: /bw setUpgrade
+[23:21:57] [Server thread/INFO]: millones277 issued server command: /bw setShop
+[23:28:50] [Server thread/INFO]: millones277 issued server command: /list'
+[23:29:56] [Craft Scheduler Thread #313/WARN]: Exception in thread "Craft Scheduler Thread #313" 
+[23:29:56] [Craft Scheduler Thread #313/WARN]: org.apache.commons.lang.UnhandledException: Plugin Multiverse-Core v2.5-b699 generated an exception while executing task 647
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.multiverse.Metrics.postPlugin(Metrics.java:357)
+	at org.mcstats.multiverse.Metrics.access$400(Metrics.java:64)
+	at org.mcstats.multiverse.Metrics$1.run(Metrics.java:245)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:64)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 4 more
+
