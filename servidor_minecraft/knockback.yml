@@ -1,0 +1,33 @@
+# This is the knockback configuration file for Titanium.
+
+profiles:
+  vanilla:
+    horizontal: 0.4
+    horizontal-min: -100.0
+    horizontal-max: 100.0
+    vertical: 0.4
+    vertical-min: -1.0
+    vertical-max: 0.4
+    extra-horizontal: 0.5
+    extra-vertical: 0.1
+    friction-horizontal: 2.0
+    friction-vertical: 2.0
+    w-tap-extra-horizontal: 0.5
+    w-tap-extra-vertical: 0.1
+    stop-sprint: true
+    projectiles:
+      rod:
+        horizontal: 0.4
+        vertical: 0.4
+      arrow:
+        horizontal: 0.4
+        vertical: 0.4
+      pearl:
+        horizontal: 0.4
+        vertical: 0.4
+      snowball:
+        horizontal: 0.4
+        vertical: 0.4
+      egg:
+        horizontal: 0.4
+        vertical: 0.4

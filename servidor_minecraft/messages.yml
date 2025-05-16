@@ -1,0 +1,57 @@
+# Various messages sent to clients.
+brand:
+  # Brand name shown in the server list if player is using wrong version.
+  # If null, the server will use server mod name.
+  brand-name: Titanium 1.8.8
+  # Brand name shown in debug menu (F3).
+  # If null, the server will use server mod name.
+  debug-brand-name: Titanium
+restart: '&cServer is restarting!'
+whitelist: '&cYou are not on the whitelist!'
+server-full: '&cThe server is full!'
+# You can use {0} to insert the server version.
+outdated-client: '&7Outdated client! Please use &c{0}'
+# You can use {0} to insert the server version.
+outdated-server: '&7Outdated server! Server is on &c{0}'
+# You can use {0} to insert the command that was tried to use (without slash).
+unknown-command: '&7Unknown command. Type &c/help &7for help.'
+internal-error-command: '&cAn internal error occurred while attempting to perform
+  this command.'
+internal-error-tab-complete: '&cAn internal error occurred while attempting to tab-complete
+  this command.'
+errors:
+  # Supported placeholders: {PERMISSION}
+  missing-permission: '&cI''m sorry, but you do not have permission to perform this
+    command. Please contact the server administrators if you believe that this is
+    in error.'
+  missing-player: '&cYou must specify which player you wish to perform this action
+    on.'
+  # Supported placeholders: {PLAYER}
+  unknown-player: '&cCan''t find player {PLAYER}'
+  # Supported placeholders: {USAGE}
+  correct-usage: '&cUsage: &f{USAGE}'
+# Supported placeholders: {TPS_AVG}, {TPS_1M}, {TPS_5M}, {TPS_15M}, {TPS_HITS_AVG}, {TPS_HITS_1M}, {TPS_HITS_5M}, {TPS_HITS_15M}, {TPS_KNOCKBACK_AVG}, {TPS_KNOCKBACK_1M}, {TPS_KNOCKBACK_5M}, {TPS_KNOCKBACK_15M}, {MEMORY_USED}, {FREE_MEMORY}, {MAX_MEMORY}, {UPTIME}
+ticks-per-seconds:
+- '&6TPS from last 1m, 5m, 15m: &f{TPS_AVG}'
+- '&6TPS (Hit Detection) from last 1m, 5m, 15m: &f{TPS_HITS_AVG}'
+- '&6TPS (Knockback) from last 1m, 5m, 15m: &f{TPS_KNOCKBACK_AVG}'
+- ' '
+- '&6Memory usage: &a{MEMORY_USED}&a/{MEMORY_MAX} MB'
+- '&6Uptime: &a{UPTIME}'
+ping:
+  # Supported placeholders: {PLAYER}, {PING}, {FORMATTED-PING}
+  your-ping: '&7Your current ping is: &a{PING}'
+  # Supported placeholders: {PLAYER}, {PING}, {FORMATTED-PING}
+  someone-ping: '&7Ping of &e{PLAYER}&7 is: &a{PING}'
+  # Formatting of {FORMATTED-PING} to for eg. show low ping on green and high on red.
+  # Use * to format all values from preset min value to max value (for simplification to "infinity").
+  # For eg. 100-* &c{PING}
+  ping-format:
+  - 0-50 &a{PING}
+  - 51-100 &e{PING}
+  - 101-* &c{PING}
+set-slots:
+  # Supported placeholders: {NEW_SLOTS}, {OLD_SLOTS}
+  set: '&7You set the slot of the server to &e{NEW_SLOTS}'
+  # Supported placeholders: {VALUE}
+  invalid-value: '&7Value &e{VALUE} &7is invalid slots number!'
