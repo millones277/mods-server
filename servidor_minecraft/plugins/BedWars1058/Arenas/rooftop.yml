@@ -16,7 +16,7 @@ max-build-y: 180
 disable-generator-for-empty-teams: false
 disable-npcs-for-empty-teams: true
 vanilla-death-drops: false
-use-bed-hologram: true
+use-bed-hologram: false
 allow-map-break: false
 game-rules:
 - doDaylightCycle:false

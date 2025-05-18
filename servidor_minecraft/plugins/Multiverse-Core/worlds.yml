@@ -50,7 +50,7 @@ worlds:
   lobby:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: lobby
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -139,7 +139,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-8933901409935476301'
+    seed: '-8021342972757410667'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

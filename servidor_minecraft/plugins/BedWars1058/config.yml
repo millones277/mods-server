@@ -57,7 +57,7 @@ countdowns:
   next-event-dragon-spawn: 600
   next-event-game-end: 120
 shout-cmd-cooldown: 30
-server-ip: yourServer.Com
+server-ip: LlorenesInt.com
 powered-by: Llorones Internacionales
 allow-hunger-depletion:
   waiting: false
@@ -243,5 +243,7 @@ lobbyLoc: 0.5032892291638869,72.0,0.4874608722488437,-267.6001281738281,89.84999
 arenaGroups:
 - Solo
 - Doubles
+- 3v3v3v3
+- 4v4v4v4
 arenaGui:
   settings: {}

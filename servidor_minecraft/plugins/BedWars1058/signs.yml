@@ -16,3 +16,26 @@ status-block:
   restarting:
     material: STAINED_CLAY
     data: 4
+locations:
+- lighthouse,-8.0,73.0,-62.0,0.0,0.0,lobby
+- rooftop,-8.0,73.0,-61.0,0.0,0.0,lobby
+- lighthouse2,-8.0,73.0,-63.0,0.0,0.0,lobby
+- rooftop2,-8.0,73.0,-60.0,0.0,0.0,lobby
+- sandcastle,8.0,73.0,-64.0,0.0,0.0,lobby
+- sandcastle2,8.0,73.0,-63.0,0.0,0.0,lobby
+- lighthouse,-8.0,73.0,-63.0,0.0,0.0,lobby
+- lighthouse2,-8.0,73.0,-64.0,0.0,0.0,lobby
+- eastwood2,8.0,73.0,-61.0,0.0,0.0,lobby
+- eastwood,8.0,73.0,-60.0,0.0,0.0,lobby
+- glacier,-8.0,74.0,-61.0,0.0,0.0,lobby
+- glacier2,-8.0,74.0,-60.0,0.0,0.0,lobby
+- lectus,8.0,72.0,-60.0,0.0,0.0,lobby
+- lectus2,8.0,72.0,-61.0,0.0,0.0,lobby
+- crypt,-8.0,74.0,-63.0,0.0,0.0,lobby
+- crypt2,-8.0,74.0,-64.0,0.0,0.0,lobby
+- lighthouse,-8.0,73.0,-63.0,0.0,0.0,lobby
+- lighthouse,-8.0,73.0,-63.0,0.0,0.0,lobby
+- lighthouse2,-8.0,73.0,-64.0,0.0,0.0,lobby
+- lighthouse,-8.0,73.0,-63.0,0.0,0.0,lobby
+- crypt,-8.0,74.0,-63.0,0.0,0.0,lobby
+- glacier,-8.0,74.0,-61.0,0.0,0.0,lobby
