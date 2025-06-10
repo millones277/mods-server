@@ -103,38 +103,6 @@ inventories:
   disable-furnace: true
   disable-brewing-stand: true
   disable-anvil: true
-lobby-items:
-  stats:
-    command: bw stats
-    material: PLAYER_HEAD
-    data: 3
-    enchanted: false
-    slot: 0
-  arena-selector:
-    command: bw gui
-    material: CHEST
-    data: 5
-    enchanted: true
-    slot: 4
-  leave:
-    command: bw leave
-    material: RED_BED
-    data: 0
-    enchanted: false
-    slot: 8
-pre-game-items:
-  stats:
-    command: bw stats
-    material: PLAYER_HEAD
-    data: 3
-    enchanted: false
-    slot: 0
-  leave:
-    command: bw leave
-    material: RED_BED
-    data: 0
-    enchanted: false
-    slot: 8
 spectator-items:
   teleporter:
     command: bw teleporter

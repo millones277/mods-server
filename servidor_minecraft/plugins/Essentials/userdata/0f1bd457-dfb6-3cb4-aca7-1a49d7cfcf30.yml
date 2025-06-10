@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.141.104.90
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1749546451031
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749588725879
+  login: 1749588727673
+money: '0'
+last-account-name: millones277
+lastlocation:
+  world: e5f787f8-2db1-445d-99f0-84d7f92b1325
+  world-name: bwlobby
+  x: 500.54194541793663
+  y: 72.0
+  z: 500.5242575207219
+  yaw: 0.105682373046875
+  pitch: -0.03955462947487831
+logoutlocation:
+  world: 1429280d-8856-4ee4-9f41-716486bbc710
+  world-name: hub
+  x: 39.09859283366786
+  y: 30.0
+  z: -17.74938802239064
+  yaw: 151.7606201171875
+  pitch: 9.014581680297852
