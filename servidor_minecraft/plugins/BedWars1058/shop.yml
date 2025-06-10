@@ -1,4 +1,5 @@
 # Shop with quick buy and tiers
+
 shop-settings:
   quick-buy-category:
     material: NETHER_STAR
@@ -6,24 +7,24 @@ shop-settings:
     data: 0
     enchanted: false
   quick-buy-empty-item:
-    material: STAINED_GLASS_PANE
+    material: RED_STAINED_GLASS_PANE
     amount: 1
     data: 4
     enchanted: false
   regular-separator-item:
-    material: STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     amount: 1
     data: 7
     enchanted: false
   selected-separator-item:
-    material: STAINED_GLASS_PANE
+    material: GREEN_STAINED_GLASS_PANE
     amount: 1
     data: 13
     enchanted: false
 shop-specials:
   silverfish:
     enable: true
-    material: SNOW_BALL
+    material: SNOWBALL
     data: 0
     health: 8.0
     damage: 4.0
@@ -31,7 +32,7 @@ shop-specials:
     despawn: 15
   iron-golem:
     enable: true
-    material: MONSTER_EGG
+    material: HORSE_SPAWN_EGG
     data: 0
     health: 100.0
     despawn: 240
@@ -39,94 +40,6 @@ shop-specials:
   tower:
     enable: true
     material: CHEST
-armor-category:
-  category-content:
-    diamond-armor:
-      content-settings:
-        weight: 2
-        content-slot: 21
-        is-permanent: true
-        is-downgradable: false
-      content-tiers:
-        tier1:
-          tier-item:
-            material: DIAMOND_BOOTS
-            data: 0
-            amount: 1
-            enchanted: false
-          tier-settings:
-            cost: 6
-            currency: emerald
-          buy-items:
-            boots:
-              material: DIAMOND_BOOTS
-              data: 0
-              amount: 1
-              auto-equip: true
-            leggings:
-              material: DIAMOND_LEGGINGS
-              data: 0
-              amount: 1
-              auto-equip: true
-    iron-armor:
-      content-settings:
-        weight: 1
-        content-slot: 20
-        is-permanent: true
-        is-downgradable: false
-      content-tiers:
-        tier1:
-          tier-item:
-            material: IRON_BOOTS
-            data: 0
-            amount: 1
-            enchanted: false
-          tier-settings:
-            cost: 12
-            currency: gold
-          buy-items:
-            boots:
-              material: IRON_BOOTS
-              data: 0
-              amount: 1
-              auto-equip: true
-            leggings:
-              material: IRON_LEGGINGS
-              data: 0
-              amount: 1
-              auto-equip: true
-    chainmail:
-      content-settings:
-        content-slot: 19
-        is-permanent: true
-        is-downgradable: false
-      content-tiers:
-        tier1:
-          tier-item:
-            material: CHAINMAIL_BOOTS
-            data: 0
-            amount: 1
-            enchanted: false
-          tier-settings:
-            cost: 40
-            currency: iron
-          buy-items:
-            boots:
-              material: CHAINMAIL_BOOTS
-              data: 0
-              amount: 1
-              auto-equip: true
-            leggings:
-              material: CHAINMAIL_LEGGINGS
-              data: 0
-              amount: 1
-              auto-equip: true
-  category-slot: 3
-  category-item:
-    material: CHAINMAIL_BOOTS
-    data: 0
-    amount: 1
-    enchanted: false
 quick-buy-defaults:
   element1:
     path: blocks-category.category-content.wool
@@ -170,7 +83,7 @@ quick-buy-defaults:
 blocks-category:
   category-slot: 1
   category-item:
-    material: STAINED_CLAY
+    material: ORANGE_TERRACOTTA
     data: 1
     amount: 1
     enchanted: false
@@ -183,7 +96,7 @@ blocks-category:
       content-tiers:
         tier1:
           tier-item:
-            material: WOOL
+            material: WHITE_WOOL
             data: 0
             amount: 16
             enchanted: false
@@ -192,7 +105,7 @@ blocks-category:
             currency: iron
           buy-items:
             wool:
-              material: WOOL
+              material: WHITE_WOOL
               data: 0
               amount: 16
     clay:
@@ -203,7 +116,7 @@ blocks-category:
       content-tiers:
         tier1:
           tier-item:
-            material: STAINED_CLAY
+            material: ORANGE_TERRACOTTA
             data: 1
             amount: 16
             enchanted: false
@@ -212,7 +125,7 @@ blocks-category:
             currency: iron
           buy-items:
             clay:
-              material: STAINED_CLAY
+              material: ORANGE_TERRACOTTA
               data: 1
               amount: 16
     glass:
@@ -243,7 +156,7 @@ blocks-category:
       content-tiers:
         tier1:
           tier-item:
-            material: ENDER_STONE
+            material: END_STONE
             data: 0
             amount: 16
             enchanted: false
@@ -252,7 +165,7 @@ blocks-category:
             currency: iron
           buy-items:
             stone:
-              material: ENDER_STONE
+              material: END_STONE
               data: 0
               amount: 16
     ladder:
@@ -283,7 +196,7 @@ blocks-category:
       content-tiers:
         tier1:
           tier-item:
-            material: WOOD
+            material: OAK_WOOD
             data: 0
             amount: 16
             enchanted: false
@@ -292,7 +205,7 @@ blocks-category:
             currency: gold
           buy-items:
             wood:
-              material: WOOD
+              material: OAK_WOOD
               data: 0
               amount: 16
     obsidian:
@@ -318,7 +231,7 @@ blocks-category:
 melee-category:
   category-slot: 2
   category-item:
-    material: GOLD_SWORD
+    material: GOLDEN_SWORD
     data: 0
     amount: 1
     enchanted: false
@@ -408,6 +321,94 @@ melee-category:
               data: 0
               amount: 1
               enchants: KNOCKBACK 1
+armor-category:
+  category-slot: 3
+  category-item:
+    material: CHAINMAIL_BOOTS
+    data: 0
+    amount: 1
+    enchanted: false
+  category-content:
+    chainmail:
+      content-settings:
+        content-slot: 19
+        is-permanent: true
+        is-downgradable: false
+      content-tiers:
+        tier1:
+          tier-item:
+            material: CHAINMAIL_BOOTS
+            data: 0
+            amount: 1
+            enchanted: false
+          tier-settings:
+            cost: 40
+            currency: iron
+          buy-items:
+            boots:
+              material: CHAINMAIL_BOOTS
+              data: 0
+              amount: 1
+              auto-equip: true
+            leggings:
+              material: CHAINMAIL_LEGGINGS
+              data: 0
+              amount: 1
+              auto-equip: true
+    iron-armor:
+      content-settings:
+        content-slot: 20
+        is-permanent: true
+        is-downgradable: false
+        weight: 1
+      content-tiers:
+        tier1:
+          tier-item:
+            material: IRON_BOOTS
+            data: 0
+            amount: 1
+            enchanted: false
+          tier-settings:
+            cost: 12
+            currency: gold
+          buy-items:
+            boots:
+              material: IRON_BOOTS
+              data: 0
+              amount: 1
+              auto-equip: true
+            leggings:
+              material: IRON_LEGGINGS
+              data: 0
+              amount: 1
+              auto-equip: true
+    diamond-armor:
+      content-settings:
+        content-slot: 21
+        is-permanent: true
+        is-downgradable: false
+        weight: 2
+      content-tiers:
+        tier1:
+          tier-item:
+            material: DIAMOND_BOOTS
+            data: 0
+            amount: 1
+            enchanted: false
+          tier-settings:
+            cost: 6
+            currency: emerald
+          buy-items:
+            boots:
+              material: DIAMOND_BOOTS
+              data: 0
+              amount: 1
+              auto-equip: true
+            leggings:
+              material: DIAMOND_LEGGINGS
+              data: 0
+              amount: 1
+              auto-equip: true
 tools-category:
   category-slot: 4
   category-item:
@@ -444,7 +445,7 @@ tools-category:
       content-tiers:
         tier1:
           tier-item:
-            material: WOOD_PICKAXE
+            material: WOODEN_PICKAXE
             data: 0
             amount: 1
             enchanted: false
@@ -453,7 +454,7 @@ tools-category:
             currency: iron
           buy-items:
             wooden-pickaxe:
-              material: WOOD_PICKAXE
+              material: WOODEN_PICKAXE
               data: 0
               amount: 1
         tier2:
@@ -473,7 +474,7 @@ tools-category:
               enchants: DIG_SPEED 2
         tier3:
           tier-item:
-            material: GOLD_PICKAXE
+            material: GOLDEN_PICKAXE
             data: 0
             amount: 1
             enchanted: true
@@ -482,7 +483,7 @@ tools-category:
             currency: gold
           buy-items:
             gold-pickaxe:
-              material: GOLD_PICKAXE
+              material: GOLDEN_PICKAXE
               data: 0
               amount: 1
               enchants: DIG_SPEED 3,DAMAGE_ALL 2
@@ -509,7 +510,7 @@ tools-category:
       content-tiers:
         tier1:
           tier-item:
-            material: WOOD_AXE
+            material: WOODEN_AXE
             data: 0
             amount: 1
             enchanted: false
@@ -518,7 +519,7 @@ tools-category:
             currency: iron
           buy-items:
             wooden-axe:
-              material: WOOD_AXE
+              material: WOODEN_AXE
               data: 0
               amount: 1
               enchants: DIG_SPEED 1
@@ -539,7 +540,7 @@ tools-category:
               enchants: DIG_SPEED 1
         tier3:
           tier-item:
-            material: GOLD_AXE
+            material: GOLDEN_AXE
             data: 0
             amount: 1
             enchanted: true
@@ -548,7 +549,7 @@ tools-category:
             currency: gold
           buy-items:
             gold-axe:
-              material: GOLD_AXE
+              material: GOLDEN_AXE
               data: 0
               amount: 1
               enchants: DIG_SPEED 2
@@ -660,7 +661,7 @@ ranged-category:
 potions-category:
   category-slot: 6
   category-item:
-    material: BREWING_STAND_ITEM
+    material: BREWING_STAND
     data: 0
     amount: 1
     enchanted: false
@@ -770,7 +771,7 @@ utility-category:
       content-tiers:
         tier1:
           tier-item:
-            material: SNOW_BALL
+            material: SNOWBALL
             data: 0
             amount: 1
             enchanted: false
@@ -779,7 +780,7 @@ utility-category:
             currency: iron
           buy-items:
             bedbug:
-              material: SNOW_BALL
+              material: SNOWBALL
               data: 0
               amount: 1
     dream-defender:
@@ -790,7 +791,7 @@ utility-category:
       content-tiers:
         tier1:
           tier-item:
-            material: MONSTER_EGG
+            material: HORSE_SPAWN_EGG
             data: 0
             amount: 1
             enchanted: false
@@ -799,7 +800,7 @@ utility-category:
             currency: iron
           buy-items:
             defender:
-              material: MONSTER_EGG
+              material: HORSE_SPAWN_EGG
               data: 0
               amount: 1
     fireball:
@@ -810,7 +811,7 @@ utility-category:
       content-tiers:
         tier1:
           tier-item:
-            material: FIREBALL
+            material: FIRE_CHARGE
             data: 0
             amount: 1
             enchanted: false
@@ -819,7 +820,7 @@ utility-category:
             currency: iron
           buy-items:
             fireball:
-              material: FIREBALL
+              material: FIRE_CHARGE
               data: 0
               amount: 1
               name: Fireball

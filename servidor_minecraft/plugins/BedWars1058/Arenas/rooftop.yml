@@ -1,6 +1,9 @@
 # BedWars1058 arena configuration file.
 # Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
-group: Solo
+
+# BedWars1058 arena configuration file.
+# Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
+group: 1v1
 display-name: ''
 minPlayers: 2
 maxInTeam: 1
@@ -14,9 +17,9 @@ worldBorder: 300
 y-kill-height: -1
 max-build-y: 180
 disable-generator-for-empty-teams: false
-disable-npcs-for-empty-teams: true
+disable-npcs-for-empty-teams: false
 vanilla-death-drops: false
-use-bed-hologram: true
+use-bed-hologram: false
 allow-map-break: false
 game-rules:
 - doDaylightCycle:false

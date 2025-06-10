@@ -1,4 +1,5 @@
 # Turkish translation by https://kuzeeeyk.me [kuzeeeyk#7268 or @kuzeeeyk]
+
 prefix: ''
 name: Türkçe
 cmd-main-list:
@@ -799,7 +800,8 @@ format-tab:
       - ''
       footer:
       - ''
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -817,7 +819,8 @@ format-tab:
       footer:
       - ''
       - '&7&oYou are spectating'
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -1021,6 +1024,167 @@ format-tab:
       suffix:
       - ' {vPrefix}'
       - ' {level}'
+shop-insuff-money: '{prefix}&cYeteri kadar {currency} sahibi değilsin! {amount} tane
+  daha bulmalısın!'
+shop-new-purchase: '{prefix}&6{item} &asatın aldın'
+shop-already-bought: '{prefix}&cBunu zaten satın aldın!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Böcek'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eSatın almak için tıkla!'
+shop-lore-status-cant-afford: '&cYeteri kadar {currency} sahibi değilsin!'
+shop-lore-status-tier-maxed: '&aEN YÜKSEK SEVİYEDE!'
+shop-lore-quick-add: '&bHızlı Alıma eklemek için eğilerek tıkla'
+shop-lore-quick-remove: '&bHızlı Alımdan kaldırmak için eğilerek tıkla'
+meaning-no-trap: Tuzak yok!
+format-spectator-target: '{targetTeamColor}{targetDisplayName}'
+format-upgrade-trap-cost: '&7Ücret: {currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-lore-click-buy: '{color}Satın almak için tıkla!'
+upgrades-lore-insuff-money: '{color}Yeteri kadar {currency} yok!'
+upgrades-lore-locked: '&cKİLİTLENDİ'
+upgrades-lore-unlocked: '{color}KİLİT KALDIRILDI'
+upgrades-new-purchase: '&a{player} adlı oyuncu &6{upgradeName} satın aldı'
+upgrades-upgrade-name-forge-tier-1: '{color}Demir Ocağı'
+upgrades-upgrade-lore-forge:
+- '&7Adanda üretilen kaynak'
+- '&7sayısını arttırır.'
+- ''
+- '{tier_1_color}Seviye 1: +50% Kaynak Artışı, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Seviye 2: +100% Kaynak Artışı, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Seviye 3: Zümrüt üretir, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Seviye 4: +200% Kaynak Artışı, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}Altın Ocağı'
+upgrades-upgrade-name-forge-tier-3: '{color}Zümrüt Ocağı'
+upgrades-upgrade-name-forge-tier-4: '{color}Mistik Ocak'
+upgrades-category-item-name-traps: '&eTızak satın al'
+upgrades-category-item-lore-traps:
+- '&7Alınan tuzaklar'
+- '&7sağda sıralanacak.'
+- ''
+- '&eGöz atmak için tıkla!'
+upgrades-upgrade-name-swords-tier-1: '{color}Keskin Kılıçlar'
+upgrades-upgrade-lore-swords:
+- '&7Takımının kılıç ve'
+- '&7baltalarında kalıcı olarak'
+- '&7Keskinlik I olacak!'
+- ''
+- '{tier_1_color}Ücret: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}Korumalı Zırh I'
+upgrades-upgrade-lore-armor:
+- '&7Takımının zırhlarında kalıcı'
+- '&7koruma olur!'
+- ''
+- '{tier_1_color}Seviye 1: Koruma I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Seviye 2: Koruma II, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Seviye 3: Koruma III, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Seviye 4: Koruma IV, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}Korumalı Zırh II'
+upgrades-upgrade-name-armor-tier-3: '{color}Korumalı Zırh III'
+upgrades-upgrade-name-armor-tier-4: '{color}Korumalı Zırh IV'
+upgrades-upgrade-name-miner-tier-1: '{color}Manyak Madenci I'
+upgrades-upgrade-lore-miner:
+- '&7Takımındaki oyuncular, kalıcı'
+- '&7Acele efektine sahip olurlar.'
+- ''
+- '{tier_1_color}Seviye 1: Acele I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Seviye 2: Acele II, &b{tier_2_cost} {tier_2_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}Manyak Madenci II'
+upgrades-upgrade-name-heal-pool-tier-1: '{color}Can Havuzu'
+upgrades-upgrade-lore-heal-pool:
+- '&7Adanda durduğun sürece'
+- '&7canın yenilenir!'
+- ''
+- '{tier_1_color}Ücret: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
+upgrades-upgrade-lore-dragon:
+- '&7Ejderha Saldırısı sırasında'
+- '&7takımın 2 Ejderhaya sahip olur'
+- ''
+- '{tier_1_color}Ücret: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Satın Alınabilir'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Tuzak Listesi'
+upgrades-trap-slot-item-name-first: '{color}Tuzak #1: {name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7Adana giren ilk'
+- '&7kişi bu tuzağı'
+- '&7aktifleştirir!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Bu tuzağı satın almak,'
+- '&7tuzağı sıraya ekler. Fiyat,'
+- '&7adandaki tuzak sayısına'
+- '&7göre belirlenir.'
+- ''
+- '&7Sıradaki tuzak: &b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}Tuzak #2: {name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7Adana giren ikinci'
+- '&7kişi bu tuzağı'
+- '&7aktifleştirir!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Bu tuzağı satın almak,'
+- '&7tuzağı sıraya ekler. Fiyat,'
+- '&7adandaki tuzak sayısına'
+- '&7göre belirlenir.'
+- ''
+- '&7Sıradaki tuzak: &b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}Tuzak #3: {name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7Adana giren üçüncü'
+- '&7kişi bu tuzağı'
+- '&7aktifleştirir!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Bu tuzağı satın almak,'
+- '&7tuzağı sıraya ekler. Fiyat,'
+- '&7adandaki tuzak sayısına'
+- '&7göre belirlenir.'
+- ''
+- '&7Sıradaki tuzak: &b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}Bu bir tuzak!'
+upgrades-base-trap-lore-1:
+- '&75 saniye boyunca Körlük ve'
+- '&7Yavaşlık verir.'
+- ''
+upgrades-base-trap-name-2: '{color}Karşı Saldırı Tuzağı'
+upgrades-base-trap-lore-2:
+- '&7Tetiklendiğinde, adandaki takım arkadaşlarına'
+- '&7Hız efekti verir.'
+- ''
+upgrades-base-trap-name-3: '{color}Alaram Tuzağı'
+upgrades-base-trap-lore-3:
+- '&7Görünmez oyuncuları'
+- '&7görünür kılar.'
+- ''
+upgrades-base-trap-name-4: '{color}Madenci Yorgunluğu Tuzağı'
+upgrades-base-trap-lore-4:
+- '&710 saniye boyunca'
+- '&7Madenci Yorgunluğu verir.'
+- ''
+upgrades-separator-item-name-back: '&aGeri'
+upgrades-separator-item-lore-back:
+- '&7Yükseltmeler & Tuzaklar'
+upgrades-category-gui-name-traps: '&8Tuzak Ekle'
+upgrades-trap-queue-full: '&cTrap sırası dolu!'
+upgrades-trap-default-msg: '&c&l{trap} tetiklendi!'
+upgrades-trap-default-title: '&cTUZAK TETİKLENDİ!'
+upgrades-trap-default-subtitle: '&f{trap} &ftuzağın tetiklendi!'
+upgrades-base-trap-msg-3: '&c&lAlarm, {color}&l{team} &c&ltakımdaki &7&l{player} &c&ltarafından
+  tetiklendi!'
+upgrades-base-trap-title-3: '&c&lALARM!!!'
+upgrades-base-trap-subtitle-3: '&fAlarm, {color}{team} &fTakım tarafından tetiklendi!'
 shop-items-messages:
   inventory-name: '&8Hızlı Alım'
   quick-buy-add-inventory-name: '&8Hızlı Alıma ekleniyor...'
@@ -1359,167 +1523,7 @@ shop-items-messages:
     - '{buy_status}'
     content-item-tower-name: '&cName not set'
     content-item-tower-lore: '&cLore not set'
-shop-insuff-money: '{prefix}&cYeteri kadar {currency} sahibi değilsin! {amount} tane
-  daha bulmalısın!'
-shop-new-purchase: '{prefix}&6{item} &asatın aldın'
-shop-already-bought: '{prefix}&cBunu zaten satın aldın!'
-shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Böcek'
-shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
-shop-lore-status-can-buy: '&eSatın almak için tıkla!'
-shop-lore-status-cant-afford: '&cYeteri kadar {currency} sahibi değilsin!'
-shop-lore-status-tier-maxed: '&aEN YÜKSEK SEVİYEDE!'
-shop-lore-quick-add: '&bHızlı Alıma eklemek için eğilerek tıkla'
-shop-lore-quick-remove: '&bHızlı Alımdan kaldırmak için eğilerek tıkla'
-meaning-no-trap: Tuzak yok!
-format-spectator-target: '{targetTeamColor}{targetDisplayName}'
-format-upgrade-trap-cost: '&7Ücret: {currencyColor}{cost} {currency}'
-format-upgrade-color-can-afford: '&e'
-format-upgrade-color-cant-afford: '&c'
-format-upgrade-color-unlocked: '&a'
-format-tier-color-locked: '&7'
-format-tier-color-unlocked: '&a'
-upgrades-lore-click-buy: '{color}Satın almak için tıkla!'
-upgrades-lore-insuff-money: '{color}Yeteri kadar {currency} yok!'
-upgrades-lore-locked: '&cKİLİTLENDİ'
-upgrades-lore-unlocked: '{color}KİLİT KALDIRILDI'
-upgrades-new-purchase: '&a{player} adlı oyuncu &6{upgradeName} satın aldı'
-upgrades-upgrade-name-forge-tier-1: '{color}Demir Ocağı'
-upgrades-upgrade-lore-forge:
-- '&7Adanda üretilen kaynak'
-- '&7sayısını arttırır.'
-- ''
-- '{tier_1_color}Seviye 1: +50% Kaynak Artışı, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Seviye 2: +100% Kaynak Artışı, &b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}Seviye 3: Zümrüt üretir, &b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}Seviye 4: +200% Kaynak Artışı, &b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-forge-tier-2: '{color}Altın Ocağı'
-upgrades-upgrade-name-forge-tier-3: '{color}Zümrüt Ocağı'
-upgrades-upgrade-name-forge-tier-4: '{color}Mistik Ocak'
-upgrades-category-item-name-traps: '&eTızak satın al'
-upgrades-category-item-lore-traps:
-- '&7Alınan tuzaklar'
-- '&7sağda sıralanacak.'
-- ''
-- '&eGöz atmak için tıkla!'
-upgrades-upgrade-name-swords-tier-1: '{color}Keskin Kılıçlar'
-upgrades-upgrade-lore-swords:
-- '&7Takımının kılıç ve'
-- '&7baltalarında kalıcı olarak'
-- '&7Keskinlik I olacak!'
-- ''
-- '{tier_1_color}Ücret: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-1: '{color}Korumalı Zırh I'
-upgrades-upgrade-lore-armor:
-- '&7Takımının zırhlarında kalıcı'
-- '&7koruma olur!'
-- ''
-- '{tier_1_color}Seviye 1: Koruma I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Seviye 2: Koruma II, &b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}Seviye 3: Koruma III, &b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}Seviye 4: Koruma IV, &b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-2: '{color}Korumalı Zırh II'
-upgrades-upgrade-name-armor-tier-3: '{color}Korumalı Zırh III'
-upgrades-upgrade-name-armor-tier-4: '{color}Korumalı Zırh IV'
-upgrades-upgrade-name-miner-tier-1: '{color}Manyak Madenci I'
-upgrades-upgrade-lore-miner:
-- '&7Takımındaki oyuncular, kalıcı'
-- '&7Acele efektine sahip olurlar.'
-- ''
-- '{tier_1_color}Seviye 1: Acele I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Seviye 2: Acele II, &b{tier_2_cost} {tier_2_currency}'
-- ''
-upgrades-upgrade-name-miner-tier-2: '{color}Manyak Madenci II'
-upgrades-upgrade-name-heal-pool-tier-1: '{color}Can Havuzu'
-upgrades-upgrade-lore-heal-pool:
-- '&7Adanda durduğun sürece'
-- '&7canın yenilenir!'
-- ''
-- '{tier_1_color}Ücret: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
-upgrades-upgrade-lore-dragon:
-- '&7Ejderha Saldırısı sırasında'
-- '&7takımın 2 Ejderhaya sahip olur'
-- ''
-- '{tier_1_color}Ücret: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-separator-item-name-glass: '&8⬆&7Satın Alınabilir'
-upgrades-separator-item-lore-glass:
-- '&8⬇&7Tuzak Listesi'
-upgrades-trap-slot-item-name-first: '{color}Tuzak #1: {name}'
-upgrades-trap-slot-item-lore1-first:
-- '&7Adana giren ilk'
-- '&7kişi bu tuzağı'
-- '&7aktifleştirir!'
-upgrades-trap-slot-item-lore2-first:
-- ''
-- '&7Bu tuzağı satın almak,'
-- '&7tuzağı sıraya ekler. Fiyat,'
-- '&7adandaki tuzak sayısına'
-- '&7göre belirlenir.'
-- ''
-- '&7Sıradaki tuzak: &b{cost} {currency}'
-upgrades-trap-slot-item-name-second: '{color}Tuzak #2: {name}'
-upgrades-trap-slot-item-lore1-second:
-- '&7Adana giren ikinci'
-- '&7kişi bu tuzağı'
-- '&7aktifleştirir!'
-upgrades-trap-slot-item-lore2-second:
-- ''
-- '&7Bu tuzağı satın almak,'
-- '&7tuzağı sıraya ekler. Fiyat,'
-- '&7adandaki tuzak sayısına'
-- '&7göre belirlenir.'
-- ''
-- '&7Sıradaki tuzak: &b{cost} {currency}'
-upgrades-trap-slot-item-name-third: '{color}Tuzak #3: {name}'
-upgrades-trap-slot-item-lore1-third:
-- '&7Adana giren üçüncü'
-- '&7kişi bu tuzağı'
-- '&7aktifleştirir!'
-upgrades-trap-slot-item-lore2-third:
-- ''
-- '&7Bu tuzağı satın almak,'
-- '&7tuzağı sıraya ekler. Fiyat,'
-- '&7adandaki tuzak sayısına'
-- '&7göre belirlenir.'
-- ''
-- '&7Sıradaki tuzak: &b{cost} {currency}'
-upgrades-base-trap-name-1: '{color}Bu bir tuzak!'
-upgrades-base-trap-lore-1:
-- '&75 saniye boyunca Körlük ve'
-- '&7Yavaşlık verir.'
-- ''
-upgrades-base-trap-name-2: '{color}Karşı Saldırı Tuzağı'
-upgrades-base-trap-lore-2:
-- '&7Tetiklendiğinde, adandaki takım arkadaşlarına'
-- '&7Hız efekti verir.'
-- ''
-upgrades-base-trap-name-3: '{color}Alaram Tuzağı'
-upgrades-base-trap-lore-3:
-- '&7Görünmez oyuncuları'
-- '&7görünür kılar.'
-- ''
-upgrades-base-trap-name-4: '{color}Madenci Yorgunluğu Tuzağı'
-upgrades-base-trap-lore-4:
-- '&710 saniye boyunca'
-- '&7Madenci Yorgunluğu verir.'
-- ''
-upgrades-separator-item-name-back: '&aGeri'
-upgrades-separator-item-lore-back:
-- '&7Yükseltmeler & Tuzaklar'
-upgrades-category-gui-name-traps: '&8Tuzak Ekle'
-upgrades-trap-queue-full: '&cTrap sırası dolu!'
-upgrades-trap-default-msg: '&c&l{trap} tetiklendi!'
-upgrades-trap-default-title: '&cTUZAK TETİKLENDİ!'
-upgrades-trap-default-subtitle: '&f{trap} &ftuzağın tetiklendi!'
-upgrades-base-trap-msg-3: '&c&lAlarm, {color}&l{team} &c&ltakımdaki &7&l{player} &c&ltarafından
-  tetiklendi!'
-upgrades-base-trap-title-3: '&c&lALARM!!!'
-upgrades-base-trap-subtitle-3: '&fAlarm, {color}{team} &fTakım tarafından tetiklendi!'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 addons:
   compass:
     messages:
@@ -1727,8 +1731,10 @@ addons:
     cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
       The game is starting!'
     already-in-team: '{prefix}&cYou are already in this team!'
-upgrades-menu-gui-name-default: '&8Upgrades & Traps'
-display-group-solo: Solo
+  play-again:
+    selector-permission-denied: '&cYou don''t have permission to select an arena!'
+    not-party-owner: '&cOnly the owner of the party can play again!'
+display-group-default: Default
 team-name-lighthouse-Gray: Gray
 team-name-lighthouse-Pink: Pink
 team-name-lighthouse-Red: Red
@@ -1737,6 +1743,142 @@ team-name-lighthouse-Blue: Blue
 team-name-lighthouse-Aqua: Aqua
 team-name-lighthouse-Green: Green
 team-name-lighthouse-Yellow: Yellow
+team-name-ashore2-Red: Red
+team-name-ashore2-Blue: Blue
+team-name-ashore2-Green: Green
+team-name-ashore2-Yellow: Yellow
+team-name-toro-Gray: Gray
+team-name-toro-Pink: Pink
+team-name-toro-Red: Red
+team-name-toro-White: White
+team-name-toro-Blue: Blue
+team-name-toro-Aqua: Aqua
+team-name-toro-Green: Green
+team-name-toro-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashore-Red: Red
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-ashore-Yellow: Yellow
+team-name-eastwood2-Red: Red
+team-name-eastwood2-Blue: Blue
+team-name-eastwood2-Green: Green
+team-name-eastwood2-Yellow: Yellow
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-siege2-Gray: Gray
+team-name-siege2-Pink: Pink
+team-name-siege2-Red: Red
+team-name-siege2-White: White
+team-name-siege2-Blue: Blue
+team-name-siege2-Aqua: Aqua
+team-name-siege2-Green: Green
+team-name-siege2-Yellow: Yellow
+team-name-lectus2-Red: Red
+team-name-lectus2-Blue: Blue
+team-name-lectus2-Green: Green
+team-name-lectus2-Yellow: Yellow
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-toro2-Gray: Gray
+team-name-toro2-Pink: Pink
+team-name-toro2-Red: Red
+team-name-toro2-White: White
+team-name-toro2-Blue: Blue
+team-name-toro2-Aqua: Aqua
+team-name-toro2-Green: Green
+team-name-toro2-Yellow: Yellow
+team-name-crypt-Pink: Pink
+team-name-crypt-White: White
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Gray: Gray
+team-name-crypt-Red: Red
+team-name-crypt-Yellow: Yellow
+team-name-crypt-Green: Green
+team-name-crypt-Blue: Blue
+team-name-glacier2-Gray: Gray
+team-name-glacier2-Pink: Pink
+team-name-glacier2-Red: Red
+team-name-glacier2-White: White
+team-name-glacier2-Blue: Blue
+team-name-glacier2-Aqua: Aqua
+team-name-glacier2-Green: Green
+team-name-glacier2-Yellow: Yellow
+team-name-sandcastle2-Yellow: Yellow
+team-name-sandcastle2-Green: Green
+team-name-sandcastle2-Red: Red
+team-name-sandcastle2-Blue: Blue
+team-name-aquarium2-Green: Green
+team-name-aquarium2-Blue: Blue
+team-name-aquarium2-Yellow: Yellow
+team-name-aquarium2-Red: Red
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Aqua: Aqua
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-stonekeep2-Red: Red
+team-name-stonekeep2-Yellow: Yellow
+team-name-stonekeep2-Blue: Blue
+team-name-stonekeep2-Green: Green
+team-name-acropolis2-Green: Green
+team-name-acropolis2-Blue: Blue
+team-name-acropolis2-White: White
+team-name-acropolis2-Yellow: Yellow
+team-name-acropolis2-Red: Red
+team-name-acropolis2-Aqua: Aqua
+team-name-acropolis2-Gray: Gray
+team-name-acropolis2-Pink: Pink
+team-name-lectus-Red: Red
+team-name-lectus-Blue: Blue
+team-name-lectus-Green: Green
+team-name-lectus-Yellow: Yellow
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise2-Pink: Pink
+team-name-skyrise2-Gray: Gray
+team-name-skyrise2-White: White
+team-name-skyrise2-Red: Red
+team-name-skyrise2-Blue: Blue
+team-name-skyrise2-Aqua: Aqua
+team-name-skyrise2-Green: Green
+team-name-skyrise2-Yellow: Yellow
 team-name-rooftop-White: White
 team-name-rooftop-Gray: Gray
 team-name-rooftop-Pink: Pink
@@ -1745,7 +1887,38 @@ team-name-rooftop-Blue: Blue
 team-name-rooftop-Aqua: Aqua
 team-name-rooftop-Green: Green
 team-name-rooftop-Yellow: Yellow
-display-group-doubles: Doubles
+team-name-crypt2-Pink: Pink
+team-name-crypt2-White: White
+team-name-crypt2-Aqua: Aqua
+team-name-crypt2-Gray: Gray
+team-name-crypt2-Red: Red
+team-name-crypt2-Yellow: Yellow
+team-name-crypt2-Green: Green
+team-name-crypt2-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Green: Green
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Blue: Blue
+team-name-rooftop2-White: White
+team-name-rooftop2-Gray: Gray
+team-name-rooftop2-Pink: Pink
+team-name-rooftop2-Red: Red
+team-name-rooftop2-Blue: Blue
+team-name-rooftop2-Aqua: Aqua
+team-name-rooftop2-Green: Green
+team-name-rooftop2-Yellow: Yellow
+team-name-temple-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Green: Green
+team-name-temple-Blue: Blue
+team-name-playground2-Gray: Gray
+team-name-playground2-Pink: Pink
+team-name-playground2-Red: Red
+team-name-playground2-White: White
+team-name-playground2-Blue: Blue
+team-name-playground2-Aqua: Aqua
+team-name-playground2-Green: Green
+team-name-playground2-Yellow: Yellow
 team-name-lighthouse2-Gray: Gray
 team-name-lighthouse2-Pink: Pink
 team-name-lighthouse2-Red: Red
@@ -1754,3 +1927,15 @@ team-name-lighthouse2-Blue: Blue
 team-name-lighthouse2-Aqua: Aqua
 team-name-lighthouse2-Green: Green
 team-name-lighthouse2-Yellow: Yellow
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+team-name-temple2-Yellow: Yellow
+team-name-temple2-Red: Red
+team-name-temple2-Green: Green
+team-name-temple2-Blue: Blue
+display-group-4v4v4v4: 4v4v4v4
+display-group-1v1: 1v1
+display-group-3v3v3v3: 3v3v3v3
+display-group-2v2: 2v2

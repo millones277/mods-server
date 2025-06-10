@@ -515,7 +515,8 @@ format-tab:
       - ''
       footer:
       - ''
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -533,7 +534,8 @@ format-tab:
       footer:
       - ''
       - '&7&oYou are spectating'
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -834,343 +836,6 @@ money-reward-per-teammate: '{prefix}&6+{money} Монет (Поддержка к
 money-reward-bed-destroyed: '{prefix}&6+{money} Монет (Разрушение кровати).'
 money-reward-final-kill: '{prefix}&6+{money} Монет (Финальное убийство).'
 money-reward-regular-kill: '{prefix}&6+{money} Монет (Убийство).'
-shop-items-messages:
-  inventory-name: '&8Быстрая покупка'
-  quick-buy-add-inventory-name: '&8Добавление в быструю покупку...'
-  separator-item-name: '&8⇧ Категории'
-  separator-item-lore:
-  - '&8⇩ Предметы'
-  quick-buy-item-name: '&bБыстрая покупка'
-  quick-buy-item-lore: []
-  quick-buy-empty-item-name: '&cПустой слот!'
-  quick-buy-empty-item-lore:
-  - '&7Это слот быстрой покупки!'
-  - '&bШифт-клик &7на любой предмет'
-  - '&7для добавления его сюда.'
-  can-buy-color: '&a'
-  cant-buy-color: '&c'
-  blocks-category:
-    inventory-name: '&8Блоки'
-    category-item-name: '&aБлоки'
-    category-item-lore:
-    - '&eНажмите для просмотра!'
-    content-item-wool-name: '{color}Шерсть'
-    content-item-wool-lore:
-    - '&7Цена: &f{cost} {currency}'
-    - ''
-    - '&7Great for bridging across'
-    - '&7islands. Turns into your team''s'
-    - '&7color.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-clay-name: '{color}Глина'
-    content-item-clay-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Стандартный блок для защиты кровати.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-glass-name: '{color}Взрывоустойчивое стекло'
-    content-item-glass-lore:
-    - '&7Cost: {cost} {currency}'
-    - ''
-    - '&7Имеет имунитет к взрывам.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-stone-name: '{color}Эндерняк'
-    content-item-stone-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Солидный блок для защиты кровати.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-ladder-name: '{color}Лестницы'
-    content-item-ladder-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Полезно когда кошки застревают'
-    - '&7на деревьях.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-obsidian-name: '{color}Обсидиан'
-    content-item-obsidian-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Лучший блок для защиты кровати.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-wood-name: '{color}Дерево'
-    content-item-wood-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Хороший блок для защиты кровати.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  melee-category:
-    inventory-name: '&8Оружие'
-    category-item-name: '&aОружие'
-    category-item-lore:
-    - '&eНажмите для просмотра!'
-    content-item-stone-sword-name: '{color}Каменный меч'
-    content-item-stone-sword-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-iron-sword-name: '{color}Железный меч'
-    content-item-iron-sword-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-diamond-sword-name: '{color}Алмазный меч'
-    content-item-diamond-sword-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-stick-name: '{color}Палка (Отдача I)'
-    content-item-stick-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  armor-category:
-    inventory-name: '&8Броня'
-    category-item-name: '&aБроня'
-    category-item-lore:
-    - '&eНажмите для просмотра!'
-    content-item-chainmail-name: '{color}Кольчужная броня'
-    content-item-chainmail-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Кольчужные штаны и сапоги'
-    - '&7Вы всегда будете появляться'
-    - '&7с ними при смерти.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-iron-armor-name: '{color}Железная броня'
-    content-item-iron-armor-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&Железные штаны и сапоги'
-    - '&7Вы всегда будете появляться'
-    - '&7с ними при смерти.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-diamond-armor-name: '{color}Permanent Diamond Armor'
-    content-item-diamond-armor-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Алмазные штаны и сапоги'
-    - '&7Вы всегда будете появляться'
-    - '&7с ними при смерти.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  tools-category:
-    inventory-name: '&8Инструменты'
-    category-item-name: '&aИнструменты'
-    category-item-lore:
-    - '&eНажмите для просмотра!'
-    content-item-shears-name: '{color}Ножницы'
-    content-item-shears-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Отличный инструмент для ломания шерсти.'
-    - '&7Вы всегда будете появляться с ножницами.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-pickaxe-name: '{color}Кирка {tier}'
-    content-item-pickaxe-lore:
-    - '&7Цена: {cost} {currency}'
-    - '&7Фаза: &e{tier}'
-    - ''
-    - '&7Это улучшаемый предмет.'
-    - '&7Если вы умрёте, то он.'
-    - '&7потеряет одну фазу!'
-    - ''
-    - '&7Если вы ухудшите свой'
-    - '&7предметы до последней фазы'
-    - '&7то вы всегда будете появляться с самой нижней фазой.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-axe-name: '{color}Топор {tier}'
-    content-item-axe-lore:
-    - '&7Цена: {cost} {currency}'
-    - '&7Фаза: &e{tier}'
-    - ''
-    - '&7Это улучшаемый предмет.'
-    - '&7Если вы умрёте, то он.'
-    - '&7потеряет одну фазу!'
-    - ''
-    - '&7Если вы ухудшите свой'
-    - '&7предметы до последней фазы'
-    - '&7то вы всегда будете появляться с самой нижней фазой.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  ranged-category:
-    inventory-name: '&8Луки'
-    category-item-name: '&aЛуки'
-    category-item-lore:
-    - '&eНажмите для просмотра!'
-    content-item-arrow-name: '{color}Стрела'
-    content-item-arrow-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow1-name: '{color}Лук'
-    content-item-bow1-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow2-name: '{color}Лук (Сила I)'
-    content-item-bow2-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow3-name: '{color}Лук (Сила  I, Отдача I)'
-    content-item-bow3-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  potions-category:
-    inventory-name: '&8Зелья'
-    category-item-name: '&aЗелья'
-    category-item-lore:
-    - '&eНажмите для просмотра!'
-    content-item-speed-potion-name: '{color}Зелье на Скорость II (45 секунд)'
-    content-item-speed-potion-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-jump-potion-name: '{color}Зелье на Прыжок V (45 секунд)'
-    content-item-jump-potion-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-invisibility-name: '{color}Зелье невидимости (30 секунд)'
-    content-item-invisibility-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  utility-category:
-    inventory-name: '&8Разное'
-    category-item-name: '&aРазное'
-    category-item-lore:
-    - '&eНажмите для просмотра!'
-    content-item-golden-apple-name: '{color}Золотое Яблоко'
-    content-item-golden-apple-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Хорошо восстанавливает здоровье.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bedbug-name: '{color}Чешуйница'
-    content-item-bedbug-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Спавнит чешуйниц при'
-    - '&7бросания снежка.'
-    - '&7Может скинуть врагов, действует 15 секунд.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-dream-defender-name: '{color}Железный Голем'
-    content-item-dream-defender-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Железный голем для защиты вашей'
-    - '&7базы. Действует 4 минуты.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-fireball-name: '{color}Фаербол'
-    content-item-fireball-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Нажми ПКМ чтобы запустить!'
-    - '&7Огненный заряд хорошенько поджарит'
-    - '&7мосты ваших противников!'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-tnt-name: '{color}Динамит'
-    content-item-tnt-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Автоматически поджигаеться, при'
-    - '&7размещении!'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-ender-pearl-name: '{color}Эндер-пёрл'
-    content-item-ender-pearl-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Самый быстрый способ добраться'
-    - '&7до базы вашего врага.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-water-bucket-name: '{color}Ведро Воды'
-    content-item-water-bucket-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Отличный метод замедлить ваших'
-    - '&7противников. Также может'
-    - '&7защитить от взрыва динамита.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bridge-egg-name: '{color}Яйцо'
-    content-item-bridge-egg-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Создаёт мост, по заданной'
-    - '&7траектории после броска.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-magic-milk-name: '{color}Магическое Молоко'
-    content-item-magic-milk-lore:
-    - '&7Цена: {cost} {currency}'
-    - ''
-    - '&7Снимает эффекты всех ловушек,'
-    - '&7поставленных на базу противника, в течении 60 секунд.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-sponge-name: '{color}Губка'
-    content-item-sponge-lore:
-    - '&7Cost: {cost} {currency}'
-    - ''
-    - '&7Вжимает в себя воду.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-tower-name: '&cName not set'
-    content-item-tower-lore: '&cLore not set'
 shop-insuff-money: '{prefix}&cТебе нехватает {currency}! Нужно еще {amount}!'
 shop-new-purchase: '{prefix}&aТы купил &6{item}'
 shop-already-bought: '{prefix}&cТы уже купил это!'
@@ -1603,6 +1268,344 @@ upgrades-base-trap-msg-3: '&c&lЛовушка была активирована 
 upgrades-base-trap-title-3: '&c&lВНИМАНИЕ!!!'
 upgrades-base-trap-subtitle-3: '&fЛовушка была активирована командой {color}{team}
   &f!'
+shop-items-messages:
+  inventory-name: '&8Быстрая покупка'
+  quick-buy-add-inventory-name: '&8Добавление в быструю покупку...'
+  separator-item-name: '&8⇧ Категории'
+  separator-item-lore:
+  - '&8⇩ Предметы'
+  quick-buy-item-name: '&bБыстрая покупка'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cПустой слот!'
+  quick-buy-empty-item-lore:
+  - '&7Это слот быстрой покупки!'
+  - '&bШифт-клик &7на любой предмет'
+  - '&7для добавления его сюда.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Блоки'
+    category-item-name: '&aБлоки'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-wool-name: '{color}Шерсть'
+    content-item-wool-lore:
+    - '&7Цена: &f{cost} {currency}'
+    - ''
+    - '&7Great for bridging across'
+    - '&7islands. Turns into your team''s'
+    - '&7color.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-clay-name: '{color}Глина'
+    content-item-clay-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Стандартный блок для защиты кровати.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-glass-name: '{color}Взрывоустойчивое стекло'
+    content-item-glass-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Имеет имунитет к взрывам.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stone-name: '{color}Эндерняк'
+    content-item-stone-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Солидный блок для защиты кровати.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ladder-name: '{color}Лестницы'
+    content-item-ladder-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Полезно когда кошки застревают'
+    - '&7на деревьях.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-obsidian-name: '{color}Обсидиан'
+    content-item-obsidian-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Лучший блок для защиты кровати.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wood-name: '{color}Дерево'
+    content-item-wood-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Хороший блок для защиты кровати.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  melee-category:
+    inventory-name: '&8Оружие'
+    category-item-name: '&aОружие'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-stone-sword-name: '{color}Каменный меч'
+    content-item-stone-sword-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-sword-name: '{color}Железный меч'
+    content-item-iron-sword-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-sword-name: '{color}Алмазный меч'
+    content-item-diamond-sword-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stick-name: '{color}Палка (Отдача I)'
+    content-item-stick-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  armor-category:
+    inventory-name: '&8Броня'
+    category-item-name: '&aБроня'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-chainmail-name: '{color}Кольчужная броня'
+    content-item-chainmail-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Кольчужные штаны и сапоги'
+    - '&7Вы всегда будете появляться'
+    - '&7с ними при смерти.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-armor-name: '{color}Железная броня'
+    content-item-iron-armor-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&Железные штаны и сапоги'
+    - '&7Вы всегда будете появляться'
+    - '&7с ними при смерти.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-armor-name: '{color}Permanent Diamond Armor'
+    content-item-diamond-armor-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Алмазные штаны и сапоги'
+    - '&7Вы всегда будете появляться'
+    - '&7с ними при смерти.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  tools-category:
+    inventory-name: '&8Инструменты'
+    category-item-name: '&aИнструменты'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-shears-name: '{color}Ножницы'
+    content-item-shears-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Отличный инструмент для ломания шерсти.'
+    - '&7Вы всегда будете появляться с ножницами.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-pickaxe-name: '{color}Кирка {tier}'
+    content-item-pickaxe-lore:
+    - '&7Цена: {cost} {currency}'
+    - '&7Фаза: &e{tier}'
+    - ''
+    - '&7Это улучшаемый предмет.'
+    - '&7Если вы умрёте, то он.'
+    - '&7потеряет одну фазу!'
+    - ''
+    - '&7Если вы ухудшите свой'
+    - '&7предметы до последней фазы'
+    - '&7то вы всегда будете появляться с самой нижней фазой.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-axe-name: '{color}Топор {tier}'
+    content-item-axe-lore:
+    - '&7Цена: {cost} {currency}'
+    - '&7Фаза: &e{tier}'
+    - ''
+    - '&7Это улучшаемый предмет.'
+    - '&7Если вы умрёте, то он.'
+    - '&7потеряет одну фазу!'
+    - ''
+    - '&7Если вы ухудшите свой'
+    - '&7предметы до последней фазы'
+    - '&7то вы всегда будете появляться с самой нижней фазой.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  ranged-category:
+    inventory-name: '&8Луки'
+    category-item-name: '&aЛуки'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-arrow-name: '{color}Стрела'
+    content-item-arrow-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow1-name: '{color}Лук'
+    content-item-bow1-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow2-name: '{color}Лук (Сила I)'
+    content-item-bow2-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow3-name: '{color}Лук (Сила  I, Отдача I)'
+    content-item-bow3-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  potions-category:
+    inventory-name: '&8Зелья'
+    category-item-name: '&aЗелья'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-speed-potion-name: '{color}Зелье на Скорость II (45 секунд)'
+    content-item-speed-potion-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-jump-potion-name: '{color}Зелье на Прыжок V (45 секунд)'
+    content-item-jump-potion-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-invisibility-name: '{color}Зелье невидимости (30 секунд)'
+    content-item-invisibility-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  utility-category:
+    inventory-name: '&8Разное'
+    category-item-name: '&aРазное'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-golden-apple-name: '{color}Золотое Яблоко'
+    content-item-golden-apple-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Хорошо восстанавливает здоровье.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bedbug-name: '{color}Чешуйница'
+    content-item-bedbug-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Спавнит чешуйниц при'
+    - '&7бросания снежка.'
+    - '&7Может скинуть врагов, действует 15 секунд.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-dream-defender-name: '{color}Железный Голем'
+    content-item-dream-defender-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Железный голем для защиты вашей'
+    - '&7базы. Действует 4 минуты.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-fireball-name: '{color}Фаербол'
+    content-item-fireball-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Нажми ПКМ чтобы запустить!'
+    - '&7Огненный заряд хорошенько поджарит'
+    - '&7мосты ваших противников!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tnt-name: '{color}Динамит'
+    content-item-tnt-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Автоматически поджигаеться, при'
+    - '&7размещении!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ender-pearl-name: '{color}Эндер-пёрл'
+    content-item-ender-pearl-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Самый быстрый способ добраться'
+    - '&7до базы вашего врага.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-water-bucket-name: '{color}Ведро Воды'
+    content-item-water-bucket-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Отличный метод замедлить ваших'
+    - '&7противников. Также может'
+    - '&7защитить от взрыва динамита.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bridge-egg-name: '{color}Яйцо'
+    content-item-bridge-egg-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Создаёт мост, по заданной'
+    - '&7траектории после броска.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-magic-milk-name: '{color}Магическое Молоко'
+    content-item-magic-milk-lore:
+    - '&7Цена: {cost} {currency}'
+    - ''
+    - '&7Снимает эффекты всех ловушек,'
+    - '&7поставленных на базу противника, в течении 60 секунд.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-sponge-name: '{color}Губка'
+    content-item-sponge-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '&7Вжимает в себя воду.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tower-name: '&cName not set'
+    content-item-tower-lore: '&cLore not set'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 addons:
   compass:
     messages:
@@ -1813,8 +1816,10 @@ addons:
     cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
       The game is starting!'
     already-in-team: '{prefix}&cYou are already in this team!'
-upgrades-menu-gui-name-default: '&8Upgrades & Traps'
-display-group-solo: Solo
+  play-again:
+    selector-permission-denied: '&cYou don''t have permission to select an arena!'
+    not-party-owner: '&cOnly the owner of the party can play again!'
+display-group-default: Default
 team-name-lighthouse-Gray: Gray
 team-name-lighthouse-Pink: Pink
 team-name-lighthouse-Red: Red
@@ -1823,6 +1828,142 @@ team-name-lighthouse-Blue: Blue
 team-name-lighthouse-Aqua: Aqua
 team-name-lighthouse-Green: Green
 team-name-lighthouse-Yellow: Yellow
+team-name-ashore2-Red: Red
+team-name-ashore2-Blue: Blue
+team-name-ashore2-Green: Green
+team-name-ashore2-Yellow: Yellow
+team-name-toro-Gray: Gray
+team-name-toro-Pink: Pink
+team-name-toro-Red: Red
+team-name-toro-White: White
+team-name-toro-Blue: Blue
+team-name-toro-Aqua: Aqua
+team-name-toro-Green: Green
+team-name-toro-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashore-Red: Red
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-ashore-Yellow: Yellow
+team-name-eastwood2-Red: Red
+team-name-eastwood2-Blue: Blue
+team-name-eastwood2-Green: Green
+team-name-eastwood2-Yellow: Yellow
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-siege2-Gray: Gray
+team-name-siege2-Pink: Pink
+team-name-siege2-Red: Red
+team-name-siege2-White: White
+team-name-siege2-Blue: Blue
+team-name-siege2-Aqua: Aqua
+team-name-siege2-Green: Green
+team-name-siege2-Yellow: Yellow
+team-name-lectus2-Red: Red
+team-name-lectus2-Blue: Blue
+team-name-lectus2-Green: Green
+team-name-lectus2-Yellow: Yellow
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-toro2-Gray: Gray
+team-name-toro2-Pink: Pink
+team-name-toro2-Red: Red
+team-name-toro2-White: White
+team-name-toro2-Blue: Blue
+team-name-toro2-Aqua: Aqua
+team-name-toro2-Green: Green
+team-name-toro2-Yellow: Yellow
+team-name-crypt-Pink: Pink
+team-name-crypt-White: White
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Gray: Gray
+team-name-crypt-Red: Red
+team-name-crypt-Yellow: Yellow
+team-name-crypt-Green: Green
+team-name-crypt-Blue: Blue
+team-name-glacier2-Gray: Gray
+team-name-glacier2-Pink: Pink
+team-name-glacier2-Red: Red
+team-name-glacier2-White: White
+team-name-glacier2-Blue: Blue
+team-name-glacier2-Aqua: Aqua
+team-name-glacier2-Green: Green
+team-name-glacier2-Yellow: Yellow
+team-name-sandcastle2-Yellow: Yellow
+team-name-sandcastle2-Green: Green
+team-name-sandcastle2-Red: Red
+team-name-sandcastle2-Blue: Blue
+team-name-aquarium2-Green: Green
+team-name-aquarium2-Blue: Blue
+team-name-aquarium2-Yellow: Yellow
+team-name-aquarium2-Red: Red
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Aqua: Aqua
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-stonekeep2-Red: Red
+team-name-stonekeep2-Yellow: Yellow
+team-name-stonekeep2-Blue: Blue
+team-name-stonekeep2-Green: Green
+team-name-acropolis2-Green: Green
+team-name-acropolis2-Blue: Blue
+team-name-acropolis2-White: White
+team-name-acropolis2-Yellow: Yellow
+team-name-acropolis2-Red: Red
+team-name-acropolis2-Aqua: Aqua
+team-name-acropolis2-Gray: Gray
+team-name-acropolis2-Pink: Pink
+team-name-lectus-Red: Red
+team-name-lectus-Blue: Blue
+team-name-lectus-Green: Green
+team-name-lectus-Yellow: Yellow
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise2-Pink: Pink
+team-name-skyrise2-Gray: Gray
+team-name-skyrise2-White: White
+team-name-skyrise2-Red: Red
+team-name-skyrise2-Blue: Blue
+team-name-skyrise2-Aqua: Aqua
+team-name-skyrise2-Green: Green
+team-name-skyrise2-Yellow: Yellow
 team-name-rooftop-White: White
 team-name-rooftop-Gray: Gray
 team-name-rooftop-Pink: Pink
@@ -1831,7 +1972,38 @@ team-name-rooftop-Blue: Blue
 team-name-rooftop-Aqua: Aqua
 team-name-rooftop-Green: Green
 team-name-rooftop-Yellow: Yellow
-display-group-doubles: Doubles
+team-name-crypt2-Pink: Pink
+team-name-crypt2-White: White
+team-name-crypt2-Aqua: Aqua
+team-name-crypt2-Gray: Gray
+team-name-crypt2-Red: Red
+team-name-crypt2-Yellow: Yellow
+team-name-crypt2-Green: Green
+team-name-crypt2-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Green: Green
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Blue: Blue
+team-name-rooftop2-White: White
+team-name-rooftop2-Gray: Gray
+team-name-rooftop2-Pink: Pink
+team-name-rooftop2-Red: Red
+team-name-rooftop2-Blue: Blue
+team-name-rooftop2-Aqua: Aqua
+team-name-rooftop2-Green: Green
+team-name-rooftop2-Yellow: Yellow
+team-name-temple-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Green: Green
+team-name-temple-Blue: Blue
+team-name-playground2-Gray: Gray
+team-name-playground2-Pink: Pink
+team-name-playground2-Red: Red
+team-name-playground2-White: White
+team-name-playground2-Blue: Blue
+team-name-playground2-Aqua: Aqua
+team-name-playground2-Green: Green
+team-name-playground2-Yellow: Yellow
 team-name-lighthouse2-Gray: Gray
 team-name-lighthouse2-Pink: Pink
 team-name-lighthouse2-Red: Red
@@ -1840,3 +2012,15 @@ team-name-lighthouse2-Blue: Blue
 team-name-lighthouse2-Aqua: Aqua
 team-name-lighthouse2-Green: Green
 team-name-lighthouse2-Yellow: Yellow
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+team-name-temple2-Yellow: Yellow
+team-name-temple2-Red: Red
+team-name-temple2-Green: Green
+team-name-temple2-Blue: Blue
+display-group-4v4v4v4: 4v4v4v4
+display-group-1v1: 1v1
+display-group-3v3v3v3: 3v3v3v3
+display-group-2v2: 2v2

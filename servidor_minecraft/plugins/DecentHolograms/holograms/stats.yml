@@ -1,0 +1,34 @@
+location: bwlobby:500.508:81.177:562.488
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&l&eChillones Internacionales'
+    height: 0.3
+  - content: '&l{player} &l&aStats'
+    height: 0.3
+  - content: '&l&fYour Level: %bw1058_player_level%'
+    height: 0.3
+  - content: '&l&fProgress: %bw1058_player_progress%'
+    height: 0.3
+  - content: '&l&fTotal kills: &a%bw1058_stats_total_kills%'
+    height: 0.3
+  - content: '&l&fTotal wins: &a%bw1058_stats_wins%'
+    height: 0.3
+  - content: '&l&fFinal kills: &a%bw1058_stats_finalkills%'
+    height: 0.3
+  - content: '&l&fTotal deaths: &a%bw1058_stats_deaths%'
+    height: 0.3
+  - content: '&l&fTotal loses: &a%bw1058_stats_losses%'
+    height: 0.3
+  - content: '&l&fFinal deaths: &a%bw1058_stats_finaldeaths%'
+    height: 0.3
+  - content: '&l&fBeds destroyed: &a%bw1058_stats_bedsdestroyed%'
+    height: 0.3
+  - content: '&l&fGames played: &a%bw1058_stats_gamesplayed%'
+    height: 0.3
+  actions: {}

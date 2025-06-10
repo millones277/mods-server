@@ -733,7 +733,8 @@ format-tab:
       - ''
       footer:
       - ''
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -751,7 +752,8 @@ format-tab:
       footer:
       - ''
       - '&7&oYou are spectating'
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -955,6 +957,142 @@ format-tab:
       suffix:
       - ' {vPrefix}'
       - ' {level}'
+shop-insuff-money: '{prefix}&c你没有足够的{currency}！ 还需要 {amount} 个{currency}！'
+shop-new-purchase: '{prefix}&a购买&6{item}'
+shop-already-bought: '{prefix}&c你已经购买过了！'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}蠹虫'
+shop-utility-iron-golem: '{TeamColor}{despawn}秒 &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&e点击购买！'
+shop-lore-status-cant-afford: '&c你没有足够的{currency}！'
+shop-lore-status-tier-maxed: '&a满级！'
+shop-lore-status-armor: '&a已装备！'
+shop-lore-quick-add: '&bShift+点击 来添加快速购买'
+shop-lore-quick-remove: '&bShift+点击 来从快速购买中移除！'
+meaning-no-trap: 无陷阱！
+format-spectator-target: '{targetTeamColor}{targetDisplayName}'
+format-upgrade-trap-cost: '&7花费：{currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-lore-click-buy: '{color}点击购买！'
+upgrades-lore-insuff-money: '{color}你没有足够的{currency}！'
+upgrades-lore-locked: '&c已锁定'
+upgrades-lore-unlocked: '{color}已解锁'
+upgrades-new-purchase: '&a{player}购买了&6{upgradeName}'
+upgrades-upgrade-name-forge-tier-1: '{color}铁锭熔炉'
+upgrades-upgrade-lore-forge:
+- '&7增加岛上资源的生成速度'
+- ''
+- '{tier_1_color}等级 1：+50% 生成速率, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}等级 2：+100% 生成速率，&b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}等级 3：生成绿宝石，&b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}等级 4：+200% 生成速率，&b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}金锭熔炉'
+upgrades-upgrade-name-forge-tier-3: '{color}绿宝石熔炉'
+upgrades-upgrade-name-forge-tier-4: '{color}无尽熔炉'
+upgrades-category-item-name-traps: '&e购买陷阱'
+upgrades-category-item-lore-traps:
+- '&7已购买的陷阱将从右边进入队列'
+- ''
+- '&e点击查看！'
+upgrades-upgrade-name-swords-tier-1: '{color}锋利附魔'
+upgrades-upgrade-lore-swords:
+- '&7队伍的所有剑和斧获得锋利 I！'
+- ''
+- '{tier_1_color}花费：&b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}护甲强化 I'
+upgrades-upgrade-lore-armor:
+- '&7队伍的所有护甲获得保护附魔！'
+- ''
+- '{tier_1_color}等级 1：保护 I， &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}等级 2：保护 II，&b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}等级 3：保护 III，&b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}等级 4：保护 IV，&b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}护甲强化 II'
+upgrades-upgrade-name-armor-tier-3: '{color}护甲强化 III'
+upgrades-upgrade-name-armor-tier-4: '{color}护甲强化 IV'
+upgrades-upgrade-name-miner-tier-1: '{color}疯狂矿工 I'
+upgrades-upgrade-lore-miner:
+- '&7队伍获得急迫效果。'
+- ''
+- '{tier_1_color}等级 1：急迫 I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}等级 2：急迫 II, &b{tier_2_cost} {tier_2_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}疯狂矿工 II'
+upgrades-upgrade-name-heal-pool-tier-1: '{color}治愈池'
+upgrades-upgrade-lore-heal-pool:
+- '&7在基地附近生成治愈池！'
+- ''
+- '{tier_1_color}花费：&b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}末影龙升级'
+upgrades-upgrade-lore-dragon:
+- '&7在死斗时你的队伍会有 2 条而不是 1 条龙！'
+- ''
+- '{tier_1_color}花费：&b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7可购买'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7陷阱队列'
+upgrades-trap-slot-item-name-first: '{color}陷阱 #1：{name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7第一个进入你基地的敌人将触发该陷阱！'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7下个购买的陷阱将在此进入队列'
+- '&7陷阱的花费将会随着队列长度增加'
+- ''
+- '&7下个陷阱花费：&b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}陷阱 #2：{name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7第二个进入你基地的敌人将触发该陷阱！'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7下个购买的陷阱将在此进入队列'
+- '&7陷阱的花费将会随着队列长度增加'
+- ''
+- '&7下个陷阱花费：&b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}陷阱 #3：{name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7第三个进入你基地的敌人将触发该陷阱！'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7下个购买的陷阱将在此进入队列'
+- '&7陷阱的花费将会随着队列长度增加'
+- ''
+- '&7下个陷阱花费：&b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}这是个陷阱！'
+upgrades-base-trap-lore-1:
+- '&7造成5秒失明和缓慢'
+- ''
+upgrades-base-trap-name-2: '{color}反击陷阱'
+upgrades-base-trap-lore-2:
+- '&7给予基地附近的队友 15 秒速度 I。'
+- ''
+upgrades-base-trap-name-3: '{color}报警陷阱'
+upgrades-base-trap-lore-3:
+- '&7显示隐身的敌人及其名字和队伍。'
+- ''
+upgrades-base-trap-name-4: '{color}挖掘疲劳陷阱'
+upgrades-base-trap-lore-4:
+- '&7造成 10 秒挖掘疲劳。'
+- ''
+upgrades-separator-item-name-back: '&a返回'
+upgrades-separator-item-lore-back:
+- '&7回到升级和陷阱菜单'
+upgrades-category-gui-name-traps: '&8将陷阱加入队列'
+upgrades-trap-queue-full: '&c陷阱队列已满！'
+upgrades-trap-default-msg: '&c&l{trap}被触发了！'
+upgrades-trap-default-title: '&c陷阱触发！'
+upgrades-trap-default-subtitle: '&f你队伍的{trap}被触发了！'
+upgrades-base-trap-msg-3: '&c&l报警陷阱被{color}&l{team}的&7&l{player}&c&l触发了！'
+upgrades-base-trap-title-3: '&c&l警报！！！'
+upgrades-base-trap-subtitle-3: '{color}{team}&f触发了陷阱！'
 shop-items-messages:
   inventory-name: '&8快速购买'
   quick-buy-add-inventory-name: '&8添加到快速购买...'
@@ -1284,142 +1422,7 @@ shop-items-messages:
     - '{buy_status}'
     content-item-tower-name: '&cName not set'
     content-item-tower-lore: '&cLore not set'
-shop-insuff-money: '{prefix}&c你没有足够的{currency}！ 还需要 {amount} 个{currency}！'
-shop-new-purchase: '{prefix}&a购买&6{item}'
-shop-already-bought: '{prefix}&c你已经购买过了！'
-shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}蠹虫'
-shop-utility-iron-golem: '{TeamColor}{despawn}秒 &8[ {TeamColor}{health}&8]'
-shop-lore-status-can-buy: '&e点击购买！'
-shop-lore-status-cant-afford: '&c你没有足够的{currency}！'
-shop-lore-status-tier-maxed: '&a满级！'
-shop-lore-status-armor: '&a已装备！'
-shop-lore-quick-add: '&bShift+点击 来添加快速购买'
-shop-lore-quick-remove: '&bShift+点击 来从快速购买中移除！'
-meaning-no-trap: 无陷阱！
-format-spectator-target: '{targetTeamColor}{targetDisplayName}'
-format-upgrade-trap-cost: '&7花费：{currencyColor}{cost} {currency}'
-format-upgrade-color-can-afford: '&e'
-format-upgrade-color-cant-afford: '&c'
-format-upgrade-color-unlocked: '&a'
-format-tier-color-locked: '&7'
-format-tier-color-unlocked: '&a'
-upgrades-lore-click-buy: '{color}点击购买！'
-upgrades-lore-insuff-money: '{color}你没有足够的{currency}！'
-upgrades-lore-locked: '&c已锁定'
-upgrades-lore-unlocked: '{color}已解锁'
-upgrades-new-purchase: '&a{player}购买了&6{upgradeName}'
-upgrades-upgrade-name-forge-tier-1: '{color}铁锭熔炉'
-upgrades-upgrade-lore-forge:
-- '&7增加岛上资源的生成速度'
-- ''
-- '{tier_1_color}等级 1：+50% 生成速率, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}等级 2：+100% 生成速率，&b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}等级 3：生成绿宝石，&b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}等级 4：+200% 生成速率，&b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-forge-tier-2: '{color}金锭熔炉'
-upgrades-upgrade-name-forge-tier-3: '{color}绿宝石熔炉'
-upgrades-upgrade-name-forge-tier-4: '{color}无尽熔炉'
-upgrades-category-item-name-traps: '&e购买陷阱'
-upgrades-category-item-lore-traps:
-- '&7已购买的陷阱将从右边进入队列'
-- ''
-- '&e点击查看！'
-upgrades-upgrade-name-swords-tier-1: '{color}锋利附魔'
-upgrades-upgrade-lore-swords:
-- '&7队伍的所有剑和斧获得锋利 I！'
-- ''
-- '{tier_1_color}花费：&b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-1: '{color}护甲强化 I'
-upgrades-upgrade-lore-armor:
-- '&7队伍的所有护甲获得保护附魔！'
-- ''
-- '{tier_1_color}等级 1：保护 I， &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}等级 2：保护 II，&b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}等级 3：保护 III，&b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}等级 4：保护 IV，&b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-2: '{color}护甲强化 II'
-upgrades-upgrade-name-armor-tier-3: '{color}护甲强化 III'
-upgrades-upgrade-name-armor-tier-4: '{color}护甲强化 IV'
-upgrades-upgrade-name-miner-tier-1: '{color}疯狂矿工 I'
-upgrades-upgrade-lore-miner:
-- '&7队伍获得急迫效果。'
-- ''
-- '{tier_1_color}等级 1：急迫 I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}等级 2：急迫 II, &b{tier_2_cost} {tier_2_currency}'
-- ''
-upgrades-upgrade-name-miner-tier-2: '{color}疯狂矿工 II'
-upgrades-upgrade-name-heal-pool-tier-1: '{color}治愈池'
-upgrades-upgrade-lore-heal-pool:
-- '&7在基地附近生成治愈池！'
-- ''
-- '{tier_1_color}花费：&b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-dragon-tier-1: '{color}末影龙升级'
-upgrades-upgrade-lore-dragon:
-- '&7在死斗时你的队伍会有 2 条而不是 1 条龙！'
-- ''
-- '{tier_1_color}花费：&b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-separator-item-name-glass: '&8⬆&7可购买'
-upgrades-separator-item-lore-glass:
-- '&8⬇&7陷阱队列'
-upgrades-trap-slot-item-name-first: '{color}陷阱 #1：{name}'
-upgrades-trap-slot-item-lore1-first:
-- '&7第一个进入你基地的敌人将触发该陷阱！'
-upgrades-trap-slot-item-lore2-first:
-- ''
-- '&7下个购买的陷阱将在此进入队列'
-- '&7陷阱的花费将会随着队列长度增加'
-- ''
-- '&7下个陷阱花费：&b{cost} {currency}'
-upgrades-trap-slot-item-name-second: '{color}陷阱 #2：{name}'
-upgrades-trap-slot-item-lore1-second:
-- '&7第二个进入你基地的敌人将触发该陷阱！'
-upgrades-trap-slot-item-lore2-second:
-- ''
-- '&7下个购买的陷阱将在此进入队列'
-- '&7陷阱的花费将会随着队列长度增加'
-- ''
-- '&7下个陷阱花费：&b{cost} {currency}'
-upgrades-trap-slot-item-name-third: '{color}陷阱 #3：{name}'
-upgrades-trap-slot-item-lore1-third:
-- '&7第三个进入你基地的敌人将触发该陷阱！'
-upgrades-trap-slot-item-lore2-third:
-- ''
-- '&7下个购买的陷阱将在此进入队列'
-- '&7陷阱的花费将会随着队列长度增加'
-- ''
-- '&7下个陷阱花费：&b{cost} {currency}'
-upgrades-base-trap-name-1: '{color}这是个陷阱！'
-upgrades-base-trap-lore-1:
-- '&7造成5秒失明和缓慢'
-- ''
-upgrades-base-trap-name-2: '{color}反击陷阱'
-upgrades-base-trap-lore-2:
-- '&7给予基地附近的队友 15 秒速度 I。'
-- ''
-upgrades-base-trap-name-3: '{color}报警陷阱'
-upgrades-base-trap-lore-3:
-- '&7显示隐身的敌人及其名字和队伍。'
-- ''
-upgrades-base-trap-name-4: '{color}挖掘疲劳陷阱'
-upgrades-base-trap-lore-4:
-- '&7造成 10 秒挖掘疲劳。'
-- ''
-upgrades-separator-item-name-back: '&a返回'
-upgrades-separator-item-lore-back:
-- '&7回到升级和陷阱菜单'
-upgrades-category-gui-name-traps: '&8将陷阱加入队列'
-upgrades-trap-queue-full: '&c陷阱队列已满！'
-upgrades-trap-default-msg: '&c&l{trap}被触发了！'
-upgrades-trap-default-title: '&c陷阱触发！'
-upgrades-trap-default-subtitle: '&f你队伍的{trap}被触发了！'
-upgrades-base-trap-msg-3: '&c&l报警陷阱被{color}&l{team}的&7&l{player}&c&l触发了！'
-upgrades-base-trap-title-3: '&c&l警报！！！'
-upgrades-base-trap-subtitle-3: '{color}{team}&f触发了陷阱！'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 addons:
   compass:
     messages:
@@ -1627,8 +1630,10 @@ addons:
     cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
       The game is starting!'
     already-in-team: '{prefix}&cYou are already in this team!'
-upgrades-menu-gui-name-default: '&8Upgrades & Traps'
-display-group-solo: Solo
+  play-again:
+    selector-permission-denied: '&cYou don''t have permission to select an arena!'
+    not-party-owner: '&cOnly the owner of the party can play again!'
+display-group-default: Default
 team-name-lighthouse-Gray: Gray
 team-name-lighthouse-Pink: Pink
 team-name-lighthouse-Red: Red
@@ -1637,6 +1642,142 @@ team-name-lighthouse-Blue: Blue
 team-name-lighthouse-Aqua: Aqua
 team-name-lighthouse-Green: Green
 team-name-lighthouse-Yellow: Yellow
+team-name-ashore2-Red: Red
+team-name-ashore2-Blue: Blue
+team-name-ashore2-Green: Green
+team-name-ashore2-Yellow: Yellow
+team-name-toro-Gray: Gray
+team-name-toro-Pink: Pink
+team-name-toro-Red: Red
+team-name-toro-White: White
+team-name-toro-Blue: Blue
+team-name-toro-Aqua: Aqua
+team-name-toro-Green: Green
+team-name-toro-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashore-Red: Red
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-ashore-Yellow: Yellow
+team-name-eastwood2-Red: Red
+team-name-eastwood2-Blue: Blue
+team-name-eastwood2-Green: Green
+team-name-eastwood2-Yellow: Yellow
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-siege2-Gray: Gray
+team-name-siege2-Pink: Pink
+team-name-siege2-Red: Red
+team-name-siege2-White: White
+team-name-siege2-Blue: Blue
+team-name-siege2-Aqua: Aqua
+team-name-siege2-Green: Green
+team-name-siege2-Yellow: Yellow
+team-name-lectus2-Red: Red
+team-name-lectus2-Blue: Blue
+team-name-lectus2-Green: Green
+team-name-lectus2-Yellow: Yellow
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-toro2-Gray: Gray
+team-name-toro2-Pink: Pink
+team-name-toro2-Red: Red
+team-name-toro2-White: White
+team-name-toro2-Blue: Blue
+team-name-toro2-Aqua: Aqua
+team-name-toro2-Green: Green
+team-name-toro2-Yellow: Yellow
+team-name-crypt-Pink: Pink
+team-name-crypt-White: White
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Gray: Gray
+team-name-crypt-Red: Red
+team-name-crypt-Yellow: Yellow
+team-name-crypt-Green: Green
+team-name-crypt-Blue: Blue
+team-name-glacier2-Gray: Gray
+team-name-glacier2-Pink: Pink
+team-name-glacier2-Red: Red
+team-name-glacier2-White: White
+team-name-glacier2-Blue: Blue
+team-name-glacier2-Aqua: Aqua
+team-name-glacier2-Green: Green
+team-name-glacier2-Yellow: Yellow
+team-name-sandcastle2-Yellow: Yellow
+team-name-sandcastle2-Green: Green
+team-name-sandcastle2-Red: Red
+team-name-sandcastle2-Blue: Blue
+team-name-aquarium2-Green: Green
+team-name-aquarium2-Blue: Blue
+team-name-aquarium2-Yellow: Yellow
+team-name-aquarium2-Red: Red
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Aqua: Aqua
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-stonekeep2-Red: Red
+team-name-stonekeep2-Yellow: Yellow
+team-name-stonekeep2-Blue: Blue
+team-name-stonekeep2-Green: Green
+team-name-acropolis2-Green: Green
+team-name-acropolis2-Blue: Blue
+team-name-acropolis2-White: White
+team-name-acropolis2-Yellow: Yellow
+team-name-acropolis2-Red: Red
+team-name-acropolis2-Aqua: Aqua
+team-name-acropolis2-Gray: Gray
+team-name-acropolis2-Pink: Pink
+team-name-lectus-Red: Red
+team-name-lectus-Blue: Blue
+team-name-lectus-Green: Green
+team-name-lectus-Yellow: Yellow
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise2-Pink: Pink
+team-name-skyrise2-Gray: Gray
+team-name-skyrise2-White: White
+team-name-skyrise2-Red: Red
+team-name-skyrise2-Blue: Blue
+team-name-skyrise2-Aqua: Aqua
+team-name-skyrise2-Green: Green
+team-name-skyrise2-Yellow: Yellow
 team-name-rooftop-White: White
 team-name-rooftop-Gray: Gray
 team-name-rooftop-Pink: Pink
@@ -1645,7 +1786,38 @@ team-name-rooftop-Blue: Blue
 team-name-rooftop-Aqua: Aqua
 team-name-rooftop-Green: Green
 team-name-rooftop-Yellow: Yellow
-display-group-doubles: Doubles
+team-name-crypt2-Pink: Pink
+team-name-crypt2-White: White
+team-name-crypt2-Aqua: Aqua
+team-name-crypt2-Gray: Gray
+team-name-crypt2-Red: Red
+team-name-crypt2-Yellow: Yellow
+team-name-crypt2-Green: Green
+team-name-crypt2-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Green: Green
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Blue: Blue
+team-name-rooftop2-White: White
+team-name-rooftop2-Gray: Gray
+team-name-rooftop2-Pink: Pink
+team-name-rooftop2-Red: Red
+team-name-rooftop2-Blue: Blue
+team-name-rooftop2-Aqua: Aqua
+team-name-rooftop2-Green: Green
+team-name-rooftop2-Yellow: Yellow
+team-name-temple-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Green: Green
+team-name-temple-Blue: Blue
+team-name-playground2-Gray: Gray
+team-name-playground2-Pink: Pink
+team-name-playground2-Red: Red
+team-name-playground2-White: White
+team-name-playground2-Blue: Blue
+team-name-playground2-Aqua: Aqua
+team-name-playground2-Green: Green
+team-name-playground2-Yellow: Yellow
 team-name-lighthouse2-Gray: Gray
 team-name-lighthouse2-Pink: Pink
 team-name-lighthouse2-Red: Red
@@ -1654,3 +1826,15 @@ team-name-lighthouse2-Blue: Blue
 team-name-lighthouse2-Aqua: Aqua
 team-name-lighthouse2-Green: Green
 team-name-lighthouse2-Yellow: Yellow
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+team-name-temple2-Yellow: Yellow
+team-name-temple2-Red: Red
+team-name-temple2-Green: Green
+team-name-temple2-Blue: Blue
+display-group-4v4v4v4: 4v4v4v4
+display-group-1v1: 1v1
+display-group-3v3v3v3: 3v3v3v3
+display-group-2v2: 2v2

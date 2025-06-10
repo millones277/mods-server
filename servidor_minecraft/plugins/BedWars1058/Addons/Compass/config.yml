@@ -1,7 +1,8 @@
 # BedWars1058 Compass Addon By Mher Zaqaryan, Version: 1.4.3
+
 use-quick-communications: true
 tracker-update-rate: 1
-team-message-sound: SUCCESSFUL_HIT,1,1
+team-message-sound: ENTITY_ARROW_HIT_PLAYER,1,1
 player-track:
   cost: 2
   resource: EMERALD
@@ -24,7 +25,7 @@ menus:
     size: 36
     slots: 10,11,12,13,14,15,16,19,20,21,22,23,24,25
     team-item:
-      material: WOOL
+      material: WHITE_WOOL
       enchanted: false
     back-item:
       material: ARROW
@@ -48,7 +49,7 @@ menus:
         slot: 11
         menu: NONE
       '3':
-        material: IRON_FENCE
+        material: IRON_BARS
         enchanted: false
         slot: 12
         menu: NONE
@@ -78,7 +79,7 @@ menus:
         slot: 21
         menu: NONE
       '9':
-        material: IRON_FENCE
+        material: IRON_BARS
         enchanted: false
         slot: 22
         menu: NONE

@@ -1,4 +1,5 @@
 # Traduzione in italiano di Fabian03#4583 aggiornata da Xx_yuri2005_xX
+
 prefix: ''
 name: Italiano
 cmd-main-list:
@@ -793,7 +794,8 @@ format-tab:
       - ''
       footer:
       - ''
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -811,7 +813,8 @@ format-tab:
       footer:
       - ''
       - '&7&oYou are spectating'
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -1031,342 +1034,6 @@ money-reward-per-teammate: '{prefix}&6+{money} Coins (Supporto Team).'
 money-reward-bed-destroyed: '{prefix}&6+{money} Coins (Distruzione letto).'
 money-reward-final-kill: '{prefix}&6+{money} Coins (Uccisione Regolare).'
 money-reward-regular-kill: '{prefix}&6+{money} Coins (Uccisione).'
-shop-items-messages:
-  inventory-name: '&8Quick Buy'
-  quick-buy-add-inventory-name: '&8Aggiungendo al Quick Buy...'
-  separator-item-name: '&8⇧ Categorie'
-  separator-item-lore:
-  - '&8⇩ Items'
-  quick-buy-item-name: '&bQuick Buy'
-  quick-buy-item-lore: []
-  quick-buy-empty-item-name: '&cSlot libero!'
-  quick-buy-empty-item-lore:
-  - '&7Questo è uno slot Quick Buy!'
-  - '&bShift + Click &7su un item nello'
-  - '&7shop per aggungerlo qui.'
-  can-buy-color: '&a'
-  cant-buy-color: '&c'
-  blocks-category:
-    inventory-name: '&8Blocchi'
-    category-item-name: '&aBlocchi'
-    category-item-lore:
-    - '&eClicca per sfogliare!'
-    content-item-wool-name: '{color}Lana'
-    content-item-wool-lore:
-    - '&7Costo: &f{cost} {currency}'
-    - ''
-    - '&7Buono per costruire ponti tra'
-    - '&7le isole. Prende il colore'
-    - '&7del tuo team.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-clay-name: '{color}Argilla indurita'
-    content-item-clay-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Blocco base per proteggere  il letto.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-glass-name: '{color}Vetro Anti Esplosione'
-    content-item-glass-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Immune alle esplosioni.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-stone-name: '{color}Pietra dell''End'
-    content-item-stone-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Blocco solido per difendere il letto.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-ladder-name: '{color}Scala'
-    content-item-ladder-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Utile per salvare gatti bloccati'
-    - '&7sugli alberi.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-wood-name: '{color}Legna'
-    content-item-wood-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Blocco solido per difendere il letto.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-obsidian-name: '&cName not set'
-    content-item-obsidian-lore: '&cLore not set'
-  melee-category:
-    inventory-name: '&8Spade'
-    category-item-name: '&aSpade'
-    category-item-lore:
-    - '&eClicca per sfogliare!'
-    content-item-stone-sword-name: '{color}Spada di pietra'
-    content-item-stone-sword-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-iron-sword-name: '{color}Spada di ferro'
-    content-item-iron-sword-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-diamond-sword-name: '{color}Spada di diamante'
-    content-item-diamond-sword-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-stick-name: '{color}Bastone (Contraccolpo I)'
-    content-item-stick-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  armor-category:
-    inventory-name: '&8Armatura'
-    category-item-name: '&aArmatura'
-    category-item-lore:
-    - '&eClicca per sfogliare!'
-    content-item-chainmail-name: '{color}Armatura di Maglia Permanente'
-    content-item-chainmail-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Chainmail leggings and boots'
-    - '&7which you will always spawn'
-    - '&7with.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-iron-armor-name: '{color}Armatura di Ferro Permanente'
-    content-item-iron-armor-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Iron leggings and boots which'
-    - '&7you will always spawn with.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-diamond-armor-name: '{color}Armatura di Diamante Permanente'
-    content-item-diamond-armor-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Diamond leggings and boots which'
-    - '&7you will always crush with.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  tools-category:
-    inventory-name: '&8Utensili'
-    category-item-name: '&aUtensili'
-    category-item-lore:
-    - '&eClicca per sfogliare!'
-    content-item-shears-name: '{color}Cesoie Permanenti'
-    content-item-shears-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Utile per tagliare la lana.'
-    - '&7Respawnerai sempre con questo utensile.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-pickaxe-name: '{color}Piccone {tier}'
-    content-item-pickaxe-lore:
-    - '&7Costo: {cost} {currency}'
-    - '&7Tier: &e{tier}'
-    - ''
-    - '&7Questo è un item upgradabile.'
-    - '&7Perderai un tier alla tua morte.'
-    - ''
-    - '&7Respawnerai sempre con'
-    - '&7questo item avendo almeno'
-    - '&7il tier pià basso.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-axe-name: '{color}Ascia {tier}'
-    content-item-axe-lore:
-    - '&7Costo: {cost} {currency}'
-    - '&7Tier: &e{tier}'
-    - ''
-    - '&7Questo è un item upgradabile.'
-    - '&7Perderai un tier alla tua morte.'
-    - ''
-    - '&7Respawnerai sempre con'
-    - '&7questo item avendo almeno'
-    - '&7il tier pià basso.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  ranged-category:
-    inventory-name: '&8Ranged'
-    category-item-name: '&aArchi'
-    category-item-lore:
-    - '&eClicca per sfogliare!'
-    content-item-arrow-name: '{color}Frecce'
-    content-item-arrow-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow1-name: '{color}Arco'
-    content-item-bow1-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow2-name: '{color}Arco (Potenza I)'
-    content-item-bow2-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow3-name: '{color}Arco (Potenza I, Contraccolpo I)'
-    content-item-bow3-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  potions-category:
-    inventory-name: '&8Pozioni'
-    category-item-name: '&aPozioni'
-    category-item-lore:
-    - '&eClicca per sfogliare!'
-    content-item-speed-potion-name: '{color}Pozione Rapidità II (45 secondi)'
-    content-item-speed-potion-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-jump-potion-name: '{color}Pozione Salto V (45 secondi)'
-    content-item-jump-potion-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-invisibility-name: '{color}Pozione Invisibilità (30 secondi)'
-    content-item-invisibility-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  utility-category:
-    inventory-name: '&8Utilità'
-    category-item-name: '&aUtilità'
-    category-item-lore:
-    - '&eClicca per sfogliare!'
-    content-item-golden-apple-name: '{color}Mela D''oro'
-    content-item-golden-apple-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Mela rigeneratrice di vita.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bedbug-name: '{color}BedBug'
-    content-item-bedbug-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Spawna un silverfish dove arriva'
-    - '&7la palla di neve, per distrare'
-    - '&7gli avversari. Vive 15 secondi.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-dream-defender-name: '{color}Dream Defender'
-    content-item-dream-defender-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Iron Golem che ti aiuta a proteggere'
-    - '&7la tua base. Vive 4 minuti.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-fireball-name: '{color}Fireball'
-    content-item-fireball-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Click-destro per lanciare! Ottima per'
-    - '&7spingere gli avversari che camminano'
-    - '&7sui ponti'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-tnt-name: '{color}TNT'
-    content-item-tnt-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Si accende instantaneamente, utile per'
-    - '&7far esplodere cose!'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-ender-pearl-name: '{color}Ender Pearl'
-    content-item-ender-pearl-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Il metodo pià veloce per invadere'
-    - '&7la base degli avversari.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-water-bucket-name: '{color}Secchio D''acqua'
-    content-item-water-bucket-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Utile per rallentare gli'
-    - '&7inamici. Può anche proteggere'
-    - '&7dalla TNT.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bridge-egg-name: '{color}Bridge Egg'
-    content-item-bridge-egg-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Questo uovo crea un ponte in sua'
-    - '&7direzione dopo averlo lanciato.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-magic-milk-name: '{color}Latte Magico'
-    content-item-magic-milk-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Evita le trappole per 60 secondi'
-    - '&7dopo averlo consumato.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-sponge-name: '{color}Spugna'
-    content-item-sponge-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Utile per succhiare l''acqua :)).'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-Compact Pop-up Tower-name: '{color}Torre Pop-up Compatta'
-    content-item-Compact Pop-up Tower-lore:
-    - '&7Costo: {cost} {currency}'
-    - ''
-    - '&7Piazza una Torre Pop-up'
-    - '&7compatta per difenderti!'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-tower-name: '&cName not set'
-    content-item-tower-lore: '&cLore not set'
 shop-insuff-money: '{prefix}&cNon hai abbastanza {currency}! Te ne occorre {amount}
   in più!'
 shop-new-purchase: '{prefix}&aHai comprato &6{item}'
@@ -1528,6 +1195,343 @@ upgrades-base-trap-msg-3: '&c&lAllarme attivata da &7&l{player} &c&ldel team {co
   &c&l!'
 upgrades-base-trap-title-3: '&c&lALLARME!!!'
 upgrades-base-trap-subtitle-3: '&fAllarme attivata dal team {color}{team}&f!'
+shop-items-messages:
+  inventory-name: '&8Quick Buy'
+  quick-buy-add-inventory-name: '&8Aggiungendo al Quick Buy...'
+  separator-item-name: '&8⇧ Categorie'
+  separator-item-lore:
+  - '&8⇩ Items'
+  quick-buy-item-name: '&bQuick Buy'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cSlot libero!'
+  quick-buy-empty-item-lore:
+  - '&7Questo è uno slot Quick Buy!'
+  - '&bShift + Click &7su un item nello'
+  - '&7shop per aggungerlo qui.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  melee-category:
+    inventory-name: '&8Spade'
+    category-item-name: '&aSpade'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-stone-sword-name: '{color}Spada di pietra'
+    content-item-stone-sword-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-sword-name: '{color}Spada di ferro'
+    content-item-iron-sword-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-sword-name: '{color}Spada di diamante'
+    content-item-diamond-sword-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stick-name: '{color}Bastone (Contraccolpo I)'
+    content-item-stick-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  armor-category:
+    inventory-name: '&8Armatura'
+    category-item-name: '&aArmatura'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-chainmail-name: '{color}Armatura di Maglia Permanente'
+    content-item-chainmail-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Chainmail leggings and boots'
+    - '&7which you will always spawn'
+    - '&7with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-armor-name: '{color}Armatura di Ferro Permanente'
+    content-item-iron-armor-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Iron leggings and boots which'
+    - '&7you will always spawn with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-armor-name: '{color}Armatura di Diamante Permanente'
+    content-item-diamond-armor-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Diamond leggings and boots which'
+    - '&7you will always crush with.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  tools-category:
+    inventory-name: '&8Utensili'
+    category-item-name: '&aUtensili'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-shears-name: '{color}Cesoie Permanenti'
+    content-item-shears-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Utile per tagliare la lana.'
+    - '&7Respawnerai sempre con questo utensile.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-pickaxe-name: '{color}Piccone {tier}'
+    content-item-pickaxe-lore:
+    - '&7Costo: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7Questo è un item upgradabile.'
+    - '&7Perderai un tier alla tua morte.'
+    - ''
+    - '&7Respawnerai sempre con'
+    - '&7questo item avendo almeno'
+    - '&7il tier pià basso.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-axe-name: '{color}Ascia {tier}'
+    content-item-axe-lore:
+    - '&7Costo: {cost} {currency}'
+    - '&7Tier: &e{tier}'
+    - ''
+    - '&7Questo è un item upgradabile.'
+    - '&7Perderai un tier alla tua morte.'
+    - ''
+    - '&7Respawnerai sempre con'
+    - '&7questo item avendo almeno'
+    - '&7il tier pià basso.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  ranged-category:
+    inventory-name: '&8Ranged'
+    category-item-name: '&aArchi'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-arrow-name: '{color}Frecce'
+    content-item-arrow-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow1-name: '{color}Arco'
+    content-item-bow1-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow2-name: '{color}Arco (Potenza I)'
+    content-item-bow2-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow3-name: '{color}Arco (Potenza I, Contraccolpo I)'
+    content-item-bow3-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  potions-category:
+    inventory-name: '&8Pozioni'
+    category-item-name: '&aPozioni'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-speed-potion-name: '{color}Pozione Rapidità II (45 secondi)'
+    content-item-speed-potion-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-jump-potion-name: '{color}Pozione Salto V (45 secondi)'
+    content-item-jump-potion-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-invisibility-name: '{color}Pozione Invisibilità (30 secondi)'
+    content-item-invisibility-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  blocks-category:
+    inventory-name: '&8Blocchi'
+    category-item-name: '&aBlocchi'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-wool-name: '{color}Lana'
+    content-item-wool-lore:
+    - '&7Costo: &f{cost} {currency}'
+    - ''
+    - '&7Buono per costruire ponti tra'
+    - '&7le isole. Prende il colore'
+    - '&7del tuo team.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-clay-name: '{color}Argilla indurita'
+    content-item-clay-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Blocco base per proteggere  il letto.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-glass-name: '{color}Vetro Anti Esplosione'
+    content-item-glass-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Immune alle esplosioni.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stone-name: '{color}Pietra dell''End'
+    content-item-stone-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Blocco solido per difendere il letto.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ladder-name: '{color}Scala'
+    content-item-ladder-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Utile per salvare gatti bloccati'
+    - '&7sugli alberi.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wood-name: '{color}Legna'
+    content-item-wood-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Blocco solido per difendere il letto.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-obsidian-name: '&cName not set'
+    content-item-obsidian-lore: '&cLore not set'
+  utility-category:
+    inventory-name: '&8Utilità'
+    category-item-name: '&aUtilità'
+    category-item-lore:
+    - '&eClicca per sfogliare!'
+    content-item-golden-apple-name: '{color}Mela D''oro'
+    content-item-golden-apple-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Mela rigeneratrice di vita.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bedbug-name: '{color}BedBug'
+    content-item-bedbug-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Spawna un silverfish dove arriva'
+    - '&7la palla di neve, per distrare'
+    - '&7gli avversari. Vive 15 secondi.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-dream-defender-name: '{color}Dream Defender'
+    content-item-dream-defender-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Iron Golem che ti aiuta a proteggere'
+    - '&7la tua base. Vive 4 minuti.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-fireball-name: '{color}Fireball'
+    content-item-fireball-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Click-destro per lanciare! Ottima per'
+    - '&7spingere gli avversari che camminano'
+    - '&7sui ponti'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tnt-name: '{color}TNT'
+    content-item-tnt-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Si accende instantaneamente, utile per'
+    - '&7far esplodere cose!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ender-pearl-name: '{color}Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Il metodo pià veloce per invadere'
+    - '&7la base degli avversari.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-water-bucket-name: '{color}Secchio D''acqua'
+    content-item-water-bucket-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Utile per rallentare gli'
+    - '&7inamici. Può anche proteggere'
+    - '&7dalla TNT.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bridge-egg-name: '{color}Bridge Egg'
+    content-item-bridge-egg-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Questo uovo crea un ponte in sua'
+    - '&7direzione dopo averlo lanciato.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-magic-milk-name: '{color}Latte Magico'
+    content-item-magic-milk-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Evita le trappole per 60 secondi'
+    - '&7dopo averlo consumato.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-sponge-name: '{color}Spugna'
+    content-item-sponge-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Utile per succhiare l''acqua :)).'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-Compact Pop-up Tower-name: '{color}Torre Pop-up Compatta'
+    content-item-Compact Pop-up Tower-lore:
+    - '&7Costo: {cost} {currency}'
+    - ''
+    - '&7Piazza una Torre Pop-up'
+    - '&7compatta per difenderti!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tower-name: '&cName not set'
+    content-item-tower-lore: '&cLore not set'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 addons:
   compass:
     messages:
@@ -1735,8 +1739,10 @@ addons:
     cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
       The game is starting!'
     already-in-team: '{prefix}&cYou are already in this team!'
-upgrades-menu-gui-name-default: '&8Upgrades & Traps'
-display-group-solo: Solo
+  play-again:
+    selector-permission-denied: '&cYou don''t have permission to select an arena!'
+    not-party-owner: '&cOnly the owner of the party can play again!'
+display-group-default: Default
 team-name-lighthouse-Gray: Gray
 team-name-lighthouse-Pink: Pink
 team-name-lighthouse-Red: Red
@@ -1745,6 +1751,142 @@ team-name-lighthouse-Blue: Blue
 team-name-lighthouse-Aqua: Aqua
 team-name-lighthouse-Green: Green
 team-name-lighthouse-Yellow: Yellow
+team-name-ashore2-Red: Red
+team-name-ashore2-Blue: Blue
+team-name-ashore2-Green: Green
+team-name-ashore2-Yellow: Yellow
+team-name-toro-Gray: Gray
+team-name-toro-Pink: Pink
+team-name-toro-Red: Red
+team-name-toro-White: White
+team-name-toro-Blue: Blue
+team-name-toro-Aqua: Aqua
+team-name-toro-Green: Green
+team-name-toro-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashore-Red: Red
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-ashore-Yellow: Yellow
+team-name-eastwood2-Red: Red
+team-name-eastwood2-Blue: Blue
+team-name-eastwood2-Green: Green
+team-name-eastwood2-Yellow: Yellow
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-siege2-Gray: Gray
+team-name-siege2-Pink: Pink
+team-name-siege2-Red: Red
+team-name-siege2-White: White
+team-name-siege2-Blue: Blue
+team-name-siege2-Aqua: Aqua
+team-name-siege2-Green: Green
+team-name-siege2-Yellow: Yellow
+team-name-lectus2-Red: Red
+team-name-lectus2-Blue: Blue
+team-name-lectus2-Green: Green
+team-name-lectus2-Yellow: Yellow
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-toro2-Gray: Gray
+team-name-toro2-Pink: Pink
+team-name-toro2-Red: Red
+team-name-toro2-White: White
+team-name-toro2-Blue: Blue
+team-name-toro2-Aqua: Aqua
+team-name-toro2-Green: Green
+team-name-toro2-Yellow: Yellow
+team-name-crypt-Pink: Pink
+team-name-crypt-White: White
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Gray: Gray
+team-name-crypt-Red: Red
+team-name-crypt-Yellow: Yellow
+team-name-crypt-Green: Green
+team-name-crypt-Blue: Blue
+team-name-glacier2-Gray: Gray
+team-name-glacier2-Pink: Pink
+team-name-glacier2-Red: Red
+team-name-glacier2-White: White
+team-name-glacier2-Blue: Blue
+team-name-glacier2-Aqua: Aqua
+team-name-glacier2-Green: Green
+team-name-glacier2-Yellow: Yellow
+team-name-sandcastle2-Yellow: Yellow
+team-name-sandcastle2-Green: Green
+team-name-sandcastle2-Red: Red
+team-name-sandcastle2-Blue: Blue
+team-name-aquarium2-Green: Green
+team-name-aquarium2-Blue: Blue
+team-name-aquarium2-Yellow: Yellow
+team-name-aquarium2-Red: Red
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Aqua: Aqua
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-stonekeep2-Red: Red
+team-name-stonekeep2-Yellow: Yellow
+team-name-stonekeep2-Blue: Blue
+team-name-stonekeep2-Green: Green
+team-name-acropolis2-Green: Green
+team-name-acropolis2-Blue: Blue
+team-name-acropolis2-White: White
+team-name-acropolis2-Yellow: Yellow
+team-name-acropolis2-Red: Red
+team-name-acropolis2-Aqua: Aqua
+team-name-acropolis2-Gray: Gray
+team-name-acropolis2-Pink: Pink
+team-name-lectus-Red: Red
+team-name-lectus-Blue: Blue
+team-name-lectus-Green: Green
+team-name-lectus-Yellow: Yellow
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise2-Pink: Pink
+team-name-skyrise2-Gray: Gray
+team-name-skyrise2-White: White
+team-name-skyrise2-Red: Red
+team-name-skyrise2-Blue: Blue
+team-name-skyrise2-Aqua: Aqua
+team-name-skyrise2-Green: Green
+team-name-skyrise2-Yellow: Yellow
 team-name-rooftop-White: White
 team-name-rooftop-Gray: Gray
 team-name-rooftop-Pink: Pink
@@ -1753,7 +1895,38 @@ team-name-rooftop-Blue: Blue
 team-name-rooftop-Aqua: Aqua
 team-name-rooftop-Green: Green
 team-name-rooftop-Yellow: Yellow
-display-group-doubles: Doubles
+team-name-crypt2-Pink: Pink
+team-name-crypt2-White: White
+team-name-crypt2-Aqua: Aqua
+team-name-crypt2-Gray: Gray
+team-name-crypt2-Red: Red
+team-name-crypt2-Yellow: Yellow
+team-name-crypt2-Green: Green
+team-name-crypt2-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Green: Green
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Blue: Blue
+team-name-rooftop2-White: White
+team-name-rooftop2-Gray: Gray
+team-name-rooftop2-Pink: Pink
+team-name-rooftop2-Red: Red
+team-name-rooftop2-Blue: Blue
+team-name-rooftop2-Aqua: Aqua
+team-name-rooftop2-Green: Green
+team-name-rooftop2-Yellow: Yellow
+team-name-temple-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Green: Green
+team-name-temple-Blue: Blue
+team-name-playground2-Gray: Gray
+team-name-playground2-Pink: Pink
+team-name-playground2-Red: Red
+team-name-playground2-White: White
+team-name-playground2-Blue: Blue
+team-name-playground2-Aqua: Aqua
+team-name-playground2-Green: Green
+team-name-playground2-Yellow: Yellow
 team-name-lighthouse2-Gray: Gray
 team-name-lighthouse2-Pink: Pink
 team-name-lighthouse2-Red: Red
@@ -1762,3 +1935,15 @@ team-name-lighthouse2-Blue: Blue
 team-name-lighthouse2-Aqua: Aqua
 team-name-lighthouse2-Green: Green
 team-name-lighthouse2-Yellow: Yellow
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+team-name-temple2-Yellow: Yellow
+team-name-temple2-Red: Red
+team-name-temple2-Green: Green
+team-name-temple2-Blue: Blue
+display-group-4v4v4v4: 4v4v4v4
+display-group-1v1: 1v1
+display-group-3v3v3v3: 3v3v3v3
+display-group-2v2: 2v2

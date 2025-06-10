@@ -802,7 +802,8 @@ format-tab:
       - ''
       footer:
       - ''
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -820,7 +821,8 @@ format-tab:
       footer:
       - ''
       - '&7&oYou are spectating'
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -1024,342 +1026,6 @@ format-tab:
       suffix:
       - ' {vPrefix}'
       - ' {level}'
-shop-items-messages:
-  inventory-name: '&8Quick Buy'
-  quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
-  separator-item-name: '&8⇧ Categories'
-  separator-item-lore:
-  - '&8⇩ Items'
-  quick-buy-item-name: '&bQuick Buy'
-  quick-buy-item-lore: []
-  quick-buy-empty-item-name: '&cEmpty slot!'
-  quick-buy-empty-item-lore:
-  - '&7This is a Quick Buy Slot!'
-  - '&bSneak Click &7any item in'
-  - '&7the shop to add it here.'
-  can-buy-color: '&a'
-  cant-buy-color: '&c'
-  blocks-category:
-    inventory-name: '&8Blok'
-    category-item-name: '&aBlok'
-    category-item-lore:
-    - '&eKlik untuk melihat!'
-    content-item-wol-name: '{color}Wol'
-    content-item-wol-lore:
-    - '&7Biaya: &f{cost} {currency}'
-    - ''
-    - '&7Bagus untuk menyebrang'
-    - '&7pulau. Berubah menjadi tim Anda'
-    - '&7color.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-clay-name: '{color}Hardened Clay'
-    content-item-clay-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Blok dasar untuk mempertahankan kasur Anda'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-glass-name: '{color}Kaca Anti Ledakan'
-    content-item-glass-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Kebal terhadap ledakan'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-stone-name: '{color}End Stone'
-    content-item-stone-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Blok keras untuk mempertahankan kasur Anda'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-ladder-name: '{color}Tangga'
-    content-item-ladder-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Berguna untuk menyelamatkan kucing yang terjebak'
-    - '&7di pohon.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-obsidian-name: '{color}Obsidian'
-    content-item-obsidian-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Perlindungan ekstrim untuk kasur Anda'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-wood-name: '{color}Kayu'
-    content-item-wood-lore:
-    - '&7Biaya: {cos} {currency}'
-    - ''
-    - '&7Blok keras untuk mempertahankan kasur Anda'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-wool-name: '&cName not set'
-    content-item-wool-lore: '&cLore not set'
-  melee-category:
-    inventory-name: '&8Senjata Jarak Dekat'
-    category-item-name: '&aSenjata Jarak Dekat'
-    category-item-lore:
-    - '&eKlik untuk melihat!'
-    content-item-stone-sword-name: '{color}Stone Sword'
-    content-item-stone-sword-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-iron-sword-name: '{color}Iron Sword'
-    content-item-iron-sword-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-diamond-sword-name: '{color}Diamond Sword'
-    content-item-diamond-sword-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-stick-name: '{color}Stik (Knockback I)'
-    content-item-stick-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  armor-category:
-    inventory-name: '&8Armor'
-    category-item-name: '&aArmor'
-    category-item-lore:
-    - '&eClick to view!'
-    content-item-chainmail-name: '{color}Armor Chainmail Permanenr'
-    content-item-chainmail-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Celana dan sepatu chainmail yang dapat membuat'
-    - '&7kamu akan selalu muncul dengan ini'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-iron-armor-name: '{color}Armor Besi Permanen'
-    content-item-iron-armor-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Celana dan sepatu besi yang dapat membuat'
-    - '&7kamu akan selalu muncul dengan ini.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-diamond-armor-name: '{color}Armor Berlian Permanen'
-    content-item-diamond-armor-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Celana dan sepatu berlian yang dapat membuat'
-    - '&7kamu akan selalu naksir dengan ini.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  tools-category:
-    inventory-name: '&8Tools'
-    category-item-name: '&aTools'
-    category-item-lore:
-    - '&eKlik untuk melihat!'
-    content-item-shears-name: '{color}Gunting Permanen'
-    content-item-shears-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Bagus untuk menyingkirkan wol. Kamu'
-    - '&7akan selalu muncul dengan gunting ini.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-pickaxe-name: '{color}Pickaxe {tier}'
-    content-item-pickaxe-lore:
-    - '&7Biaya: {cost} {currency}'
-    - '&7Tingkat: &e{tier}'
-    - ''
-    - '&7Ini adalah item yang dapat diupgrade.'
-    - '&7Itu akan kehilangan 1 tingkat setelah.'
-    - '&7mati!'
-    - ''
-    - '&7Anda akan secara permanen'
-    - '&7respawn dengan setidaknya'
-    - '&7tingkat terendah.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-axe-name: '{color}Kapak {tier}'
-    content-item-axe-lore:
-    - '&7Biaya: {cost} {currency}'
-    - '&7Tingkat: &e{tier}'
-    - ''
-    - '&7Ini adalah item yang dapat diupgrade.'
-    - '&7Itu akan kehilangan 1 tingkat setelah.'
-    - '&7mati!'
-    - ''
-    - '&7Anda akan secara permanen'
-    - '&7respawn dengan setidaknya'
-    - '&7tingkat terendah.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  ranged-category:
-    inventory-name: '&8Senjata Jarak Jauh'
-    category-item-name: '&aSenjata Jarak Jauh'
-    category-item-lore:
-    - '&eKlik untuk melihat!'
-    content-item-arrow-name: '{color}Anak Panah'
-    content-item-arrow-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow1-name: '{color}Panah'
-    content-item-bow1-lore:
-    - '&7Cost: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow2-name: '{color}Panah (Power I)'
-    content-item-bow2-lore:
-    - '&7Cost: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bow3-name: '{color}Panah (Power I, Punch I)'
-    content-item-bow3-lore:
-    - '&7Cost: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  potions-category:
-    inventory-name: '&8Ramuan'
-    category-item-name: '&aRamuan'
-    category-item-lore:
-    - '&eKlik untuk melihat!'
-    content-item-speed-potion-name: '{color}Ramuan Kecepatan II (45 detik)'
-    content-item-speed-potion-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-jump-potion-name: '{color}Ramuan Lompat V (45 detik)'
-    content-item-jump-potion-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-invisibility-name: '{color}Ramuan Tak Kasat Mata (30 detik)'
-    content-item-invisibility-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-  utility-category:
-    inventory-name: '&8Utilitas'
-    category-item-name: '&aUtilitas'
-    category-item-lore:
-    - '&eKlik untuk melihat!'
-    content-item-golden-apple-name: '{color}Apel Emas'
-    content-item-golden-apple-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Penyembuhan menyeluruh.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bedbug-name: '{color}Kutu Kasur'
-    content-item-bedbug-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Memunculkan ikan gabus di mana'
-    - '&7bola salju mendarat untuk mengalihkan perhatian'
-    - '&7musuh. Berlangsung 15 detik.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-dream-defender-name: '{color}Pertahanan Impian'
-    content-item-dream-defender-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Iron Golem untuk membantu mempertahankan'
-    - '&7base. Berlangsung 4 menit.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-fireball-name: '{color}Bola Api'
-    content-item-fireball-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Klik kanan untuk meluncurkan! Bagus untuk'
-    - '&7memukul mundur musuh yang berjalan'
-    - '&7di jembatan tipis'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-tnt-name: '{color}TNT'
-    content-item-tnt-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Langsung menyala, cocok'
-    - '&7untuk meledakkan sesuatu!'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-ender-pearl-name: '{color}Ender Pearl'
-    content-item-ender-pearl-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Cara tercepat untuk menyerang base'
-    - '&7musuh.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-water-bucket-name: '{color}Water Bucket'
-    content-item-water-bucket-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Bagus untuk memperlambat musuh.'
-    - '&7Bisa juga melindungi'
-    - '&7dari serangan TNT.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-bridge-egg-name: '{color}Telur Jembatan'
-    content-item-bridge-egg-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Telur ini menciptakan jembatan di'
-    - '&7percobaan setelah dilempar.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-magic-milk-name: '{color}Susu Ajaib'
-    content-item-magic-milk-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Hindari memicu jebakan untuk 60'
-    - '&7detik setelah diminum.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-sponge-name: '{color}Spons'
-    content-item-sponge-lore:
-    - '&7Biaya: {cost} {currency}'
-    - ''
-    - '&7Bagus untuk menyerap air.'
-    - ''
-    - '{quick_buy}'
-    - '{buy_status}'
-    content-item-tower-name: '&cName not set'
-    content-item-tower-lore: '&cLore not set'
 shop-insuff-money: '{prefix}&cKamu tidak mempunyai {currency} yang cukup! Butuh {amount}
   lagi!'
 shop-new-purchase: '{prefix}&aKamu membeli &6{item}'
@@ -1521,6 +1187,343 @@ upgrades-base-trap-msg-3: '&c&lPerangkap alarm telah dipicu oleh &7&l{player} &c
   tim {color}&l{team}!'
 upgrades-base-trap-title-3: '&c&lALARM!!!'
 upgrades-base-trap-subtitle-3: '&fPerangkap alarm telah dipicu oleh tim {color}{team}&f!'
+shop-items-messages:
+  inventory-name: '&8Quick Buy'
+  quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
+  separator-item-name: '&8⇧ Categories'
+  separator-item-lore:
+  - '&8⇩ Items'
+  quick-buy-item-name: '&bQuick Buy'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cEmpty slot!'
+  quick-buy-empty-item-lore:
+  - '&7This is a Quick Buy Slot!'
+  - '&bSneak Click &7any item in'
+  - '&7the shop to add it here.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  melee-category:
+    inventory-name: '&8Senjata Jarak Dekat'
+    category-item-name: '&aSenjata Jarak Dekat'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-stone-sword-name: '{color}Stone Sword'
+    content-item-stone-sword-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-sword-name: '{color}Iron Sword'
+    content-item-iron-sword-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-sword-name: '{color}Diamond Sword'
+    content-item-diamond-sword-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stick-name: '{color}Stik (Knockback I)'
+    content-item-stick-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  armor-category:
+    inventory-name: '&8Armor'
+    category-item-name: '&aArmor'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-chainmail-name: '{color}Armor Chainmail Permanenr'
+    content-item-chainmail-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Celana dan sepatu chainmail yang dapat membuat'
+    - '&7kamu akan selalu muncul dengan ini'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-iron-armor-name: '{color}Armor Besi Permanen'
+    content-item-iron-armor-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Celana dan sepatu besi yang dapat membuat'
+    - '&7kamu akan selalu muncul dengan ini.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-diamond-armor-name: '{color}Armor Berlian Permanen'
+    content-item-diamond-armor-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Celana dan sepatu berlian yang dapat membuat'
+    - '&7kamu akan selalu naksir dengan ini.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  tools-category:
+    inventory-name: '&8Tools'
+    category-item-name: '&aTools'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-shears-name: '{color}Gunting Permanen'
+    content-item-shears-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Bagus untuk menyingkirkan wol. Kamu'
+    - '&7akan selalu muncul dengan gunting ini.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-pickaxe-name: '{color}Pickaxe {tier}'
+    content-item-pickaxe-lore:
+    - '&7Biaya: {cost} {currency}'
+    - '&7Tingkat: &e{tier}'
+    - ''
+    - '&7Ini adalah item yang dapat diupgrade.'
+    - '&7Itu akan kehilangan 1 tingkat setelah.'
+    - '&7mati!'
+    - ''
+    - '&7Anda akan secara permanen'
+    - '&7respawn dengan setidaknya'
+    - '&7tingkat terendah.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-axe-name: '{color}Kapak {tier}'
+    content-item-axe-lore:
+    - '&7Biaya: {cost} {currency}'
+    - '&7Tingkat: &e{tier}'
+    - ''
+    - '&7Ini adalah item yang dapat diupgrade.'
+    - '&7Itu akan kehilangan 1 tingkat setelah.'
+    - '&7mati!'
+    - ''
+    - '&7Anda akan secara permanen'
+    - '&7respawn dengan setidaknya'
+    - '&7tingkat terendah.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  ranged-category:
+    inventory-name: '&8Senjata Jarak Jauh'
+    category-item-name: '&aSenjata Jarak Jauh'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-arrow-name: '{color}Anak Panah'
+    content-item-arrow-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow1-name: '{color}Panah'
+    content-item-bow1-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow2-name: '{color}Panah (Power I)'
+    content-item-bow2-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bow3-name: '{color}Panah (Power I, Punch I)'
+    content-item-bow3-lore:
+    - '&7Cost: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  potions-category:
+    inventory-name: '&8Ramuan'
+    category-item-name: '&aRamuan'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-speed-potion-name: '{color}Ramuan Kecepatan II (45 detik)'
+    content-item-speed-potion-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-jump-potion-name: '{color}Ramuan Lompat V (45 detik)'
+    content-item-jump-potion-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-invisibility-name: '{color}Ramuan Tak Kasat Mata (30 detik)'
+    content-item-invisibility-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+  blocks-category:
+    inventory-name: '&8Blok'
+    category-item-name: '&aBlok'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-wol-name: '{color}Wol'
+    content-item-wol-lore:
+    - '&7Biaya: &f{cost} {currency}'
+    - ''
+    - '&7Bagus untuk menyebrang'
+    - '&7pulau. Berubah menjadi tim Anda'
+    - '&7color.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-clay-name: '{color}Hardened Clay'
+    content-item-clay-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Blok dasar untuk mempertahankan kasur Anda'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-glass-name: '{color}Kaca Anti Ledakan'
+    content-item-glass-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Kebal terhadap ledakan'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-stone-name: '{color}End Stone'
+    content-item-stone-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Blok keras untuk mempertahankan kasur Anda'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ladder-name: '{color}Tangga'
+    content-item-ladder-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Berguna untuk menyelamatkan kucing yang terjebak'
+    - '&7di pohon.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-obsidian-name: '{color}Obsidian'
+    content-item-obsidian-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Perlindungan ekstrim untuk kasur Anda'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wood-name: '{color}Kayu'
+    content-item-wood-lore:
+    - '&7Biaya: {cos} {currency}'
+    - ''
+    - '&7Blok keras untuk mempertahankan kasur Anda'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-wool-name: '&cName not set'
+    content-item-wool-lore: '&cLore not set'
+  utility-category:
+    inventory-name: '&8Utilitas'
+    category-item-name: '&aUtilitas'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-golden-apple-name: '{color}Apel Emas'
+    content-item-golden-apple-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Penyembuhan menyeluruh.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bedbug-name: '{color}Kutu Kasur'
+    content-item-bedbug-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Memunculkan ikan gabus di mana'
+    - '&7bola salju mendarat untuk mengalihkan perhatian'
+    - '&7musuh. Berlangsung 15 detik.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-dream-defender-name: '{color}Pertahanan Impian'
+    content-item-dream-defender-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Iron Golem untuk membantu mempertahankan'
+    - '&7base. Berlangsung 4 menit.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-fireball-name: '{color}Bola Api'
+    content-item-fireball-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Klik kanan untuk meluncurkan! Bagus untuk'
+    - '&7memukul mundur musuh yang berjalan'
+    - '&7di jembatan tipis'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tnt-name: '{color}TNT'
+    content-item-tnt-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Langsung menyala, cocok'
+    - '&7untuk meledakkan sesuatu!'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-ender-pearl-name: '{color}Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Cara tercepat untuk menyerang base'
+    - '&7musuh.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-water-bucket-name: '{color}Water Bucket'
+    content-item-water-bucket-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Bagus untuk memperlambat musuh.'
+    - '&7Bisa juga melindungi'
+    - '&7dari serangan TNT.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-bridge-egg-name: '{color}Telur Jembatan'
+    content-item-bridge-egg-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Telur ini menciptakan jembatan di'
+    - '&7percobaan setelah dilempar.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-magic-milk-name: '{color}Susu Ajaib'
+    content-item-magic-milk-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Hindari memicu jebakan untuk 60'
+    - '&7detik setelah diminum.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-sponge-name: '{color}Spons'
+    content-item-sponge-lore:
+    - '&7Biaya: {cost} {currency}'
+    - ''
+    - '&7Bagus untuk menyerap air.'
+    - ''
+    - '{quick_buy}'
+    - '{buy_status}'
+    content-item-tower-name: '&cName not set'
+    content-item-tower-lore: '&cLore not set'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 addons:
   compass:
     messages:
@@ -1728,8 +1731,10 @@ addons:
     cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
       The game is starting!'
     already-in-team: '{prefix}&cYou are already in this team!'
-upgrades-menu-gui-name-default: '&8Upgrades & Traps'
-display-group-solo: Solo
+  play-again:
+    selector-permission-denied: '&cYou don''t have permission to select an arena!'
+    not-party-owner: '&cOnly the owner of the party can play again!'
+display-group-default: Default
 team-name-lighthouse-Gray: Gray
 team-name-lighthouse-Pink: Pink
 team-name-lighthouse-Red: Red
@@ -1738,6 +1743,142 @@ team-name-lighthouse-Blue: Blue
 team-name-lighthouse-Aqua: Aqua
 team-name-lighthouse-Green: Green
 team-name-lighthouse-Yellow: Yellow
+team-name-ashore2-Red: Red
+team-name-ashore2-Blue: Blue
+team-name-ashore2-Green: Green
+team-name-ashore2-Yellow: Yellow
+team-name-toro-Gray: Gray
+team-name-toro-Pink: Pink
+team-name-toro-Red: Red
+team-name-toro-White: White
+team-name-toro-Blue: Blue
+team-name-toro-Aqua: Aqua
+team-name-toro-Green: Green
+team-name-toro-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashore-Red: Red
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-ashore-Yellow: Yellow
+team-name-eastwood2-Red: Red
+team-name-eastwood2-Blue: Blue
+team-name-eastwood2-Green: Green
+team-name-eastwood2-Yellow: Yellow
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-siege2-Gray: Gray
+team-name-siege2-Pink: Pink
+team-name-siege2-Red: Red
+team-name-siege2-White: White
+team-name-siege2-Blue: Blue
+team-name-siege2-Aqua: Aqua
+team-name-siege2-Green: Green
+team-name-siege2-Yellow: Yellow
+team-name-lectus2-Red: Red
+team-name-lectus2-Blue: Blue
+team-name-lectus2-Green: Green
+team-name-lectus2-Yellow: Yellow
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-toro2-Gray: Gray
+team-name-toro2-Pink: Pink
+team-name-toro2-Red: Red
+team-name-toro2-White: White
+team-name-toro2-Blue: Blue
+team-name-toro2-Aqua: Aqua
+team-name-toro2-Green: Green
+team-name-toro2-Yellow: Yellow
+team-name-crypt-Pink: Pink
+team-name-crypt-White: White
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Gray: Gray
+team-name-crypt-Red: Red
+team-name-crypt-Yellow: Yellow
+team-name-crypt-Green: Green
+team-name-crypt-Blue: Blue
+team-name-glacier2-Gray: Gray
+team-name-glacier2-Pink: Pink
+team-name-glacier2-Red: Red
+team-name-glacier2-White: White
+team-name-glacier2-Blue: Blue
+team-name-glacier2-Aqua: Aqua
+team-name-glacier2-Green: Green
+team-name-glacier2-Yellow: Yellow
+team-name-sandcastle2-Yellow: Yellow
+team-name-sandcastle2-Green: Green
+team-name-sandcastle2-Red: Red
+team-name-sandcastle2-Blue: Blue
+team-name-aquarium2-Green: Green
+team-name-aquarium2-Blue: Blue
+team-name-aquarium2-Yellow: Yellow
+team-name-aquarium2-Red: Red
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Aqua: Aqua
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-stonekeep2-Red: Red
+team-name-stonekeep2-Yellow: Yellow
+team-name-stonekeep2-Blue: Blue
+team-name-stonekeep2-Green: Green
+team-name-acropolis2-Green: Green
+team-name-acropolis2-Blue: Blue
+team-name-acropolis2-White: White
+team-name-acropolis2-Yellow: Yellow
+team-name-acropolis2-Red: Red
+team-name-acropolis2-Aqua: Aqua
+team-name-acropolis2-Gray: Gray
+team-name-acropolis2-Pink: Pink
+team-name-lectus-Red: Red
+team-name-lectus-Blue: Blue
+team-name-lectus-Green: Green
+team-name-lectus-Yellow: Yellow
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise2-Pink: Pink
+team-name-skyrise2-Gray: Gray
+team-name-skyrise2-White: White
+team-name-skyrise2-Red: Red
+team-name-skyrise2-Blue: Blue
+team-name-skyrise2-Aqua: Aqua
+team-name-skyrise2-Green: Green
+team-name-skyrise2-Yellow: Yellow
 team-name-rooftop-White: White
 team-name-rooftop-Gray: Gray
 team-name-rooftop-Pink: Pink
@@ -1746,7 +1887,38 @@ team-name-rooftop-Blue: Blue
 team-name-rooftop-Aqua: Aqua
 team-name-rooftop-Green: Green
 team-name-rooftop-Yellow: Yellow
-display-group-doubles: Doubles
+team-name-crypt2-Pink: Pink
+team-name-crypt2-White: White
+team-name-crypt2-Aqua: Aqua
+team-name-crypt2-Gray: Gray
+team-name-crypt2-Red: Red
+team-name-crypt2-Yellow: Yellow
+team-name-crypt2-Green: Green
+team-name-crypt2-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Green: Green
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Blue: Blue
+team-name-rooftop2-White: White
+team-name-rooftop2-Gray: Gray
+team-name-rooftop2-Pink: Pink
+team-name-rooftop2-Red: Red
+team-name-rooftop2-Blue: Blue
+team-name-rooftop2-Aqua: Aqua
+team-name-rooftop2-Green: Green
+team-name-rooftop2-Yellow: Yellow
+team-name-temple-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Green: Green
+team-name-temple-Blue: Blue
+team-name-playground2-Gray: Gray
+team-name-playground2-Pink: Pink
+team-name-playground2-Red: Red
+team-name-playground2-White: White
+team-name-playground2-Blue: Blue
+team-name-playground2-Aqua: Aqua
+team-name-playground2-Green: Green
+team-name-playground2-Yellow: Yellow
 team-name-lighthouse2-Gray: Gray
 team-name-lighthouse2-Pink: Pink
 team-name-lighthouse2-Red: Red
@@ -1755,3 +1927,15 @@ team-name-lighthouse2-Blue: Blue
 team-name-lighthouse2-Aqua: Aqua
 team-name-lighthouse2-Green: Green
 team-name-lighthouse2-Yellow: Yellow
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+team-name-temple2-Yellow: Yellow
+team-name-temple2-Red: Red
+team-name-temple2-Green: Green
+team-name-temple2-Blue: Blue
+display-group-4v4v4v4: 4v4v4v4
+display-group-1v1: 1v1
+display-group-3v3v3v3: 3v3v3v3
+display-group-2v2: 2v2

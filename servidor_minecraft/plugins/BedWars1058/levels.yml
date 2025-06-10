@@ -1,15 +1,3 @@
-xp-rewards:
-  per-minute: 10
-  per-teammate: 5
-  game-win: 100
-  bed-destroyed: 15
-  regular-kill: 10
-  final-kill: 15
-progress-bar:
-  symbol: ■
-  unlocked-color: '&b'
-  locked-color: '&7'
-  format: '&8 [{progress}&8]'
 levels:
   '1':
     name: '&7[{number}✩] '
@@ -29,3 +17,15 @@ levels:
   others:
     name: '&7[{number}✩] '
     rankup-cost: 5000
+xp-rewards:
+  per-minute: 10
+  per-teammate: 5
+  game-win: 100
+  bed-destroyed: 15
+  regular-kill: 10
+  final-kill: 15
+progress-bar:
+  symbol: ■
+  unlocked-color: '&b'
+  locked-color: '&7'
+  format: '&8 [{progress}&8]'

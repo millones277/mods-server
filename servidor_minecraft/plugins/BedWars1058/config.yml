@@ -2,7 +2,7 @@
 # Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/home
 
 serverType: MULTIARENA
-language: es
+language: en
 disabled-languages:
 - your language iso here
 storeLink: https://www.spigotmc.org/resources/authors/39904/
@@ -51,25 +51,18 @@ countdowns:
   game-start-regular: 40
   game-start-half-arena: 25
   game-start-shortened: 5
-  game-restart: 10
+  game-restart: 45
   player-re-spawn: 5
   next-event-beds-destroy: 360
   next-event-dragon-spawn: 600
   next-event-game-end: 120
 shout-cmd-cooldown: 30
-server-ip: yourServer.Com
-powered-by: Llorones Internacionales
+server-ip: ChillonesInt.com
+powered-by: ChillonesInt
 allow-hunger-depletion:
   waiting: false
   ingame: false
 allow-fire-extinguish: true
-performance-settings:
-  heal-pool:
-    enable: true
-    seen-by-team-only: true
-  rotate-generators: true
-  spoil-tnt-players: true
-  paper-features: true
 tnt-jump-settings:
   barycenter-alteration-in-y: 0.5
   strength-reduction-constant: 5
@@ -78,7 +71,7 @@ tnt-jump-settings:
   damage-teammates: 5
   damage-others: 10
 blast-protection:
-  end-stone: 69.0
+  end-stone: 12.0
   glass: 300.0
   ray-blocked-by-glass: true
 tnt-prime-settings:
@@ -110,25 +103,70 @@ inventories:
   disable-furnace: true
   disable-brewing-stand: true
   disable-anvil: true
+lobby-items:
+  stats:
+    command: bw stats
+    material: PLAYER_HEAD
+    data: 3
+    enchanted: false
+    slot: 0
+  arena-selector:
+    command: bw gui
+    material: CHEST
+    data: 5
+    enchanted: true
+    slot: 4
+  leave:
+    command: bw leave
+    material: RED_BED
+    data: 0
+    enchanted: false
+    slot: 8
+pre-game-items:
+  stats:
+    command: bw stats
+    material: PLAYER_HEAD
+    data: 3
+    enchanted: false
+    slot: 0
+  leave:
+    command: bw leave
+    material: RED_BED
+    data: 0
+    enchanted: false
+    slot: 8
+spectator-items:
+  teleporter:
+    command: bw teleporter
+    material: PLAYER_HEAD
+    data: 3
+    enchanted: false
+    slot: 0
+  leave:
+    command: bw leave
+    material: RED_BED
+    data: 0
+    enchanted: false
+    slot: 8
 arena-gui:
   settings:
     inv-size: 27
     show-playing: true
     use-slots: 10,11,12,13,14,15,16
   waiting:
-    material: STAINED_GLASS_PANE
+    material: LIME_CONCRETE
     data: 5
     enchanted: false
   starting:
-    material: STAINED_GLASS_PANE
+    material: YELLOW_CONCRETE
     data: 4
     enchanted: true
   playing:
-    material: STAINED_GLASS_PANE
+    material: RED_CONCRETE
     data: 14
     enchanted: false
   skipped-slot:
-    material: STAINED_GLASS_PANE
+    material: BLACK_STAINED_GLASS_PANE
     data: 15
     enchanted: false
 stats-gui:
@@ -146,7 +184,7 @@ stats-gui:
     data: 0
     slot: 12
   deaths:
-    material: SKULL_ITEM
+    material: SKELETON_SKULL
     data: 0
     slot: 13
   final-kills:
@@ -154,15 +192,15 @@ stats-gui:
     data: 0
     slot: 14
   final-deaths:
-    material: SKULL_ITEM
+    material: SKELETON_SKULL
     data: 1
     slot: 15
   beds-destroyed:
-    material: BED
+    material: RED_BED
     data: 0
     slot: 16
   first-play:
-    material: STAINED_GLASS_PANE
+    material: BLACK_STAINED_GLASS_PANE
     data: 0
     slot: 21
   games-played:
@@ -170,12 +208,12 @@ stats-gui:
     data: 0
     slot: 22
   last-play:
-    material: STAINED_GLASS_PANE
+    material: BLACK_STAINED_GLASS_PANE
     data: 0
     slot: 23
 start-items-per-group:
   Default:
-  - WOOD_SWORD
+  - WOODEN_SWORD
 allowed-commands:
 - shout
 - bw
@@ -186,7 +224,7 @@ lobby-settings:
   void-tp: true
   void-height: 0
 game-end:
-  show-eliminated: true
+  show-eliminated: false
   teleport-eliminated: true
   chat-top:
     order-by: kills
@@ -194,54 +232,17 @@ game-end:
   sb-top:
     order-by: kills
     hide-missing: true
-lobby-items:
-  stats:
-    command: bw stats
-    material: SKULL_ITEM
-    data: 3
-    enchanted: false
-    slot: 0
-  arena-selector:
-    command: bw gui
-    material: CHEST
-    data: 5
-    enchanted: true
-    slot: 4
-  leave:
-    command: bw leave
-    material: BED
-    data: 0
-    enchanted: false
-    slot: 8
-pre-game-items:
-  stats:
-    command: bw stats
-    material: SKULL_ITEM
-    data: 3
-    enchanted: false
-    slot: 0
-  leave:
-    command: bw leave
-    material: BED
-    data: 0
-    enchanted: false
-    slot: 8
-spectator-items:
-  teleporter:
-    command: bw teleporter
-    material: SKULL_ITEM
-    data: 3
-    enchanted: false
-    slot: 0
-  leave:
-    command: bw leave
-    material: BED
-    data: 0
-    enchanted: false
-    slot: 8
-lobbyLoc: 0.5032892291638869,72.0,0.4874608722488437,-267.6001281738281,89.8499984741211,lobby
+performance-settings:
+  heal-pool:
+    enable: true
+    seen-by-team-only: true
+  rotate-generators: true
+  spoil-tnt-players: true
+  paper-features: true
+lobbyLoc: 500.4960421586687,72.0,500.5422499222502,-0.3147263526916504,-0.6186005473136902,bwlobby
 arenaGroups:
-- Solo
-- Doubles
-arenaGui:
-  settings: {}
+- 1v1
+- 2v2
+- 3v3v3v3
+- 4v4v4v4
+join-npc-locations: []

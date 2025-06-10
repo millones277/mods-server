@@ -1,0 +1,20 @@
+JumpPads:
+  bwlobby, 500, 72, 509:
+    owners:
+    - 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 20.0
+  bwlobby, 499, 72, 509:
+    owners:
+    - 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+    plate: STONE_PRESSURE_PLATE
+    power: 25.0
+    angle: 25.0
+  bwlobby, 501, 72, 509:
+    owners:
+    - 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+    plate: STONE_PRESSURE_PLATE
+    power: 25.0
+    angle: 25.0
+

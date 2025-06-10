@@ -72,7 +72,7 @@ upgrade-miner:
     currency: diamond
     cost: 2
     display-item:
-      material: GOLD_PICKAXE
+      material: GOLDEN_PICKAXE
       data: 0
       amount: 1
       enchanted: false
@@ -82,7 +82,7 @@ upgrade-miner:
     currency: diamond
     cost: 4
     display-item:
-      material: GOLD_PICKAXE
+      material: GOLDEN_PICKAXE
       data: 0
       amount: 2
       enchanted: false
@@ -172,28 +172,28 @@ category-traps:
 separator-glass:
   on-click: ''
   display-item:
-    material: STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     data: 7
     amount: 1
     enchanted: false
 trap-slot-first:
   trap: 1
   display-item:
-    material: STAINED_GLASS
+    material: GRAY_STAINED_GLASS
     data: 8
     amount: 1
     enchanted: false
 trap-slot-second:
   trap: 2
   display-item:
-    material: STAINED_GLASS
+    material: GRAY_STAINED_GLASS
     data: 8
     amount: 2
     enchanted: false
 trap-slot-third:
   trap: 3
   display-item:
-    material: STAINED_GLASS
+    material: GRAY_STAINED_GLASS
     data: 8
     amount: 3
     enchanted: false
@@ -216,7 +216,7 @@ base-trap-2:
   - 'player-effect: SPEED,1,15,base'
 base-trap-3:
   display-item:
-    material: REDSTONE_TORCH_ON
+    material: REDSTONE_TORCH
     data: 0
     amount: 1
     enchanted: false

@@ -1,0 +1,21 @@
+settings:
+  # make this false if you dont want the JAVA players to get the new Combat system on Join
+  toggle-java: true
+  
+  # Shows an action bar message to the attacker when they fight if the user is a bedrock player.
+  player-info:
+    enabled: true
+    messages:
+      bedrock: '&c%player% &eis a bedrock player'
+      java: '&c%player% &eis a java player'
+  
+  # Shows a suffix if the player is java or bedrock on the Name tag
+  # Requires TAB Plugin inorder to function this module.
+  player-suffixes:
+    enabled: true
+    bedrock: '&7[Bedrock]'
+    java: '&7[Java]'
+
+
+messages:
+  welcome: Welcome Back!

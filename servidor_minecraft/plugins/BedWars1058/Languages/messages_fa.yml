@@ -1,4 +1,5 @@
 # Translation by Alijk#2951
+
 prefix: ''
 name: Persian
 cmd-main-list:
@@ -828,7 +829,8 @@ format-tab:
       - ''
       footer:
       - ''
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -846,7 +848,8 @@ format-tab:
       footer:
       - ''
       - '&7&oYou are spectating'
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -1050,6 +1053,168 @@ format-tab:
       suffix:
       - ' {vPrefix}'
       - ' {level}'
+shop-insuff-money: '{prefix}&cShoma be andaze kafi {currency} nadarid! Shoma {amount}
+  ta bishtar mikhaid!'
+shop-new-purchase: '{prefix}&aShoma &6{item} &akharidid'
+shop-already-bought: '{prefix}&cShoma az ghabl in ro kharidid!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eBaraye kharid Click konid!'
+shop-lore-status-cant-afford: '&cShoma be andaze kafi {currency} nadarid!'
+shop-lore-status-tier-maxed: '&aAKHARIN LEVEL!'
+shop-lore-quick-add: '&bBaraye ezafe kardan be Kharid Sari SNEAK Click konid'
+shop-lore-quick-remove: '&bBaraye hazf az Kharid Sari SNEAK Click konid!'
+meaning-no-trap: Hich tale i nadarid!
+format-spectator-target: '{targetTeamColor}{targetDisplayName}'
+format-upgrade-trap-cost: '&7Gheimat: {currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-lore-click-buy: '{color}Baraye kharid Click konid!'
+upgrades-lore-insuff-money: '{color}Shoma be meghdar kafi {currency} nadarid'
+upgrades-lore-locked: '&cGHOFL'
+upgrades-lore-unlocked: '{color}BAZ'
+upgrades-new-purchase: '&a{player} yek &6{upgradeName} &akharid'
+upgrades-upgrade-name-forge-tier-1: '{color}Forge Iron'
+upgrades-upgrade-lore-forge:
+- '&7Ertegha resource haei ke dar'
+- '&7island shoma spawn mishan.'
+- ''
+- '{tier_1_color}Tier 1: +50% Resource Bishtar, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: +100% Resource Bishtar, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Tier 3: Spawn shodan Emerald, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Tier 4: +200% Resource Bishtar, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}Forge Gold'
+upgrades-upgrade-name-forge-tier-3: '{color}Forge Emerald'
+upgrades-upgrade-name-forge-tier-4: '{color}Forge Molten'
+upgrades-category-item-name-traps: '&eKharid Tale'
+upgrades-category-item-lore-traps:
+- '&7Tale haye kharide shode'
+- '&7dar saf samte rast gharar migiran.'
+- ''
+- '&eClick to browse!'
+upgrades-upgrade-name-swords-tier-1: '{color}Sharpened Swords'
+upgrades-upgrade-lore-swords:
+- '&7Team shoma daeman'
+- '&7Sharpness I rooye hame sword va'
+- '&7axe ha migiran!'
+- ''
+- '{tier_1_color}Gheimat: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}Reinforced Armor I'
+upgrades-upgrade-lore-armor:
+- '&7Team shoma daeman'
+- '&7Protection rooye tamam armor ha migiran!'
+- ''
+- '{tier_1_color}Tier 1: Protection I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: Protection II, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Tier 3: Protection III, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Tier 4: Protection IV, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}Reinforced Armor II'
+upgrades-upgrade-name-armor-tier-3: '{color}Reinforced Armor III'
+upgrades-upgrade-name-armor-tier-4: '{color}Reinforced Armor IV'
+upgrades-upgrade-name-miner-tier-1: '{color}Maniac Miner I'
+upgrades-upgrade-lore-miner:
+- '&7Tamam player haye team shoma'
+- '&7daeman Haste migiran.'
+- ''
+- '{tier_1_color}Tier 1: Haste I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: Haste II, &b{tier_2_cost} {tier_2_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}Maniac Miner II'
+upgrades-upgrade-name-heal-pool-tier-1: '{color}Heal Pool'
+upgrades-upgrade-lore-heal-pool:
+- '&7Yek mantaghe regeneration'
+- '&7atraf base shoma misaze!'
+- ''
+- '{tier_1_color}Gheimat: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
+upgrades-upgrade-lore-dragon:
+- '&7Team shoma bejaye 1 dragon'
+- '&72ta dragon migire!'
+- ''
+- '{tier_1_color}Gheimat: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Ghabel Kharid'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Safe Tale'
+upgrades-trap-slot-item-name-first: '{color}Tale #1: {name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7Avalin enemy ke vared'
+- '&7base shoma beshe in'
+- '&7tale faal mishe!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Bad az kharid yek tale dar saf'
+- '&7inja gharar migire. Gheimat tale ha'
+- '&7bar asase tedad tale haye mojood'
+- '&7taghir peida mikone.'
+- ''
+- '&7Tale Badi: &b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}Tale #2: {name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7Dovomin enemy ke vared'
+- '&7base shoma beshe in'
+- '&7tale faal mishe!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Bad az kharid yek tale dar saf'
+- '&7inja gharar migire. Gheimat tale ha'
+- '&7bar asase tedad tale haye mojood'
+- '&7taghir peida mikone.'
+- ''
+- '&7Tale Badi: &b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}Tale #3: {name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7Sevomin enemy ke vared'
+- '&7base shoma beshe in'
+- '&7tale faal mishe!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Bad az kharid yek tale dar saf'
+- '&7inja gharar migire. Gheimat tale ha'
+- '&7bar asase tedad tale haye mojood'
+- '&7taghir peida mikone.'
+- ''
+- '&7Tale Badi: &b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}Tale Sade!'
+upgrades-base-trap-lore-1:
+- '&7Hengam vorood enemy ha be island'
+- '&7baraye 5 sanie koor va kond mishan.'
+- ''
+upgrades-base-trap-name-2: '{color}Counter-Offensive Trap'
+upgrades-base-trap-lore-2:
+- '&7Grants Speed I for 15 seconds to'
+- '&7allied players near your base.'
+- ''
+upgrades-base-trap-name-3: '{color}Tale Alarm'
+upgrades-base-trap-lore-3:
+- '&7Hengam Vorood Afrade Invisible'
+- '&7Be Teametoon Hoshdar Dade Mishe.'
+- ''
+upgrades-base-trap-name-4: '{color}Trap Miner Fatigue'
+upgrades-base-trap-lore-4:
+- '&7Baraye 10 sanie Miner Fatigue Enemy'
+- '&7Haei Ke Vared Base Mishano Faal Mikone.'
+- ''
+upgrades-separator-item-name-back: '&aBazgasht'
+upgrades-separator-item-lore-back:
+- '&7To Upgrades & Traps'
+upgrades-category-gui-name-traps: '&8Dar saf gharar dadan Tale'
+upgrades-trap-queue-full: '&cEmkan Kharid Tale Bishtar Ra Nadarid.'
+upgrades-trap-default-msg: '&c&l{trap} khamoosh shod!'
+upgrades-trap-default-title: '&cTALE FAAL SHOD!'
+upgrades-trap-default-subtitle: '&f{trap} Shoma Faal Shod.'
+upgrades-base-trap-msg-3: '&c&lHoshdar Tale Tavasote &7&l{player} &c&laz team {color}&l{team}
+  &c&lGheyre Faal Shod!'
+upgrades-base-trap-title-3: '&c&lHOSHDAR!!!'
+upgrades-base-trap-subtitle-3: '&fAlarm Tale Tavasote Team {color}{team} &fGheyre
+  Faal Shod!'
 shop-items-messages:
   inventory-name: '&8Kharid Sari'
   quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
@@ -1383,168 +1548,7 @@ shop-items-messages:
     - '{buy_status}'
     content-item-tower-name: '&cName not set'
     content-item-tower-lore: '&cLore not set'
-shop-insuff-money: '{prefix}&cShoma be andaze kafi {currency} nadarid! Shoma {amount}
-  ta bishtar mikhaid!'
-shop-new-purchase: '{prefix}&aShoma &6{item} &akharidid'
-shop-already-bought: '{prefix}&cShoma az ghabl in ro kharidid!'
-shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
-shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
-shop-lore-status-can-buy: '&eBaraye kharid Click konid!'
-shop-lore-status-cant-afford: '&cShoma be andaze kafi {currency} nadarid!'
-shop-lore-status-tier-maxed: '&aAKHARIN LEVEL!'
-shop-lore-quick-add: '&bBaraye ezafe kardan be Kharid Sari SNEAK Click konid'
-shop-lore-quick-remove: '&bBaraye hazf az Kharid Sari SNEAK Click konid!'
-meaning-no-trap: Hich tale i nadarid!
-format-spectator-target: '{targetTeamColor}{targetDisplayName}'
-format-upgrade-trap-cost: '&7Gheimat: {currencyColor}{cost} {currency}'
-format-upgrade-color-can-afford: '&e'
-format-upgrade-color-cant-afford: '&c'
-format-upgrade-color-unlocked: '&a'
-format-tier-color-locked: '&7'
-format-tier-color-unlocked: '&a'
-upgrades-lore-click-buy: '{color}Baraye kharid Click konid!'
-upgrades-lore-insuff-money: '{color}Shoma be meghdar kafi {currency} nadarid'
-upgrades-lore-locked: '&cGHOFL'
-upgrades-lore-unlocked: '{color}BAZ'
-upgrades-new-purchase: '&a{player} yek &6{upgradeName} &akharid'
-upgrades-upgrade-name-forge-tier-1: '{color}Forge Iron'
-upgrades-upgrade-lore-forge:
-- '&7Ertegha resource haei ke dar'
-- '&7island shoma spawn mishan.'
-- ''
-- '{tier_1_color}Tier 1: +50% Resource Bishtar, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Tier 2: +100% Resource Bishtar, &b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}Tier 3: Spawn shodan Emerald, &b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}Tier 4: +200% Resource Bishtar, &b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-forge-tier-2: '{color}Forge Gold'
-upgrades-upgrade-name-forge-tier-3: '{color}Forge Emerald'
-upgrades-upgrade-name-forge-tier-4: '{color}Forge Molten'
-upgrades-category-item-name-traps: '&eKharid Tale'
-upgrades-category-item-lore-traps:
-- '&7Tale haye kharide shode'
-- '&7dar saf samte rast gharar migiran.'
-- ''
-- '&eClick to browse!'
-upgrades-upgrade-name-swords-tier-1: '{color}Sharpened Swords'
-upgrades-upgrade-lore-swords:
-- '&7Team shoma daeman'
-- '&7Sharpness I rooye hame sword va'
-- '&7axe ha migiran!'
-- ''
-- '{tier_1_color}Gheimat: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-1: '{color}Reinforced Armor I'
-upgrades-upgrade-lore-armor:
-- '&7Team shoma daeman'
-- '&7Protection rooye tamam armor ha migiran!'
-- ''
-- '{tier_1_color}Tier 1: Protection I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Tier 2: Protection II, &b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}Tier 3: Protection III, &b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}Tier 4: Protection IV, &b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-2: '{color}Reinforced Armor II'
-upgrades-upgrade-name-armor-tier-3: '{color}Reinforced Armor III'
-upgrades-upgrade-name-armor-tier-4: '{color}Reinforced Armor IV'
-upgrades-upgrade-name-miner-tier-1: '{color}Maniac Miner I'
-upgrades-upgrade-lore-miner:
-- '&7Tamam player haye team shoma'
-- '&7daeman Haste migiran.'
-- ''
-- '{tier_1_color}Tier 1: Haste I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Tier 2: Haste II, &b{tier_2_cost} {tier_2_currency}'
-- ''
-upgrades-upgrade-name-miner-tier-2: '{color}Maniac Miner II'
-upgrades-upgrade-name-heal-pool-tier-1: '{color}Heal Pool'
-upgrades-upgrade-lore-heal-pool:
-- '&7Yek mantaghe regeneration'
-- '&7atraf base shoma misaze!'
-- ''
-- '{tier_1_color}Gheimat: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
-upgrades-upgrade-lore-dragon:
-- '&7Team shoma bejaye 1 dragon'
-- '&72ta dragon migire!'
-- ''
-- '{tier_1_color}Gheimat: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-separator-item-name-glass: '&8⬆&7Ghabel Kharid'
-upgrades-separator-item-lore-glass:
-- '&8⬇&7Safe Tale'
-upgrades-trap-slot-item-name-first: '{color}Tale #1: {name}'
-upgrades-trap-slot-item-lore1-first:
-- '&7Avalin enemy ke vared'
-- '&7base shoma beshe in'
-- '&7tale faal mishe!'
-upgrades-trap-slot-item-lore2-first:
-- ''
-- '&7Bad az kharid yek tale dar saf'
-- '&7inja gharar migire. Gheimat tale ha'
-- '&7bar asase tedad tale haye mojood'
-- '&7taghir peida mikone.'
-- ''
-- '&7Tale Badi: &b{cost} {currency}'
-upgrades-trap-slot-item-name-second: '{color}Tale #2: {name}'
-upgrades-trap-slot-item-lore1-second:
-- '&7Dovomin enemy ke vared'
-- '&7base shoma beshe in'
-- '&7tale faal mishe!'
-upgrades-trap-slot-item-lore2-second:
-- ''
-- '&7Bad az kharid yek tale dar saf'
-- '&7inja gharar migire. Gheimat tale ha'
-- '&7bar asase tedad tale haye mojood'
-- '&7taghir peida mikone.'
-- ''
-- '&7Tale Badi: &b{cost} {currency}'
-upgrades-trap-slot-item-name-third: '{color}Tale #3: {name}'
-upgrades-trap-slot-item-lore1-third:
-- '&7Sevomin enemy ke vared'
-- '&7base shoma beshe in'
-- '&7tale faal mishe!'
-upgrades-trap-slot-item-lore2-third:
-- ''
-- '&7Bad az kharid yek tale dar saf'
-- '&7inja gharar migire. Gheimat tale ha'
-- '&7bar asase tedad tale haye mojood'
-- '&7taghir peida mikone.'
-- ''
-- '&7Tale Badi: &b{cost} {currency}'
-upgrades-base-trap-name-1: '{color}Tale Sade!'
-upgrades-base-trap-lore-1:
-- '&7Hengam vorood enemy ha be island'
-- '&7baraye 5 sanie koor va kond mishan.'
-- ''
-upgrades-base-trap-name-2: '{color}Counter-Offensive Trap'
-upgrades-base-trap-lore-2:
-- '&7Grants Speed I for 15 seconds to'
-- '&7allied players near your base.'
-- ''
-upgrades-base-trap-name-3: '{color}Tale Alarm'
-upgrades-base-trap-lore-3:
-- '&7Hengam Vorood Afrade Invisible'
-- '&7Be Teametoon Hoshdar Dade Mishe.'
-- ''
-upgrades-base-trap-name-4: '{color}Trap Miner Fatigue'
-upgrades-base-trap-lore-4:
-- '&7Baraye 10 sanie Miner Fatigue Enemy'
-- '&7Haei Ke Vared Base Mishano Faal Mikone.'
-- ''
-upgrades-separator-item-name-back: '&aBazgasht'
-upgrades-separator-item-lore-back:
-- '&7To Upgrades & Traps'
-upgrades-category-gui-name-traps: '&8Dar saf gharar dadan Tale'
-upgrades-trap-queue-full: '&cEmkan Kharid Tale Bishtar Ra Nadarid.'
-upgrades-trap-default-msg: '&c&l{trap} khamoosh shod!'
-upgrades-trap-default-title: '&cTALE FAAL SHOD!'
-upgrades-trap-default-subtitle: '&f{trap} Shoma Faal Shod.'
-upgrades-base-trap-msg-3: '&c&lHoshdar Tale Tavasote &7&l{player} &c&laz team {color}&l{team}
-  &c&lGheyre Faal Shod!'
-upgrades-base-trap-title-3: '&c&lHOSHDAR!!!'
-upgrades-base-trap-subtitle-3: '&fAlarm Tale Tavasote Team {color}{team} &fGheyre
-  Faal Shod!'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 addons:
   compass:
     messages:
@@ -1753,8 +1757,10 @@ addons:
     cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
       The game is starting!'
     already-in-team: '{prefix}&cYou are already in this team!'
-upgrades-menu-gui-name-default: '&8Upgrades & Traps'
-display-group-solo: Solo
+  play-again:
+    selector-permission-denied: '&cYou don''t have permission to select an arena!'
+    not-party-owner: '&cOnly the owner of the party can play again!'
+display-group-default: Default
 team-name-lighthouse-Gray: Gray
 team-name-lighthouse-Pink: Pink
 team-name-lighthouse-Red: Red
@@ -1763,6 +1769,142 @@ team-name-lighthouse-Blue: Blue
 team-name-lighthouse-Aqua: Aqua
 team-name-lighthouse-Green: Green
 team-name-lighthouse-Yellow: Yellow
+team-name-ashore2-Red: Red
+team-name-ashore2-Blue: Blue
+team-name-ashore2-Green: Green
+team-name-ashore2-Yellow: Yellow
+team-name-toro-Gray: Gray
+team-name-toro-Pink: Pink
+team-name-toro-Red: Red
+team-name-toro-White: White
+team-name-toro-Blue: Blue
+team-name-toro-Aqua: Aqua
+team-name-toro-Green: Green
+team-name-toro-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashore-Red: Red
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-ashore-Yellow: Yellow
+team-name-eastwood2-Red: Red
+team-name-eastwood2-Blue: Blue
+team-name-eastwood2-Green: Green
+team-name-eastwood2-Yellow: Yellow
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-siege2-Gray: Gray
+team-name-siege2-Pink: Pink
+team-name-siege2-Red: Red
+team-name-siege2-White: White
+team-name-siege2-Blue: Blue
+team-name-siege2-Aqua: Aqua
+team-name-siege2-Green: Green
+team-name-siege2-Yellow: Yellow
+team-name-lectus2-Red: Red
+team-name-lectus2-Blue: Blue
+team-name-lectus2-Green: Green
+team-name-lectus2-Yellow: Yellow
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-toro2-Gray: Gray
+team-name-toro2-Pink: Pink
+team-name-toro2-Red: Red
+team-name-toro2-White: White
+team-name-toro2-Blue: Blue
+team-name-toro2-Aqua: Aqua
+team-name-toro2-Green: Green
+team-name-toro2-Yellow: Yellow
+team-name-crypt-Pink: Pink
+team-name-crypt-White: White
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Gray: Gray
+team-name-crypt-Red: Red
+team-name-crypt-Yellow: Yellow
+team-name-crypt-Green: Green
+team-name-crypt-Blue: Blue
+team-name-glacier2-Gray: Gray
+team-name-glacier2-Pink: Pink
+team-name-glacier2-Red: Red
+team-name-glacier2-White: White
+team-name-glacier2-Blue: Blue
+team-name-glacier2-Aqua: Aqua
+team-name-glacier2-Green: Green
+team-name-glacier2-Yellow: Yellow
+team-name-sandcastle2-Yellow: Yellow
+team-name-sandcastle2-Green: Green
+team-name-sandcastle2-Red: Red
+team-name-sandcastle2-Blue: Blue
+team-name-aquarium2-Green: Green
+team-name-aquarium2-Blue: Blue
+team-name-aquarium2-Yellow: Yellow
+team-name-aquarium2-Red: Red
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Aqua: Aqua
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-stonekeep2-Red: Red
+team-name-stonekeep2-Yellow: Yellow
+team-name-stonekeep2-Blue: Blue
+team-name-stonekeep2-Green: Green
+team-name-acropolis2-Green: Green
+team-name-acropolis2-Blue: Blue
+team-name-acropolis2-White: White
+team-name-acropolis2-Yellow: Yellow
+team-name-acropolis2-Red: Red
+team-name-acropolis2-Aqua: Aqua
+team-name-acropolis2-Gray: Gray
+team-name-acropolis2-Pink: Pink
+team-name-lectus-Red: Red
+team-name-lectus-Blue: Blue
+team-name-lectus-Green: Green
+team-name-lectus-Yellow: Yellow
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise2-Pink: Pink
+team-name-skyrise2-Gray: Gray
+team-name-skyrise2-White: White
+team-name-skyrise2-Red: Red
+team-name-skyrise2-Blue: Blue
+team-name-skyrise2-Aqua: Aqua
+team-name-skyrise2-Green: Green
+team-name-skyrise2-Yellow: Yellow
 team-name-rooftop-White: White
 team-name-rooftop-Gray: Gray
 team-name-rooftop-Pink: Pink
@@ -1771,7 +1913,38 @@ team-name-rooftop-Blue: Blue
 team-name-rooftop-Aqua: Aqua
 team-name-rooftop-Green: Green
 team-name-rooftop-Yellow: Yellow
-display-group-doubles: Doubles
+team-name-crypt2-Pink: Pink
+team-name-crypt2-White: White
+team-name-crypt2-Aqua: Aqua
+team-name-crypt2-Gray: Gray
+team-name-crypt2-Red: Red
+team-name-crypt2-Yellow: Yellow
+team-name-crypt2-Green: Green
+team-name-crypt2-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Green: Green
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Blue: Blue
+team-name-rooftop2-White: White
+team-name-rooftop2-Gray: Gray
+team-name-rooftop2-Pink: Pink
+team-name-rooftop2-Red: Red
+team-name-rooftop2-Blue: Blue
+team-name-rooftop2-Aqua: Aqua
+team-name-rooftop2-Green: Green
+team-name-rooftop2-Yellow: Yellow
+team-name-temple-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Green: Green
+team-name-temple-Blue: Blue
+team-name-playground2-Gray: Gray
+team-name-playground2-Pink: Pink
+team-name-playground2-Red: Red
+team-name-playground2-White: White
+team-name-playground2-Blue: Blue
+team-name-playground2-Aqua: Aqua
+team-name-playground2-Green: Green
+team-name-playground2-Yellow: Yellow
 team-name-lighthouse2-Gray: Gray
 team-name-lighthouse2-Pink: Pink
 team-name-lighthouse2-Red: Red
@@ -1780,3 +1953,15 @@ team-name-lighthouse2-Blue: Blue
 team-name-lighthouse2-Aqua: Aqua
 team-name-lighthouse2-Green: Green
 team-name-lighthouse2-Yellow: Yellow
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+team-name-temple2-Yellow: Yellow
+team-name-temple2-Red: Red
+team-name-temple2-Green: Green
+team-name-temple2-Blue: Blue
+display-group-4v4v4v4: 4v4v4v4
+display-group-1v1: 1v1
+display-group-3v3v3v3: 3v3v3v3
+display-group-2v2: 2v2

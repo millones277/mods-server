@@ -808,7 +808,8 @@ format-tab:
       - ''
       footer:
       - ''
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -826,7 +827,8 @@ format-tab:
       footer:
       - ''
       - '&7&oYou are spectating'
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -1042,6 +1044,259 @@ money-reward-per-teammate: '{prefix}&6+{money} Coins (Team Support).'
 money-reward-bed-destroyed: '{prefix}&6+{money} Coins (Bed Destroyed).'
 money-reward-final-kill: '{prefix}&6+{money} Coins (Final Kill).'
 money-reward-regular-kill: '{prefix}&6+{money} Coins (Regular Kill).'
+shop-insuff-money: '{prefix}&cNu ai destul {currency}! Mai ai nevoide de {amount}
+  de {currency}!'
+shop-new-purchase: '{prefix}&aAi cumparat &6{item}'
+shop-already-bought: '{prefix}&cAi cumparat deja asta!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eClick pentru a cumpara!'
+shop-lore-status-cant-afford: '&cNu ai destul {currency}!'
+shop-lore-status-tier-maxed: '&aNIVEL MAXIM!'
+shop-lore-quick-add: '&bShift Click pentru Shop Rapid'
+shop-lore-quick-remove: '&bShift Click pentru a șterge din Shop Rapid!'
+upgrades-lore-click-buy: '{color}Click to purchase!'
+upgrades-lore-insuff-money: '{color}You don''t have enough {currency}'
+upgrades-lore-locked: '&cLOCKED'
+upgrades-lore-unlocked: '{color}UNLOCKED'
+upgrades:
+  Default:
+    generators:
+      tier1:
+        name: '&eGenerator Fier'
+        lore:
+        - '&7Creste rata de spawnare a Fierului'
+        - '&7si a Aurului cu 50%..'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+      tier2:
+        name: '&eGenerator Aur'
+        lore:
+        - '&7Creste rata de spawnare a Fierului'
+        - '&7si a Aurului cu 100%..'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+      tier3:
+        name: '&eGenerator Emerald'
+        lore:
+        - '&7Activeaza generatorul de Emeralde'
+        - '&7in baza echipei tale.'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    maniacMiner:
+      tier1:
+        name: '&eManiac Miner'
+        lore:
+        - '&7Toti jucatorii din echipa ta vor primi'
+        - '&7efectul Graba I permanent.'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    sharpSword:
+      tier1:
+        name: '&eSharpened Swords'
+        lore:
+        - '&7Echipa ta va primi Sharpness I'
+        - '&7pe toate sabiile!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    reinforced:
+      tier1:
+        name: '&eReinforced Armor'
+        lore:
+        - '&7Echipa ta va primi Protectie I'
+        - '&7pe toata armura!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    trap:
+      tier1:
+        name: '&eEste o capcana!'
+        lore:
+        - '&7Urmatorul inamic care va intra in'
+        - '&7baza ta va primi efectul de Orbire '
+        - '&7si de Incetinire!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    miningFatigue:
+      tier1:
+        name: '&eMiner Fatigue Trap'
+        lore:
+        - '&7Urmatorul inamic care va intra in'
+        - '&7baza ta va primi efectul de Oboseala'
+        - '&7pentru 10 secunde!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+    healPool:
+      tier1:
+        name: '&eHeal Pool'
+        lore:
+        - '&7Creeaza un camp de Regenerare'
+        - '&7a vietii in baza ta!'
+        - ''
+        - '&7Pret:&b {cost} {currency}'
+        - ''
+        - '{loreFooter}'
+upgrades-new-purchase: '&a{player} purchased &6{upgradeName}'
+meaning-no-trap: No trap!
+format-spectator-target: '{targetTeamColor}{targetDisplayName}'
+format-upgrade-trap-cost: '&7Cost: {currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-upgrade-name-forge-tier-1: '{color}Iron Forge'
+upgrades-upgrade-lore-forge:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '{tier_1_color}Tier 1: +50% Resources, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: +100% Resources, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Tier 3: Spawn emeralds, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Tier 4: +200% Resources, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}Golden Forge'
+upgrades-upgrade-name-forge-tier-3: '{color}Emerald Forge'
+upgrades-upgrade-name-forge-tier-4: '{color}Molten Forge'
+upgrades-category-item-name-traps: '&eBuy a trap'
+upgrades-category-item-lore-traps:
+- '&7Purchased traps will be'
+- '&7queued on the right.'
+- ''
+- '&eClick to browse!'
+upgrades-upgrade-name-swords-tier-1: '{color}Sharpened Swords'
+upgrades-upgrade-lore-swords:
+- '&7Your team permanently gains'
+- '&7Sharpness I on all swords and'
+- '&7axes!'
+- ''
+- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}Reinforced Armor I'
+upgrades-upgrade-lore-armor:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '{tier_1_color}Tier 1: Protection I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: Protection II, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Tier 3: Protection III, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Tier 4: Protection IV, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}Reinforced Armor II'
+upgrades-upgrade-name-armor-tier-3: '{color}Reinforced Armor III'
+upgrades-upgrade-name-armor-tier-4: '{color}Reinforced Armor IV'
+upgrades-upgrade-name-miner-tier-1: '{color}Maniac Miner I'
+upgrades-upgrade-lore-miner:
+- '&7All players on your team'
+- '&7permanently gain Haste.'
+- ''
+- '{tier_1_color}Tier 1: Haste I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: Haste II, &b{tier_2_cost} {tier_2_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}Maniac Miner II'
+upgrades-upgrade-name-heal-pool-tier-1: '{color}Heal Pool'
+upgrades-upgrade-lore-heal-pool:
+- '&7Creates a Regeneration field'
+- '&7around yor base!'
+- ''
+- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
+upgrades-upgrade-lore-dragon:
+- '&7Your team will have 2 dragons'
+- '&7instead of 1 during deathmatch!'
+- ''
+- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Purchasable'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Traps Queue'
+upgrades-trap-slot-item-name-first: '{color}Trap #1: {name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7The first enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}Trap #2: {name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7The second enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}Trap #3: {name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7The third enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}It''s a trap!'
+upgrades-base-trap-lore-1:
+- '&7Inflicts Blindness and Slowness'
+- '&7for 5 seconds.'
+- ''
+upgrades-base-trap-name-2: '{color}Counter-Offensive Trap'
+upgrades-base-trap-lore-2:
+- '&7Grants Speed I for 15 seconds to'
+- '&7allied players near your base.'
+- ''
+upgrades-base-trap-name-3: '{color}Alarm Trap'
+upgrades-base-trap-lore-3:
+- '&7Reveales invisible players as'
+- '&7well as their name and team.'
+- ''
+upgrades-base-trap-name-4: '{color}Miner Fatigue Trap'
+upgrades-base-trap-lore-4:
+- '&7Inflict Mining Fatigue for 10'
+- '&7seconds.'
+- ''
+upgrades-separator-item-name-back: '&aBack'
+upgrades-separator-item-lore-back:
+- '&7To Upgrades & Traps'
+upgrades-category-gui-name-traps: '&8Queue a trap'
+upgrades-trap-queue-full: '&cTrap queue full!'
+upgrades-trap-default-msg: '&c&l{trap} a fost activată!'
+upgrades-trap-default-title: '&cCAPCANĂ ACTIVATĂ!'
+upgrades-trap-default-subtitle: '&fCapcana {trap} a fost activată!'
+upgrades-base-trap-msg-3: '&c&lAlarm trap set off by &7&l{player} &c&lfrom {color}&l{team}
+  &c&lteam!'
+upgrades-base-trap-title-3: '&c&lALARM!!!'
+upgrades-base-trap-subtitle-3: '&fAlarm trap set off by {color}{team} &fteam!'
 shop-items-messages:
   inventory-name: '&8Cumpara Repede'
   quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
@@ -1376,259 +1631,7 @@ shop-items-messages:
     - '{buy_status}'
     content-item-tower-name: '&cName not set'
     content-item-tower-lore: '&cLore not set'
-shop-insuff-money: '{prefix}&cNu ai destul {currency}! Mai ai nevoide de {amount}
-  de {currency}!'
-shop-new-purchase: '{prefix}&aAi cumparat &6{item}'
-shop-already-bought: '{prefix}&cAi cumparat deja asta!'
-shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
-shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
-shop-lore-status-can-buy: '&eClick pentru a cumpara!'
-shop-lore-status-cant-afford: '&cNu ai destul {currency}!'
-shop-lore-status-tier-maxed: '&aNIVEL MAXIM!'
-shop-lore-quick-add: '&bShift Click pentru Shop Rapid'
-shop-lore-quick-remove: '&bShift Click pentru a șterge din Shop Rapid!'
-upgrades-lore-click-buy: '{color}Click to purchase!'
-upgrades-lore-insuff-money: '{color}You don''t have enough {currency}'
-upgrades-lore-locked: '&cLOCKED'
-upgrades-lore-unlocked: '{color}UNLOCKED'
-upgrades:
-  Default:
-    generators:
-      tier1:
-        name: '&eGenerator Fier'
-        lore:
-        - '&7Creste rata de spawnare a Fierului'
-        - '&7si a Aurului cu 50%..'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-      tier2:
-        name: '&eGenerator Aur'
-        lore:
-        - '&7Creste rata de spawnare a Fierului'
-        - '&7si a Aurului cu 100%..'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-      tier3:
-        name: '&eGenerator Emerald'
-        lore:
-        - '&7Activeaza generatorul de Emeralde'
-        - '&7in baza echipei tale.'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-    maniacMiner:
-      tier1:
-        name: '&eManiac Miner'
-        lore:
-        - '&7Toti jucatorii din echipa ta vor primi'
-        - '&7efectul Graba I permanent.'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-    sharpSword:
-      tier1:
-        name: '&eSharpened Swords'
-        lore:
-        - '&7Echipa ta va primi Sharpness I'
-        - '&7pe toate sabiile!'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-    reinforced:
-      tier1:
-        name: '&eReinforced Armor'
-        lore:
-        - '&7Echipa ta va primi Protectie I'
-        - '&7pe toata armura!'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-    trap:
-      tier1:
-        name: '&eEste o capcana!'
-        lore:
-        - '&7Urmatorul inamic care va intra in'
-        - '&7baza ta va primi efectul de Orbire '
-        - '&7si de Incetinire!'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-    miningFatigue:
-      tier1:
-        name: '&eMiner Fatigue Trap'
-        lore:
-        - '&7Urmatorul inamic care va intra in'
-        - '&7baza ta va primi efectul de Oboseala'
-        - '&7pentru 10 secunde!'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-    healPool:
-      tier1:
-        name: '&eHeal Pool'
-        lore:
-        - '&7Creeaza un camp de Regenerare'
-        - '&7a vietii in baza ta!'
-        - ''
-        - '&7Pret:&b {cost} {currency}'
-        - ''
-        - '{loreFooter}'
-upgrades-new-purchase: '&a{player} purchased &6{upgradeName}'
-meaning-no-trap: No trap!
-format-spectator-target: '{targetTeamColor}{targetDisplayName}'
-format-upgrade-trap-cost: '&7Cost: {currencyColor}{cost} {currency}'
-format-upgrade-color-can-afford: '&e'
-format-upgrade-color-cant-afford: '&c'
-format-upgrade-color-unlocked: '&a'
-format-tier-color-locked: '&7'
-format-tier-color-unlocked: '&a'
-upgrades-upgrade-name-forge-tier-1: '{color}Iron Forge'
-upgrades-upgrade-lore-forge:
-- '&7Upgrade resource spawning on'
-- '&7your island.'
-- ''
-- '{tier_1_color}Tier 1: +50% Resources, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Tier 2: +100% Resources, &b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}Tier 3: Spawn emeralds, &b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}Tier 4: +200% Resources, &b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-forge-tier-2: '{color}Golden Forge'
-upgrades-upgrade-name-forge-tier-3: '{color}Emerald Forge'
-upgrades-upgrade-name-forge-tier-4: '{color}Molten Forge'
-upgrades-category-item-name-traps: '&eBuy a trap'
-upgrades-category-item-lore-traps:
-- '&7Purchased traps will be'
-- '&7queued on the right.'
-- ''
-- '&eClick to browse!'
-upgrades-upgrade-name-swords-tier-1: '{color}Sharpened Swords'
-upgrades-upgrade-lore-swords:
-- '&7Your team permanently gains'
-- '&7Sharpness I on all swords and'
-- '&7axes!'
-- ''
-- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-1: '{color}Reinforced Armor I'
-upgrades-upgrade-lore-armor:
-- '&7Your team permanently gains'
-- '&7Protection on all armor pieces!'
-- ''
-- '{tier_1_color}Tier 1: Protection I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Tier 2: Protection II, &b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}Tier 3: Protection III, &b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}Tier 4: Protection IV, &b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-2: '{color}Reinforced Armor II'
-upgrades-upgrade-name-armor-tier-3: '{color}Reinforced Armor III'
-upgrades-upgrade-name-armor-tier-4: '{color}Reinforced Armor IV'
-upgrades-upgrade-name-miner-tier-1: '{color}Maniac Miner I'
-upgrades-upgrade-lore-miner:
-- '&7All players on your team'
-- '&7permanently gain Haste.'
-- ''
-- '{tier_1_color}Tier 1: Haste I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Tier 2: Haste II, &b{tier_2_cost} {tier_2_currency}'
-- ''
-upgrades-upgrade-name-miner-tier-2: '{color}Maniac Miner II'
-upgrades-upgrade-name-heal-pool-tier-1: '{color}Heal Pool'
-upgrades-upgrade-lore-heal-pool:
-- '&7Creates a Regeneration field'
-- '&7around yor base!'
-- ''
-- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
-upgrades-upgrade-lore-dragon:
-- '&7Your team will have 2 dragons'
-- '&7instead of 1 during deathmatch!'
-- ''
-- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-separator-item-name-glass: '&8⬆&7Purchasable'
-upgrades-separator-item-lore-glass:
-- '&8⬇&7Traps Queue'
-upgrades-trap-slot-item-name-first: '{color}Trap #1: {name}'
-upgrades-trap-slot-item-lore1-first:
-- '&7The first enemy to walk'
-- '&7into your base will trigger'
-- '&7this trap!'
-upgrades-trap-slot-item-lore2-first:
-- ''
-- '&7Purchasing a trap will'
-- '&7queue it here. Its cost'
-- '&7will scale based on the'
-- '&7number of traps queued.'
-- ''
-- '&7Next trap: &b{cost} {currency}'
-upgrades-trap-slot-item-name-second: '{color}Trap #2: {name}'
-upgrades-trap-slot-item-lore1-second:
-- '&7The second enemy to walk'
-- '&7into your base will trigger'
-- '&7this trap!'
-upgrades-trap-slot-item-lore2-second:
-- ''
-- '&7Purchasing a trap will'
-- '&7queue it here. Its cost'
-- '&7will scale based on the'
-- '&7number of traps queued.'
-- ''
-- '&7Next trap: &b{cost} {currency}'
-upgrades-trap-slot-item-name-third: '{color}Trap #3: {name}'
-upgrades-trap-slot-item-lore1-third:
-- '&7The third enemy to walk'
-- '&7into your base will trigger'
-- '&7this trap!'
-upgrades-trap-slot-item-lore2-third:
-- ''
-- '&7Purchasing a trap will'
-- '&7queue it here. Its cost'
-- '&7will scale based on the'
-- '&7number of traps queued.'
-- ''
-- '&7Next trap: &b{cost} {currency}'
-upgrades-base-trap-name-1: '{color}It''s a trap!'
-upgrades-base-trap-lore-1:
-- '&7Inflicts Blindness and Slowness'
-- '&7for 5 seconds.'
-- ''
-upgrades-base-trap-name-2: '{color}Counter-Offensive Trap'
-upgrades-base-trap-lore-2:
-- '&7Grants Speed I for 15 seconds to'
-- '&7allied players near your base.'
-- ''
-upgrades-base-trap-name-3: '{color}Alarm Trap'
-upgrades-base-trap-lore-3:
-- '&7Reveales invisible players as'
-- '&7well as their name and team.'
-- ''
-upgrades-base-trap-name-4: '{color}Miner Fatigue Trap'
-upgrades-base-trap-lore-4:
-- '&7Inflict Mining Fatigue for 10'
-- '&7seconds.'
-- ''
-upgrades-separator-item-name-back: '&aBack'
-upgrades-separator-item-lore-back:
-- '&7To Upgrades & Traps'
-upgrades-category-gui-name-traps: '&8Queue a trap'
-upgrades-trap-queue-full: '&cTrap queue full!'
-upgrades-trap-default-msg: '&c&l{trap} a fost activată!'
-upgrades-trap-default-title: '&cCAPCANĂ ACTIVATĂ!'
-upgrades-trap-default-subtitle: '&fCapcana {trap} a fost activată!'
-upgrades-base-trap-msg-3: '&c&lAlarm trap set off by &7&l{player} &c&lfrom {color}&l{team}
-  &c&lteam!'
-upgrades-base-trap-title-3: '&c&lALARM!!!'
-upgrades-base-trap-subtitle-3: '&fAlarm trap set off by {color}{team} &fteam!'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 addons:
   compass:
     messages:
@@ -1837,8 +1840,10 @@ addons:
     cant-join-while-starting: '{prefix}&cNu poti intra in aceasta echipa chiar acum.
       Incepe jocul!'
     already-in-team: '{prefix}&cSunteți deja în această echipă'
-upgrades-menu-gui-name-default: '&8Upgrades & Traps'
-display-group-solo: Solo
+  play-again:
+    selector-permission-denied: '&cYou don''t have permission to select an arena!'
+    not-party-owner: '&cOnly the owner of the party can play again!'
+display-group-default: Default
 team-name-lighthouse-Gray: Gray
 team-name-lighthouse-Pink: Pink
 team-name-lighthouse-Red: Red
@@ -1847,6 +1852,142 @@ team-name-lighthouse-Blue: Blue
 team-name-lighthouse-Aqua: Aqua
 team-name-lighthouse-Green: Green
 team-name-lighthouse-Yellow: Yellow
+team-name-ashore2-Red: Red
+team-name-ashore2-Blue: Blue
+team-name-ashore2-Green: Green
+team-name-ashore2-Yellow: Yellow
+team-name-toro-Gray: Gray
+team-name-toro-Pink: Pink
+team-name-toro-Red: Red
+team-name-toro-White: White
+team-name-toro-Blue: Blue
+team-name-toro-Aqua: Aqua
+team-name-toro-Green: Green
+team-name-toro-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashore-Red: Red
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-ashore-Yellow: Yellow
+team-name-eastwood2-Red: Red
+team-name-eastwood2-Blue: Blue
+team-name-eastwood2-Green: Green
+team-name-eastwood2-Yellow: Yellow
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-siege2-Gray: Gray
+team-name-siege2-Pink: Pink
+team-name-siege2-Red: Red
+team-name-siege2-White: White
+team-name-siege2-Blue: Blue
+team-name-siege2-Aqua: Aqua
+team-name-siege2-Green: Green
+team-name-siege2-Yellow: Yellow
+team-name-lectus2-Red: Red
+team-name-lectus2-Blue: Blue
+team-name-lectus2-Green: Green
+team-name-lectus2-Yellow: Yellow
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-toro2-Gray: Gray
+team-name-toro2-Pink: Pink
+team-name-toro2-Red: Red
+team-name-toro2-White: White
+team-name-toro2-Blue: Blue
+team-name-toro2-Aqua: Aqua
+team-name-toro2-Green: Green
+team-name-toro2-Yellow: Yellow
+team-name-crypt-Pink: Pink
+team-name-crypt-White: White
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Gray: Gray
+team-name-crypt-Red: Red
+team-name-crypt-Yellow: Yellow
+team-name-crypt-Green: Green
+team-name-crypt-Blue: Blue
+team-name-glacier2-Gray: Gray
+team-name-glacier2-Pink: Pink
+team-name-glacier2-Red: Red
+team-name-glacier2-White: White
+team-name-glacier2-Blue: Blue
+team-name-glacier2-Aqua: Aqua
+team-name-glacier2-Green: Green
+team-name-glacier2-Yellow: Yellow
+team-name-sandcastle2-Yellow: Yellow
+team-name-sandcastle2-Green: Green
+team-name-sandcastle2-Red: Red
+team-name-sandcastle2-Blue: Blue
+team-name-aquarium2-Green: Green
+team-name-aquarium2-Blue: Blue
+team-name-aquarium2-Yellow: Yellow
+team-name-aquarium2-Red: Red
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Aqua: Aqua
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-stonekeep2-Red: Red
+team-name-stonekeep2-Yellow: Yellow
+team-name-stonekeep2-Blue: Blue
+team-name-stonekeep2-Green: Green
+team-name-acropolis2-Green: Green
+team-name-acropolis2-Blue: Blue
+team-name-acropolis2-White: White
+team-name-acropolis2-Yellow: Yellow
+team-name-acropolis2-Red: Red
+team-name-acropolis2-Aqua: Aqua
+team-name-acropolis2-Gray: Gray
+team-name-acropolis2-Pink: Pink
+team-name-lectus-Red: Red
+team-name-lectus-Blue: Blue
+team-name-lectus-Green: Green
+team-name-lectus-Yellow: Yellow
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise2-Pink: Pink
+team-name-skyrise2-Gray: Gray
+team-name-skyrise2-White: White
+team-name-skyrise2-Red: Red
+team-name-skyrise2-Blue: Blue
+team-name-skyrise2-Aqua: Aqua
+team-name-skyrise2-Green: Green
+team-name-skyrise2-Yellow: Yellow
 team-name-rooftop-White: White
 team-name-rooftop-Gray: Gray
 team-name-rooftop-Pink: Pink
@@ -1855,7 +1996,38 @@ team-name-rooftop-Blue: Blue
 team-name-rooftop-Aqua: Aqua
 team-name-rooftop-Green: Green
 team-name-rooftop-Yellow: Yellow
-display-group-doubles: Doubles
+team-name-crypt2-Pink: Pink
+team-name-crypt2-White: White
+team-name-crypt2-Aqua: Aqua
+team-name-crypt2-Gray: Gray
+team-name-crypt2-Red: Red
+team-name-crypt2-Yellow: Yellow
+team-name-crypt2-Green: Green
+team-name-crypt2-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Green: Green
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Blue: Blue
+team-name-rooftop2-White: White
+team-name-rooftop2-Gray: Gray
+team-name-rooftop2-Pink: Pink
+team-name-rooftop2-Red: Red
+team-name-rooftop2-Blue: Blue
+team-name-rooftop2-Aqua: Aqua
+team-name-rooftop2-Green: Green
+team-name-rooftop2-Yellow: Yellow
+team-name-temple-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Green: Green
+team-name-temple-Blue: Blue
+team-name-playground2-Gray: Gray
+team-name-playground2-Pink: Pink
+team-name-playground2-Red: Red
+team-name-playground2-White: White
+team-name-playground2-Blue: Blue
+team-name-playground2-Aqua: Aqua
+team-name-playground2-Green: Green
+team-name-playground2-Yellow: Yellow
 team-name-lighthouse2-Gray: Gray
 team-name-lighthouse2-Pink: Pink
 team-name-lighthouse2-Red: Red
@@ -1864,3 +2036,15 @@ team-name-lighthouse2-Blue: Blue
 team-name-lighthouse2-Aqua: Aqua
 team-name-lighthouse2-Green: Green
 team-name-lighthouse2-Yellow: Yellow
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+team-name-temple2-Yellow: Yellow
+team-name-temple2-Red: Red
+team-name-temple2-Green: Green
+team-name-temple2-Blue: Blue
+display-group-4v4v4v4: 4v4v4v4
+display-group-1v1: 1v1
+display-group-3v3v3v3: 3v3v3v3
+display-group-2v2: 2v2

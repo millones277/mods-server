@@ -1,4 +1,5 @@
 # Translation by JuliCarles#1783 and Danidev819#7465
+
 prefix: ''
 name: Espanol
 cmd-main-list:
@@ -507,7 +508,8 @@ format-tab:
       - ''
       footer:
       - ''
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -525,7 +527,8 @@ format-tab:
       footer:
       - ''
       - '&7&oYou are spectating'
-      - Waiting for more players,Waiting for more players.,Waiting for more players.., Waiting for more players...
+      - Waiting for more players,Waiting for more players.,Waiting for more players..,
+        Waiting for more players...
       - '&f{on}&a/&f{max}'
       - ''
       - '&a{serverIp}'
@@ -1073,6 +1076,206 @@ money-reward-per-teammate: '{prefix}&6+{money} Monedas (Ayuda al equipo).'
 money-reward-bed-destroyed: '{prefix}&6+{money} Monedas (Cama Destruida).'
 money-reward-final-kill: '{prefix}&6+{money} Monedas (Asesinato Final).'
 money-reward-regular-kill: '{prefix}&6+{money} Monedas (Asesinato).'
+shop-insuff-money: '{prefix}&cNo tienes suficiente {currency}! Necesitas {amount}
+  más!'
+shop-new-purchase: '{prefix}&aHas comprado &6{item}'
+shop-already-bought: '{prefix}&cYa has comprado esto!'
+shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
+shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
+shop-lore-status-can-buy: '&eHaga clic para comprar!'
+shop-lore-status-cant-afford: '&cNo tienes suficiente {currency}!'
+shop-lore-status-tier-maxed: '&aMAXIMIZADO!'
+shop-lore-quick-add: '&bHaga shift + click para agregar a la compra rapida!'
+shop-lore-quick-remove: '&bHaga shift + click para remover de la compra rapida!'
+lobby-items-stats-name: '&lEstadistícas'
+lobby-items-stats-lore:
+- '&7Utiliza este objeto para'
+- '&7ver tus estadísticas.'
+lobby-items-arena-selector-name: '&eJugar'
+lobby-items-arena-selector-lore:
+- '&7Utiliza este objeto para'
+- '&7seleccionar tu arena y jugar'
+lobby-items-leave-name: '&c&lSalir'
+lobby-items-leave-lore:
+- '&7Utiliza este objeto para'
+- '&7regresar al lobby.'
+pre-game-items-stats-name: '&lEstadistícas'
+pre-game-items-stats-lore:
+- '&7Utiliza este objeto para'
+- '&7ver tus estadísticas.'
+pre-game-items-leave-name: '&c&lSalir'
+pre-game-items-leave-lore:
+- '&7Utiliza este objeto para'
+- '&7regresar al lobby.'
+spectator-items-teleporter-name: '&eTeletransportarse'
+spectator-items-teleporter-lore:
+- '&7Utiliza este objeto para'
+- '&7transportarte a usuarios.'
+spectator-items-leave-name: '&c&lSalir'
+spectator-items-leave-lore:
+- '&7Utiliza este objeto para'
+- '&7regresar al lobby.'
+cmd-cooldown: '&cNo puedes hacer eso aún! Espera {seconds} segundos más!'
+format-papi-player-team: '{TeamColor}[{TeamName}]'
+format-papi-player-shout: '&6[GRITA]'
+format-papi-player-spectator: '&7[ESPECTADOR]'
+arena-join-denied-selector: '{prefix}&cLo lamentamos, pero no puedes ingresar a esta
+  arena por el momento. Usa Click-Derecho para entrar en modo espectador!'
+arena-spectate-denied-selector: '{prefix}&cLo lamentamos, pero no puedes espectar
+  esta arena en este momento. Utiliza Click-Izquierdo para jugar!'
+arena-join-denied-no-bwp: "&cLo siento, pero debes unirte a una arena usando BedWarsProxy.\
+  \ \n&eSi desea configurar una arena, asegúrese de otorgarse el permiso bw.setup\
+  \ para que pueda unirse al servidor directamente!"
+cmd-rejoin-no-arena: '{prefix}&cNo hay arena a la cual unirse. Recuerda que sólo puedes
+  ingresar a una 5 minutos después del comienzo de la partida!'
+cmd-rejoin-denied: '{prefix}&cNo puedes unirte a esa partida. El juego ha terminado
+  o tu cama ha sido destruida.'
+cmd-rejoin-allowed: '{prefix}&eHas ingresado nuevamente a &a{arena}&e!'
+meaning-no-trap: Sin trampa!
+format-spectator-target: '{targetTeamColor}{targetDisplayName}'
+format-upgrade-trap-cost: '&7Precio: {currencyColor}{cost} {currency}'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-upgrade-name-forge-tier-1: '{color}Forja de Hierro'
+upgrades-upgrade-lore-forge:
+- '&7Actualice la generación de recursos en'
+- '&7su isla.'
+- ''
+- '{tier_1_color}Nivel 1: +50% de Recursos, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Nivel 2: +100% de Recursos, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Nivel 3: Aparecen esmeraldas, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Nivel 4: +200% de Recursos, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '{color}Forja de Oro'
+upgrades-upgrade-name-forge-tier-3: '{color}Forja de Esmeraldas'
+upgrades-upgrade-name-forge-tier-4: '{color}Forja Fundida'
+upgrades-category-item-name-traps: '&eCompra una trampa'
+upgrades-category-item-lore-traps:
+- '&7Las trampas compradas serán'
+- '&7guardadas en la cola.'
+- ''
+- '&eClick para navegar!'
+upgrades-upgrade-name-swords-tier-1: '{color}Espadas afiladas'
+upgrades-upgrade-lore-swords:
+- '&7Tu equipo recibira'
+- '&7Afilado I en espadas'
+- '&7y hachas!'
+- ''
+- '{tier_1_color}Precio: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '{color}Armadura Reforzada I'
+upgrades-upgrade-lore-armor:
+- '&7Tu equipo recibira'
+- '&7proteccion permanente!'
+- ''
+- '{tier_1_color}Nivel 1: Proteccion I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Nivel 2: Proteccion II, &b{tier_2_cost} {tier_2_currency}s'
+- '{tier_3_color}Nivel 3: Proteccion III, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Nivel 4: Proteccion IV, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '{color}Armadura Reforzada II'
+upgrades-upgrade-name-armor-tier-3: '{color}Armadura Reforzada III'
+upgrades-upgrade-name-armor-tier-4: '{color}Armadura Reforzada IV'
+upgrades-upgrade-name-miner-tier-1: '{color}Minero Maniaco I'
+upgrades-upgrade-lore-miner:
+- '&7Todos los jugadores de tu equipo recibiran'
+- '&7prisa minera Permanentemente.'
+- ''
+- '{tier_1_color}Nivel 1: Prisa I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_1_color}Nivel 2: Prisa II, &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '{color}Minero Maniaco II'
+upgrades-upgrade-name-heal-pool-tier-1: '{color}Piscina de curación'
+upgrades-upgrade-lore-heal-pool:
+- '&7Crea un area de regeneracion'
+- '&7en tu base!'
+- ''
+- '{tier_1_color}Precio: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
+upgrades-upgrade-lore-dragon:
+- '&7Tu equipo tendra 2 dragones'
+- '&7en vez de 1 en la deathmatch!'
+- ''
+- '{tier_1_color}Precio: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Comprable'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Cola de Trampas'
+upgrades-trap-slot-item-name-first: '{color}Trampa #1: {name}'
+upgrades-trap-slot-item-lore1-first:
+- '&7El primer enemigo en caminar'
+- '&7en tu base activara'
+- '&7esta trampa!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7La compra de una trampa.'
+- '&7la pondra en cola aqui. Su costo'
+- '&7se basará en una escala del'
+- '&7numero de trampas.'
+- ''
+- '&7Siguiente trampa: &b{cost} {currency}'
+upgrades-trap-slot-item-name-second: '{color}Trampa #2: {name}'
+upgrades-trap-slot-item-lore1-second:
+- '&7El segundo enemigo en caminar'
+- '&7en tu base activara'
+- '&7esta trampa!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7La compra de una trampa.'
+- '&7la pondra en cola aqui. Su costo'
+- '&7se basará en una escala del'
+- '&7numero de trampas.'
+- ''
+- '&7Siguiente trampa: &b{cost} {currency}'
+upgrades-trap-slot-item-name-third: '{color}Trampa #3: {name}'
+upgrades-trap-slot-item-lore1-third:
+- '&7El tercer enemigo en caminar'
+- '&7en tu base activara'
+- '&7esta trampa!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7La compra de una trampa.'
+- '&7la pondra en cola aqui. Su costo'
+- '&7se basará en una escala del'
+- '&7numero de trampas.'
+- ''
+- '&7Siguiente trampa: &b{cost} {currency}'
+upgrades-base-trap-name-1: '{color}Es una trampa!'
+upgrades-base-trap-lore-1:
+- '&7Inflige ceguera y lentitud'
+- '&7por 5 segundos.'
+- ''
+upgrades-base-trap-name-2: '{color}Trampa de contraofensiva'
+upgrades-base-trap-lore-2:
+- '&7Otorga velocidad I durante 15 segundos a los'
+- '&7jugadores aliados en la base.'
+- ''
+upgrades-base-trap-name-3: '{color}Trampa de alarma'
+upgrades-base-trap-lore-3:
+- '&7Reveales jugadores invisibles'
+- '&7tambien su nomrbe y equipo.'
+- ''
+upgrades-base-trap-name-4: '{color}Trampa de fatiga minera'
+upgrades-base-trap-lore-4:
+- '&7Infligir fatiga minera por 10'
+- '&7segundos.'
+- ''
+upgrades-separator-item-name-back: '&aVolver'
+upgrades-separator-item-lore-back:
+- '&7A actualizaciones y trampas'
+upgrades-category-gui-name-traps: '&8Cola de una trampa'
+upgrades-trap-queue-full: '&cCola de trampas llena!'
+upgrades-trap-default-msg: '&c&l{trap} desactivada!'
+upgrades-trap-default-title: '&cTRAMPA ACTIVADA!'
+upgrades-trap-default-subtitle: '&fLa trampa {trap} ha sido activada!'
+upgrades-base-trap-msg-3: '&c&lTrampa de alarma activada por &7&l{player} &c&ldesde
+  el equipo {color}&l{team}!'
+upgrades-base-trap-title-3: '&c&lALARMA!!!'
+upgrades-base-trap-subtitle-3: '&fTrampa de alarma activada por el equipo {color}{team}&f!'
 shop-items-messages:
   inventory-name: '&8Compra rapida'
   quick-buy-add-inventory-name: '&8Agregando a la Compra Rápida...'
@@ -1408,206 +1611,7 @@ shop-items-messages:
     - '{buy_status}'
     content-item-tower-name: '&cName not set'
     content-item-tower-lore: '&cLore not set'
-shop-insuff-money: '{prefix}&cNo tienes suficiente {currency}! Necesitas {amount}
-  más!'
-shop-new-purchase: '{prefix}&aHas comprado &6{item}'
-shop-already-bought: '{prefix}&cYa has comprado esto!'
-shop-utility-silverfish: '{TeamColor}&l{TeamName} &r{TeamColor}Silverfish'
-shop-utility-iron-golem: '{TeamColor}{despawn}s &8[ {TeamColor}{health}&8]'
-shop-lore-status-can-buy: '&eHaga clic para comprar!'
-shop-lore-status-cant-afford: '&cNo tienes suficiente {currency}!'
-shop-lore-status-tier-maxed: '&aMAXIMIZADO!'
-shop-lore-quick-add: '&bHaga shift + click para agregar a la compra rapida!'
-shop-lore-quick-remove: '&bHaga shift + click para remover de la compra rapida!'
-lobby-items-stats-name: '&lEstadistícas'
-lobby-items-stats-lore:
-- '&7Utiliza este objeto para'
-- '&7ver tus estadísticas.'
-lobby-items-arena-selector-name: '&eJugar'
-lobby-items-arena-selector-lore:
-- '&7Utiliza este objeto para'
-- '&7seleccionar tu arena y jugar'
-lobby-items-leave-name: '&c&lSalir'
-lobby-items-leave-lore:
-- '&7Utiliza este objeto para'
-- '&7regresar al lobby.'
-pre-game-items-stats-name: '&lEstadistícas'
-pre-game-items-stats-lore:
-- '&7Utiliza este objeto para'
-- '&7ver tus estadísticas.'
-pre-game-items-leave-name: '&c&lSalir'
-pre-game-items-leave-lore:
-- '&7Utiliza este objeto para'
-- '&7regresar al lobby.'
-spectator-items-teleporter-name: '&eTeletransportarse'
-spectator-items-teleporter-lore:
-- '&7Utiliza este objeto para'
-- '&7transportarte a usuarios.'
-spectator-items-leave-name: '&c&lSalir'
-spectator-items-leave-lore:
-- '&7Utiliza este objeto para'
-- '&7regresar al lobby.'
-cmd-cooldown: '&cNo puedes hacer eso aún! Espera {seconds} segundos más!'
-format-papi-player-team: '{TeamColor}[{TeamName}]'
-format-papi-player-shout: '&6[GRITA]'
-format-papi-player-spectator: '&7[ESPECTADOR]'
-arena-join-denied-selector: '{prefix}&cLo lamentamos, pero no puedes ingresar a esta
-  arena por el momento. Usa Click-Derecho para entrar en modo espectador!'
-arena-spectate-denied-selector: '{prefix}&cLo lamentamos, pero no puedes espectar
-  esta arena en este momento. Utiliza Click-Izquierdo para jugar!'
-arena-join-denied-no-bwp: "&cLo siento, pero debes unirte a una arena usando BedWarsProxy.\
-  \ \n&eSi desea configurar una arena, asegúrese de otorgarse el permiso bw.setup\
-  \ para que pueda unirse al servidor directamente!"
-cmd-rejoin-no-arena: '{prefix}&cNo hay arena a la cual unirse. Recuerda que sólo puedes
-  ingresar a una 5 minutos después del comienzo de la partida!'
-cmd-rejoin-denied: '{prefix}&cNo puedes unirte a esa partida. El juego ha terminado
-  o tu cama ha sido destruida.'
-cmd-rejoin-allowed: '{prefix}&eHas ingresado nuevamente a &a{arena}&e!'
-meaning-no-trap: Sin trampa!
-format-spectator-target: '{targetTeamColor}{targetDisplayName}'
-format-upgrade-trap-cost: '&7Precio: {currencyColor}{cost} {currency}'
-format-upgrade-color-can-afford: '&e'
-format-upgrade-color-cant-afford: '&c'
-format-upgrade-color-unlocked: '&a'
-format-tier-color-locked: '&7'
-format-tier-color-unlocked: '&a'
-upgrades-upgrade-name-forge-tier-1: '{color}Forja de Hierro'
-upgrades-upgrade-lore-forge:
-- '&7Actualice la generación de recursos en'
-- '&7su isla.'
-- ''
-- '{tier_1_color}Nivel 1: +50% de Recursos, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Nivel 2: +100% de Recursos, &b{tier_2_cost} {tier_2_currency}'
-- '{tier_3_color}Nivel 3: Aparecen esmeraldas, &b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}Nivel 4: +200% de Recursos, &b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-forge-tier-2: '{color}Forja de Oro'
-upgrades-upgrade-name-forge-tier-3: '{color}Forja de Esmeraldas'
-upgrades-upgrade-name-forge-tier-4: '{color}Forja Fundida'
-upgrades-category-item-name-traps: '&eCompra una trampa'
-upgrades-category-item-lore-traps:
-- '&7Las trampas compradas serán'
-- '&7guardadas en la cola.'
-- ''
-- '&eClick para navegar!'
-upgrades-upgrade-name-swords-tier-1: '{color}Espadas afiladas'
-upgrades-upgrade-lore-swords:
-- '&7Tu equipo recibira'
-- '&7Afilado I en espadas'
-- '&7y hachas!'
-- ''
-- '{tier_1_color}Precio: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-1: '{color}Armadura Reforzada I'
-upgrades-upgrade-lore-armor:
-- '&7Tu equipo recibira'
-- '&7proteccion permanente!'
-- ''
-- '{tier_1_color}Nivel 1: Proteccion I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_2_color}Nivel 2: Proteccion II, &b{tier_2_cost} {tier_2_currency}s'
-- '{tier_3_color}Nivel 3: Proteccion III, &b{tier_3_cost} {tier_3_currency}'
-- '{tier_4_color}Nivel 4: Proteccion IV, &b{tier_4_cost} {tier_4_currency}'
-- ''
-upgrades-upgrade-name-armor-tier-2: '{color}Armadura Reforzada II'
-upgrades-upgrade-name-armor-tier-3: '{color}Armadura Reforzada III'
-upgrades-upgrade-name-armor-tier-4: '{color}Armadura Reforzada IV'
-upgrades-upgrade-name-miner-tier-1: '{color}Minero Maniaco I'
-upgrades-upgrade-lore-miner:
-- '&7Todos los jugadores de tu equipo recibiran'
-- '&7prisa minera Permanentemente.'
-- ''
-- '{tier_1_color}Nivel 1: Prisa I, &b{tier_1_cost} {tier_1_currency}'
-- '{tier_1_color}Nivel 2: Prisa II, &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-miner-tier-2: '{color}Minero Maniaco II'
-upgrades-upgrade-name-heal-pool-tier-1: '{color}Piscina de curación'
-upgrades-upgrade-lore-heal-pool:
-- '&7Crea un area de regeneracion'
-- '&7en tu base!'
-- ''
-- '{tier_1_color}Precio: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-upgrade-name-dragon-tier-1: '{color}Dragon Buff'
-upgrades-upgrade-lore-dragon:
-- '&7Tu equipo tendra 2 dragones'
-- '&7en vez de 1 en la deathmatch!'
-- ''
-- '{tier_1_color}Precio: &b{tier_1_cost} {tier_1_currency}'
-- ''
-upgrades-separator-item-name-glass: '&8⬆&7Comprable'
-upgrades-separator-item-lore-glass:
-- '&8⬇&7Cola de Trampas'
-upgrades-trap-slot-item-name-first: '{color}Trampa #1: {name}'
-upgrades-trap-slot-item-lore1-first:
-- '&7El primer enemigo en caminar'
-- '&7en tu base activara'
-- '&7esta trampa!'
-upgrades-trap-slot-item-lore2-first:
-- ''
-- '&7La compra de una trampa.'
-- '&7la pondra en cola aqui. Su costo'
-- '&7se basará en una escala del'
-- '&7numero de trampas.'
-- ''
-- '&7Siguiente trampa: &b{cost} {currency}'
-upgrades-trap-slot-item-name-second: '{color}Trampa #2: {name}'
-upgrades-trap-slot-item-lore1-second:
-- '&7El segundo enemigo en caminar'
-- '&7en tu base activara'
-- '&7esta trampa!'
-upgrades-trap-slot-item-lore2-second:
-- ''
-- '&7La compra de una trampa.'
-- '&7la pondra en cola aqui. Su costo'
-- '&7se basará en una escala del'
-- '&7numero de trampas.'
-- ''
-- '&7Siguiente trampa: &b{cost} {currency}'
-upgrades-trap-slot-item-name-third: '{color}Trampa #3: {name}'
-upgrades-trap-slot-item-lore1-third:
-- '&7El tercer enemigo en caminar'
-- '&7en tu base activara'
-- '&7esta trampa!'
-upgrades-trap-slot-item-lore2-third:
-- ''
-- '&7La compra de una trampa.'
-- '&7la pondra en cola aqui. Su costo'
-- '&7se basará en una escala del'
-- '&7numero de trampas.'
-- ''
-- '&7Siguiente trampa: &b{cost} {currency}'
-upgrades-base-trap-name-1: '{color}Es una trampa!'
-upgrades-base-trap-lore-1:
-- '&7Inflige ceguera y lentitud'
-- '&7por 5 segundos.'
-- ''
-upgrades-base-trap-name-2: '{color}Trampa de contraofensiva'
-upgrades-base-trap-lore-2:
-- '&7Otorga velocidad I durante 15 segundos a los'
-- '&7jugadores aliados en la base.'
-- ''
-upgrades-base-trap-name-3: '{color}Trampa de alarma'
-upgrades-base-trap-lore-3:
-- '&7Reveales jugadores invisibles'
-- '&7tambien su nomrbe y equipo.'
-- ''
-upgrades-base-trap-name-4: '{color}Trampa de fatiga minera'
-upgrades-base-trap-lore-4:
-- '&7Infligir fatiga minera por 10'
-- '&7segundos.'
-- ''
-upgrades-separator-item-name-back: '&aVolver'
-upgrades-separator-item-lore-back:
-- '&7A actualizaciones y trampas'
-upgrades-category-gui-name-traps: '&8Cola de una trampa'
-upgrades-trap-queue-full: '&cCola de trampas llena!'
-upgrades-trap-default-msg: '&c&l{trap} desactivada!'
-upgrades-trap-default-title: '&cTRAMPA ACTIVADA!'
-upgrades-trap-default-subtitle: '&fLa trampa {trap} ha sido activada!'
-upgrades-base-trap-msg-3: '&c&lTrampa de alarma activada por &7&l{player} &c&ldesde
-  el equipo {color}&l{team}!'
-upgrades-base-trap-title-3: '&c&lALARMA!!!'
-upgrades-base-trap-subtitle-3: '&fTrampa de alarma activada por el equipo {color}{team}&f!'
+upgrades-menu-gui-name-default: '&8Upgrades & Traps'
 addons:
   compass:
     messages:
@@ -1816,8 +1820,10 @@ addons:
     cant-join-while-starting: '{prefix}&cYou cannot join this team at this moment.
       The game is starting!'
     already-in-team: '{prefix}&cYou are already in this team!'
-upgrades-menu-gui-name-default: '&8Upgrades & Traps'
-display-group-solo: Solo
+  play-again:
+    selector-permission-denied: '&cYou don''t have permission to select an arena!'
+    not-party-owner: '&cOnly the owner of the party can play again!'
+display-group-default: Default
 team-name-lighthouse-Gray: Gray
 team-name-lighthouse-Pink: Pink
 team-name-lighthouse-Red: Red
@@ -1826,6 +1832,142 @@ team-name-lighthouse-Blue: Blue
 team-name-lighthouse-Aqua: Aqua
 team-name-lighthouse-Green: Green
 team-name-lighthouse-Yellow: Yellow
+team-name-ashore2-Red: Red
+team-name-ashore2-Blue: Blue
+team-name-ashore2-Green: Green
+team-name-ashore2-Yellow: Yellow
+team-name-toro-Gray: Gray
+team-name-toro-Pink: Pink
+team-name-toro-Red: Red
+team-name-toro-White: White
+team-name-toro-Blue: Blue
+team-name-toro-Aqua: Aqua
+team-name-toro-Green: Green
+team-name-toro-Yellow: Yellow
+team-name-aquarium-Green: Green
+team-name-aquarium-Blue: Blue
+team-name-aquarium-Yellow: Yellow
+team-name-aquarium-Red: Red
+team-name-ashore-Red: Red
+team-name-ashore-Blue: Blue
+team-name-ashore-Green: Green
+team-name-ashore-Yellow: Yellow
+team-name-eastwood2-Red: Red
+team-name-eastwood2-Blue: Blue
+team-name-eastwood2-Green: Green
+team-name-eastwood2-Yellow: Yellow
+team-name-acropolis-Green: Green
+team-name-acropolis-Blue: Blue
+team-name-acropolis-White: White
+team-name-acropolis-Yellow: Yellow
+team-name-acropolis-Red: Red
+team-name-acropolis-Aqua: Aqua
+team-name-acropolis-Gray: Gray
+team-name-acropolis-Pink: Pink
+team-name-siege2-Gray: Gray
+team-name-siege2-Pink: Pink
+team-name-siege2-Red: Red
+team-name-siege2-White: White
+team-name-siege2-Blue: Blue
+team-name-siege2-Aqua: Aqua
+team-name-siege2-Green: Green
+team-name-siege2-Yellow: Yellow
+team-name-lectus2-Red: Red
+team-name-lectus2-Blue: Blue
+team-name-lectus2-Green: Green
+team-name-lectus2-Yellow: Yellow
+team-name-eastwood-Red: Red
+team-name-eastwood-Blue: Blue
+team-name-eastwood-Green: Green
+team-name-eastwood-Yellow: Yellow
+team-name-glacier-Gray: Gray
+team-name-glacier-Pink: Pink
+team-name-glacier-Red: Red
+team-name-glacier-White: White
+team-name-glacier-Blue: Blue
+team-name-glacier-Aqua: Aqua
+team-name-glacier-Green: Green
+team-name-glacier-Yellow: Yellow
+team-name-toro2-Gray: Gray
+team-name-toro2-Pink: Pink
+team-name-toro2-Red: Red
+team-name-toro2-White: White
+team-name-toro2-Blue: Blue
+team-name-toro2-Aqua: Aqua
+team-name-toro2-Green: Green
+team-name-toro2-Yellow: Yellow
+team-name-crypt-Pink: Pink
+team-name-crypt-White: White
+team-name-crypt-Aqua: Aqua
+team-name-crypt-Gray: Gray
+team-name-crypt-Red: Red
+team-name-crypt-Yellow: Yellow
+team-name-crypt-Green: Green
+team-name-crypt-Blue: Blue
+team-name-glacier2-Gray: Gray
+team-name-glacier2-Pink: Pink
+team-name-glacier2-Red: Red
+team-name-glacier2-White: White
+team-name-glacier2-Blue: Blue
+team-name-glacier2-Aqua: Aqua
+team-name-glacier2-Green: Green
+team-name-glacier2-Yellow: Yellow
+team-name-sandcastle2-Yellow: Yellow
+team-name-sandcastle2-Green: Green
+team-name-sandcastle2-Red: Red
+team-name-sandcastle2-Blue: Blue
+team-name-aquarium2-Green: Green
+team-name-aquarium2-Blue: Blue
+team-name-aquarium2-Yellow: Yellow
+team-name-aquarium2-Red: Red
+team-name-skyrise-Pink: Pink
+team-name-skyrise-Gray: Gray
+team-name-skyrise-White: White
+team-name-skyrise-Red: Red
+team-name-skyrise-Blue: Blue
+team-name-skyrise-Aqua: Aqua
+team-name-skyrise-Green: Green
+team-name-skyrise-Yellow: Yellow
+team-name-stonekeep2-Red: Red
+team-name-stonekeep2-Yellow: Yellow
+team-name-stonekeep2-Blue: Blue
+team-name-stonekeep2-Green: Green
+team-name-acropolis2-Green: Green
+team-name-acropolis2-Blue: Blue
+team-name-acropolis2-White: White
+team-name-acropolis2-Yellow: Yellow
+team-name-acropolis2-Red: Red
+team-name-acropolis2-Aqua: Aqua
+team-name-acropolis2-Gray: Gray
+team-name-acropolis2-Pink: Pink
+team-name-lectus-Red: Red
+team-name-lectus-Blue: Blue
+team-name-lectus-Green: Green
+team-name-lectus-Yellow: Yellow
+team-name-playground-Gray: Gray
+team-name-playground-Pink: Pink
+team-name-playground-Red: Red
+team-name-playground-White: White
+team-name-playground-Blue: Blue
+team-name-playground-Aqua: Aqua
+team-name-playground-Green: Green
+team-name-playground-Yellow: Yellow
+team-name-siege-Gray: Gray
+team-name-siege-Pink: Pink
+team-name-siege-Red: Red
+team-name-siege-White: White
+team-name-siege-Blue: Blue
+team-name-siege-Aqua: Aqua
+team-name-siege-Green: Green
+team-name-siege-Yellow: Yellow
+team-name-skyrise2-Pink: Pink
+team-name-skyrise2-Gray: Gray
+team-name-skyrise2-White: White
+team-name-skyrise2-Red: Red
+team-name-skyrise2-Blue: Blue
+team-name-skyrise2-Aqua: Aqua
+team-name-skyrise2-Green: Green
+team-name-skyrise2-Yellow: Yellow
 team-name-rooftop-White: White
 team-name-rooftop-Gray: Gray
 team-name-rooftop-Pink: Pink
@@ -1834,7 +1976,38 @@ team-name-rooftop-Blue: Blue
 team-name-rooftop-Aqua: Aqua
 team-name-rooftop-Green: Green
 team-name-rooftop-Yellow: Yellow
-display-group-doubles: Doubles
+team-name-crypt2-Pink: Pink
+team-name-crypt2-White: White
+team-name-crypt2-Aqua: Aqua
+team-name-crypt2-Gray: Gray
+team-name-crypt2-Red: Red
+team-name-crypt2-Yellow: Yellow
+team-name-crypt2-Green: Green
+team-name-crypt2-Blue: Blue
+team-name-sandcastle-Yellow: Yellow
+team-name-sandcastle-Green: Green
+team-name-sandcastle-Red: Red
+team-name-sandcastle-Blue: Blue
+team-name-rooftop2-White: White
+team-name-rooftop2-Gray: Gray
+team-name-rooftop2-Pink: Pink
+team-name-rooftop2-Red: Red
+team-name-rooftop2-Blue: Blue
+team-name-rooftop2-Aqua: Aqua
+team-name-rooftop2-Green: Green
+team-name-rooftop2-Yellow: Yellow
+team-name-temple-Yellow: Yellow
+team-name-temple-Red: Red
+team-name-temple-Green: Green
+team-name-temple-Blue: Blue
+team-name-playground2-Gray: Gray
+team-name-playground2-Pink: Pink
+team-name-playground2-Red: Red
+team-name-playground2-White: White
+team-name-playground2-Blue: Blue
+team-name-playground2-Aqua: Aqua
+team-name-playground2-Green: Green
+team-name-playground2-Yellow: Yellow
 team-name-lighthouse2-Gray: Gray
 team-name-lighthouse2-Pink: Pink
 team-name-lighthouse2-Red: Red
@@ -1843,3 +2016,15 @@ team-name-lighthouse2-Blue: Blue
 team-name-lighthouse2-Aqua: Aqua
 team-name-lighthouse2-Green: Green
 team-name-lighthouse2-Yellow: Yellow
+team-name-stonekeep-Red: Red
+team-name-stonekeep-Yellow: Yellow
+team-name-stonekeep-Blue: Blue
+team-name-stonekeep-Green: Green
+team-name-temple2-Yellow: Yellow
+team-name-temple2-Red: Red
+team-name-temple2-Green: Green
+team-name-temple2-Blue: Blue
+display-group-4v4v4v4: 4v4v4v4
+display-group-1v1: 1v1
+display-group-3v3v3v3: 3v3v3v3
+display-group-2v2: 2v2

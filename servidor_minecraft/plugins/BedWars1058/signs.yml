@@ -5,14 +5,47 @@ format:
 - '[status]'
 status-block:
   waiting:
-    material: STAINED_CLAY
+    material: LIME_TERRACOTTA
     data: 5
   starting:
-    material: STAINED_CLAY
+    material: YELLOW_TERRACOTTA
     data: 14
   playing:
-    material: STAINED_CLAY
+    material: TERRACOTTA
     data: 4
   restarting:
-    material: STAINED_CLAY
+    material: GRAY_TERRACOTTA
     data: 4
+locations:
+- lighthouse,481.0,74.0,536.0,0.0,0.0,bwlobby
+- glacier,481.0,74.0,535.0,0.0,0.0,bwlobby
+- lighthouse2,481.0,75.0,536.0,0.0,0.0,bwlobby
+- glacier2,481.0,75.0,535.0,0.0,0.0,bwlobby
+- crypt,481.0,74.0,534.0,0.0,0.0,bwlobby
+- crypt2,481.0,75.0,534.0,0.0,0.0,bwlobby
+- rooftop,481.0,74.0,533.0,0.0,0.0,bwlobby
+- rooftop2,481.0,75.0,533.0,0.0,0.0,bwlobby
+- toro,481.0,74.0,532.0,0.0,0.0,bwlobby
+- toro2,481.0,75.0,532.0,0.0,0.0,bwlobby
+- eastwood,519.0,74.0,528.0,0.0,0.0,bwlobby
+- eastwood2,519.0,75.0,528.0,0.0,0.0,bwlobby
+- lectus,519.0,74.0,529.0,0.0,0.0,bwlobby
+- lectus2,519.0,75.0,529.0,0.0,0.0,bwlobby
+- sandcastle,519.0,74.0,530.0,0.0,0.0,bwlobby
+- sandcastle2,519.0,75.0,530.0,0.0,0.0,bwlobby
+- stonekeep,519.0,74.0,531.0,0.0,0.0,bwlobby
+- stonekeep2,519.0,75.0,531.0,0.0,0.0,bwlobby
+- aquarium,519.0,74.0,532.0,0.0,0.0,bwlobby
+- aquarium2,519.0,75.0,532.0,0.0,0.0,bwlobby
+- ashore2,519.0,75.0,533.0,0.0,0.0,bwlobby
+- ashore,519.0,74.0,533.0,0.0,0.0,bwlobby
+- temple,519.0,74.0,534.0,0.0,0.0,bwlobby
+- temple2,519.0,75.0,534.0,0.0,0.0,bwlobby
+- playground,481.0,74.0,531.0,0.0,0.0,bwlobby
+- playground2,481.0,75.0,531.0,0.0,0.0,bwlobby
+- acropolis,481.0,74.0,530.0,0.0,0.0,bwlobby
+- acropolis2,481.0,75.0,530.0,0.0,0.0,bwlobby
+- skyrise,481.0,74.0,529.0,0.0,0.0,bwlobby
+- skyrise2,481.0,75.0,529.0,0.0,0.0,bwlobby
+- siege,481.0,74.0,528.0,0.0,0.0,bwlobby
+- siege2,481.0,75.0,528.0,0.0,0.0,bwlobby
