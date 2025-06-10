@@ -10,6 +10,4 @@ groups:
     shares:
     - all
   hub:
-    - hub
-
-
+  - hub

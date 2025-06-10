@@ -103,6 +103,23 @@ inventories:
   disable-furnace: true
   disable-brewing-stand: true
   disable-anvil: true
+pre-game-items:
+  stats:
+    # This command is executed when the player interacts with this item.
+    command: bw stats
+    # This will automatically get the player's head texture
+    material: PLAYER_HEAD
+    data: 0
+    # Where to put in player's inventory
+    slot: 0
+  example-item:
+    # This command is executed when the player interacts with this item.
+    command: bw leave
+    # This will automatically get the player's head texture
+    material: RED_BED
+    data: 0
+    # Where to put in player's inventory
+    slot: 9
 spectator-items:
   teleporter:
     command: bw teleporter
