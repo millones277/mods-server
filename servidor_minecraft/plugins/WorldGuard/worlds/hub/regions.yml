@@ -15,7 +15,7 @@ regions:
         max: {x: 125, y: 319, z: 64}
         members: {}
         flags: {deny-message: '', invincible: allow, fall-damage: deny, snow-fall: deny,
-            pvp: deny, mob-spawning: deny, natural-hunger-drain: deny}
+            pvp: deny, heal-amount: 99, heal-delay: 1, mob-spawning: deny, natural-hunger-drain: deny}
         owners: {}
         type: cuboid
         priority: 0
