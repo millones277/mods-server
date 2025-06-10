@@ -113,14 +113,14 @@ pre-game-items:
     # Where to put in player's inventory
     slot: 0
     enchanted: false
-  example-item:
+  leave:
     # This command is executed when the player interacts with this item.
-    command: bw leave
+    command: mv tp bwlobby
     # This will automatically get the player's head texture
     material: RED_BED
     data: 0
     # Where to put in player's inventory
-    slot: 9
+    slot: 8
     enchanted: false
 spectator-items:
   teleporter:
