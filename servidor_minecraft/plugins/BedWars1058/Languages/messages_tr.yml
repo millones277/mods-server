@@ -1,5 +1,6 @@
 # Turkish translation by https://kuzeeeyk.me [kuzeeeyk#7268 or @kuzeeeyk]
 
+pre-game-items-example-item-name: '&cName not set at: &fpre-game-items-example-item-name'
 prefix: ''
 name: Türkçe
 cmd-main-list:

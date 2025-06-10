@@ -112,6 +112,7 @@ pre-game-items:
     data: 0
     # Where to put in player's inventory
     slot: 0
+    enchanted: false
   example-item:
     # This command is executed when the player interacts with this item.
     command: bw leave
@@ -120,6 +121,7 @@ pre-game-items:
     data: 0
     # Where to put in player's inventory
     slot: 9
+    enchanted: false
 spectator-items:
   teleporter:
     command: bw teleporter

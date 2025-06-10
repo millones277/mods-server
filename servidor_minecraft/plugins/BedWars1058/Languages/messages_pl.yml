@@ -1,5 +1,6 @@
 # Polish translation by RarstManPL#0616 and Creper132#7570 Updated by Seriously Not Beluga#0082
 
+pre-game-items-example-item-name: '&cName not set at: &fpre-game-items-example-item-name'
 prefix: ''
 name: Polski
 cmd-join-usage: '§a▪ §7Uzyj: /bw join §o<arena/grupa>'

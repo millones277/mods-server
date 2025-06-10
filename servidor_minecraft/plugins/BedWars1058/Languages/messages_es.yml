@@ -1,5 +1,6 @@
 # Translation by JuliCarles#1783 and Danidev819#7465
 
+pre-game-items-example-item-name: '&cName not set at: &fpre-game-items-example-item-name'
 prefix: ''
 name: Espanol
 cmd-main-list:
