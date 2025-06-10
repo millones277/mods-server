@@ -1,862 +1,842 @@
-[21:35:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:35:55] [ServerMain/INFO]: Loaded 1174 recipes
-[21:35:56] [ServerMain/INFO]: Loaded 1271 advancements
-[21:35:56] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[21:35:56] [Server thread/INFO]: Loading properties
-[21:35:56] [Server thread/INFO]: This server is running SlimeWorldManager version git-SlimeWorldManager-15981 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 45af324)
-[21:35:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:35:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:35:57] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:40:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:40:18] [ServerMain/INFO]: Loaded 1174 recipes
+[21:40:18] [ServerMain/INFO]: Loaded 1271 advancements
+[21:40:18] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[21:40:18] [Server thread/INFO]: Loading properties
+[21:40:18] [Server thread/INFO]: This server is running SlimeWorldManager version git-SlimeWorldManager-15981 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 45af324)
+[21:40:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:40:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:40:20] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:35:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:35:57] [Server thread/INFO]: Default game type: SURVIVAL
-[21:35:57] [Server thread/INFO]: Generating keypair
-[21:35:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:35:58] [Server thread/INFO]: Using epoll channel type
-[21:35:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:35:58] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:35:58] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[21:36:01] [Server thread/WARN]: Legacy plugin BedWars1058-AntiDrop v1.2.1 does not specify an api-version.
-[21:36:01] [Server thread/WARN]: Legacy plugin BedWars1058-MapSelector v1.5.0 does not specify an api-version.
-[21:36:01] [Server thread/WARN]: Legacy plugin BedWars1058-GenSplit v0.3 does not specify an api-version.
-[21:36:01] [Server thread/WARN]: Legacy plugin GeyserPvP v1.4.1-STABLE does not specify an api-version.
-[21:36:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
-[21:36:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@35cb2d92]
-[21:36:02] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[21:36:02] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[21:36:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[21:36:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[21:36:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[21:36:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[21:36:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[21:36:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[21:36:03] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[21:36:03] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.33-SNAPSHOT (build 3311)
-[21:36:03] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.2
-[21:36:04] [Server thread/INFO]: [BedWars1058] Loading server plugin BedWars1058 v25.5-SNAPSHOT
-[21:36:04] [Server thread/INFO]: [BedWars1058] Loading support for Spigot/ Paper v1_20_R3
-[21:36:04] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.0.1
-[21:36:04] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
-[21:36:04] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+5-4ab3bbc
-[21:36:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[21:36:05] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[21:36:05] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[21:36:05] [Server thread/INFO]: [OldCombatMechanics] Loading server plugin OldCombatMechanics v2.0.4
-[21:36:05] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.1
-[21:36:05] [Server thread/INFO]: [BedWars1058-AntiDrop] Loading server plugin BedWars1058-AntiDrop v1.2.1
-[21:36:05] [Server thread/INFO]: [BedWars1058-MapSelector] Loading server plugin BedWars1058-MapSelector v1.5.0
-[21:36:05] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.119
-[21:36:05] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.0.2
-[21:36:05] [Server thread/INFO]: [BedWars1058-Compass] Loading server plugin BedWars1058-Compass v1.4.3
-[21:36:05] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.5
-[21:36:05] [Server thread/INFO]: [JumpPads] Loading server plugin JumpPads v1.25.13
-[21:36:05] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+5-4ab3bbc
-[21:36:05] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.0.1
-[21:36:05] [Server thread/INFO]: [BedWars1058-GenSplit] Loading server plugin BedWars1058-GenSplit v0.3
-[21:36:05] [Server thread/INFO]: [GeyserPvP] Loading server plugin GeyserPvP v1.4.1-STABLE
-[21:36:05] [Server thread/INFO]: [BedWars1058-Sponge] Loading server plugin BedWars1058-Sponge v1.0.2
-[21:36:05] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
-[21:36:05] [Server thread/INFO]: [BedWars1058-TeamSelector] Loading server plugin BedWars1058-TeamSelector v0.7
-[21:36:05] [Server thread/INFO]: [BedWars1058-PlayAgain] Loading server plugin BedWars1058-PlayAgain v2.1.1
-[21:36:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:36:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
-[21:36:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:36:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:36:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[21:36:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
-[21:36:06] [Server thread/INFO]:         __    
-[21:36:06] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.2
-[21:36:06] [Server thread/INFO]:   |___ |      Running on Bukkit - SlimeWorldManager
-[21:36:06] [Server thread/INFO]: 
-[21:36:06] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:36:06] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:36:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:36:07] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:36:07] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1475ms)
-[21:36:07] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.5
-[21:36:08] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
-[21:36:08] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[21:36:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.6.5]
-[21:36:08] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[21:36:08] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
-[21:36:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:36:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:36:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:36:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:36:08] [Server thread/INFO]: Preparing level "bwlobby"
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.5
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: f8c262a
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[21:36:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[21:36:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:36:09] [Server thread/INFO]: Time elapsed: 187 ms
-[21:36:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:36:09] [Server thread/INFO]: Time elapsed: 98 ms
-[21:36:09] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[21:36:10] [Server thread/INFO]: [WorldGuard] (bwlobby) TNT ignition is PERMITTED.
-[21:36:10] [Server thread/INFO]: [WorldGuard] (bwlobby) Lighters are PERMITTED.
-[21:36:10] [Server thread/INFO]: [WorldGuard] (bwlobby) Lava fire is PERMITTED.
-[21:36:10] [Server thread/INFO]: [WorldGuard] (bwlobby) Fire spread is UNRESTRICTED.
-[21:36:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bwlobby'
-[21:36:10] [Server thread/INFO]: [WorldGuard] (bwlobby_the_end) TNT ignition is PERMITTED.
-[21:36:10] [Server thread/INFO]: [WorldGuard] (bwlobby_the_end) Lighters are PERMITTED.
-[21:36:10] [Server thread/INFO]: [WorldGuard] (bwlobby_the_end) Lava fire is PERMITTED.
-[21:36:10] [Server thread/INFO]: [WorldGuard] (bwlobby_the_end) Fire spread is UNRESTRICTED.
-[21:36:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bwlobby_the_end'
-[21:36:10] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:36:10] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[21:36:10] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[21:36:10] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[21:36:10] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
-[21:36:10] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.33-SNAPSHOT (build 3311)
-[21:36:10] [Server thread/INFO]: [Citizens] Loading external libraries
-[21:36:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
-[21:36:11] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.5-SNAPSHOT
-[21:36:11] [Server thread/INFO]: [BedWars1058] Using internal world restore system.
-[21:36:11] [Server thread/INFO]: Registering /party command..
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena temple2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Loading arena: temple2
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena ashore2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena toro was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena aquarium was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena ashore was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena eastwood2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena acropolis was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena siege2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena lectus2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena eastwood was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena glacier was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena toro2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena crypt was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena glacier2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena sandcastle2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena aquarium2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena skyrise was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena stonekeep2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena acropolis2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena lectus was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena playground was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena siege was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena skyrise2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena rooftop was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena crypt2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena sandcastle was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena rooftop2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena temple was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena playground2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena lighthouse2 was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Arena stonekeep was added to the enable queue.
-[21:36:11] [Server thread/INFO]: [BedWars1058] Hooked into PlaceholderAPI support!
-[21:36:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: bw1058 [25.5-SNAPSHOT]
-[21:36:12] [Server thread/WARN]: Scoreboard tab header-footer refresh interval is set to: 10
-[21:36:12] [Server thread/WARN]: It is not recommended to use a value under 20 ticks.
-[21:36:12] [Server thread/WARN]: If you expect performance issues please increase its timer.
-[21:36:12] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
-[21:36:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.0.1
-[21:36:12] [Server thread/INFO]: Preparing start region for dimension minecraft:hub
-[21:36:13] [Server thread/INFO]: Time elapsed: 848 ms
-[21:36:13] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
-[21:36:13] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
-[21:36:13] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is PERMITTED.
-[21:36:13] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
-[21:36:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
-[21:36:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.0.1]
-[21:36:13] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[21:36:13] [Server thread/INFO]: [Multiverse-Core] Version 5.0.1 (API v5.0) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[21:36:13] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
-[21:36:13] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
-[21:36:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
-[21:36:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+5-4ab3bbc
-[21:36:14] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[21:36:14] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[21:36:14] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[21:36:14] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[21:36:14] [Server thread/INFO]: [Essentials] Using locale en
-[21:36:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[21:36:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[21:36:14] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[21:36:14] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[21:36:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[21:36:14] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[21:36:15] [Server thread/INFO]: [OldCombatMechanics] Enabling OldCombatMechanics v2.0.4
-[21:36:15] [Server thread/WARN]: [OldCombatMechanics] No ProtocolLib detected, attack-sounds and sword-sweep-particles modules will be disabled
-[21:36:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ocm [2.0.4]
-[21:36:15] [Server thread/WARN]: [OldCombatMechanics] Configured world world not found, skipping (might be loaded later?)...
-[21:36:15] [Server thread/WARN]: [OldCombatMechanics] Configured world world_nether not found, skipping (might be loaded later?)...
-[21:36:15] [Server thread/WARN]: [OldCombatMechanics] Configured world world_the_end not found, skipping (might be loaded later?)...
-[21:36:15] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v2.0.4 has been enabled
-[21:36:15] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.1
-[21:36:15] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_20_R3 (1.20.4).
-[21:36:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R3! Trying to find NMS support
-[21:36:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R3' loaded!
-[21:36:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[21:36:15] [Server thread/INFO]: [BedWars1058-AntiDrop] Enabling BedWars1058-AntiDrop v1.2.1*
-[21:36:15] [Server thread/INFO]: [BedWars1058-MapSelector] Enabling BedWars1058-MapSelector v1.5.0*
-[21:36:15] [Server thread/INFO]: Hooked into BedWars1058
-[21:36:15] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] MapSelector-Pool - Starting...
-[21:36:15] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] MapSelector-Pool - Start completed.
-[21:36:15] [Server thread/INFO]: [BedWars1058-MapSelector] Connected to the database
-[21:36:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mapselector [1.5.0]
-[21:36:16] [Server thread/INFO]: [BedWars1058-MapSelector] BedWars1058-MapSelector plugin by itz_leoo has been successfully enabled.
-[21:36:16] [Server thread/INFO]: [spark] Enabling spark v1.10.119
-[21:36:16] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[21:36:16] [Server thread/INFO]: [spark] Starting background profiler...
-[21:36:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.119]
-[21:36:16] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
-[21:36:16] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.0.2
-[21:36:16] [Server thread/INFO]: [Multiverse-Portals] 2 - Portals(s) loaded
-[21:36:16] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[21:36:16] [Server thread/INFO]: [Multiverse-Portals 5.0.2]  Enabled - By Rigby, fernferret and benwoo1110
-[21:36:16] [Server thread/INFO]: [BedWars1058-Compass] Enabling BedWars1058-Compass v1.4.3
-[21:36:16] [Server thread/INFO]: [BedWars1058-Compass] Successfully loaded in 139ms
-[21:36:16] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
-[21:36:16] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+5-4ab3bbc
-[21:36:16] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[21:36:16] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.0.1
-[21:36:17] [Server thread/WARN]: [Multiverse-Inventories] Group: 'hub' is not formatted correctly!
-[21:36:17] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[21:36:17] [Server thread/INFO]: [Multiverse-Inventories] Version 5.0.1 (API v5.0) Enabled - By dumptruckman and benwoo1110
-[21:36:17] [Server thread/INFO]: [BedWars1058-GenSplit] Enabling BedWars1058-GenSplit v0.3*
-[21:36:17] [Server thread/INFO]:  
-[21:36:17] [Server thread/INFO]: BedWars1058 Generator Split
-[21:36:17] [Server thread/INFO]: by kimoVoid
-[21:36:17] [Server thread/INFO]:  
-[21:36:17] [Server thread/INFO]: [GeyserPvP] Enabling GeyserPvP v1.4.1-STABLE*
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ══════════════════════════════════════════════════
-[21:36:17] [Server thread/INFO]: [GeyserPvP]  ██████╗ ███████╗██╗   ██╗███████╗███████╗██████╗ 
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ██╔════╝ ██╔════╝╚██╗ ██╔╝██╔════╝██╔════╝██╔══██╗
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ██║  ███╗█████╗   ╚████╔╝ ███████╗█████╗  ██████╔╝
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ██║   ██║██╔══╝    ╚██╔╝  ╚════██║██╔══╝  ██╔══██╗
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ╚██████╔╝███████╗   ██║   ███████╗███████╗██║  ██║ 
-[21:36:17] [Server thread/INFO]: [GeyserPvP]  ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝ 
-[21:36:17] [Server thread/INFO]: [GeyserPvP]                                                    
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ██████╗ ██╗   ██╗██████╗                          
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ██╔══██╗██║   ██║██╔══██╗                         
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ██████╔╝██║   ██║██████╔╝                         
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ██╔═══╝ ╚██╗ ██╔╝██╔═══╝                          
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ██║      ╚████╔╝ ██║                              
-[21:36:17] [Server thread/INFO]: [GeyserPvP] ╚═╝       ╚═══╝  ╚═╝                              
-[21:36:17] [Server thread/INFO]: [GeyserPvP] |  GeyserPVP
-[21:36:17] [Server thread/INFO]: [GeyserPvP] |  Author: ThaYT
-[21:36:17] [Server thread/INFO]: [GeyserPvP] |  Server Version: git-SlimeWorldManager-15981 (MC: 1.20.4)
-[21:36:17] [Server thread/INFO]: [GeyserPvP] |  Version: 1.4.1-STABLE
-[21:36:17] [Server thread/INFO]: [GeyserPvP] |  GeyserMC Version: 2.7.1-SNAPSHOT
-[21:36:17] [Server thread/INFO]: [GeyserPvP] |  OCM Version: 2.0.4
-[21:36:17] [Server thread/INFO]: [GeyserPvP] OCM config already set. No changes made.
-[21:36:17] [Server thread/INFO]: [GeyserPvP] |  Plugin Loaded in 11 ms
-[21:36:17] [Server thread/INFO]: [BedWars1058-Sponge] Enabling BedWars1058-Sponge v1.0.2
-[21:36:17] [Server thread/INFO]: [BedWars1058-Sponge] Successfully loaded in 4ms
-[21:36:17] [Server thread/INFO]: [BedWars1058-TeamSelector] Enabling BedWars1058-TeamSelector v0.7
-[21:36:17] [Server thread/INFO]: [BedWars1058-TeamSelector] Hook into BedWars1058!
-[21:36:17] [Server thread/INFO]: [BedWars1058-PlayAgain] Enabling BedWars1058-PlayAgain v2.1.1
-[21:36:17] [Server thread/INFO]: [BedWars1058-PlayAgain] [INFO] The plugin has been activated (0.005s)
-[21:36:17] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[21:36:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:36:17] [Server thread/INFO]: [Geyser-Spigot] 
-[21:36:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b845 (git-master-d63e82c)
-[21:36:17] [Server thread/INFO]: [Geyser-Spigot] 
-[21:36:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:36:21] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4171
-[21:36:21] [Server thread/INFO]: [Geyser-Spigot] Done (3.529s)! Run /geyser help for help!
-[21:36:21] [Server thread/INFO]: Running delayed init tasks
-[21:36:21] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[21:36:21] [Craft Scheduler Thread - 12 - Essentials/INFO]: [Essentials] Fetching version information...
-[21:36:21] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[21:36:21] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[21:36:21] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
-[21:36:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bw1058plus [1.2.2]
-[21:36:21] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[21:36:21] [Server thread/INFO]: [Citizens] Loaded 4 NPCs.
-[21:36:21] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[21:36:21] [Server thread/INFO]: Checking for conflicts in groups...
-[21:36:21] [Server thread/INFO]: No group conflicts found!
-[21:36:22] [Server thread/INFO]: Preparing start region for dimension minecraft:temple2
-[21:36:22] [Server thread/INFO]: Time elapsed: 26 ms
-[21:36:22] [Server thread/INFO]: [WorldGuard] (temple2) TNT ignition is PERMITTED.
-[21:36:22] [Server thread/INFO]: [WorldGuard] (temple2) Lighters are PERMITTED.
-[21:36:22] [Server thread/INFO]: [WorldGuard] (temple2) Lava fire is PERMITTED.
-[21:36:22] [Server thread/INFO]: [WorldGuard] (temple2) Fire spread is UNRESTRICTED.
-[21:36:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'temple2'
-[21:36:22] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
-[21:36:22] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: temple2
-[21:36:22] [Server thread/INFO]: [BedWars1058] Load done: temple2
-[21:36:22] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world temple2
-[21:36:22] [Server thread/INFO]: Done (25.926s)! For help, type "help"
-[21:36:22] [Server thread/INFO]: Timings Reset
-[21:36:22] [Server thread/INFO]: [BedWars1058] Hook into Citizens support. /bw npc
-[21:36:23] [Server thread/INFO]: Preparing start region for dimension minecraft:lighthouse
-[21:36:23] [Server thread/INFO]: Time elapsed: 364 ms
-[21:36:23] [Server thread/INFO]: [WorldGuard] (lighthouse) TNT ignition is PERMITTED.
-[21:36:23] [Server thread/INFO]: [WorldGuard] (lighthouse) Lighters are PERMITTED.
-[21:36:23] [Server thread/INFO]: [WorldGuard] (lighthouse) Lava fire is PERMITTED.
-[21:36:23] [Server thread/INFO]: [WorldGuard] (lighthouse) Fire spread is UNRESTRICTED.
-[21:36:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lighthouse'
-[21:36:23] [Server thread/INFO]: [BedWars1058] Loading arena: ashore2
-[21:36:23] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse
-[21:36:23] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
-[21:36:23] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world lighthouse
-[21:36:24] [Server thread/INFO]: Preparing start region for dimension minecraft:ashore2
-[21:36:25] [Server thread/INFO]: [WorldGuard] (ashore2) TNT ignition is PERMITTED.
-[21:36:25] [Server thread/INFO]: [WorldGuard] (ashore2) Lighters are PERMITTED.
-[21:36:25] [Server thread/INFO]: [WorldGuard] (ashore2) Lava fire is PERMITTED.
-[21:36:25] [Server thread/INFO]: [WorldGuard] (ashore2) Fire spread is UNRESTRICTED.
-[21:36:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ashore2'
-[21:36:25] [Server thread/INFO]: Time elapsed: 732 ms
-[21:36:25] [Server thread/INFO]: [BedWars1058] Loading arena: toro
-[21:36:25] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: ashore2
-[21:36:25] [Server thread/INFO]: [BedWars1058] Load done: ashore2
-[21:36:25] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world ashore2
-[21:36:25] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
-[21:36:25] [Server thread/INFO]: Preparing start region for dimension minecraft:toro
-[21:36:26] [Server thread/INFO]: Time elapsed: 107 ms
-[21:36:26] [Server thread/INFO]: [WorldGuard] (toro) TNT ignition is PERMITTED.
-[21:36:26] [Server thread/INFO]: [WorldGuard] (toro) Lighters are PERMITTED.
-[21:36:26] [Server thread/INFO]: [WorldGuard] (toro) Lava fire is PERMITTED.
-[21:36:26] [Server thread/INFO]: [WorldGuard] (toro) Fire spread is UNRESTRICTED.
-[21:36:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'toro'
-[21:36:26] [Server thread/INFO]: [BedWars1058] Loading arena: aquarium
-[21:36:26] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: toro
-[21:36:26] [Server thread/INFO]: [BedWars1058] Load done: toro
-[21:36:26] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world toro
-[21:36:26] [Server thread/INFO]: Preparing start region for dimension minecraft:aquarium
-[21:36:27] [Server thread/INFO]: Time elapsed: 667 ms
-[21:36:27] [Server thread/INFO]: [WorldGuard] (aquarium) TNT ignition is PERMITTED.
-[21:36:27] [Server thread/INFO]: [WorldGuard] (aquarium) Lighters are PERMITTED.
-[21:36:27] [Server thread/INFO]: [WorldGuard] (aquarium) Lava fire is PERMITTED.
-[21:36:27] [Server thread/INFO]: [WorldGuard] (aquarium) Fire spread is UNRESTRICTED.
-[21:36:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aquarium'
-[21:36:27] [Server thread/INFO]: [BedWars1058] Loading arena: ashore
-[21:36:27] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: aquarium
-[21:36:27] [Server thread/INFO]: [BedWars1058] Load done: aquarium
-[21:36:27] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world aquarium
-[21:36:28] [Server thread/INFO]: Preparing start region for dimension minecraft:ashore
-[21:36:28] [Server thread/INFO]: Time elapsed: 32 ms
-[21:36:28] [Server thread/INFO]: [WorldGuard] (ashore) TNT ignition is PERMITTED.
-[21:36:28] [Server thread/INFO]: [WorldGuard] (ashore) Lighters are PERMITTED.
-[21:36:28] [Server thread/INFO]: [WorldGuard] (ashore) Lava fire is PERMITTED.
-[21:36:28] [Server thread/INFO]: [WorldGuard] (ashore) Fire spread is UNRESTRICTED.
-[21:36:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ashore'
-[21:36:28] [Server thread/INFO]: [BedWars1058] Loading arena: eastwood2
-[21:36:28] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: ashore
-[21:36:28] [Server thread/INFO]: [BedWars1058] Load done: ashore
-[21:36:28] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world ashore
-[21:36:28] [Server thread/INFO]: Preparing start region for dimension minecraft:eastwood2
-[21:36:28] [Server thread/INFO]: Time elapsed: 522 ms
-[21:36:28] [Server thread/INFO]: [WorldGuard] (eastwood2) TNT ignition is PERMITTED.
-[21:36:28] [Server thread/INFO]: [WorldGuard] (eastwood2) Lighters are PERMITTED.
-[21:36:28] [Server thread/INFO]: [WorldGuard] (eastwood2) Lava fire is PERMITTED.
-[21:36:28] [Server thread/INFO]: [WorldGuard] (eastwood2) Fire spread is UNRESTRICTED.
-[21:36:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'eastwood2'
-[21:36:28] [Server thread/INFO]: [BedWars1058] Loading arena: acropolis
-[21:36:28] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: eastwood2
-[21:36:28] [Server thread/INFO]: [BedWars1058] Load done: eastwood2
-[21:36:28] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world eastwood2
-[21:36:29] [Server thread/INFO]: Preparing start region for dimension minecraft:acropolis
-[21:36:29] [Server thread/INFO]: Time elapsed: 35 ms
-[21:36:29] [Server thread/INFO]: [WorldGuard] (acropolis) TNT ignition is PERMITTED.
-[21:36:29] [Server thread/INFO]: [WorldGuard] (acropolis) Lighters are PERMITTED.
-[21:36:29] [Server thread/INFO]: [WorldGuard] (acropolis) Lava fire is PERMITTED.
-[21:36:29] [Server thread/INFO]: [WorldGuard] (acropolis) Fire spread is UNRESTRICTED.
-[21:36:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'acropolis'
-[21:36:29] [Server thread/INFO]: [BedWars1058] Loading arena: siege2
-[21:36:30] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: acropolis
-[21:36:30] [Server thread/INFO]: [BedWars1058] Load done: acropolis
-[21:36:30] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world acropolis
-[21:36:30] [Server thread/INFO]: Preparing start region for dimension minecraft:siege2
-[21:36:31] [Server thread/INFO]: Time elapsed: 1015 ms
-[21:36:31] [Server thread/INFO]: [WorldGuard] (siege2) TNT ignition is PERMITTED.
-[21:36:31] [Server thread/INFO]: [WorldGuard] (siege2) Lighters are PERMITTED.
-[21:36:31] [Server thread/INFO]: [WorldGuard] (siege2) Lava fire is PERMITTED.
-[21:36:31] [Server thread/INFO]: [WorldGuard] (siege2) Fire spread is UNRESTRICTED.
-[21:36:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'siege2'
-[21:36:31] [Server thread/INFO]: [BedWars1058] Loading arena: lectus2
-[21:36:31] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: siege2
-[21:36:31] [Server thread/INFO]: [BedWars1058] Load done: siege2
-[21:36:31] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world siege2
-[21:36:32] [Server thread/INFO]: Preparing start region for dimension minecraft:lectus2
-[21:36:32] [Server thread/INFO]: Time elapsed: 15 ms
-[21:36:32] [Server thread/INFO]: [WorldGuard] (lectus2) TNT ignition is PERMITTED.
-[21:36:32] [Server thread/INFO]: [WorldGuard] (lectus2) Lighters are PERMITTED.
-[21:36:32] [Server thread/INFO]: [WorldGuard] (lectus2) Lava fire is PERMITTED.
-[21:36:32] [Server thread/INFO]: [WorldGuard] (lectus2) Fire spread is UNRESTRICTED.
-[21:36:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lectus2'
-[21:36:32] [Server thread/INFO]: [BedWars1058] Loading arena: eastwood
-[21:36:32] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lectus2
-[21:36:32] [Server thread/INFO]: [BedWars1058] Load done: lectus2
-[21:36:32] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world lectus2
-[21:36:32] [Server thread/INFO]: Preparing start region for dimension minecraft:eastwood
-[21:36:33] [Server thread/INFO]: Time elapsed: 604 ms
-[21:36:33] [Server thread/INFO]: [WorldGuard] (eastwood) TNT ignition is PERMITTED.
-[21:36:33] [Server thread/INFO]: [WorldGuard] (eastwood) Lighters are PERMITTED.
-[21:36:33] [Server thread/INFO]: [WorldGuard] (eastwood) Lava fire is PERMITTED.
-[21:36:33] [Server thread/INFO]: [WorldGuard] (eastwood) Fire spread is UNRESTRICTED.
-[21:36:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'eastwood'
-[21:36:33] [Server thread/INFO]: [BedWars1058] Loading arena: glacier
-[21:36:33] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: eastwood
-[21:36:33] [Server thread/INFO]: [BedWars1058] Load done: eastwood
-[21:36:33] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world eastwood
-[21:36:33] [Server thread/INFO]: Preparing start region for dimension minecraft:glacier
-[21:36:33] [Server thread/INFO]: Time elapsed: 10 ms
-[21:36:33] [Server thread/INFO]: [WorldGuard] (glacier) TNT ignition is PERMITTED.
-[21:36:33] [Server thread/INFO]: [WorldGuard] (glacier) Lighters are PERMITTED.
-[21:36:33] [Server thread/INFO]: [WorldGuard] (glacier) Lava fire is PERMITTED.
-[21:36:33] [Server thread/INFO]: [WorldGuard] (glacier) Fire spread is UNRESTRICTED.
-[21:36:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'glacier'
-[21:36:33] [Server thread/INFO]: [BedWars1058] Loading arena: toro2
-[21:36:33] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: glacier
-[21:36:33] [Server thread/INFO]: [BedWars1058] Load done: glacier
-[21:36:33] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world glacier
-[21:36:34] [Server thread/INFO]: Preparing start region for dimension minecraft:toro2
-[21:36:34] [Server thread/INFO]: Time elapsed: 160 ms
-[21:36:34] [Server thread/INFO]: [WorldGuard] (toro2) TNT ignition is PERMITTED.
-[21:36:34] [Server thread/INFO]: [WorldGuard] (toro2) Lighters are PERMITTED.
-[21:36:34] [Server thread/INFO]: [WorldGuard] (toro2) Lava fire is PERMITTED.
-[21:36:34] [Server thread/INFO]: [WorldGuard] (toro2) Fire spread is UNRESTRICTED.
-[21:36:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'toro2'
-[21:36:34] [Server thread/INFO]: [BedWars1058] Loading arena: crypt
-[21:36:34] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: toro2
-[21:36:34] [Server thread/INFO]: [BedWars1058] Load done: toro2
-[21:36:34] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world toro2
-[21:36:35] [Server thread/INFO]: Preparing start region for dimension minecraft:crypt
-[21:36:36] [Server thread/INFO]: Time elapsed: 619 ms
-[21:36:36] [Server thread/INFO]: [WorldGuard] (crypt) TNT ignition is PERMITTED.
-[21:36:36] [Server thread/INFO]: [WorldGuard] (crypt) Lighters are PERMITTED.
-[21:36:36] [Server thread/INFO]: [WorldGuard] (crypt) Lava fire is PERMITTED.
-[21:36:36] [Server thread/INFO]: [WorldGuard] (crypt) Fire spread is UNRESTRICTED.
-[21:36:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'crypt'
-[21:36:36] [Server thread/INFO]: [BedWars1058] Loading arena: glacier2
-[21:36:36] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: crypt
-[21:36:36] [Server thread/INFO]: [BedWars1058] Load done: crypt
-[21:36:36] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world crypt
-[21:36:36] [Server thread/INFO]: [BedWars1058] This server is running in SHARED with auto-scale false
-[21:36:36] [Server thread/INFO]: Preparing start region for dimension minecraft:glacier2
-[21:36:36] [Server thread/INFO]: Time elapsed: 26 ms
-[21:36:36] [Server thread/INFO]: [WorldGuard] (glacier2) TNT ignition is PERMITTED.
-[21:36:36] [Server thread/INFO]: [WorldGuard] (glacier2) Lighters are PERMITTED.
-[21:36:36] [Server thread/INFO]: [WorldGuard] (glacier2) Lava fire is PERMITTED.
-[21:36:36] [Server thread/INFO]: [WorldGuard] (glacier2) Fire spread is UNRESTRICTED.
-[21:36:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'glacier2'
-[21:36:36] [Server thread/INFO]: [BedWars1058] Loading arena: sandcastle2
-[21:36:36] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: glacier2
-[21:36:36] [Server thread/INFO]: [BedWars1058] Load done: glacier2
-[21:36:36] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world glacier2
-[21:36:37] [Server thread/INFO]: Preparing start region for dimension minecraft:sandcastle2
-[21:36:37] [Server thread/INFO]: Time elapsed: 231 ms
-[21:36:37] [Server thread/INFO]: [WorldGuard] (sandcastle2) TNT ignition is PERMITTED.
-[21:36:37] [Server thread/INFO]: [WorldGuard] (sandcastle2) Lighters are PERMITTED.
-[21:36:37] [Server thread/INFO]: [WorldGuard] (sandcastle2) Lava fire is PERMITTED.
-[21:36:37] [Server thread/INFO]: [WorldGuard] (sandcastle2) Fire spread is UNRESTRICTED.
-[21:36:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'sandcastle2'
-[21:36:37] [Server thread/INFO]: [BedWars1058] Loading arena: aquarium2
-[21:36:37] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: sandcastle2
-[21:36:37] [Server thread/INFO]: [BedWars1058] Load done: sandcastle2
-[21:36:37] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world sandcastle2
-[21:36:38] [Server thread/INFO]: Preparing start region for dimension minecraft:aquarium2
-[21:36:38] [Server thread/INFO]: Time elapsed: 180 ms
-[21:36:38] [Server thread/INFO]: [WorldGuard] (aquarium2) TNT ignition is PERMITTED.
-[21:36:38] [Server thread/INFO]: [WorldGuard] (aquarium2) Lighters are PERMITTED.
-[21:36:38] [Server thread/INFO]: [WorldGuard] (aquarium2) Lava fire is PERMITTED.
-[21:36:38] [Server thread/INFO]: [WorldGuard] (aquarium2) Fire spread is UNRESTRICTED.
-[21:36:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aquarium2'
-[21:36:38] [Server thread/INFO]: [BedWars1058] Loading arena: skyrise
-[21:36:38] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: aquarium2
-[21:36:38] [Server thread/INFO]: [BedWars1058] Load done: aquarium2
-[21:36:38] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world aquarium2
-[21:36:39] [Server thread/INFO]: Preparing start region for dimension minecraft:skyrise
-[21:36:39] [Server thread/INFO]: Time elapsed: 220 ms
-[21:36:39] [Server thread/INFO]: [WorldGuard] (skyrise) TNT ignition is PERMITTED.
-[21:36:39] [Server thread/INFO]: [WorldGuard] (skyrise) Lighters are PERMITTED.
-[21:36:39] [Server thread/INFO]: [WorldGuard] (skyrise) Lava fire is PERMITTED.
-[21:36:39] [Server thread/INFO]: [WorldGuard] (skyrise) Fire spread is UNRESTRICTED.
-[21:36:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skyrise'
-[21:36:39] [Server thread/INFO]: [BedWars1058] Loading arena: stonekeep2
-[21:36:39] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: skyrise
-[21:36:39] [Server thread/INFO]: [BedWars1058] Load done: skyrise
-[21:36:39] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world skyrise
-[21:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:stonekeep2
-[21:36:40] [Server thread/INFO]: Time elapsed: 86 ms
-[21:36:40] [Server thread/INFO]: [WorldGuard] (stonekeep2) TNT ignition is PERMITTED.
-[21:36:40] [Server thread/INFO]: [WorldGuard] (stonekeep2) Lighters are PERMITTED.
-[21:36:40] [Server thread/INFO]: [WorldGuard] (stonekeep2) Lava fire is PERMITTED.
-[21:36:40] [Server thread/INFO]: [WorldGuard] (stonekeep2) Fire spread is UNRESTRICTED.
-[21:36:40] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'stonekeep2'
-[21:36:40] [Server thread/INFO]: [BedWars1058] Loading arena: acropolis2
-[21:36:40] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: stonekeep2
-[21:36:40] [Server thread/INFO]: [BedWars1058] Load done: stonekeep2
-[21:36:40] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world stonekeep2
-[21:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:acropolis2
-[21:36:41] [Server thread/INFO]: Time elapsed: 674 ms
-[21:36:41] [Server thread/INFO]: [WorldGuard] (acropolis2) TNT ignition is PERMITTED.
-[21:36:41] [Server thread/INFO]: [WorldGuard] (acropolis2) Lighters are PERMITTED.
-[21:36:41] [Server thread/INFO]: [WorldGuard] (acropolis2) Lava fire is PERMITTED.
-[21:36:41] [Server thread/INFO]: [WorldGuard] (acropolis2) Fire spread is UNRESTRICTED.
-[21:36:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'acropolis2'
-[21:36:41] [Server thread/INFO]: [BedWars1058] Loading arena: lectus
-[21:36:41] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: acropolis2
-[21:36:41] [Server thread/INFO]: [BedWars1058] Load done: acropolis2
-[21:36:41] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world acropolis2
-[21:36:41] [User Authenticator #0/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
-[21:36:41] [Server thread/INFO]: Preparing start region for dimension minecraft:lectus
-[21:36:41] [Server thread/INFO]: Time elapsed: 15 ms
-[21:36:41] [Server thread/INFO]: [WorldGuard] (lectus) TNT ignition is PERMITTED.
-[21:36:41] [Server thread/INFO]: [WorldGuard] (lectus) Lighters are PERMITTED.
-[21:36:41] [Server thread/INFO]: [WorldGuard] (lectus) Lava fire is PERMITTED.
-[21:36:41] [Server thread/INFO]: [WorldGuard] (lectus) Fire spread is UNRESTRICTED.
-[21:36:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lectus'
-[21:36:41] [Server thread/INFO]: [BedWars1058] Loading arena: playground
-[21:36:41] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lectus
-[21:36:41] [Server thread/INFO]: [BedWars1058] Load done: lectus
-[21:36:41] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world lectus
-[21:36:42] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[21:36:42] [Server thread/INFO]: [OCM] Please specify a valid modeset!
-[21:36:42] [Server thread/INFO]: millones277 joined the game
-[21:36:42] [Server thread/INFO]: millones277[/127.141.104.90:52813] logged in with entity id 183 at ([bwlobby]504.36354977391585, 74.0, 554.8360425153537)
-[21:36:42] [Server thread/INFO]: Preparing start region for dimension minecraft:playground
-[21:36:43] [Server thread/INFO]: Time elapsed: 885 ms
-[21:36:43] [Server thread/INFO]: [WorldGuard] (playground) TNT ignition is PERMITTED.
-[21:36:43] [Server thread/INFO]: [WorldGuard] (playground) Lighters are PERMITTED.
-[21:36:43] [Server thread/INFO]: [WorldGuard] (playground) Lava fire is PERMITTED.
-[21:36:43] [Server thread/INFO]: [WorldGuard] (playground) Fire spread is UNRESTRICTED.
-[21:36:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'playground'
-[21:36:43] [Server thread/INFO]: [BedWars1058] Loading arena: siege
-[21:36:43] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: playground
-[21:36:43] [Server thread/INFO]: [BedWars1058] Load done: playground
-[21:36:43] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world playground
-[21:36:44] [Server thread/INFO]: Preparing start region for dimension minecraft:siege
-[21:36:44] [Server thread/INFO]: Time elapsed: 14 ms
-[21:36:44] [Server thread/INFO]: [WorldGuard] (siege) TNT ignition is PERMITTED.
-[21:36:44] [Server thread/INFO]: [WorldGuard] (siege) Lighters are PERMITTED.
-[21:36:44] [Server thread/INFO]: [WorldGuard] (siege) Lava fire is PERMITTED.
-[21:36:44] [Server thread/INFO]: [WorldGuard] (siege) Fire spread is UNRESTRICTED.
-[21:36:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'siege'
-[21:36:44] [Server thread/INFO]: [BedWars1058] Loading arena: skyrise2
-[21:36:44] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: siege
-[21:36:44] [Server thread/INFO]: [BedWars1058] Load done: siege
-[21:36:44] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world siege
-[21:36:45] [Server thread/INFO]: Preparing start region for dimension minecraft:skyrise2
-[21:36:45] [Server thread/INFO]: Time elapsed: 659 ms
-[21:36:45] [Server thread/INFO]: [WorldGuard] (skyrise2) TNT ignition is PERMITTED.
-[21:36:45] [Server thread/INFO]: [WorldGuard] (skyrise2) Lighters are PERMITTED.
-[21:36:45] [Server thread/INFO]: [WorldGuard] (skyrise2) Lava fire is PERMITTED.
-[21:36:45] [Server thread/INFO]: [WorldGuard] (skyrise2) Fire spread is UNRESTRICTED.
-[21:36:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skyrise2'
-[21:36:45] [Server thread/INFO]: [BedWars1058] Loading arena: rooftop
-[21:36:45] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: skyrise2
-[21:36:45] [Server thread/INFO]: [BedWars1058] Load done: skyrise2
-[21:36:45] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world skyrise2
-[21:36:46] [Server thread/INFO]: Preparing start region for dimension minecraft:rooftop
-[21:36:46] [Server thread/INFO]: Time elapsed: 24 ms
-[21:36:46] [Server thread/INFO]: [WorldGuard] (rooftop) TNT ignition is PERMITTED.
-[21:36:46] [Server thread/INFO]: [WorldGuard] (rooftop) Lighters are PERMITTED.
-[21:36:46] [Server thread/INFO]: [WorldGuard] (rooftop) Lava fire is PERMITTED.
-[21:36:46] [Server thread/INFO]: [WorldGuard] (rooftop) Fire spread is UNRESTRICTED.
-[21:36:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'rooftop'
-[21:36:46] [Server thread/INFO]: [BedWars1058] Loading arena: crypt2
-[21:36:46] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: rooftop
-[21:36:46] [Server thread/INFO]: [BedWars1058] Load done: rooftop
-[21:36:46] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world rooftop
-[21:36:48] [Server thread/INFO]: Preparing start region for dimension minecraft:crypt2
-[21:36:48] [Server thread/INFO]: Time elapsed: 299 ms
-[21:36:48] [Server thread/INFO]: [WorldGuard] (crypt2) TNT ignition is PERMITTED.
-[21:36:48] [Server thread/INFO]: [WorldGuard] (crypt2) Lighters are PERMITTED.
-[21:36:48] [Server thread/INFO]: [WorldGuard] (crypt2) Lava fire is PERMITTED.
-[21:36:48] [Server thread/INFO]: [WorldGuard] (crypt2) Fire spread is UNRESTRICTED.
-[21:36:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'crypt2'
-[21:36:48] [Server thread/INFO]: [BedWars1058] Loading arena: sandcastle
-[21:36:48] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: crypt2
-[21:36:48] [Server thread/INFO]: [BedWars1058] Load done: crypt2
-[21:36:48] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world crypt2
-[21:36:48] [Server thread/INFO]: Preparing start region for dimension minecraft:sandcastle
-[21:36:49] [Server thread/INFO]: Time elapsed: 217 ms
-[21:36:49] [Server thread/INFO]: [WorldGuard] (sandcastle) TNT ignition is PERMITTED.
-[21:36:49] [Server thread/INFO]: [WorldGuard] (sandcastle) Lighters are PERMITTED.
-[21:36:49] [Server thread/INFO]: [WorldGuard] (sandcastle) Lava fire is PERMITTED.
-[21:36:49] [Server thread/INFO]: [WorldGuard] (sandcastle) Fire spread is UNRESTRICTED.
-[21:36:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'sandcastle'
-[21:36:49] [Server thread/INFO]: [BedWars1058] Loading arena: rooftop2
-[21:36:49] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: sandcastle
-[21:36:49] [Server thread/INFO]: [BedWars1058] Load done: sandcastle
-[21:36:49] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world sandcastle
-[21:36:49] [Server thread/INFO]: Preparing start region for dimension minecraft:rooftop2
-[21:36:50] [Server thread/INFO]: Time elapsed: 383 ms
-[21:36:50] [Server thread/INFO]: [WorldGuard] (rooftop2) TNT ignition is PERMITTED.
-[21:36:50] [Server thread/INFO]: [WorldGuard] (rooftop2) Lighters are PERMITTED.
-[21:36:50] [Server thread/INFO]: [WorldGuard] (rooftop2) Lava fire is PERMITTED.
-[21:36:50] [Server thread/INFO]: [WorldGuard] (rooftop2) Fire spread is UNRESTRICTED.
-[21:36:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'rooftop2'
-[21:36:50] [Server thread/INFO]: [BedWars1058] Loading arena: temple
-[21:36:50] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: rooftop2
-[21:36:50] [Server thread/INFO]: [BedWars1058] Load done: rooftop2
-[21:36:50] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world rooftop2
-[21:36:50] [Server thread/INFO]: Preparing start region for dimension minecraft:temple
-[21:36:51] [Server thread/INFO]: Time elapsed: 153 ms
-[21:36:51] [Server thread/INFO]: [WorldGuard] (temple) TNT ignition is PERMITTED.
-[21:36:51] [Server thread/INFO]: [WorldGuard] (temple) Lighters are PERMITTED.
-[21:36:51] [Server thread/INFO]: [WorldGuard] (temple) Lava fire is PERMITTED.
-[21:36:51] [Server thread/INFO]: [WorldGuard] (temple) Fire spread is UNRESTRICTED.
-[21:36:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'temple'
-[21:36:51] [Server thread/INFO]: [BedWars1058] Loading arena: playground2
-[21:36:51] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: temple
-[21:36:51] [Server thread/INFO]: [BedWars1058] Load done: temple
-[21:36:51] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world temple
-[21:36:51] [Server thread/INFO]: Preparing start region for dimension minecraft:playground2
-[21:36:51] [Server thread/INFO]: Time elapsed: 249 ms
-[21:36:51] [Server thread/INFO]: [WorldGuard] (playground2) TNT ignition is PERMITTED.
-[21:36:51] [Server thread/INFO]: [WorldGuard] (playground2) Lighters are PERMITTED.
-[21:36:51] [Server thread/INFO]: [WorldGuard] (playground2) Lava fire is PERMITTED.
-[21:36:51] [Server thread/INFO]: [WorldGuard] (playground2) Fire spread is UNRESTRICTED.
-[21:36:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'playground2'
-[21:36:51] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse2
-[21:36:51] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: playground2
-[21:36:51] [Server thread/INFO]: [BedWars1058] Load done: playground2
-[21:36:51] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world playground2
-[21:36:52] [Server thread/INFO]: Preparing start region for dimension minecraft:lighthouse2
-[21:36:52] [Server thread/INFO]: Time elapsed: 300 ms
-[21:36:52] [Server thread/INFO]: [WorldGuard] (lighthouse2) TNT ignition is PERMITTED.
-[21:36:52] [Server thread/INFO]: [WorldGuard] (lighthouse2) Lighters are PERMITTED.
-[21:36:52] [Server thread/INFO]: [WorldGuard] (lighthouse2) Lava fire is PERMITTED.
-[21:36:52] [Server thread/INFO]: [WorldGuard] (lighthouse2) Fire spread is UNRESTRICTED.
-[21:36:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lighthouse2'
-[21:36:52] [Server thread/INFO]: [BedWars1058] Loading arena: stonekeep
-[21:36:52] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse2
-[21:36:52] [Server thread/INFO]: [BedWars1058] Load done: lighthouse2
-[21:36:52] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world lighthouse2
-[21:36:53] [Server thread/INFO]: Preparing start region for dimension minecraft:stonekeep
-[21:36:53] [Server thread/INFO]: [WorldGuard] (stonekeep) TNT ignition is PERMITTED.
-[21:36:53] [Server thread/INFO]: [WorldGuard] (stonekeep) Lighters are PERMITTED.
-[21:36:53] [Server thread/INFO]: [WorldGuard] (stonekeep) Lava fire is PERMITTED.
-[21:36:53] [Server thread/INFO]: [WorldGuard] (stonekeep) Fire spread is UNRESTRICTED.
-[21:36:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'stonekeep'
-[21:36:54] [Server thread/INFO]: Time elapsed: 716 ms
-[21:36:54] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: stonekeep
-[21:36:54] [Server thread/INFO]: [BedWars1058] Load done: stonekeep
-[21:36:54] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world stonekeep
-[21:37:15] [Server thread/ERROR]: [BedWars1058] pre-game-items.stats.enchanted is not set!
-[21:37:15] [Server thread/ERROR]: [BedWars1058] pre-game-items.example-item.enchanted is not set!
-[21:38:32] [Server thread/INFO]: millones277 lost connection: Disconnected
-[21:38:32] [Server thread/INFO]: millones277 left the game
-[21:38:34] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[21:38:36] [Server thread/INFO]:  ▪ English reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Română reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Italiano reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Polski reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Espanol reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Pусский reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Bangla reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Persian reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Hindi reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Indonesia reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Português reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ 简体中文 reloaded!
-[21:38:36] [Server thread/INFO]:  ▪ Türkçe reloaded!
-[21:38:40] [User Authenticator #1/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
-[21:38:40] [Server thread/INFO]: [OCM] Please specify a valid modeset!
-[21:38:40] [Server thread/INFO]: millones277 joined the game
-[21:38:40] [Server thread/INFO]: millones277[/127.141.104.90:53751] logged in with entity id 199 at ([bwlobby]516.7801193881319, 72.0, 533.8746403867008)
-[21:39:06] [Server thread/ERROR]: [BedWars1058] pre-game-items.stats.enchanted is not set!
-[21:39:06] [Server thread/ERROR]: [BedWars1058] pre-game-items.example-item.enchanted is not set!
-[21:39:15] [Server thread/INFO]: Stopping the server
-[21:39:15] [Server thread/INFO]: Stopping server
-[21:39:15] [Server thread/INFO]: [BedWars1058-PlayAgain] Disabling BedWars1058-PlayAgain v2.1.1
-[21:39:15] [Server thread/INFO]: [BedWars1058-PlayAgain] [INFO] The plugin has been disabled
-[21:39:15] [Server thread/INFO]: [BedWars1058-TeamSelector] Disabling BedWars1058-TeamSelector v0.7
-[21:39:15] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
-[21:39:15] [Server thread/INFO]: [BedWars1058-Sponge] Disabling BedWars1058-Sponge v1.0.2
-[21:39:15] [Server thread/INFO]: [GeyserPvP] Disabling GeyserPvP v1.4.1-STABLE
-[21:39:15] [Server thread/INFO]: [GeyserPvP] +----------------+
-[21:39:15] [Server thread/INFO]: [GeyserPvP]  GeyserPVP 
-[21:39:15] [Server thread/INFO]: [GeyserPvP]  Plugin Disabled
-[21:39:15] [Server thread/INFO]: [GeyserPvP] +----------------+
-[21:39:15] [Server thread/INFO]: [BedWars1058-GenSplit] Disabling BedWars1058-GenSplit v0.3
-[21:39:15] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.0.1
-[21:39:15] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2-dev+5-4ab3bbc
-[21:39:15] [Server thread/INFO]: [JumpPads] Disabling JumpPads v1.25.13
-[21:39:15] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.5
-[21:39:15] [Server thread/INFO]: [BedWars1058-Compass] Disabling BedWars1058-Compass v1.4.3
-[21:39:15] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.0.2
-[21:39:15] [Server thread/INFO]: [spark] Disabling spark v1.10.119
-[21:39:15] [Server thread/INFO]: [BedWars1058-MapSelector] Disabling BedWars1058-MapSelector v1.5.0
-[21:39:15] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] MapSelector-Pool - Shutdown initiated...
-[21:39:15] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] MapSelector-Pool - Shutdown completed.
-[21:39:15] [Server thread/INFO]: [BedWars1058-MapSelector] Closed the database connection
-[21:39:15] [Server thread/INFO]: [BedWars1058-MapSelector] BedWars1058-MapSelector plugin by itz_leoo has been successfully disabled.
-[21:39:15] [Server thread/INFO]: [BedWars1058-AntiDrop] Disabling BedWars1058-AntiDrop v1.2.1
-[21:39:15] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.9.1
-[21:39:15] [Server thread/INFO]: [OldCombatMechanics] Disabling OldCombatMechanics v2.0.4
-[21:39:15] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v2.0.4 has been disabled
-[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[21:39:15] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+5-4ab3bbc
-[21:39:15] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
-[21:39:15] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.0.1
-[21:39:15] [Server thread/INFO]: [BedWars1058] Disabling BedWars1058 v25.5-SNAPSHOT
-[21:39:15] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion bw1058plus
-[21:39:15] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin BedWars1058 was disabled.
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: temple2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'temple2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'temple2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: lighthouse
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lighthouse'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lighthouse'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: ashore2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'ashore2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'ashore2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: toro
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'toro'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'toro'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: aquarium
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'aquarium'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'aquarium'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: ashore
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'ashore'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'ashore'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: eastwood2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'eastwood2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'eastwood2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: acropolis
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'acropolis'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'acropolis'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: siege2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'siege2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'siege2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: lectus2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lectus2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lectus2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: eastwood
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'eastwood'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'eastwood'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: glacier
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'glacier'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'glacier'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: toro2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'toro2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'toro2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: crypt
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'crypt'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'crypt'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: glacier2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'glacier2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'glacier2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: sandcastle2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'sandcastle2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'sandcastle2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: aquarium2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'aquarium2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'aquarium2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: skyrise
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'skyrise'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'skyrise'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: stonekeep2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stonekeep2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stonekeep2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: acropolis2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'acropolis2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'acropolis2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: lectus
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lectus'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lectus'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: playground
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'playground'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'playground'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: siege
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'siege'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'siege'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: skyrise2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'skyrise2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'skyrise2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: rooftop
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'rooftop'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'rooftop'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: crypt2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'crypt2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'crypt2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: sandcastle
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'sandcastle'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'sandcastle'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: rooftop2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'rooftop2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'rooftop2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: temple
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'temple'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'temple'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: playground2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'playground2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'playground2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: lighthouse2
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lighthouse2'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lighthouse2'
-[21:39:15] [Server thread/WARN]: [BedWars1058] Disabling arena: stonekeep
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stonekeep'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stonekeep'
-[21:39:15] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.2
-[21:39:15] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:39:15] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:39:15] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:39:15] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.33-SNAPSHOT (build 3311)
-[21:39:15] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[21:39:15] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[21:39:15] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[21:39:15] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
-[21:39:15] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[21:39:15] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10-beta-01+cb9fd58
-[21:39:15] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:39:15] [Server thread/INFO]: Saving players
-[21:39:15] [Server thread/INFO]: millones277 lost connection: Server closed
-[21:39:15] [Server thread/INFO]: millones277 left the game
-[21:39:15] [Server thread/INFO]: Saving worlds
-[21:39:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bwlobby]'/minecraft:overworld
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'bwlobby'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'bwlobby'
-[21:39:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'bwlobby'
-[21:39:16] [Server thread/INFO]: [ChunkHolderManager] Saved 657 block chunks, 657 entity chunks, 0 poi chunks in world 'bwlobby' in 0.94s
-[21:39:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (bwlobby): All chunks are saved
-[21:39:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bwlobby_the_end]'/minecraft:the_end
-[21:39:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'bwlobby_the_end'
-[21:39:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'bwlobby_the_end'
-[21:39:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'bwlobby_the_end'
-[21:39:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'bwlobby_the_end' in 0.38s
-[21:39:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:39:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hub]'/minecraft:hub
-[21:39:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hub'
-[21:39:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hub'
-[21:39:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'hub'
-[21:39:18] [Server thread/INFO]: [ChunkHolderManager] Saved 715 block chunks, 715 entity chunks, 0 poi chunks in world 'hub' in 0.63s
-[21:39:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (hub): All chunks are saved
-[21:39:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:39:18] [Server thread/INFO]: Flushing Chunk IO
-[21:39:18] [Server thread/INFO]: Closing Thread Pool
-[21:39:21] [Server thread/INFO]: Closing Server
+[21:40:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:40:20] [Server thread/INFO]: Default game type: SURVIVAL
+[21:40:20] [Server thread/INFO]: Generating keypair
+[21:40:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:40:20] [Server thread/INFO]: Using epoll channel type
+[21:40:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:40:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:40:21] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:40:23] [Server thread/WARN]: Legacy plugin BedWars1058-AntiDrop v1.2.1 does not specify an api-version.
+[21:40:23] [Server thread/WARN]: Legacy plugin BedWars1058-MapSelector v1.5.0 does not specify an api-version.
+[21:40:23] [Server thread/WARN]: Legacy plugin BedWars1058-GenSplit v0.3 does not specify an api-version.
+[21:40:23] [Server thread/WARN]: Legacy plugin GeyserPvP v1.4.1-STABLE does not specify an api-version.
+[21:40:23] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[21:40:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5c9d48ac]
+[21:40:24] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[21:40:24] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[21:40:24] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[21:40:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[21:40:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:40:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:40:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:40:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:40:25] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[21:40:26] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.33-SNAPSHOT (build 3311)
+[21:40:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.2
+[21:40:26] [Server thread/INFO]: [BedWars1058] Loading server plugin BedWars1058 v25.5-SNAPSHOT
+[21:40:26] [Server thread/INFO]: [BedWars1058] Loading support for Spigot/ Paper v1_20_R3
+[21:40:27] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.0.1
+[21:40:27] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[21:40:27] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+5-4ab3bbc
+[21:40:27] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[21:40:27] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:40:27] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:40:27] [Server thread/INFO]: [OldCombatMechanics] Loading server plugin OldCombatMechanics v2.0.4
+[21:40:27] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.1
+[21:40:27] [Server thread/INFO]: [BedWars1058-AntiDrop] Loading server plugin BedWars1058-AntiDrop v1.2.1
+[21:40:27] [Server thread/INFO]: [BedWars1058-MapSelector] Loading server plugin BedWars1058-MapSelector v1.5.0
+[21:40:27] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.119
+[21:40:27] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.0.2
+[21:40:27] [Server thread/INFO]: [BedWars1058-Compass] Loading server plugin BedWars1058-Compass v1.4.3
+[21:40:27] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.5
+[21:40:27] [Server thread/INFO]: [JumpPads] Loading server plugin JumpPads v1.25.13
+[21:40:27] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+5-4ab3bbc
+[21:40:27] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.0.1
+[21:40:27] [Server thread/INFO]: [BedWars1058-GenSplit] Loading server plugin BedWars1058-GenSplit v0.3
+[21:40:27] [Server thread/INFO]: [GeyserPvP] Loading server plugin GeyserPvP v1.4.1-STABLE
+[21:40:27] [Server thread/INFO]: [BedWars1058-Sponge] Loading server plugin BedWars1058-Sponge v1.0.2
+[21:40:27] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[21:40:27] [Server thread/INFO]: [BedWars1058-TeamSelector] Loading server plugin BedWars1058-TeamSelector v0.7
+[21:40:27] [Server thread/INFO]: [BedWars1058-PlayAgain] Loading server plugin BedWars1058-PlayAgain v2.1.1
+[21:40:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:40:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[21:40:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:40:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:40:27] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[21:40:28] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.2
+[21:40:29] [Server thread/INFO]:         __    
+[21:40:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.2
+[21:40:29] [Server thread/INFO]:   |___ |      Running on Bukkit - SlimeWorldManager
+[21:40:29] [Server thread/INFO]: 
+[21:40:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:40:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:40:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:40:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:40:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1588ms)
+[21:40:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.5
+[21:40:31] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[21:40:31] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:40:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.6.5]
+[21:40:31] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[21:40:31] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[21:40:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:40:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:40:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:40:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:40:31] [Server thread/INFO]: Preparing level "bwlobby"
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.5
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: f8c262a
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:40:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:40:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:40:32] [Server thread/INFO]: Time elapsed: 191 ms
+[21:40:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:40:32] [Server thread/INFO]: Time elapsed: 152 ms
+[21:40:32] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[21:40:32] [Server thread/INFO]: [WorldGuard] (bwlobby) TNT ignition is PERMITTED.
+[21:40:32] [Server thread/INFO]: [WorldGuard] (bwlobby) Lighters are PERMITTED.
+[21:40:32] [Server thread/INFO]: [WorldGuard] (bwlobby) Lava fire is PERMITTED.
+[21:40:32] [Server thread/INFO]: [WorldGuard] (bwlobby) Fire spread is UNRESTRICTED.
+[21:40:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bwlobby'
+[21:40:32] [Server thread/INFO]: [WorldGuard] (bwlobby_the_end) TNT ignition is PERMITTED.
+[21:40:32] [Server thread/INFO]: [WorldGuard] (bwlobby_the_end) Lighters are PERMITTED.
+[21:40:32] [Server thread/INFO]: [WorldGuard] (bwlobby_the_end) Lava fire is PERMITTED.
+[21:40:32] [Server thread/INFO]: [WorldGuard] (bwlobby_the_end) Fire spread is UNRESTRICTED.
+[21:40:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bwlobby_the_end'
+[21:40:32] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:40:33] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[21:40:33] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:40:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[21:40:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[21:40:33] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.33-SNAPSHOT (build 3311)
+[21:40:33] [Server thread/INFO]: [Citizens] Loading external libraries
+[21:40:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[21:40:34] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.5-SNAPSHOT
+[21:40:34] [Server thread/INFO]: [BedWars1058] Using internal world restore system.
+[21:40:34] [Server thread/INFO]: Registering /party command..
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena temple2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Loading arena: temple2
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena ashore2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena toro was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena aquarium was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena ashore was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena eastwood2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena acropolis was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena siege2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena lectus2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena eastwood was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena glacier was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena toro2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena crypt was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena glacier2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena sandcastle2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena aquarium2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena skyrise was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena stonekeep2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena acropolis2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena lectus was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena playground was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena siege was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena skyrise2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena rooftop was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena crypt2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena sandcastle was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena rooftop2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena temple was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena playground2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena lighthouse2 was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Arena stonekeep was added to the enable queue.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Hooked into PlaceholderAPI support!
+[21:40:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: bw1058 [25.5-SNAPSHOT]
+[21:40:34] [Server thread/WARN]: Scoreboard tab header-footer refresh interval is set to: 10
+[21:40:34] [Server thread/WARN]: It is not recommended to use a value under 20 ticks.
+[21:40:34] [Server thread/WARN]: If you expect performance issues please increase its timer.
+[21:40:34] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
+[21:40:34] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.0.1
+[21:40:35] [Server thread/INFO]: Preparing start region for dimension minecraft:hub
+[21:40:36] [Server thread/INFO]: Time elapsed: 921 ms
+[21:40:36] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
+[21:40:36] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
+[21:40:36] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is PERMITTED.
+[21:40:36] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
+[21:40:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
+[21:40:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.0.1]
+[21:40:36] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[21:40:36] [Server thread/INFO]: [Multiverse-Core] Version 5.0.1 (API v5.0) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[21:40:36] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[21:40:36] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[21:40:36] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[21:40:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+5-4ab3bbc
+[21:40:36] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[21:40:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:40:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:40:37] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[21:40:37] [Server thread/INFO]: [Essentials] Using locale en
+[21:40:37] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:40:37] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:40:37] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[21:40:37] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[21:40:37] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:40:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[21:40:37] [Server thread/INFO]: [OldCombatMechanics] Enabling OldCombatMechanics v2.0.4
+[21:40:37] [Server thread/WARN]: [OldCombatMechanics] No ProtocolLib detected, attack-sounds and sword-sweep-particles modules will be disabled
+[21:40:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ocm [2.0.4]
+[21:40:37] [Server thread/WARN]: [OldCombatMechanics] Configured world world not found, skipping (might be loaded later?)...
+[21:40:37] [Server thread/WARN]: [OldCombatMechanics] Configured world world_nether not found, skipping (might be loaded later?)...
+[21:40:37] [Server thread/WARN]: [OldCombatMechanics] Configured world world_the_end not found, skipping (might be loaded later?)...
+[21:40:38] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v2.0.4 has been enabled
+[21:40:38] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.1
+[21:40:38] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_20_R3 (1.20.4).
+[21:40:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R3! Trying to find NMS support
+[21:40:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R3' loaded!
+[21:40:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[21:40:38] [Server thread/INFO]: [BedWars1058-AntiDrop] Enabling BedWars1058-AntiDrop v1.2.1*
+[21:40:38] [Server thread/INFO]: [BedWars1058-MapSelector] Enabling BedWars1058-MapSelector v1.5.0*
+[21:40:38] [Server thread/INFO]: Hooked into BedWars1058
+[21:40:38] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] MapSelector-Pool - Starting...
+[21:40:38] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] MapSelector-Pool - Start completed.
+[21:40:38] [Server thread/INFO]: [BedWars1058-MapSelector] Connected to the database
+[21:40:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mapselector [1.5.0]
+[21:40:38] [Server thread/INFO]: [BedWars1058-MapSelector] BedWars1058-MapSelector plugin by itz_leoo has been successfully enabled.
+[21:40:38] [Server thread/INFO]: [spark] Enabling spark v1.10.119
+[21:40:38] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[21:40:38] [Server thread/INFO]: [spark] Starting background profiler...
+[21:40:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.119]
+[21:40:39] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[21:40:39] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.0.2
+[21:40:39] [Server thread/INFO]: [Multiverse-Portals] 2 - Portals(s) loaded
+[21:40:39] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[21:40:39] [Server thread/INFO]: [Multiverse-Portals 5.0.2]  Enabled - By Rigby, fernferret and benwoo1110
+[21:40:39] [Server thread/INFO]: [BedWars1058-Compass] Enabling BedWars1058-Compass v1.4.3
+[21:40:39] [Server thread/INFO]: [BedWars1058-Compass] Successfully loaded in 102ms
+[21:40:39] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
+[21:40:39] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+5-4ab3bbc
+[21:40:39] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[21:40:39] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.0.1
+[21:40:39] [Server thread/WARN]: [Multiverse-Inventories] Group: 'hub' is not formatted correctly!
+[21:40:39] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[21:40:39] [Server thread/INFO]: [Multiverse-Inventories] Version 5.0.1 (API v5.0) Enabled - By dumptruckman and benwoo1110
+[21:40:39] [Server thread/INFO]: [BedWars1058-GenSplit] Enabling BedWars1058-GenSplit v0.3*
+[21:40:39] [Server thread/INFO]:  
+[21:40:39] [Server thread/INFO]: BedWars1058 Generator Split
+[21:40:39] [Server thread/INFO]: by kimoVoid
+[21:40:39] [Server thread/INFO]:  
+[21:40:39] [Server thread/INFO]: [GeyserPvP] Enabling GeyserPvP v1.4.1-STABLE*
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ══════════════════════════════════════════════════
+[21:40:39] [Server thread/INFO]: [GeyserPvP]  ██████╗ ███████╗██╗   ██╗███████╗███████╗██████╗ 
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ██╔════╝ ██╔════╝╚██╗ ██╔╝██╔════╝██╔════╝██╔══██╗
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ██║  ███╗█████╗   ╚████╔╝ ███████╗█████╗  ██████╔╝
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ██║   ██║██╔══╝    ╚██╔╝  ╚════██║██╔══╝  ██╔══██╗
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ╚██████╔╝███████╗   ██║   ███████╗███████╗██║  ██║ 
+[21:40:39] [Server thread/INFO]: [GeyserPvP]  ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝╚══════╝╚═╝  ╚═╝ 
+[21:40:39] [Server thread/INFO]: [GeyserPvP]                                                    
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ██████╗ ██╗   ██╗██████╗                          
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ██╔══██╗██║   ██║██╔══██╗                         
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ██████╔╝██║   ██║██████╔╝                         
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ██╔═══╝ ╚██╗ ██╔╝██╔═══╝                          
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ██║      ╚████╔╝ ██║                              
+[21:40:39] [Server thread/INFO]: [GeyserPvP] ╚═╝       ╚═══╝  ╚═╝                              
+[21:40:39] [Server thread/INFO]: [GeyserPvP] |  GeyserPVP
+[21:40:39] [Server thread/INFO]: [GeyserPvP] |  Author: ThaYT
+[21:40:39] [Server thread/INFO]: [GeyserPvP] |  Server Version: git-SlimeWorldManager-15981 (MC: 1.20.4)
+[21:40:39] [Server thread/INFO]: [GeyserPvP] |  Version: 1.4.1-STABLE
+[21:40:39] [Server thread/INFO]: [GeyserPvP] |  GeyserMC Version: 2.7.1-SNAPSHOT
+[21:40:39] [Server thread/INFO]: [GeyserPvP] |  OCM Version: 2.0.4
+[21:40:39] [Server thread/INFO]: [GeyserPvP] OCM config already set. No changes made.
+[21:40:39] [Server thread/INFO]: [GeyserPvP] |  Plugin Loaded in 7 ms
+[21:40:39] [Server thread/INFO]: [BedWars1058-Sponge] Enabling BedWars1058-Sponge v1.0.2
+[21:40:39] [Server thread/INFO]: [BedWars1058-Sponge] Successfully loaded in 4ms
+[21:40:39] [Server thread/INFO]: [BedWars1058-TeamSelector] Enabling BedWars1058-TeamSelector v0.7
+[21:40:39] [Server thread/INFO]: [BedWars1058-TeamSelector] Hook into BedWars1058!
+[21:40:39] [Server thread/INFO]: [BedWars1058-PlayAgain] Enabling BedWars1058-PlayAgain v2.1.1
+[21:40:39] [Server thread/INFO]: [BedWars1058-PlayAgain] [INFO] The plugin has been activated (0.005s)
+[21:40:40] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:40:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:40:40] [Server thread/INFO]: [Geyser-Spigot] 
+[21:40:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b845 (git-master-d63e82c)
+[21:40:40] [Server thread/INFO]: [Geyser-Spigot] 
+[21:40:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:40:43] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 4171
+[21:40:43] [Server thread/INFO]: [Geyser-Spigot] Done (3.418s)! Run /geyser help for help!
+[21:40:43] [Server thread/INFO]: Running delayed init tasks
+[21:40:43] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:40:43] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[21:40:43] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:40:43] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[21:40:43] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
+[21:40:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bw1058plus [1.2.2]
+[21:40:43] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[21:40:44] [Server thread/INFO]: [Citizens] Loaded 4 NPCs.
+[21:40:44] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[21:40:44] [Server thread/INFO]: Checking for conflicts in groups...
+[21:40:44] [Server thread/INFO]: No group conflicts found!
+[21:40:44] [Server thread/INFO]: Preparing start region for dimension minecraft:temple2
+[21:40:44] [Server thread/INFO]: Time elapsed: 34 ms
+[21:40:44] [Server thread/INFO]: [WorldGuard] (temple2) TNT ignition is PERMITTED.
+[21:40:44] [Server thread/INFO]: [WorldGuard] (temple2) Lighters are PERMITTED.
+[21:40:44] [Server thread/INFO]: [WorldGuard] (temple2) Lava fire is PERMITTED.
+[21:40:44] [Server thread/INFO]: [WorldGuard] (temple2) Fire spread is UNRESTRICTED.
+[21:40:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'temple2'
+[21:40:44] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
+[21:40:44] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: temple2
+[21:40:44] [Server thread/INFO]: [BedWars1058] Load done: temple2
+[21:40:44] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world temple2
+[21:40:44] [Server thread/INFO]: Done (25.783s)! For help, type "help"
+[21:40:44] [Server thread/INFO]: Timings Reset
+[21:40:45] [Server thread/INFO]: Preparing start region for dimension minecraft:lighthouse
+[21:40:45] [Server thread/INFO]: Time elapsed: 387 ms
+[21:40:45] [Server thread/INFO]: [WorldGuard] (lighthouse) TNT ignition is PERMITTED.
+[21:40:45] [Server thread/INFO]: [WorldGuard] (lighthouse) Lighters are PERMITTED.
+[21:40:45] [Server thread/INFO]: [WorldGuard] (lighthouse) Lava fire is PERMITTED.
+[21:40:45] [Server thread/INFO]: [WorldGuard] (lighthouse) Fire spread is UNRESTRICTED.
+[21:40:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lighthouse'
+[21:40:45] [Server thread/INFO]: [BedWars1058] Loading arena: ashore2
+[21:40:45] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse
+[21:40:45] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
+[21:40:45] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world lighthouse
+[21:40:46] [Server thread/INFO]: [BedWars1058] Hook into Citizens support. /bw npc
+[21:40:46] [Server thread/INFO]: Preparing start region for dimension minecraft:ashore2
+[21:40:47] [Server thread/INFO]: Time elapsed: 667 ms
+[21:40:47] [Server thread/INFO]: [WorldGuard] (ashore2) TNT ignition is PERMITTED.
+[21:40:47] [Server thread/INFO]: [WorldGuard] (ashore2) Lighters are PERMITTED.
+[21:40:47] [Server thread/INFO]: [WorldGuard] (ashore2) Lava fire is PERMITTED.
+[21:40:47] [Server thread/INFO]: [WorldGuard] (ashore2) Fire spread is UNRESTRICTED.
+[21:40:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ashore2'
+[21:40:47] [Server thread/INFO]: [BedWars1058] Loading arena: toro
+[21:40:47] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: ashore2
+[21:40:47] [Server thread/INFO]: [BedWars1058] Load done: ashore2
+[21:40:47] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world ashore2
+[21:40:48] [Server thread/INFO]: Preparing start region for dimension minecraft:toro
+[21:40:49] [Server thread/INFO]: Time elapsed: 1031 ms
+[21:40:49] [Server thread/INFO]: [WorldGuard] (toro) TNT ignition is PERMITTED.
+[21:40:49] [Server thread/INFO]: [WorldGuard] (toro) Lighters are PERMITTED.
+[21:40:49] [Server thread/INFO]: [WorldGuard] (toro) Lava fire is PERMITTED.
+[21:40:49] [Server thread/INFO]: [WorldGuard] (toro) Fire spread is UNRESTRICTED.
+[21:40:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'toro'
+[21:40:49] [Server thread/INFO]: [BedWars1058] Loading arena: aquarium
+[21:40:49] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: toro
+[21:40:49] [Server thread/INFO]: [BedWars1058] Load done: toro
+[21:40:49] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world toro
+[21:40:49] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
+[21:40:49] [Server thread/INFO]: Preparing start region for dimension minecraft:aquarium
+[21:40:49] [Server thread/INFO]: Time elapsed: 22 ms
+[21:40:49] [Server thread/INFO]: [WorldGuard] (aquarium) TNT ignition is PERMITTED.
+[21:40:49] [Server thread/INFO]: [WorldGuard] (aquarium) Lighters are PERMITTED.
+[21:40:49] [Server thread/INFO]: [WorldGuard] (aquarium) Lava fire is PERMITTED.
+[21:40:49] [Server thread/INFO]: [WorldGuard] (aquarium) Fire spread is UNRESTRICTED.
+[21:40:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aquarium'
+[21:40:49] [Server thread/INFO]: [BedWars1058] Loading arena: ashore
+[21:40:49] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: aquarium
+[21:40:49] [Server thread/INFO]: [BedWars1058] Load done: aquarium
+[21:40:49] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world aquarium
+[21:40:50] [Server thread/INFO]: Preparing start region for dimension minecraft:ashore
+[21:40:50] [Server thread/INFO]: Time elapsed: 177 ms
+[21:40:50] [Server thread/INFO]: [WorldGuard] (ashore) TNT ignition is PERMITTED.
+[21:40:50] [Server thread/INFO]: [WorldGuard] (ashore) Lighters are PERMITTED.
+[21:40:50] [Server thread/INFO]: [WorldGuard] (ashore) Lava fire is PERMITTED.
+[21:40:50] [Server thread/INFO]: [WorldGuard] (ashore) Fire spread is UNRESTRICTED.
+[21:40:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ashore'
+[21:40:50] [Server thread/INFO]: [BedWars1058] Loading arena: eastwood2
+[21:40:50] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: ashore
+[21:40:50] [Server thread/INFO]: [BedWars1058] Load done: ashore
+[21:40:50] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world ashore
+[21:40:50] [Server thread/INFO]: Preparing start region for dimension minecraft:eastwood2
+[21:40:51] [Server thread/INFO]: Time elapsed: 171 ms
+[21:40:51] [Server thread/INFO]: [WorldGuard] (eastwood2) TNT ignition is PERMITTED.
+[21:40:51] [Server thread/INFO]: [WorldGuard] (eastwood2) Lighters are PERMITTED.
+[21:40:51] [Server thread/INFO]: [WorldGuard] (eastwood2) Lava fire is PERMITTED.
+[21:40:51] [Server thread/INFO]: [WorldGuard] (eastwood2) Fire spread is UNRESTRICTED.
+[21:40:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'eastwood2'
+[21:40:51] [Server thread/INFO]: [BedWars1058] Loading arena: acropolis
+[21:40:51] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: eastwood2
+[21:40:51] [Server thread/INFO]: [BedWars1058] Load done: eastwood2
+[21:40:51] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world eastwood2
+[21:40:52] [Server thread/INFO]: Preparing start region for dimension minecraft:acropolis
+[21:40:53] [Server thread/INFO]: Time elapsed: 1589 ms
+[21:40:53] [Server thread/INFO]: [WorldGuard] (acropolis) TNT ignition is PERMITTED.
+[21:40:53] [Server thread/INFO]: [WorldGuard] (acropolis) Lighters are PERMITTED.
+[21:40:53] [Server thread/INFO]: [WorldGuard] (acropolis) Lava fire is PERMITTED.
+[21:40:53] [Server thread/INFO]: [WorldGuard] (acropolis) Fire spread is UNRESTRICTED.
+[21:40:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'acropolis'
+[21:40:53] [Server thread/INFO]: [BedWars1058] Loading arena: siege2
+[21:40:53] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: acropolis
+[21:40:53] [Server thread/INFO]: [BedWars1058] Load done: acropolis
+[21:40:53] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world acropolis
+[21:40:54] [Server thread/INFO]: Preparing start region for dimension minecraft:siege2
+[21:40:54] [Server thread/INFO]: Time elapsed: 19 ms
+[21:40:54] [Server thread/INFO]: [WorldGuard] (siege2) TNT ignition is PERMITTED.
+[21:40:54] [Server thread/INFO]: [WorldGuard] (siege2) Lighters are PERMITTED.
+[21:40:54] [Server thread/INFO]: [WorldGuard] (siege2) Lava fire is PERMITTED.
+[21:40:54] [Server thread/INFO]: [WorldGuard] (siege2) Fire spread is UNRESTRICTED.
+[21:40:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'siege2'
+[21:40:54] [Server thread/INFO]: [BedWars1058] Loading arena: lectus2
+[21:40:54] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: siege2
+[21:40:54] [Server thread/INFO]: [BedWars1058] Load done: siege2
+[21:40:54] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world siege2
+[21:40:54] [Server thread/INFO]: Preparing start region for dimension minecraft:lectus2
+[21:40:54] [Server thread/INFO]: Time elapsed: 224 ms
+[21:40:54] [Server thread/INFO]: [WorldGuard] (lectus2) TNT ignition is PERMITTED.
+[21:40:54] [Server thread/INFO]: [WorldGuard] (lectus2) Lighters are PERMITTED.
+[21:40:54] [Server thread/INFO]: [WorldGuard] (lectus2) Lava fire is PERMITTED.
+[21:40:54] [Server thread/INFO]: [WorldGuard] (lectus2) Fire spread is UNRESTRICTED.
+[21:40:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lectus2'
+[21:40:54] [Server thread/INFO]: [BedWars1058] Loading arena: eastwood
+[21:40:54] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lectus2
+[21:40:54] [Server thread/INFO]: [BedWars1058] Load done: lectus2
+[21:40:54] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world lectus2
+[21:40:55] [Server thread/INFO]: Preparing start region for dimension minecraft:eastwood
+[21:40:55] [Server thread/INFO]: Time elapsed: 370 ms
+[21:40:55] [Server thread/INFO]: [WorldGuard] (eastwood) TNT ignition is PERMITTED.
+[21:40:55] [Server thread/INFO]: [WorldGuard] (eastwood) Lighters are PERMITTED.
+[21:40:55] [Server thread/INFO]: [WorldGuard] (eastwood) Lava fire is PERMITTED.
+[21:40:55] [Server thread/INFO]: [WorldGuard] (eastwood) Fire spread is UNRESTRICTED.
+[21:40:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'eastwood'
+[21:40:55] [Server thread/INFO]: [BedWars1058] Loading arena: glacier
+[21:40:55] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: eastwood
+[21:40:55] [Server thread/INFO]: [BedWars1058] Load done: eastwood
+[21:40:55] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world eastwood
+[21:40:56] [Server thread/INFO]: Preparing start region for dimension minecraft:glacier
+[21:40:56] [Server thread/INFO]: Time elapsed: 203 ms
+[21:40:56] [Server thread/INFO]: [WorldGuard] (glacier) TNT ignition is PERMITTED.
+[21:40:56] [Server thread/INFO]: [WorldGuard] (glacier) Lighters are PERMITTED.
+[21:40:56] [Server thread/INFO]: [WorldGuard] (glacier) Lava fire is PERMITTED.
+[21:40:56] [Server thread/INFO]: [WorldGuard] (glacier) Fire spread is UNRESTRICTED.
+[21:40:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'glacier'
+[21:40:56] [Server thread/INFO]: [BedWars1058] Loading arena: toro2
+[21:40:56] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: glacier
+[21:40:56] [Server thread/INFO]: [BedWars1058] Load done: glacier
+[21:40:56] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world glacier
+[21:40:56] [Server thread/INFO]: Preparing start region for dimension minecraft:toro2
+[21:40:56] [Server thread/INFO]: Time elapsed: 80 ms
+[21:40:56] [Server thread/INFO]: [WorldGuard] (toro2) TNT ignition is PERMITTED.
+[21:40:56] [Server thread/INFO]: [WorldGuard] (toro2) Lighters are PERMITTED.
+[21:40:56] [Server thread/INFO]: [WorldGuard] (toro2) Lava fire is PERMITTED.
+[21:40:56] [Server thread/INFO]: [WorldGuard] (toro2) Fire spread is UNRESTRICTED.
+[21:40:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'toro2'
+[21:40:56] [Server thread/INFO]: [BedWars1058] Loading arena: crypt
+[21:40:57] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: toro2
+[21:40:57] [Server thread/INFO]: [BedWars1058] Load done: toro2
+[21:40:57] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world toro2
+[21:40:57] [Server thread/INFO]: Preparing start region for dimension minecraft:crypt
+[21:40:58] [Server thread/INFO]: Time elapsed: 926 ms
+[21:40:58] [Server thread/INFO]: [WorldGuard] (crypt) TNT ignition is PERMITTED.
+[21:40:58] [Server thread/INFO]: [WorldGuard] (crypt) Lighters are PERMITTED.
+[21:40:58] [Server thread/INFO]: [WorldGuard] (crypt) Lava fire is PERMITTED.
+[21:40:58] [Server thread/INFO]: [WorldGuard] (crypt) Fire spread is UNRESTRICTED.
+[21:40:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'crypt'
+[21:40:58] [Server thread/INFO]: [BedWars1058] Loading arena: glacier2
+[21:40:58] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: crypt
+[21:40:58] [Server thread/INFO]: [BedWars1058] Load done: crypt
+[21:40:58] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world crypt
+[21:40:59] [Server thread/INFO]: Preparing start region for dimension minecraft:glacier2
+[21:40:59] [Server thread/INFO]: Time elapsed: 8 ms
+[21:40:59] [Server thread/INFO]: [WorldGuard] (glacier2) TNT ignition is PERMITTED.
+[21:40:59] [Server thread/INFO]: [WorldGuard] (glacier2) Lighters are PERMITTED.
+[21:40:59] [Server thread/INFO]: [WorldGuard] (glacier2) Lava fire is PERMITTED.
+[21:40:59] [Server thread/INFO]: [WorldGuard] (glacier2) Fire spread is UNRESTRICTED.
+[21:40:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'glacier2'
+[21:40:59] [Server thread/INFO]: [BedWars1058] Loading arena: sandcastle2
+[21:40:59] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: glacier2
+[21:40:59] [Server thread/INFO]: [BedWars1058] Load done: glacier2
+[21:40:59] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world glacier2
+[21:40:59] [Server thread/INFO]: [BedWars1058] This server is running in SHARED with auto-scale false
+[21:40:59] [Server thread/INFO]: Preparing start region for dimension minecraft:sandcastle2
+[21:41:00] [Server thread/INFO]: Time elapsed: 174 ms
+[21:41:00] [Server thread/INFO]: [WorldGuard] (sandcastle2) TNT ignition is PERMITTED.
+[21:41:00] [Server thread/INFO]: [WorldGuard] (sandcastle2) Lighters are PERMITTED.
+[21:41:00] [Server thread/INFO]: [WorldGuard] (sandcastle2) Lava fire is PERMITTED.
+[21:41:00] [Server thread/INFO]: [WorldGuard] (sandcastle2) Fire spread is UNRESTRICTED.
+[21:41:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'sandcastle2'
+[21:41:00] [Server thread/INFO]: [BedWars1058] Loading arena: aquarium2
+[21:41:00] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: sandcastle2
+[21:41:00] [Server thread/INFO]: [BedWars1058] Load done: sandcastle2
+[21:41:00] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world sandcastle2
+[21:41:00] [Server thread/INFO]: Preparing start region for dimension minecraft:aquarium2
+[21:41:00] [Server thread/INFO]: Time elapsed: 234 ms
+[21:41:00] [Server thread/INFO]: [WorldGuard] (aquarium2) TNT ignition is PERMITTED.
+[21:41:00] [Server thread/INFO]: [WorldGuard] (aquarium2) Lighters are PERMITTED.
+[21:41:00] [Server thread/INFO]: [WorldGuard] (aquarium2) Lava fire is PERMITTED.
+[21:41:00] [Server thread/INFO]: [WorldGuard] (aquarium2) Fire spread is UNRESTRICTED.
+[21:41:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aquarium2'
+[21:41:00] [Server thread/INFO]: [BedWars1058] Loading arena: skyrise
+[21:41:00] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: aquarium2
+[21:41:00] [Server thread/INFO]: [BedWars1058] Load done: aquarium2
+[21:41:00] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world aquarium2
+[21:41:01] [Server thread/INFO]: Preparing start region for dimension minecraft:skyrise
+[21:41:01] [Server thread/INFO]: Time elapsed: 127 ms
+[21:41:01] [Server thread/INFO]: [WorldGuard] (skyrise) TNT ignition is PERMITTED.
+[21:41:01] [Server thread/INFO]: [WorldGuard] (skyrise) Lighters are PERMITTED.
+[21:41:01] [Server thread/INFO]: [WorldGuard] (skyrise) Lava fire is PERMITTED.
+[21:41:01] [Server thread/INFO]: [WorldGuard] (skyrise) Fire spread is UNRESTRICTED.
+[21:41:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skyrise'
+[21:41:01] [Server thread/INFO]: [BedWars1058] Loading arena: stonekeep2
+[21:41:01] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: skyrise
+[21:41:01] [Server thread/INFO]: [BedWars1058] Load done: skyrise
+[21:41:01] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world skyrise
+[21:41:02] [Server thread/INFO]: Preparing start region for dimension minecraft:stonekeep2
+[21:41:02] [Server thread/INFO]: Time elapsed: 87 ms
+[21:41:02] [Server thread/INFO]: [WorldGuard] (stonekeep2) TNT ignition is PERMITTED.
+[21:41:02] [Server thread/INFO]: [WorldGuard] (stonekeep2) Lighters are PERMITTED.
+[21:41:02] [Server thread/INFO]: [WorldGuard] (stonekeep2) Lava fire is PERMITTED.
+[21:41:02] [Server thread/INFO]: [WorldGuard] (stonekeep2) Fire spread is UNRESTRICTED.
+[21:41:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'stonekeep2'
+[21:41:02] [Server thread/INFO]: [BedWars1058] Loading arena: acropolis2
+[21:41:02] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: stonekeep2
+[21:41:02] [Server thread/INFO]: [BedWars1058] Load done: stonekeep2
+[21:41:02] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world stonekeep2
+[21:41:03] [Server thread/INFO]: Preparing start region for dimension minecraft:acropolis2
+[21:41:04] [Server thread/INFO]: Time elapsed: 914 ms
+[21:41:04] [Server thread/INFO]: [WorldGuard] (acropolis2) TNT ignition is PERMITTED.
+[21:41:04] [Server thread/INFO]: [WorldGuard] (acropolis2) Lighters are PERMITTED.
+[21:41:04] [Server thread/INFO]: [WorldGuard] (acropolis2) Lava fire is PERMITTED.
+[21:41:04] [Server thread/INFO]: [WorldGuard] (acropolis2) Fire spread is UNRESTRICTED.
+[21:41:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'acropolis2'
+[21:41:04] [Server thread/INFO]: [BedWars1058] Loading arena: lectus
+[21:41:04] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: acropolis2
+[21:41:04] [Server thread/INFO]: [BedWars1058] Load done: acropolis2
+[21:41:04] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world acropolis2
+[21:41:04] [Server thread/INFO]: Preparing start region for dimension minecraft:lectus
+[21:41:04] [Server thread/INFO]: Time elapsed: 17 ms
+[21:41:04] [Server thread/INFO]: [WorldGuard] (lectus) TNT ignition is PERMITTED.
+[21:41:04] [Server thread/INFO]: [WorldGuard] (lectus) Lighters are PERMITTED.
+[21:41:04] [Server thread/INFO]: [WorldGuard] (lectus) Lava fire is PERMITTED.
+[21:41:04] [Server thread/INFO]: [WorldGuard] (lectus) Fire spread is UNRESTRICTED.
+[21:41:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lectus'
+[21:41:04] [Server thread/INFO]: [BedWars1058] Loading arena: playground
+[21:41:04] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lectus
+[21:41:04] [Server thread/INFO]: [BedWars1058] Load done: lectus
+[21:41:04] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world lectus
+[21:41:05] [Server thread/INFO]: Preparing start region for dimension minecraft:playground
+[21:41:05] [Server thread/INFO]: Time elapsed: 88 ms
+[21:41:05] [Server thread/INFO]: [WorldGuard] (playground) TNT ignition is PERMITTED.
+[21:41:05] [Server thread/INFO]: [WorldGuard] (playground) Lighters are PERMITTED.
+[21:41:05] [Server thread/INFO]: [WorldGuard] (playground) Lava fire is PERMITTED.
+[21:41:05] [Server thread/INFO]: [WorldGuard] (playground) Fire spread is UNRESTRICTED.
+[21:41:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'playground'
+[21:41:05] [Server thread/INFO]: [BedWars1058] Loading arena: siege
+[21:41:05] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: playground
+[21:41:05] [Server thread/INFO]: [BedWars1058] Load done: playground
+[21:41:05] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world playground
+[21:41:06] [Server thread/INFO]: Preparing start region for dimension minecraft:siege
+[21:41:06] [Server thread/INFO]: Time elapsed: 377 ms
+[21:41:06] [Server thread/INFO]: [WorldGuard] (siege) TNT ignition is PERMITTED.
+[21:41:06] [Server thread/INFO]: [WorldGuard] (siege) Lighters are PERMITTED.
+[21:41:06] [Server thread/INFO]: [WorldGuard] (siege) Lava fire is PERMITTED.
+[21:41:06] [Server thread/INFO]: [WorldGuard] (siege) Fire spread is UNRESTRICTED.
+[21:41:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'siege'
+[21:41:06] [Server thread/INFO]: [BedWars1058] Loading arena: skyrise2
+[21:41:06] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: siege
+[21:41:06] [Server thread/INFO]: [BedWars1058] Load done: siege
+[21:41:06] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world siege
+[21:41:07] [Server thread/INFO]: Preparing start region for dimension minecraft:skyrise2
+[21:41:07] [Server thread/INFO]: Time elapsed: 220 ms
+[21:41:07] [Server thread/INFO]: [WorldGuard] (skyrise2) TNT ignition is PERMITTED.
+[21:41:07] [Server thread/INFO]: [WorldGuard] (skyrise2) Lighters are PERMITTED.
+[21:41:07] [Server thread/INFO]: [WorldGuard] (skyrise2) Lava fire is PERMITTED.
+[21:41:07] [Server thread/INFO]: [WorldGuard] (skyrise2) Fire spread is UNRESTRICTED.
+[21:41:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'skyrise2'
+[21:41:07] [Server thread/INFO]: [BedWars1058] Loading arena: rooftop
+[21:41:07] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: skyrise2
+[21:41:07] [Server thread/INFO]: [BedWars1058] Load done: skyrise2
+[21:41:07] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world skyrise2
+[21:41:08] [Server thread/INFO]: Preparing start region for dimension minecraft:rooftop
+[21:41:08] [Server thread/INFO]: Time elapsed: 25 ms
+[21:41:08] [Server thread/INFO]: [WorldGuard] (rooftop) TNT ignition is PERMITTED.
+[21:41:08] [Server thread/INFO]: [WorldGuard] (rooftop) Lighters are PERMITTED.
+[21:41:08] [Server thread/INFO]: [WorldGuard] (rooftop) Lava fire is PERMITTED.
+[21:41:08] [Server thread/INFO]: [WorldGuard] (rooftop) Fire spread is UNRESTRICTED.
+[21:41:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'rooftop'
+[21:41:08] [Server thread/INFO]: [BedWars1058] Loading arena: crypt2
+[21:41:08] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: rooftop
+[21:41:08] [Server thread/INFO]: [BedWars1058] Load done: rooftop
+[21:41:08] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world rooftop
+[21:41:08] [Server thread/INFO]: Preparing start region for dimension minecraft:crypt2
+[21:41:09] [Server thread/INFO]: Time elapsed: 373 ms
+[21:41:09] [Server thread/INFO]: [WorldGuard] (crypt2) TNT ignition is PERMITTED.
+[21:41:09] [Server thread/INFO]: [WorldGuard] (crypt2) Lighters are PERMITTED.
+[21:41:09] [Server thread/INFO]: [WorldGuard] (crypt2) Lava fire is PERMITTED.
+[21:41:09] [Server thread/INFO]: [WorldGuard] (crypt2) Fire spread is UNRESTRICTED.
+[21:41:09] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'crypt2'
+[21:41:09] [Server thread/INFO]: [BedWars1058] Loading arena: sandcastle
+[21:41:09] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: crypt2
+[21:41:09] [Server thread/INFO]: [BedWars1058] Load done: crypt2
+[21:41:09] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world crypt2
+[21:41:09] [Server thread/INFO]: Preparing start region for dimension minecraft:sandcastle
+[21:41:10] [Server thread/INFO]: Time elapsed: 352 ms
+[21:41:10] [Server thread/INFO]: [WorldGuard] (sandcastle) TNT ignition is PERMITTED.
+[21:41:10] [Server thread/INFO]: [WorldGuard] (sandcastle) Lighters are PERMITTED.
+[21:41:10] [Server thread/INFO]: [WorldGuard] (sandcastle) Lava fire is PERMITTED.
+[21:41:10] [Server thread/INFO]: [WorldGuard] (sandcastle) Fire spread is UNRESTRICTED.
+[21:41:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'sandcastle'
+[21:41:10] [Server thread/INFO]: [BedWars1058] Loading arena: rooftop2
+[21:41:10] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: sandcastle
+[21:41:10] [Server thread/INFO]: [BedWars1058] Load done: sandcastle
+[21:41:10] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world sandcastle
+[21:41:11] [Server thread/INFO]: Preparing start region for dimension minecraft:rooftop2
+[21:41:11] [Server thread/INFO]: Time elapsed: 13 ms
+[21:41:11] [Server thread/INFO]: [WorldGuard] (rooftop2) TNT ignition is PERMITTED.
+[21:41:11] [Server thread/INFO]: [WorldGuard] (rooftop2) Lighters are PERMITTED.
+[21:41:11] [Server thread/INFO]: [WorldGuard] (rooftop2) Lava fire is PERMITTED.
+[21:41:11] [Server thread/INFO]: [WorldGuard] (rooftop2) Fire spread is UNRESTRICTED.
+[21:41:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'rooftop2'
+[21:41:11] [Server thread/INFO]: [BedWars1058] Loading arena: temple
+[21:41:11] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: rooftop2
+[21:41:11] [Server thread/INFO]: [BedWars1058] Load done: rooftop2
+[21:41:11] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world rooftop2
+[21:41:11] [Server thread/INFO]: Preparing start region for dimension minecraft:temple
+[21:41:11] [Server thread/INFO]: Time elapsed: 126 ms
+[21:41:11] [Server thread/INFO]: [WorldGuard] (temple) TNT ignition is PERMITTED.
+[21:41:11] [Server thread/INFO]: [WorldGuard] (temple) Lighters are PERMITTED.
+[21:41:11] [Server thread/INFO]: [WorldGuard] (temple) Lava fire is PERMITTED.
+[21:41:11] [Server thread/INFO]: [WorldGuard] (temple) Fire spread is UNRESTRICTED.
+[21:41:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'temple'
+[21:41:11] [Server thread/INFO]: [BedWars1058] Loading arena: playground2
+[21:41:12] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: temple
+[21:41:12] [Server thread/INFO]: [BedWars1058] Load done: temple
+[21:41:12] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world temple
+[21:41:12] [Server thread/INFO]: Preparing start region for dimension minecraft:playground2
+[21:41:12] [Server thread/INFO]: Time elapsed: 102 ms
+[21:41:12] [Server thread/INFO]: [WorldGuard] (playground2) TNT ignition is PERMITTED.
+[21:41:12] [Server thread/INFO]: [WorldGuard] (playground2) Lighters are PERMITTED.
+[21:41:12] [Server thread/INFO]: [WorldGuard] (playground2) Lava fire is PERMITTED.
+[21:41:12] [Server thread/INFO]: [WorldGuard] (playground2) Fire spread is UNRESTRICTED.
+[21:41:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'playground2'
+[21:41:12] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse2
+[21:41:12] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: playground2
+[21:41:12] [Server thread/INFO]: [BedWars1058] Load done: playground2
+[21:41:12] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world playground2
+[21:41:13] [Server thread/INFO]: Preparing start region for dimension minecraft:lighthouse2
+[21:41:13] [Server thread/INFO]: Time elapsed: 382 ms
+[21:41:13] [Server thread/INFO]: [WorldGuard] (lighthouse2) TNT ignition is PERMITTED.
+[21:41:13] [Server thread/INFO]: [WorldGuard] (lighthouse2) Lighters are PERMITTED.
+[21:41:13] [Server thread/INFO]: [WorldGuard] (lighthouse2) Lava fire is PERMITTED.
+[21:41:13] [Server thread/INFO]: [WorldGuard] (lighthouse2) Fire spread is UNRESTRICTED.
+[21:41:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lighthouse2'
+[21:41:13] [Server thread/INFO]: [BedWars1058] Loading arena: stonekeep
+[21:41:13] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse2
+[21:41:13] [Server thread/INFO]: [BedWars1058] Load done: lighthouse2
+[21:41:13] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world lighthouse2
+[21:41:14] [Server thread/INFO]: Preparing start region for dimension minecraft:stonekeep
+[21:41:14] [Server thread/INFO]: [WorldGuard] (stonekeep) TNT ignition is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (stonekeep) Lighters are PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (stonekeep) Lava fire is PERMITTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] (stonekeep) Fire spread is UNRESTRICTED.
+[21:41:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'stonekeep'
+[21:41:14] [Server thread/INFO]: Time elapsed: 395 ms
+[21:41:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: stonekeep
+[21:41:14] [Server thread/INFO]: [BedWars1058] Load done: stonekeep
+[21:41:14] [Server thread/INFO]: [OldCombatMechanics] Loaded configured world stonekeep
+[21:41:57] [User Authenticator #0/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+[21:41:58] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[21:41:58] [Server thread/INFO]: [OCM] Please specify a valid modeset!
+[21:41:58] [Server thread/INFO]: millones277 joined the game
+[21:41:58] [Server thread/INFO]: millones277[/127.141.104.90:56959] logged in with entity id 190 at ([bwlobby]516.6023858034705, 72.0, 530.374808821323)
+[21:42:20] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:42:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R3! Trying to find NMS support
+[21:42:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R3' loaded!
+[21:42:20] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'BedWars1058-MapSelector' to create a bStats instance!
+[21:42:44] [Server thread/INFO]: millones277 lost connection: Disconnected
+[21:42:44] [Server thread/INFO]: millones277 left the game
+[21:42:59] [Server thread/INFO]: Stopping the server
+[21:42:59] [Server thread/INFO]: Stopping server
+[21:42:59] [Server thread/INFO]: [BedWars1058-PlayAgain] Disabling BedWars1058-PlayAgain v2.1.1
+[21:42:59] [Server thread/INFO]: [BedWars1058-PlayAgain] [INFO] The plugin has been disabled
+[21:42:59] [Server thread/INFO]: [BedWars1058-TeamSelector] Disabling BedWars1058-TeamSelector v0.7
+[21:42:59] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.7
+[21:42:59] [Server thread/INFO]: [BedWars1058-Sponge] Disabling BedWars1058-Sponge v1.0.2
+[21:42:59] [Server thread/INFO]: [GeyserPvP] Disabling GeyserPvP v1.4.1-STABLE
+[21:42:59] [Server thread/INFO]: [GeyserPvP] +----------------+
+[21:42:59] [Server thread/INFO]: [GeyserPvP]  GeyserPVP 
+[21:42:59] [Server thread/INFO]: [GeyserPvP]  Plugin Disabled
+[21:42:59] [Server thread/INFO]: [GeyserPvP] +----------------+
+[21:42:59] [Server thread/INFO]: [BedWars1058-GenSplit] Disabling BedWars1058-GenSplit v0.3
+[21:42:59] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.0.1
+[21:42:59] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2-dev+5-4ab3bbc
+[21:42:59] [Server thread/INFO]: [JumpPads] Disabling JumpPads v1.25.13
+[21:42:59] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.5
+[21:42:59] [Server thread/INFO]: [BedWars1058-Compass] Disabling BedWars1058-Compass v1.4.3
+[21:42:59] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.0.2
+[21:42:59] [Server thread/INFO]: [spark] Disabling spark v1.10.119
+[21:42:59] [Server thread/INFO]: [BedWars1058-MapSelector] Disabling BedWars1058-MapSelector v1.5.0
+[21:42:59] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] MapSelector-Pool - Shutdown initiated...
+[21:42:59] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] MapSelector-Pool - Shutdown completed.
+[21:42:59] [Server thread/INFO]: [BedWars1058-MapSelector] Closed the database connection
+[21:42:59] [Server thread/INFO]: [BedWars1058-MapSelector] BedWars1058-MapSelector plugin by itz_leoo has been successfully disabled.
+[21:42:59] [Server thread/INFO]: [BedWars1058-AntiDrop] Disabling BedWars1058-AntiDrop v1.2.1
+[21:42:59] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.9.1
+[21:42:59] [Server thread/INFO]: [OldCombatMechanics] Disabling OldCombatMechanics v2.0.4
+[21:42:59] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v2.0.4 has been disabled
+[21:42:59] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[21:42:59] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:42:59] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:43:00] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+5-4ab3bbc
+[21:43:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.3.2
+[21:43:00] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.0.1
+[21:43:00] [Server thread/INFO]: [BedWars1058] Disabling BedWars1058 v25.5-SNAPSHOT
+[21:43:00] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion bw1058plus
+[21:43:00] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin BedWars1058 was disabled.
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: temple2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'temple2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'temple2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: lighthouse
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lighthouse'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lighthouse'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: ashore2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'ashore2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'ashore2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: toro
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'toro'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'toro'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: aquarium
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'aquarium'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'aquarium'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: ashore
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'ashore'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'ashore'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: eastwood2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'eastwood2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'eastwood2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: acropolis
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'acropolis'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'acropolis'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: siege2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'siege2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'siege2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: lectus2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lectus2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lectus2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: eastwood
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'eastwood'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'eastwood'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: glacier
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'glacier'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'glacier'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: toro2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'toro2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'toro2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: crypt
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'crypt'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'crypt'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: glacier2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'glacier2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'glacier2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: sandcastle2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'sandcastle2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'sandcastle2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: aquarium2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'aquarium2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'aquarium2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: skyrise
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'skyrise'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'skyrise'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: stonekeep2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stonekeep2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stonekeep2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: acropolis2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'acropolis2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'acropolis2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: lectus
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lectus'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lectus'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: playground
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'playground'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'playground'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: siege
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'siege'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'siege'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: skyrise2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'skyrise2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'skyrise2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: rooftop
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'rooftop'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'rooftop'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: crypt2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'crypt2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'crypt2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: sandcastle
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'sandcastle'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'sandcastle'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: rooftop2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'rooftop2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'rooftop2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: temple
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'temple'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'temple'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: playground2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'playground2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'playground2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: lighthouse2
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lighthouse2'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lighthouse2'
+[21:43:00] [Server thread/WARN]: [BedWars1058] Disabling arena: stonekeep
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'stonekeep'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'stonekeep'
+[21:43:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.2
+[21:43:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:43:00] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:43:00] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:43:00] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.33-SNAPSHOT (build 3311)
+[21:43:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[21:43:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:43:00] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[21:43:00] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[21:43:00] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:43:00] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10-beta-01+cb9fd58
+[21:43:00] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:43:00] [Server thread/INFO]: Saving players
+[21:43:00] [Server thread/INFO]: Saving worlds
+[21:43:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bwlobby]'/minecraft:overworld
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'bwlobby'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'bwlobby'
+[21:43:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'bwlobby'
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Saved 693 block chunks, 693 entity chunks, 0 poi chunks in world 'bwlobby' in 0.79s
+[21:43:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (bwlobby): All chunks are saved
+[21:43:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bwlobby_the_end]'/minecraft:the_end
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'bwlobby_the_end'
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'bwlobby_the_end'
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'bwlobby_the_end'
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'bwlobby_the_end' in 0.26s
+[21:43:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:43:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hub]'/minecraft:hub
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hub'
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hub'
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'hub'
+[21:43:01] [Server thread/INFO]: [ChunkHolderManager] Saved 725 block chunks, 725 entity chunks, 0 poi chunks in world 'hub' in 0.39s
+[21:43:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (hub): All chunks are saved
+[21:43:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:43:01] [Server thread/INFO]: Flushing Chunk IO
+[21:43:01] [Server thread/INFO]: Closing Thread Pool
+[21:43:04] [Server thread/INFO]: Closing Server
