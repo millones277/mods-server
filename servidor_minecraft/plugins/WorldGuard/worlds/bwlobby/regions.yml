@@ -14,7 +14,8 @@ regions:
         min: {x: 425, y: -64, z: 499}
         max: {x: 574, y: 319, z: 629}
         members: {}
-        flags: {deny-message: ''}
+        flags: {deny-message: '', fall-damage: deny, pvp: deny, heal-amount: 99, mob-spawning: deny,
+            natural-hunger-drain: deny}
         owners: {}
         type: cuboid
         priority: 0
