@@ -1,14 +1,4 @@
 portals:
-  bw:
-    entryfee:
-      amount: 0.0
-    safeteleport: true
-    teleportnonplayers: false
-    handlerscript: ''
-    owner: millones277
-    location: 37.0,27.0,-87.0:43.0,40.0,-87.0
-    world: hub
-    destination: w:bwlobby
   bwhub:
     entryfee:
       amount: 0.0
@@ -19,3 +9,13 @@ portals:
     location: 498.0,72.0,489.0:503.0,79.0,489.0
     world: bwlobby
     destination: w:hub
+  bw:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: millones277
+    location: 37.0,27.0,45.0:43.0,40.0,45.0
+    world: hub
+    destination: w:bwlobby
