@@ -115,7 +115,7 @@ pre-game-items:
     enchanted: false
   leave:
     # This command is executed when the player interacts with this item.
-    command: mv tp bwlobby
+    command: bw leave
     # This will automatically get the player's head texture
     material: RED_BED
     data: 0
