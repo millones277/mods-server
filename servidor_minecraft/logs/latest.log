@@ -830,3 +830,45 @@ java.lang.NullPointerException: ItemStack can't be null/air/amount of 0! This is
 [04:34:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bw1058plus [1.2.2]
 [04:34:34] [Server thread/INFO]: millones277 issued server command: /bwc menu
 [04:34:40] [Server thread/INFO]: millones277 issued server command: /bwc menu
+[04:38:44] [Server thread/INFO]: millones277 issued server command: /npc holo
+[04:38:47] [Server thread/INFO]: millones277 issued server command: /npc hologram
+[04:38:54] [Server thread/INFO]: millones277 issued server command: /npc hologram qñojeraq
+[04:39:30] [Server thread/INFO]: millones277 issued server command: /npc hologram add &l&eNEW! &l&aCosmetics
+[04:39:39] [Server thread/INFO]: millones277 issued server command: /bwc menu
+[04:39:41] [Server thread/INFO]: millones277 issued server command: /bwc menu
+[04:39:44] [Server thread/ERROR]: Could not pass event InventoryClickEvent to BedWars1058-MapSelector v1.5.0
+java.lang.NullPointerException: ItemStack can't be null/air/amount of 0! This is not a NBTAPI bug!
+	at me.leoo.bedwars.mapselector.libs.nbtapi.NBTItem.<init>(NBTItem.java:57) ~[Bedwars1058-MapSelector-1.5.0.jar:?]
+	at me.leoo.bedwars.mapselector.libs.nbtapi.NBT.get(NBT.java:105) ~[Bedwars1058-MapSelector-1.5.0.jar:?]
+	at me.leoo.bedwars.mapselector.libs.utils.bukkit.items.ItemBuilder.getTag(ItemBuilder.java:275) ~[Bedwars1058-MapSelector-1.5.0.jar:?]
+	at me.leoo.bedwars.mapselector.libs.utils.bukkit.items.InteractItem.getByItem(InteractItem.java:42) ~[Bedwars1058-MapSelector-1.5.0.jar:?]
+	at me.leoo.bedwars.mapselector.libs.utils.bukkit.items.InteractListeners.onInventoryClick(InteractListeners.java:51) ~[Bedwars1058-MapSelector-1.5.0.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor486.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[slimeworldmanager-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81) ~[slimeworldmanager-api-1.20.4-R0.1-SNAPSHOT.jar:git-SlimeWorldManager-15981]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[slimeworldmanager-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615) ~[slimeworldmanager-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleContainerClick(ServerGamePacketListenerImpl.java:3099) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:58) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.handle(ServerboundContainerClickPacket.java:23) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:54) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1469) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1446) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1369) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1347) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[slimeworldmanager-1.20.4.jar:git-SlimeWorldManager-15981]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:41:07] [Server thread/INFO]: millones277 issued server command: /bwc menu
+[04:44:53] [Server thread/INFO]: millones277 lost connection: Disconnected
+[04:44:53] [Server thread/INFO]: millones277 left the game
+[04:45:46] [User Authenticator #1/INFO]: UUID of player millones277 is 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+[04:45:46] [Server thread/INFO]: millones277 (/127.141.104.90:44599) lost connection: Disconnected
