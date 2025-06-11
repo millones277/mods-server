@@ -115,17 +115,17 @@ hub:
     pitch: 0.0
     yaw: 0.0
   spawning:
+    monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
     misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
