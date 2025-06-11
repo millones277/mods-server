@@ -717,3 +717,12 @@
 [03:38:19] [Server thread/INFO]: millones277[/127.141.104.90:41509] logged in with entity id 189 at ([bwlobby]517.9310780618029, 72.0, 532.7032205250587)
 [03:38:19] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 38.194189ms. Summary: Getting group for millones277
 [03:39:23] [Server thread/INFO]: millones277 issued server command: /bwc menu
+[03:54:44] [Server thread/INFO]: millones277 issued server command: /npc create
+[03:54:45] [Server thread/INFO]: millones277 issued server command: /npc
+[03:54:54] [Server thread/INFO]: millones277 issued server command: /npc create cosmetic
+[03:55:07] [Server thread/INFO]: millones277 issued server command: /citizens help
+[03:55:10] [Server thread/INFO]: millones277 issued server command: /help citizens
+[03:55:10] [Server thread/INFO]: [Essentials] millones277 was denied access to command.
+[03:55:20] [Server thread/INFO]: Made millones277 a server operator
+[03:55:28] [Server thread/INFO]: millones277 issued server command: /npc
+[03:55:44] [Server thread/INFO]: millones277 issued server command: /npc create shop
