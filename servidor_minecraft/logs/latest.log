@@ -726,3 +726,11 @@
 [03:55:20] [Server thread/INFO]: Made millones277 a server operator
 [03:55:28] [Server thread/INFO]: millones277 issued server command: /npc
 [03:55:44] [Server thread/INFO]: millones277 issued server command: /npc create shop
+[03:57:38] [Server thread/INFO]: millones277 issued server command: /npc skin thepepetaxie
+[03:57:50] [Server thread/INFO]: millones277 issued server command: /npc lookclose
+[03:59:43] [Server thread/INFO]: millones277 issued server command: /npc name -c
+[03:59:50] [Server thread/INFO]: millones277 issued server command: /npc showname
+[04:01:39] [Server thread/INFO]: millones277 issued server command: /npc name -h
+[04:02:41] [Server thread/INFO]: millones277 issued server command: /npc namevisible false
+[04:05:21] [Server thread/INFO]: millones277 issued server command: /npc namevisible false
+[04:05:31] [Server thread/INFO]: millones277 issued server command: /trait nametrait
