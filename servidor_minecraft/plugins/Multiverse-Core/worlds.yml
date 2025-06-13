@@ -120,7 +120,7 @@ hub:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -130,7 +130,7 @@ hub:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1

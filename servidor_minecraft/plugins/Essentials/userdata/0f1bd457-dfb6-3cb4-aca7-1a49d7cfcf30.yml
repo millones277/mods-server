@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749792591296
-  login: 1749792553169
+  logout: 1749792783918
+  login: 1749792746572
 money: '500000'
 last-account-name: millones277
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: e5f787f8-2db1-445d-99f0-84d7f92b1325
   world-name: bwlobby
-  x: 499.40835634423706
+  x: 484.7383703218469
   y: 72.0
-  z: 529.5713444527108
-  yaw: -156.1804962158203
-  pitch: 11.580645561218262
+  z: 531.9688850736522
+  yaw: 84.3864517211914
+  pitch: -7.613253593444824
