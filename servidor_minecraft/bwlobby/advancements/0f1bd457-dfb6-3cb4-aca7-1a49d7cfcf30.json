@@ -580,5 +580,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-06-11 05:01:13 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

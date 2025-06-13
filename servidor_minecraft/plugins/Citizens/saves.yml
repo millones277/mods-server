@@ -70,19 +70,19 @@ npc:
               top: '0.0'
               bottom: '0.0'
       location:
-        bodyYaw: -117.74248
+        bodyYaw: -108.73223
         world: bwlobby
         x: '492.5024'
         y: '76.0625'
         z: '560.5104'
-        yaw: '-117.7425'
-        pitch: '6.6499'
+        yaw: '-108.7322'
+        pitch: '11.5445'
       skintrait:
         fetchDefaultSkin: true
         signature: Gasyg0OxwhYLRL0Za+jeSQU+MmPwJ2lqzjLDgulCoUe8l8JqXMg94D3HwmXxsqij2BTUt2i1IzA81odDiX3Mtjh02x3iTI0JDk8j6CZ/rr9k49dRxq8j9mVIDrgAXHItooUtelP5lVnbNnpwQXN33aWEsHeWJ7tTGW78x6ntSZspKZeXgJcKKxRz31M1FSaeQXECnuDM51dNl6L1ZLnnos8aczBRWtf1fz+rQ/za9kkSJWzK28cmnrPM+uIlNKHLaL8G8XQr0Po8sasBavcrnjUwoUpKXZtB3Abpek/L5UXjBuLIWTMk4hkWz08bFA1cJxXsyJaBIjJyV2tl4y9wqJMOt+cifXHP9YJbOy0w/dI1caMmp7XOMdT3zDC9uQ/UBKV/srKcSecZmEFFocQeQX5iBe1DJMadauxdphwuCpEZU/ZmYIZGYU/ZO+ACsxQkJnVT3JpaI7HBdN7K5tXenIqYbjrq5mC7vtg+mhXNENkH2r2Wn9AIM+T3jF4MYmWJnzsfrm9ZIQOBwO4luP1nY4MJGBUwGVrBZog8f+MAX5Ujy75+KxnB97TegBGynkjha0+Lz+svJtRrDWh8D9RekTRpRCJgyW/pYyxKLDRD5IQR7LY7V/5rQYoeX9yuDm2nHaaV/4YW0YxmCVA+waP2mMbpyLA77P5HExJtgpMbMxU=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0OTM2MTU4NTE2MCwKICAicHJvZmlsZUlkIiA6ICIyMTgxMDYzYWJiYTk0YTRhOTE0NGNjN2NhNzBmYmRhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW5jaG82MTYxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjIwNGNiMDBlZjMzNTNmNjg4NGYxNjY2NWQyOTFiMTI1OWU3MzUwZWIwMDMwMDAyOGM4NmEzYjA2ZjY3ZGQ2IgogICAgfQogIH0KfQ==
         updateSkins: false
-    traitnames: lookclose,hologramtrait,type,mounttrait,rotationtrait,scoreboardtrait,location,skintrait,owner,commandtrait,spawned,inventory
+    traitnames: type,skintrait,inventory,owner,lookclose,commandtrait,scoreboardtrait,hologramtrait,location,rotationtrait,spawned,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -155,19 +155,19 @@ npc:
               top: '0.0'
               bottom: '0.0'
       location:
-        bodyYaw: -143.19461
+        bodyYaw: -148.39531
         world: bwlobby
         x: '496.5367'
         y: '76.0625'
         z: '561.5015'
-        yaw: '-143.1946'
-        pitch: '10.4458'
+        yaw: '-148.3953'
+        pitch: '4.1683'
       skintrait:
         fetchDefaultSkin: true
         signature: fWfrls2X0vVDJiyhAYtzHFQ9m+ZOmjtMUzrjnZlA8L1H9Gp1+869mIxHeVyp868uo9DlMSKrZYM7I2eWn2VKLStbp8FIj115LPGaRjr1njTPLEoOFIFUf8lBqagpVBZhpofBjivSXeu+QgG4vw0vCNxaeythBPvey6UbcQTvLld5KniuaLWMG7zkNNTJpuKaPLG36oNxc5kf6OOVk7jQjcCVq0BdZoclEOfhuJEDVEWzH6WB5KdrM+0ZpYHZhJietsUNjQ3nzWZmHlhddQu5+eXOIlK2ugxesTPNFlu+BL2/AEiWaLu7f+bM0wo0+vbWuYw0H8NsLd5/9SeDlJsb2PG+Wb5Bq278d4gLhy/jyBWpfMsQDyXPND8ZycsjcucUld9WDhKjw7BCrxeigbPKymmS6m4b9XAmk/0rls0vSHoNRn/yvm09BSrbvNj5iuYVz9uYYUTrt6+4wzZ04r+qigK4C8/AzXntp+iUUvZJi15IDda8aixm0KmBR8LCAu2BnlHFBaxmVSl9NTaHY44ERtKUZpDwEDClCRrZBQ/mOtL/H5ayN7GeAlXlCNDOdQCGSmJcZfciperoeRm5ZHrZ+hW2CjsRZULuoybP0bSgPWPFnTdWadO0fezywPQcgbcvWMc7EoKtFH3qohcwa0mJ7ERjyLj9rcDIWIm24geAz+g=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0OTM2MTM3MTEzNCwKICAicHJvZmlsZUlkIiA6ICJhNzU2ODAyYzE4NTA0NzdkODBiYWRiODc5ZjI2ZDNmMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYWJvOTFCIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0ZTgwODE1N2ExZmUwYzgzOWFmZWZmNzM1YjIzYzVjMmFhMjBhZGZlOGYzYTM3OTRkNzFlYTk1N2EwOTVlMjkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
         updateSkins: false
-    traitnames: lookclose,hologramtrait,type,mounttrait,rotationtrait,scoreboardtrait,location,owner,skintrait,commandtrait,spawned,inventory
+    traitnames: type,skintrait,inventory,owner,lookclose,commandtrait,scoreboardtrait,hologramtrait,location,rotationtrait,spawned,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -240,19 +240,19 @@ npc:
               top: '0.0'
               bottom: '0.0'
       location:
-        bodyYaw: 159.91829
+        bodyYaw: 149.6372
         world: bwlobby
         x: '504.5179'
         y: '76.0625'
         z: '561.4617'
-        yaw: '166.4413'
-        pitch: '7.1225'
+        yaw: '169.6372'
+        pitch: '10.0381'
       skintrait:
         fetchDefaultSkin: true
         signature: ixwAE90M3oxe5CqxlbdtyX8o77fFazmxcNB336l5acX3fwPpagMv/M4qxq1yKhAytLfFGDVyA0P3hal9oNVEGuahT6P28PRCWCfKeeGPt31/emws/Qxt1QWKfJ3htvBP2XPJ3G4IJfLX76EJSi1P6Td48V0l1cCGWQYnq8hy+yJ/9e6VFE850BPHCSzxrWp4K3RWOb56tW6CncGlNyxCh24unNyf4QtBiDVs9jJ+3mXRz7HifkLnHmBocue+vGx6/UWFk2U/NfbKkt3BN7oi3wGj7WTPCRTTQE9W91JbBfbtDaNmY4RtQPVWXMhWQxo30W7xk1lEA/5Na0gSdSdIT172TFsTyJ8oSBxTIAGgoB4ZDGsOdOuGnm0tMy7GOZhNGn1VWv/7lM6ul4yROhzcXg5yRTLOZf75KEVQ0A6th6TNLljtbWBxON8ie8E2EprEieQCrJvMZVnw2QfHbzappzkRN5jU86eNIDvTzCkLflTyfmEQPpEVb7ZyAq7BBCIGDL1k8e+j7FUELuUfyM6zcngrTAbdxG7eHi741LhVfTlX6n7jGgwhPDMTuLyl1uaooB4bq3A8i7lL/sac8sC/m7bhvlg18fWOCjx2uSIjUD6YUZaDZqOozqG4Ck4rbhEdolVwCZZ48mc0IRstwl8YRq82jXqQ0cluJl3R0gvCTqg=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0OTM2MDYyMTI4OSwKICAicHJvZmlsZUlkIiA6ICIyNDkzODU2Yjg0ODM0ZTg4YTZmOGVhMDUyN2YyODBhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb3F1aXRvcHJlbWl1bTIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJmYTM2ZTYxYmUwOTI2Mzg5N2I4MTUzYjM4MzhmNjYyNjJkMGMzNDNmOWE4ZDI2N2M5YmExNWQzNGI4NTg1MiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJjMjFlMjIyNTI4ZTMwZGM4ODQ0NTMxNGY3YmU2ZmYxMmQzYWVlYmMzYzE5MjA1NGZiYTdlM2IzZjhjNzdiMSIKICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: lookclose,hologramtrait,type,mounttrait,rotationtrait,scoreboardtrait,location,skintrait,owner,spawned,commandtrait,inventory
+    traitnames: type,skintrait,inventory,lookclose,owner,commandtrait,scoreboardtrait,hologramtrait,location,rotationtrait,spawned,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -325,20 +325,20 @@ npc:
               top: '0.0'
               bottom: '0.0'
       location:
-        bodyYaw: 140.46994
+        bodyYaw: 128.96458
         world: bwlobby
         x: '508.482'
         y: '76.0625'
         z: '560.4741'
-        yaw: '160.4699'
-        pitch: '7.5653'
+        yaw: '148.9646'
+        pitch: '9.6244'
       skintrait:
         fetchDefaultSkin: true
         signature: GCo1ZJSl/5o4DMToYCJpNaqkLQHh62pCoT+DUMRpH53hJWcT3duy4CqLpnd/QXfwNS4xqbKpeALyz4z+WKQJdZ1s0jj4h/p0BsCWZCqiL/qe1pJ+LbJhG5N3hi/ae/k9z0eFtAZIx3fK+38sq3meTi705mplkyCpCDt9NCSYYycZg1inaOJpBF2O+lTjrQ6CpVg50iTZ/aM9ozCZFwcRj1UAr9/gIyuGiPuYIuJbNyEDNbqSd1hCAFLZapZWBRlW3Ah/DDmk8//wrzWxTWblG6IR0hJuKrGlo/LJrB4x0a5uYjEwfjuMu2GnP5nHAi3FW45Gp0XAW8FWBBnsVEvTGgU2z0d5gO4a6f0PBrUEUB86C7p9jAlU7fGV5BuZ84zZ5xImWLukqm3jZwHv/4v8rstZUDfQdzK5c8D8kGtIyjYN8i2sFMZgwMhSs5eYV1aYAJ0gbAl0RM77Tb+ZqzOiew6EmVimthL+rk9Z93dAbiML1qP/lSlIPCuEcxLVnRuVM5S9I5r4GhkgHwSbT4Zvbz0yuWo38bKdTlTbcYjn8kk6wVj1AHOBdaPW3pzwXd3CYZbXUZC85Ll6G2sKgPijvDiV1nOSinyvG5odEXqI9Kag4G/eym/gTSA62OFdFMM/Kfe9O3tZV9Tsu+5kT8IjmPPkbT5jy3qvpanPmaLt4gY=
         skinName: millones277
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0OTM1OTE5NDE2MCwKICAicHJvZmlsZUlkIiA6ICJhMGRhNDNiYTIwZDI0ZDJlYTFjZmFiNjI0YTViN2Q2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtaWxsb25lczI3NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZjU5ODEyY2VjZjY5ZGQwZjgwNDcxN2M0N2RjNjFjMGQ4N2Y3MmMwYjdhNThhMTVmOTNiNGUzNzI1MzVlNmYwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: lookclose,hologramtrait,type,mounttrait,rotationtrait,scoreboardtrait,location,owner,skintrait,spawned,commandtrait,inventory
+    traitnames: type,skintrait,inventory,owner,lookclose,commandtrait,scoreboardtrait,hologramtrait,location,rotationtrait,spawned,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -360,23 +360,23 @@ npc:
         linkedbody: false
         perplayer: false
         randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
         randomPitchRange:
           '0': 0.0
           '1': 0.0
-        randomSwitchTargets: false
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
-        targetnpcs: false
       type: PLAYER
       location:
-        bodyYaw: -177.50858
+        bodyYaw: 139.84363
         world: bwlobby
         x: '500.4943'
         y: '72.0'
         z: '532.5298'
-        yaw: '176.177'
+        yaw: '159.8436'
         pitch: '0.0'
       owner:
         uuid: 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
@@ -388,6 +388,11 @@ npc:
         updateSkins: false
       spawned: true
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
         commands:
           '0':
             command: bwc menu
@@ -400,12 +405,16 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
-    traitnames: lookclose,type,mounttrait,rotationtrait,scoreboardtrait,location,owner,skintrait,spawned,commandtrait,inventory
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&l&eNEW! &l&aCosmetics'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+    traitnames: type,skintrait,inventory,owner,lookclose,commandtrait,scoreboardtrait,hologramtrait,location,rotationtrait,spawned,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

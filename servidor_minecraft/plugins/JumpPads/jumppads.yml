@@ -17,4 +17,28 @@ JumpPads:
     plate: STONE_PRESSURE_PLATE
     power: 25.0
     angle: 25.0
+  hub, 35, 30, -21:
+    owners:
+    - 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 20.0
+  hub, 40, 30, -26:
+    owners:
+    - 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 20.0
+  hub, 45, 30, -21:
+    owners:
+    - 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 20.0
+  hub, 40, 30, -16:
+    owners:
+    - 0f1bd457-dfb6-3cb4-aca7-1a49d7cfcf30
+    plate: STONE_PRESSURE_PLATE
+    power: 30.0
+    angle: 20.0
 
